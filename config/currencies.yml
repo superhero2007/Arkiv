@@ -55,3 +55,10 @@
   symbol: "AFO"
   coin: true
   family: SHOE
+- id: 8
+  key: arkiv
+  name: 'Air Force 1 07 Virgil X MOMA'
+  code: afx
+  symbol: "AFX"
+  coin: true
+  family: SHOE

@@ -53,4 +53,11 @@
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
+- id: 1004
+  key: arkiv
+  currency: afx
+  fixed: 8
+  fee: 0.0005
+  inuse: true
+  type: WithdrawChannelSatoshi
   

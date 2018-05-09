@@ -38,3 +38,9 @@
   sort_order: 1
   min_confirm: 1
   max_confirm: 3
+- id: 1004
+  key: arkiv
+  currency: afx
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3
