@@ -25,9 +25,16 @@
   fixed: 8
   fee: 0.0005
   type: WithdrawChannelEthereum
-- id: 200
+- id: 1000
   key: arkiv
   currency: abw
+  fixed: 8
+  fee: 0.0005
+  inuse: true
+  type: WithdrawChannelSatoshi
+- id: 1001
+  key: arkiv
+  currency: aff
   fixed: 8
   fee: 0.0005
   inuse: true

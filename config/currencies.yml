@@ -34,3 +34,10 @@
   symbol: "ABW"
   coin: true
   family: SHOE
+- id: 5
+  key: arkiv
+  name: 'Air Force Max Fab 5'
+  code: aff
+  symbol: "AFF"
+  coin: true
+  family: SHOE
