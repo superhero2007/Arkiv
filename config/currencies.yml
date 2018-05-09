@@ -41,3 +41,10 @@
   symbol: "AFF"
   coin: true
   family: SHOE
+- id: 6
+  key: arkiv
+  name: 'Air Force 1 Low BHM'
+  code: afl
+  symbol: "AFL"
+  coin: true
+  family: SHOE
