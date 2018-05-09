@@ -1,5 +1,6 @@
 - id: 1
   key: renminbi
+  name: 'Coin name'
   code: cny
   symbol: "¥"
   coin: false
@@ -13,6 +14,7 @@
         tel: '95555'
 - id: 2
   key: satoshi
+  name: 'Coin name'
   code: btc
   symbol: "฿"
   coin: true
@@ -25,19 +27,38 @@
     accounts:
       -
         address: 1HjfnJpQmANtuW7yr1ggeDfyfe1kDK7rm3
-- id: 3
-  key: ether
-  code: eth
-  symbol: "฿"
+- id: 4
+  key: arkiv
+  name: 'Air Bacon Warriors'
+  code: abw
+  symbol: "ABW"
   coin: true
-  precision: 4
-  family: ETH
-  quick_withdraw_max: 0
-  rpc: http://Your_eth_server_ip
-  main_address: YOUR_BASE_ADDRESS
-  blockchain: https://etherscan.io/tx/#{txid}
-  address_url: https://etherscan.io/address/#{address}
-  assets:
-    accounts:
-      -
-        address: 0x4bA2474e063Aec44e23F2Bf7Fb9e4e2878dBaB44
+  family: SHOE
+- id: 5
+  key: arkiv
+  name: 'Air Force Max Fab 5'
+  code: aff
+  symbol: "AFF"
+  coin: true
+  family: SHOE
+- id: 6
+  key: arkiv
+  name: 'Air Force 1 Low BHM'
+  code: afl
+  symbol: "AFL"
+  coin: true
+  family: SHOE
+- id: 7
+  key: arkiv
+  name: 'Air Force 180 Olympics'
+  code: afo
+  symbol: "AFO"
+  coin: true
+  family: SHOE
+- id: 8
+  key: arkiv
+  name: 'Air Force 1 07 Virgil X MOMA'
+  code: afx
+  symbol: "AFX"
+  coin: true
+  family: SHOE
