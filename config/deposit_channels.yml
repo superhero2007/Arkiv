@@ -14,8 +14,9 @@
       branch: 'Your Bank Branch'
       holder: 'Your Account Holder'
       account: 'Your Account Number'
-- id: 600
-  key: ether
-  currency: eth
+- id: 1000
+  key: arkiv
+  currency: abw
+  sort_order: 1
   min_confirm: 1
-  max_confirm: 6
+  max_confirm: 3
