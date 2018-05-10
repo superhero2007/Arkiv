@@ -181,3 +181,10 @@
   symbol: "JBU"
   coin: true
   family: SHOE  
+- id: 26
+  key: arkiv
+  name: 'Jordan 9 Calvin Bailey'
+  code: jcb
+  symbol: "JCB"
+  coin: true
+  family: SHOE  
