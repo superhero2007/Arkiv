@@ -139,3 +139,10 @@
   symbol: "JAN"
   coin: true
   family: SHOE
+- id: 20
+  key: arkiv
+  name: 'Jordan 8 Aqua'
+  code: jaq
+  symbol: "JAN"
+  coin: true
+  family: SHOE
