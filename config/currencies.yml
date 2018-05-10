@@ -363,3 +363,10 @@
   symbol: "JOG"
   coin: true
   family: SHOE
+- id: 52
+  key: arkiv
+  name: 'Jordan 6 Olympic London'
+  code: jol
+  symbol: "JOL"
+  coin: true
+  family: SHOE
