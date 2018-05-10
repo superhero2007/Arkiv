@@ -132,3 +132,10 @@
   symbol: "JAL"
   coin: true
   family: SHOE
+- id: 19
+  key: arkiv
+  name: 'Jordan 4 30th Anniversary Laser'
+  code: jan 
+  symbol: "JAN"
+  coin: true
+  family: SHOE

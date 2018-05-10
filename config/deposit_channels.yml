@@ -104,3 +104,9 @@
   sort_order: 1
   min_confirm: 1
   max_confirm: 3
+- id: 1015
+  key: arkiv
+  currency: jan
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3
