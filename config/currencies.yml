@@ -230,3 +230,10 @@
   symbol: "JFE"
   coin: true
   family: SHOE
+- id: 33
+  key: arkiv
+  name: 'Jordan 12 Flu Game'
+  code: jfg
+  symbol: "JFG"
+  coin: true
+  family: SHOE
