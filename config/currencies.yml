@@ -194,4 +194,11 @@
   code: jcc
   symbol: "JCC"
   coin: true
+  family: SHOE
+- id: 28
+  key: arkiv
+  name: 'Jordan 8 Chrome'
+  code: jch
+  symbol: "JCH"
+  coin: true
   family: SHOE  

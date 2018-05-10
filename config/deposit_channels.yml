@@ -158,3 +158,9 @@
   sort_order: 1
   min_confirm: 1
   max_confirm: 3
+- id: 1024
+  key: arkiv
+  currency: jch
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3
