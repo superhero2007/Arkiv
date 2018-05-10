@@ -104,3 +104,10 @@
   symbol: "APW"
   coin: true
   family: SHOE
+- id: 15
+  key: arkiv
+  name: 'Air Vapormax Off-White Black'
+  code: avb
+  symbol: "AVB"
+  coin: true
+  family: SHOE
