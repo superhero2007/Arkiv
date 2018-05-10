@@ -279,3 +279,10 @@
   symbol: "JGB"
   coin: true
   family: SHOE
+- id: 40
+  key: arkiv
+  name: 'Jordan 6 Golden Moments'
+  code: jgm
+  symbol: "JGM"
+  coin: true
+  family: SHOE
