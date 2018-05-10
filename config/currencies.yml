@@ -300,3 +300,10 @@
   symbol: "JGR"
   coin: true
   family: SHOE
+- id: 43
+  key: arkiv
+  name: 'Jordan 1 Retro High NRG Patent Gold Toe'
+  code: jhp
+  symbol: "JHP"
+  coin: true
+  family: SHOE
