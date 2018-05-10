@@ -293,3 +293,10 @@
   symbol: "JGP"
   coin: true
   family: SHOE
+- id: 42
+  key: arkiv
+  name: 'Jordan 5 Grape'
+  code: jgr
+  symbol: "JGR"
+  coin: true
+  family: SHOE
