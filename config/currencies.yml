@@ -384,3 +384,10 @@
   symbol: "JPL"
   coin: true
   family: SHOE
+- id: 55
+  key: arkiv
+  name: 'Jordan 9 Powder'
+  code: jpo
+  symbol: "JPO"
+  coin: true
+  family: SHOE
