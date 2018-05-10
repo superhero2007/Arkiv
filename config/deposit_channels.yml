@@ -314,3 +314,9 @@
   sort_order: 1
   min_confirm: 1
   max_confirm: 3
+- id: 1050
+  key: arkiv
+  currency: jpl
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3

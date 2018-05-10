@@ -377,3 +377,10 @@
   symbol: "JPB"
   coin: true
   family: SHOE
+- id: 54
+  key: arkiv
+  name: 'Jordan 12 Playoffs'
+  code: jpl
+  symbol: "JPL"
+  coin: true
+  family: SHOE
