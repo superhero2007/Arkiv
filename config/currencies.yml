@@ -244,3 +244,10 @@
   symbol: "JFI"
   coin: true
   family: SHOE
+- id: 35
+  key: arkiv
+  name: 'Jordan 9 Fontay Montana Knicks'
+  code: jfm
+  symbol: "JFM"
+  coin: true
+  family: SHOE
