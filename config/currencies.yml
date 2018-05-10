@@ -215,4 +215,14 @@
   code: jcr
   symbol: "JCR"
   coin: true
+  family: SHOE 
+- id: 31
+  key: arkiv
+  name: 'Jordan 7 DMP Magic'
+  code: jdm
+  symbol: "JDM"
+  coin: true
   family: SHOE  
+
+
+  
