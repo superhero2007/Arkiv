@@ -153,3 +153,10 @@
   symbol: "JBB"
   coin: true
   family: SHOE
+- id: 22
+  key: arkiv
+  name: 'Jordan 15 Bred CDP'
+  code: jbc
+  symbol: "JBC"
+  coin: true
+  family: SHOE
