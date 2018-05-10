@@ -128,3 +128,9 @@
   sort_order: 1
   min_confirm: 1
   max_confirm: 3
+- id: 1019
+  key: arkiv
+  currency: jbg
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3

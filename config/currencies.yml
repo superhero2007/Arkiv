@@ -160,3 +160,10 @@
   symbol: "JBC"
   coin: true
   family: SHOE
+- id: 23
+  key: arkiv
+  name: ' Jordan 5 Black Grape'
+  code: jbg
+  symbol: "JBG"
+  coin: true
+  family: SHOE

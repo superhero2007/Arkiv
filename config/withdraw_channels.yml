@@ -158,3 +158,10 @@
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
+- id: 1019
+  key: arkiv
+  currency: jbg
+  fixed: 8
+  fee: 0.0005
+  inuse: true
+  type: WithdrawChannelSatoshi  
