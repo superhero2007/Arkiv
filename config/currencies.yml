@@ -321,3 +321,10 @@
   symbol: "JJF"
   coin: true
   family: SHOE
+- id: 46
+  key: arkiv
+  name: 'Jordan 3 Retro JTH Superbowl'
+  code: jjs
+  symbol: "JJS"
+  coin: true
+  family: SHOE
