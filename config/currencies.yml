@@ -265,3 +265,10 @@
   symbol: "JGQ"
   coin: true
   family: SHOE
+- id: 38
+  key: arkiv
+  name: 'Jordan 5 Fire Red'
+  code: jfr
+  symbol: "JFR"
+  coin: true
+  family: SHOE
