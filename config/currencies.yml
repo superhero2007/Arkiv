@@ -69,3 +69,10 @@
   symbol: "AMB"
   coin: true
   family: SHOE
+- id: 10
+  key: arkiv
+  name: 'Air Max Penny 1 Game Royal'
+  code: amg
+  symbol: "AMG"
+  coin: true
+  family: SHOE
