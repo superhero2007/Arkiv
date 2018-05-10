@@ -251,3 +251,10 @@
   symbol: "JFM"
   coin: true
   family: SHOE
+- id: 36
+  key: arkiv
+  name: 'Jordan 3 Fear Pack'
+  code: jfp
+  symbol: "JFP"
+  coin: true
+  family: SHOE
