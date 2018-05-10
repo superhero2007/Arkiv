@@ -333,3 +333,10 @@
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
+- id: 1044
+  key: arkiv
+  currency: jly
+  fixed: 8
+  fee: 0.0005
+  inuse: true
+  type: WithdrawChannelSatoshi  
