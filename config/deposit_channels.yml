@@ -62,3 +62,9 @@
   sort_order: 1
   min_confirm: 1
   max_confirm: 3
+- id: 1007
+  key: arkiv
+  currency: ams
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3

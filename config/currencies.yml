@@ -83,3 +83,10 @@
   symbol: "AMP"
   coin: true
   family: SHOE
+- id: 12
+  key: arkiv
+  name: 'Air Max 90 Sunset Pack'
+  code: ams
+  symbol: "AMS"
+  coin: true
+  family: SHOE
