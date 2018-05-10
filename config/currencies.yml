@@ -237,3 +237,10 @@
   symbol: "JFG"
   coin: true
   family: SHOE
+- id: 34
+  key: arkiv
+  name: 'Jordan 4 Fire Red'
+  code: jfi
+  symbol: "JFI"
+  coin: true
+  family: SHOE
