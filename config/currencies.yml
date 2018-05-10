@@ -209,3 +209,10 @@
   symbol: "JCO"
   coin: true
   family: SHOE  
+- id: 30
+  key: arkiv
+  name: 'Jordan 13 Cherry'
+  code: jcr
+  symbol: "JCR"
+  coin: true
+  family: SHOE  
