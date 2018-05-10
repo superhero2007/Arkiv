@@ -56,15 +56,21 @@
   sort_order: 1
   min_confirm: 1
   max_confirm: 3
-- id: 1006
+- id: 1007
   key: arkiv
   currency: amp
   sort_order: 1
   min_confirm: 1
   max_confirm: 3
-- id: 1007
+- id: 1008
   key: arkiv
   currency: ams
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3
+- id: 1009
+  key: arkiv
+  currency: apu
   sort_order: 1
   min_confirm: 1
   max_confirm: 3

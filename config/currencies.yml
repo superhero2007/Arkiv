@@ -90,3 +90,10 @@
   symbol: "AMS"
   coin: true
   family: SHOE
+- id: 13
+  key: arkiv
+  name: 'Air Presto Unholy Cumulus'
+  code: apu
+  symbol: "APU"
+  coin: true
+  family: SHOE
