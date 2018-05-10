@@ -97,3 +97,10 @@
   symbol: "APU"
   coin: true
   family: SHOE
+- id: 14
+  key: arkiv
+  name: 'Air Presto Off-White'
+  code: apw
+  symbol: "APW"
+  coin: true
+  family: SHOE
