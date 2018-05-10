@@ -314,3 +314,10 @@
   symbol: "JIB"
   coin: true
   family: SHOE
+- id: 45
+  key: arkiv
+  name: 'Jordan 7 J2K Filbert'
+  code: jjf
+  symbol: "JJF"
+  coin: true
+  family: SHOE
