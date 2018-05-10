@@ -118,3 +118,10 @@
   symbol: "BGM"
   coin: true
   family: SHOE
+- id: 17
+  key: arkiv
+  name: 'Foamposite Dr. Doom'
+  code: fdd
+  symbol: "FDD"
+  coin: true
+  family: SHOE
