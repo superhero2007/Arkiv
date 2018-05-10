@@ -173,4 +173,11 @@
   code: jbr
   symbol: "JBR"
   coin: true
+  family: SHOE
+- id: 25
+  key: arkiv
+  name: 'Jordan 5 Black/University Blue'
+  code: jbu
+  symbol: "JBU"
+  coin: true
   family: SHOE  

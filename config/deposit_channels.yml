@@ -140,3 +140,9 @@
   sort_order: 1
   min_confirm: 1
   max_confirm: 3
+- id: 1021
+  key: arkiv
+  currency: jbu
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3
