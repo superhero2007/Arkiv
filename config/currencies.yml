@@ -202,3 +202,10 @@
   symbol: "JCH"
   coin: true
   family: SHOE  
+- id: 29
+  key: arkiv
+  name: 'Jordan 17 Copper'
+  code: jco
+  symbol: "JCO"
+  coin: true
+  family: SHOE  
