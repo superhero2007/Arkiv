@@ -125,3 +125,10 @@
   symbol: "FDD"
   coin: true
   family: SHOE
+- id: 18
+  key: arkiv
+  name: 'Jordan 13 Altitude'
+  code: jal
+  symbol: "JAL"
+  coin: true
+  family: SHOE
