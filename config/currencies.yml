@@ -258,3 +258,10 @@
   symbol: "JFP"
   coin: true
   family: SHOE
+- id: 37
+  key: arkiv
+  name: 'Jordan Future QS Glow'
+  code: jgq
+  symbol: "JGQ"
+  coin: true
+  family: SHOE
