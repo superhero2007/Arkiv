@@ -56,3 +56,9 @@
   sort_order: 1
   min_confirm: 1
   max_confirm: 3
+- id: 1006
+  key: arkiv
+  currency: amp
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3
