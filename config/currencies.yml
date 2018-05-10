@@ -391,3 +391,472 @@
   symbol: "JPO"
   coin: true
   family: SHOE
+- id: 56 
+  key: arkiv
+  name: 'Jordan 8 Playoffs'
+  code: jps 
+  coin: true
+  symbol: "JPS"
+  family: SHOE
+- id: 57
+  key: arkiv
+  name: 'Jordan 7 Raptors'
+  code: jra
+  coin: true
+  symbol: "JRA"
+  family: SHOE
+- id: 58 
+  key: arkiv
+  name: 'Jordan 3 Retro Black Cement'
+  code: jrb
+  coin: true
+  symbol: "JRB"
+  family: SHOE
+- id: 59
+  key: arkiv
+  name: 'Jordan 2 White/Red CDP'
+  code: jrc
+  coin: true
+  symbol: "JRC"
+  family: SHOE
+- id: 60
+  key: arkiv
+  name: 'Jordan 3 Retro Tinker Hatfield'
+  code: jrh
+  coin: true
+  symbol: "JRH"
+  family: SHOE
+- id: 61
+  key: arkiv
+  name: 'Jordan 1 Retro High Off-White Chicago'
+  code: jro
+  coin: true
+  symbol: "JRO"
+  family: SHOE
+- id: 62 
+  key: arkiv
+  name: 'Jordan 1 Retro Royal 2017'
+  code: jrr 
+  coin: true
+  symbol: "JRR"
+  family: SHOE
+- id: 63 
+  key: arkiv
+  name: 'Jordan 5 Fire Red Black Tongue'
+  code: jrt 
+  coin: true
+  symbol: "JRT"
+  family: SHOE
+- id: 64 
+  key: arkiv
+  name: 'Jordan 5 Retro Tokyo T23'
+  code: jry
+  coin: true
+  symbol: "JRY"
+  family: SHOE
+- id: 65 
+  key: arkiv
+  name: 'Jordan 9 Silver Anniversary'
+  code: jsa 
+  coin: true
+  symbol: "JSA"
+  family: SHOE
+- id: 66
+  key: arkiv
+  name: 'Jordan 5 Stealth'
+  code: jse 
+  coin: true
+  symbol: "JSE"
+  family: SHOE
+- id: 67
+  key: arkiv
+  name: 'Jordan 9 Slim Jenkins'
+  code: jsj 
+  coin: true
+  symbol: "JSJ"
+  family: SHOE
+- id: 68
+  key: arkiv
+  name: 'Jordan 20 Stealth'
+  code: jsl
+  coin: true
+  symbol: "JSL"
+  family: SHOE
+- id: 69
+  key: arkiv
+  name: 'Jordan 18 White/Sport Royal'
+  code: jsr 
+  coin: true
+  symbol: "JSR"
+  family: SHOE
+- id: 70 
+  key: arkiv
+  name: 'Jordan 3 Stealth'
+  code: jst 
+  coin: true
+  symbol: "JST"
+  family: SHOE
+- id: 71
+  key: arkiv
+  name: 'Jordan 4 Toro Bravo'
+  code: jtb
+  coin: true
+  symbol: "JTB"
+  family: SHOE
+- id: 72
+  key: arkiv
+  name: 'Jordan 4 Thunder'
+  code: jth 
+  coin: true
+  symbol: "JTH"
+  family: SHOE
+- id: 73
+  key: arkiv
+  name: 'Jordan 4 Tour Yellow/Rare Air'
+  code: jty 
+  coin: true
+  symbol: "JTY"
+  family: SHOE
+- id: 74
+  key: arkiv
+  name: 'Jordan 4 White Cement'
+  code: jwc
+  coin: true
+  symbol: "JWC"
+  family: SHOE
+- id: 75
+  key: arkiv
+  name: 'KD 7 Aunt Pearl'
+  code: kap 
+  coin: true
+  symbol: "KAP"
+  family: SHOE
+- id: 76
+  key: arkiv
+  name: 'KD 5 BHM'
+  code: kbh 
+  coin: true
+  symbol: "KBH"
+  family: SHOE
+- id: 77
+  key: arkiv
+  name: 'KD 4 Easter'
+  code: kde
+  coin: true
+  symbol: "KDE"
+  family: SHOE
+- id: 78
+  key: arkiv
+  name: 'Kobe 11 Elite All Star'
+  code: kea 
+  coin: true
+  symbol: "KEA"
+  family: SHOE
+- id: 79
+  key: arkiv
+  name: 'Kobe 9 Elite BHM'
+  code: keb 
+  coin: true
+  symbol: "KEB"
+  family: SHOE
+- id: 80
+  key: arkiv
+  name: 'KD 5 Elite EYBL'
+  code: kee
+  coin: true
+  symbol: "KEE"
+  family: SHOE
+- id: 81
+  key: arkiv
+  name: 'Kobe 11 Elite 4KB'
+  code: kel 
+  coin: true
+  symbol: "KEL"
+  family: SHOE
+- id: 82
+  key: arkiv
+  name: 'KD 7 EXT Floral'
+  code: kef
+  coin: true
+  symbol: "KEF"
+  family: SHOE
+- id: 83
+  key: arkiv
+  name: 'Kobe 9 Gold Fundamentals'
+  code: kgf 
+  coin: true
+  symbol: "KGF"
+  family: SHOE
+- id: 84
+  key: arkiv
+  name: 'Kyrie 2 Inferno'
+  code: kin 
+  coin: true
+  symbol: "KIN"
+  family: SHOE
+- id: 85
+  key: arkiv
+  name: 'Kobe 9 NOLA Gumbo League Maestro'
+  code: kng 
+  coin: true
+  symbol: "KNG"
+  family: SHOE
+- id: 86
+  key: arkiv
+  name: 'KD 4 Rogue Green UNDFTD'
+  code: krg
+  coin: true
+  symbol: "KRG"
+  family: SHOE
+- id: 87
+  key: arkiv
+  name: 'KD 5 All Star Area 72 Extraterrestrial'
+  code: kse
+  coin: true
+  symbol: "KSE"
+  family: SHOE
+- id: 88
+  key: arkiv
+  name: 'KD 6 Supreme DC Preheat'
+  code: ksp
+  coin: true
+  symbol: "KSP"
+  family: SHOE
+- id: 89
+  key: arkiv
+  name: 'KD 4 Scoring Title'
+  code: kst 
+  coin: true
+  symbol: "KST"
+  family: SHOE
+- id: 90
+  key: arkiv
+  name: 'Kobe 8 Venice Beach'
+  code: kvb 
+  coin: true
+  symbol: "KVB"
+  family: SHOE
+- id: 91
+  key: arkiv
+  name: 'Lebron X Allstar Area 72'
+  code: laa
+  coin: true
+  symbol: "LAA"
+  family: SHOE
+- id: 92
+  key: arkiv
+  name: 'Lebron 9 Big Bang AS'
+  code: lbb
+  coin: true
+  symbol: "LBB"
+  family: SHOE
+- id: 93
+  key: arkiv
+  name: 'Lebron X BHM'
+  code: lbhx 
+  coin: true
+  symbol: "LBHX"
+  family: SHOE
+- id: 94
+  key: arkiv
+  name: 'Lebron 11 BHM'
+  code: lbh
+  coin: true
+  symbol: "LBH"
+  family: SHOE
+- id: 95
+  key: arkiv
+  name: 'Lebron X EXT Black Suede'
+  code: lbs
+  coin: true
+  symbol: "LBS"
+  family: SHOE
+- id: 96
+  key: arkiv
+  name: 'Lebron 9 Cool Grey'
+  code: lcg
+  coin: true
+  symbol: "LCG"
+  family: SHOE
+- id: 97
+  key: arkiv
+  name: 'Lebron 9 Christmas'
+  code: lch
+  coin: true
+  symbol: "LCH"
+  family: SHOE
+- id: 98
+  key: arkiv
+  name: 'Lebron X EXT Denim'
+  code: led 
+  coin: true
+  symbol: "LED"
+  family: SHOE
+- id: 99
+  key: arkiv
+  name: 'Lebron X EXT Hazelnut'
+  code: leh 
+  coin: true
+  symbol: "LEH"
+  family: SHOE
+- id: 100
+  key: arkiv
+  name: 'Kobe 9 EXT Snakeskin'
+  code: les 
+  coin: true
+  symbol: "LES"
+  family: SHOE
+- id: 101
+  key: arkiv
+  name: 'Lunar Flyknit Chukka Wolf Grey/Red'
+  code: lfc
+  coin: true
+  symbol: "LFC"
+  family: SHOE
+- id: 102
+  key: arkiv
+  name: 'Lunar Flyknit Chukka Gold Trophy'
+  code: lfg 
+  coin: true
+  symbol: "LFG"
+  family: SHOE
+- id: 103
+  key: arkiv
+  name: 'Lebron 11 Forging Iron'
+  code: lfi
+  coin: true
+  symbol: "LFI"
+  family: SHOE
+- id: 104
+  key: arkiv
+  name: 'Lebron 9 Mango'
+  code: lma 
+  coin: true
+  symbol: "LMA"
+  family: SHOE
+- id: 105
+  key: arkiv
+  name: 'Lebron 9 Miami Hurricanes'
+  code: lmh 
+  coin: true
+  symbol: "LMH"
+  family: SHOE
+- id: 106
+  key: arkiv
+  name: 'Lebron 9 Miami Heat Home'
+  code: lmhh
+  coin: true
+  symbol: "LMHH"
+  family: SHOE
+- id: 107
+  key: arkiv
+  name: 'Lebron 8 South Beach'
+  code: lmhb
+  coin: true
+  symbol: "LMHB"
+  family: SHOE
+- id: 108
+  key: arkiv
+  name: 'Lebron 8 V/2 Summit Lake Hornets'
+  code: lsl 
+  coin: true
+  symbol: "LSL"
+  family: SHOE
+- id: 109
+  key: arkiv
+  name: 'Lebron X Christmas'
+  code: lxc 
+  coin: true
+  symbol: "LXC"
+  family: SHOE
+- id: 110
+  key: arkiv
+  name: 'More Uptempo Dusk to Dawn'
+  code: mud
+  coin: true
+  symbol: "MUD"
+  family: SHOE
+- id: 111
+  key: arkiv
+  name: 'More Uptempo Olympics'
+  code: muo 
+  coin: true
+  symbol: "MUO"
+  family: SHOE
+- id: 112
+  key: arkiv
+  name: 'Nike Air Presto Ultra Flyknit Olympic'
+  code: nap 
+  coin: true
+  symbol: "NAP"
+  family: SHOE
+- id: 113
+  key: arkiv
+  name: 'Nike Dunk SB Low Money Cat'
+  code: ndc
+  coin: true
+  symbol: "NDC"
+  family: SHOE
+- id: 114
+  key: arkiv
+  name: 'Nike Dunk SB High Quagmire'
+  code: ndh 
+  coin: true
+  symbol: "NDH"
+  family: SHOE
+- id: 115
+  key: arkiv
+  name: 'Nike Dunk SB High Melvins'
+  code: ndg 
+  coin: true
+  symbol: "NDG"
+  family: SHOE
+- id: 116
+  key: arkiv
+  name: 'Nike Dunk SB Low Raygun'
+  code: ndl 
+  coin: true
+  symbol: "NDL"
+  family: SHOE
+- id: 117
+  key: arkiv
+  name: 'Roshe Run Gold Trophy'
+  code: rrg 
+  coin: true
+  symbol: "RRG"
+  family: SHOE
+- id: 118
+  key: arkiv
+  name: 'Yeezy Boost 350 V2 Beluga 2.0'
+  code: ybb 
+  coin: true
+  symbol: "YBB"
+  family: SHOE
+- id: 119
+  key: arkiv
+  name: 'Yeezy Boost 350 V2 Cream White'
+  code: ybc 
+  coin: true
+  symbol: "YBC"
+  family: SHOE
+- id: 120
+  key: arkiv
+  name: 'Yeezy Boost 350 V2 Blue Tint'
+  code: ybt 
+  coin: true
+  symbol: "YBT"
+  family: SHOE
+- id: 121
+  key: arkiv
+  name: 'Yeezy Boost 350 V2 Zebra'
+  code: ybx 
+  coin: true
+  symbol: "YBX"
+  family: SHOE
+- id: 122
+  key: arkiv
+  name: 'Zoom Rookie Glow in the Dark'
+  code: ybz
+  coin: true
+  symbol: "YBZ"
+  family: SHOE
