@@ -111,3 +111,10 @@
   symbol: "AVB"
   coin: true
   family: SHOE
+- id: 16
+  key: arkiv
+  name: 'Blazer Geoff McFetridge'
+  code: bgm
+  symbol: "BGM"
+  coin: true
+  family: SHOE

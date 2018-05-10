@@ -86,3 +86,9 @@
   sort_order: 1
   min_confirm: 1
   max_confirm: 3
+- id: 1012
+  key: arkiv
+  currency: bgm
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3
