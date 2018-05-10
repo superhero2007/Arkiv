@@ -307,3 +307,10 @@
   symbol: "JHP"
   coin: true
   family: SHOE
+- id: 44
+  key: arkiv
+  name: 'Jordan 6 Infrared Black'
+  code: jib
+  symbol: "JIB"
+  coin: true
+  family: SHOE
