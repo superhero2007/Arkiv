@@ -370,3 +370,10 @@
   symbol: "JOL"
   coin: true
   family: SHOE
+- id: 53
+  key: arkiv
+  name: 'Jordan 9 Photo Blue'
+  code: jpb
+  symbol: "JPB"
+  coin: true
+  family: SHOE
