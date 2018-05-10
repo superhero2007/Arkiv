@@ -222,7 +222,11 @@
   code: jdm
   symbol: "JDM"
   coin: true
-  family: SHOE  
-
-
-  
+  family: SHOE
+- id: 32
+  key: arkiv
+  name: 'Jordan 3 Fire Red'
+  code: jfe
+  symbol: "JFE"
+  coin: true
+  family: SHOE
