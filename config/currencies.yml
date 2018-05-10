@@ -62,3 +62,10 @@
   symbol: "AFX"
   coin: true
   family: SHOE
+- id: 9
+  key: arkiv
+  name: 'Air Max 95 Beaches or Rio'
+  code: amb
+  symbol: "AMB"
+  coin: true
+  family: SHOE
