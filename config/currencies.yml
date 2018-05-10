@@ -328,3 +328,10 @@
   symbol: "JJS"
   coin: true
   family: SHOE
+- id: 47
+  key: arkiv
+  name: 'Jordan 5 Laney'
+  code: jla
+  symbol: "JLA"
+  coin: true
+  family: SHOE

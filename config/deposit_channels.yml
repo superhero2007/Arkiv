@@ -272,3 +272,9 @@
   sort_order: 1
   min_confirm: 1
   max_confirm: 3
+- id: 1043
+  key: arkiv
+  currency: jla
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3
