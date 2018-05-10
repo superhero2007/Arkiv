@@ -284,3 +284,21 @@
   sort_order: 1
   min_confirm: 1
   max_confirm: 3
+- id: 1045
+  key: arkiv
+  currency: jmj
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3
+- id: 1046
+  key: arkiv
+  currency: jng
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3
+- id: 1047
+  key: arkiv
+  currency: jog
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3

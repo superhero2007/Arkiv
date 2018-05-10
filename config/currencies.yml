@@ -342,3 +342,24 @@
   symbol: "JLY"
   coin: true
   family: SHOE
+- id: 49
+  key: arkiv
+  name: 'Jordan 9 Motorboat Jones'
+  code: jmj
+  symbol: "JMJ"
+  coin: true
+  family: SHOE
+- id: 50
+  key: arkiv
+  name: 'Jordan 13 Neutral Grey'
+  code: jng
+  symbol: "JNG"
+  coin: true
+  family: SHOE
+- id: 51
+  key: arkiv
+  name: 'Jordan 20 OG Quickstrike'
+  code: jog
+  symbol: "JOG"
+  coin: true
+  family: SHOE
