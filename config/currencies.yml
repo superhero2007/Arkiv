@@ -146,3 +146,10 @@
   symbol: "JAN"
   coin: true
   family: SHOE
+- id: 21
+  key: arkiv
+  name: 'Jordan 8 Bugs Bunny'
+  code: jbb
+  symbol: "JBB"
+  coin: true
+  family: SHOE
