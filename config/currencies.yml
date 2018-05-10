@@ -188,3 +188,10 @@
   symbol: "JCB"
   coin: true
   family: SHOE  
+- id: 27
+  key: arkiv
+  name: 'Jordan 14 Candy Cane'
+  code: jcc
+  symbol: "JCC"
+  coin: true
+  family: SHOE  
