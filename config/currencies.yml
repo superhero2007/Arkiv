@@ -167,3 +167,10 @@
   symbol: "JBG"
   coin: true
   family: SHOE
+- id: 24
+  key: arkiv
+  name: 'Jordan 13 Bred'
+  code: jbr
+  symbol: "JBR"
+  coin: true
+  family: SHOE  
