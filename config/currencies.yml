@@ -272,3 +272,10 @@
   symbol: "JFR"
   coin: true
   family: SHOE
+- id: 39
+  key: arkiv
+  name: 'Jordan 5 Green Bean'
+  code: jgb 
+  symbol: "JGB"
+  coin: true
+  family: SHOE
