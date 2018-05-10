@@ -286,3 +286,10 @@
   symbol: "JGM"
   coin: true
   family: SHOE
+- id: 41
+  key: arkiv
+  name: 'Jordan 21 Graphite'
+  code: jgp
+  symbol: "JGP"
+  coin: true
+  family: SHOE
