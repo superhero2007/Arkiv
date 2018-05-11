@@ -2,8 +2,10 @@ doctype html
 html lang="en"
   head
     link rel="shortcut icon" href="/favicon.ico"
+    link[rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"]
     = include_gon
-    = stylesheet_link_tag "application", :media => "all"
+    = stylesheet_link_tag "flaticon"
+    = stylesheet_link_tag "style"
     = javascript_include_tag "application"
     = javascript_include_tag "locales/#{I18n.locale}"
     = render 'shared/html5'

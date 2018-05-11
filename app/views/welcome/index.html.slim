@@ -1,23 +1,427 @@
-header.text-center
-  .ribbon
-    a href="https://github.com/peatio/peatio" View on GitHub
-  .container
-    a href='http://github.com/peatio/peatio'
-      img src='#{image_path 'logo.png'}' width='336px'
-    section
-      - Rails.configuration.i18n.available_locales.each do |locale|
-        h3 = t(:slogan, locale: locale)
-    #getstart.row
-      - unless current_user
-        .col-xs-4.col-xs-offset-8
-          a href="#{signin_path}" class="btn btn-primary btn-lg btn-block" role="button" = t("header.signin")
-        - if ENV['WEIBO_AUTH'] == "true"
-          .col-xs-4
-            a href="/auth/weibo" class="btn btn-primary btn-lg btn-block" role="button" = t("header.login_via_weibo")
-        .col-xs-4
-          a href="#{signup_path}" class="btn btn-primary btn-lg btn-block" role="button" = t("header.signup")
-      - else
-        .col-xs-6.col-xs-offset-9.text-center
-          a href="#{market_path(current_market)}" class="btn btn-primary btn-lg btn-block" role="button" = t("header.getstart")
-          a href="#{funds_path}" class="btn btn-primary btn-lg btn-block" role="button" = t("header.funds")
-          a href="#{settings_path}" class="btn btn-primary btn-lg btn-block" role="button" = t("header.settings")
+/ header.text-center
+/   .ribbon
+/     a href="https://github.com/peatio/peatio" View on GitHub
+/   .container
+/     a href='http://github.com/peatio/peatio'
+/       img src='#{image_path 'logo.png'}' width='336px'
+/     section
+/       - Rails.configuration.i18n.available_locales.each do |locale|
+/         h3 = t(:slogan, locale: locale)
+/     #getstart.row
+/       - unless current_user
+/         .col-xs-4.col-xs-offset-8
+/           a href="#{signin_path}" class="btn btn-primary btn-lg btn-block" role="button" = t("header.signin")
+/         - if ENV['WEIBO_AUTH'] == "true"
+/           .col-xs-4
+/             a href="/auth/weibo" class="btn btn-primary btn-lg btn-block" role="button" = t("header.login_via_weibo")
+/         .col-xs-4
+/           a href="#{signup_path}" class="btn btn-primary btn-lg btn-block" role="button" = t("header.signup")
+/       - else
+/         .col-xs-6.col-xs-offset-9.text-center
+/           a href="#{market_path(current_market)}" class="btn btn-primary btn-lg btn-block" role="button" = t("header.getstart")
+/           a href="#{funds_path}" class="btn btn-primary btn-lg btn-block" role="button" = t("header.funds")
+/           a href="#{settings_path}" class="btn btn-primary btn-lg btn-block" role="button" = t("header.settings")
+
+.page-wrapper
+  header.main-header
+    .header-top
+      .auto-container
+        .top-inner
+          .clearfix
+            .top-left
+              ul.clearfix
+                li
+                  span
+                    | Buy BTC:
+                  |  $2462
+                li
+                  span
+                    | Sell BTC:
+                  |  $2465
+                li.email
+                  a[href="#"]
+                    span.icon.fa.fa-envelope-o
+                    | Supportteam@arkiv.com
+            .top-right.clearfix
+              ul.clearfix
+                li
+                  a[href="#"]
+                    span.icon.flaticon-web-log-in
+                    | Sign In
+                li
+                  a[href="#"]
+                    span.icon.flaticon-file-1
+                    | Register
+                li.language.dropdown
+                  a#dropdownMenu1.btn.btn-default.dropdown-toggle[data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#"]
+                    span.flag-icon
+                      img[src="images/icons/flag-icon.png" alt=""]
+                    | En  
+                    span.arrow-icon.fa.fa-angle-down
+                  ul.dropdown-menu.style-one[aria-labelledby="dropdownMenu1"]
+                    li
+                      a[href="#"]
+                        | Arabic
+                    li
+                      a[href="#"]
+                        | China
+                    li
+                      a[href="#"]
+                        | German
+                    li
+                      a[href="#"]
+                        | French
+    .header-upper
+      .auto-container.clearfix
+        .pull-left.logo-outer
+          .logo
+            a[href="index.html"]
+              img src='#{image_path 'logo.png'}' style="width: 47%;"
+        .pull-right.upper-right.clearfix
+          .nav-outer.clearfix
+            nav.main-menu
+              .navbar-header
+                button.navbar-toggle[type="button" data-toggle="collapse" data-target=".navbar-collapse"]
+                  span.icon-bar
+                  span.icon-bar
+                  span.icon-bar
+              .navbar-collapse.collapse.clearfix
+                ul.navigation.clearfix
+                  li.current
+                    a[href="index.html"]
+                      | Home
+                  li.dropdown
+                    a[href="#"]
+                      | About us
+                    ul
+                      li
+                        a[href="about.html"]
+                          | About Company
+                      li
+                        a[href="cases.html"]
+                          | Our Cases
+                      li
+                        a[href="case-single.html"]
+                          | Single Case
+                      li
+                        a[href="team.html"]
+                          | Meet Our Team
+                  li.dropdown
+                    a[href="#"]
+                      | Services
+                    ul
+                      li
+                        a[href="services.html"]
+                          | services
+                      li
+                        a[href="services-single.html"]
+                          | Initial Coin Offering
+                      li
+                        a[href="bitcoin-investment.html"]
+                          | Bitcoion Investment
+                      li
+                        a[href="research-development.html"]
+                          | Research & Development
+                      li
+                        a[href="workshop-seminars.html"]
+                          | Worshops & Seminars
+                      li
+                        a[href="payment-integration.html"]
+                          | Payment Integration
+                      li
+                        a[href="bitcoin-atm.html"]
+                          | Bitcoin ATM’s & Kiosks
+                  li
+                    a[href="how-it-works.html"]
+                      | How it Works
+                  li.dropdown
+                    a[href="#"]
+                      | Blog
+                    ul
+                      li
+                        a[href="blog.html"]
+                          | Blog Default
+                      li
+                        a[href="blog-classic.html"]
+                          | Blog Large Image
+                      li
+                        a[href="blog-single.html"]
+                          | Single Post
+                  li.dropdown
+                    a[href="#"]
+                      | Shop
+                    ul
+                      li
+                        a[href="shop.html"]
+                          | Our Products
+                      li
+                        a[href="shop-single.html"]
+                          | Single Product
+                      li
+                        a[href="shoping-cart.html"]
+                          | Shopping Cart
+                      li
+                        a[href="checkout.html"]
+                          | Checkout
+                      li
+                        a[href="account.html"]
+                          | My Account
+                  li
+                    a[href="contact.html"]
+                      | Contact Us
+            .outer-box
+              .search-box-outer
+                .dropdown
+                  button#dropdownMenu3.search-box-btn.dropdown-toggle[type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"]
+                    span.fa.fa-search
+                  ul.dropdown-menu.pull-right.search-panel[aria-labelledby="dropdownMenu3"]
+                    li.panel-outer
+                      .form-container
+                        form[method="post" action="blog.html"]
+                          .form-group
+                            input[type="search" name="field-name" value="" placeholder="Search Here" required]
+                            button.search-btn[type="submit"]
+                              span.fa.fa-search
+              .reservation-form-btn.consult-form-btn
+                span.icon.flaticon-menu-options
+    .sticky-header
+      .auto-container.clearfix
+        .logo.pull-left
+          a.img-responsive[href="index.html"]
+            img[src="images/logo.png" style="width: 24%;" alt="" title=""]
+        .right-col.pull-right
+          nav.main-menu
+            .navbar-header
+              button.navbar-toggle[type="button" data-toggle="collapse" data-target=".navbar-collapse"]
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            .navbar-collapse.collapse.clearfix
+              ul.navigation.clearfix
+                li.current
+                  a[href="index.html"]
+                    | Home
+                li.dropdown
+                  a[href="#"]
+                    | About us
+                  ul
+                    li
+                      a[href="about.html"]
+                        | About Company
+                    li
+                      a[href="cases.html"]
+                        | Our Cases
+                    li
+                      a[href="case-single.html"]
+                        | Single Case
+                    li
+                      a[href="team.html"]
+                        | Meet Our Team
+                li.dropdown
+                  a[href="#"]
+                    | Services
+                  ul
+                    li
+                      a[href="services.html"]
+                        | services
+                    li
+                      a[href="services-single.html"]
+                        | Initial Coin Offering
+                    li
+                      a[href="bitcoin-investment.html"]
+                        | Bitcoion Investment
+                    li
+                      a[href="research-development.html"]
+                        | Research & Development
+                    li
+                      a[href="workshop-seminars.html"]
+                        | Worshops & Seminars
+                    li
+                      a[href="payment-integration.html"]
+                        | Payment Integration
+                    li
+                      a[href="bitcoin-atm.html"]
+                        | Bitcoin ATM’s & Kiosks
+                li
+                  a[href="how-it-works.html"]
+                    | How it Works
+                li.dropdown
+                  a[href="#"]
+                    | Blog
+                  ul
+                    li
+                      a[href="blog.html"]
+                        | Blog Default
+                    li
+                      a[href="blog-classic.html"]
+                        | Blog Large Image
+                    li
+                      a[href="blog-single.html"]
+                        | Single Post
+                li.dropdown
+                  a[href="#"]
+                    | Shop
+                  ul
+                    li
+                      a[href="shop.html"]
+                        | Our Products
+                    li
+                      a[href="shop-single.html"]
+                        | Single Product
+                    li
+                      a[href="shoping-cart.html"]
+                        | Shopping Cart
+                    li
+                      a[href="checkout.html"]
+                        | Checkout
+                    li
+                      a[href="account.html"]
+                        | My Account
+                li
+                  a[href="contact.html"]
+                    | Contact Us
+
+  /banner section
+  section.banner-section
+    .container
+      .row
+        .col-sm-6
+          .banner-box
+            h1 TRADE SNEAKERS LIKE STOCKS
+            .btns-box
+              a.theme-btn.btn-style-one[href="about.html"]
+                | Read More
+              a.theme-btn.btn-style-two[href="services.html"]
+                | Contact Us
+
+  / service section
+  section.services-section
+                        .auto-container
+                          .sec-title.centered
+                            h2
+                              | Why Choose Arkiv
+                            .separator
+                          .row.clearfix
+                            .services-block.col-md-4.col-sm-6.col-xs-12
+                              .inner-box
+                                .icon-box
+                                  span.icon.flaticon-shield
+                                h3
+                                  a[href="services-single.html"]
+                                    | Safe and Security
+                                .text
+                                  | Give you a complete account of the system, expound the actual teachings.
+                            .services-block.col-md-4.col-sm-6.col-xs-12
+                              .inner-box
+                                .icon-box
+                                  span.icon.flaticon-exchange-1
+                                h3
+                                  a[href="services-single.html"]
+                                    | Instant Exchange
+                                .text
+                                  | Master builder of human happiness no one
+                                  br
+                                  |  rejects dislikes avoids itself.
+                            .services-block.col-md-4.col-sm-6.col-xs-12
+                              .inner-box
+                                .icon-box
+                                  span.icon.flaticon-employee
+                                h3
+                                  a[href="services-single.html"]
+                                    | Experts Support
+                                .text
+                                  | To take a trivial example, which off us ever
+                                  br
+                                  |  undertakes laborious physical.
+
+  /how it works
+  section.services-section-two
+                                      .auto-container
+                                        .sec-title.light
+                                          h2
+                                            | How It Works
+                                          .separator
+                                        div
+                                          iframe[width="100%" height="600" src="https://www.youtube.com/embed/yxgdnygG7ps"]
+
+  /about us
+
+  section.buy-section[style="background-image:url(images/background/pattern-1.png)"]
+    .auto-container
+      .row.clearfix
+        .content-column.col-md-6.col-sm-12.col-xs-12
+          .inner-column
+            .sec-title.light
+              h2
+                | About US
+              .separator
+            .text
+              p
+                | Early on we recognized the benefits of bringing new technology to the sneaker resale market. We’ve drawn from our decades of experience in financial technology and the sneaker industry to create an electronic exchange where our users can safely and securely trade sneaker interests 100% electronically.
+              p
+                | We built our exchange so anyone (anywhere) interested in trading sneakers can do so inexpensively, in a fair and transparent marketplace. The building blocks of our exchange are integrity, security and ease of use, ensuring a positive experience for all. Our patent-pending technology enables our users the potential to profit from their sneaker-related knowledge and experience.
+              p
+                | We invite you to sign up for a trading account today. You’ll receive email instructions after you sign-up.
+            a.theme-btn.btn-style-two[href="#"]
+              | Buy Now
+        .services-column.col-md-6.col-sm-12.col-xs-12
+          .row.clearfix
+            .services-block-three.col-md-4.col-sm-6.col-xs-12
+              .inner-box
+                .icon-box
+                  span.icon.flaticon-bitcoin-2
+                h3
+                  | Create Wallet
+                .number
+                  | 1
+            .services-block-three.col-md-4.col-sm-6.col-xs-12
+              .inner-box
+                .icon-box
+                  span.icon.flaticon-credit-card
+                h3
+                  | Make Payment
+                .number
+                  | 2
+            .services-block-three.col-md-4.col-sm-12.col-xs-12
+              .inner-box
+                .icon-box
+                  span.icon.flaticon-bitcoin
+                h3
+                  | Buy or Sell
+                .number
+                  | 3
+
+  /registration section
+  section.register-section
+                      .auto-container
+                        .row.clearfix
+                          .content-column.col-md-8.col-sm-12.col-xs-12
+                            .inner-column
+                              .upper-box
+                                .icon-box
+                                  span.icon.flaticon-message
+                                h2
+                                  | Register today to
+                                  br
+                                  |  receive updates and
+                                  br
+                                  |  be part of us.
+                              .lower-box
+                                .text
+                                  | Enter your email id here and latest news and updates, your details are very confidential as per our company policy.
+                                .register-form
+                                  form[method="post" action="contact.html"]
+                                    .row.clearfix
+                                      .column.col-md-9.col-sm-12.col-xs-12
+                                        .row.clearfix
+                                          .form-group.col-md-6.col-sm-6.co-xs-12
+                                            input[type="text" name="text" value="" placeholder="Your Name" required]
+                                          .form-group.col-md-6.col-sm-6.co-xs-12
+                                            input[type="email" name="email" value="" placeholder="Email Address" required]
+                                      .column.col-md-3.col-sm-12.col-xs-12
+                                        .form-group
+                                          button.theme-btn.btn-style-one[type="submit"]
+                                            | Submit Now
+                          .image-column.col-md-4.col-sm-12.col-xs-12
+                            .image
+                              img src='#{image_path 'witherspoon.jpg'}'
