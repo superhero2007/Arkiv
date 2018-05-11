@@ -315,7 +315,7 @@ en:
       format: '0,0.0000'
     arkiv:
       key: ABW
-      code: ABW
+      code: ARKIV shoe
       name: ARKIV shoe
       format: '0,0.0000'
     renminbi:
