@@ -313,6 +313,11 @@ en:
       code: BTSX
       name: BitsharesX
       format: '0,0.0000'
+    arkiv:
+      key: ABW
+      code: ABW
+      name: ARKIV shoe
+      format: '0,0.0000'
     renminbi:
       key: CNY
       code: CNY
@@ -792,6 +797,7 @@ en:
       market_list:
         all: All Markets
         all_html: "<i class='fa fa-check'></i><span>All Markets</span>"
+        usd_html: "<i class='fa fa-check'></i><span>USD Markets</span>"
         cny_html: "<i class='fa fa-check'></i><span>CNY Markets</span>"
         btc_html: "<i class='fa fa-check'></i><span>BTC Markets</span>"
         price: Price
