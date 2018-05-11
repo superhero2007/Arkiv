@@ -1,21 +1,11 @@
 - id: abwusd
   code: 3
   name: ABW/USD      # default name
-  base_unit: btc
+  base_unit: abw 
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: abw, fixed: 4}
-  sort_order: 1
-  #visible: false     # default to true
-- id: ethcny
-  code: 4
-  name: ETH/CNY     
-  base_unit: eth
-  quote_unit: cny
-  #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0, currency: cny, fixed: 2}
-  ask: {fee: 0, currency: eth, fixed: 4}
   sort_order: 1
   #visible: false     # default to true
 - id: ethbtc
@@ -28,3 +18,83 @@
   ask: {fee: 0, currency: eth, fixed: 4}
   sort_order: 1
   #visible: false     # default to true
+- id: affusd
+  code: 6
+  name: AFF/USD      # default name
+  base_unit: aff
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: aff, fixed: 4}
+- id: aflusd
+  code: 7
+  name: AFL/USD      # default name
+  base_unit: afl
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: afl, fixed: 4}
+- id: afousd
+  code: 8
+  name: AFO/USD      # default name
+  base_unit: afo
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: afo, fixed: 4}
+- id: afxusd
+  code: 9
+  name: AFX/USD      # default name
+  base_unit: afx
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: afx, fixed: 4}
+- id: ambusd
+  code: 10
+  name: AMB/USD      # default name
+  base_unit: afx
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: amb, fixed: 4}
+- id: amgusd
+  code: 10
+  name: AMG/USD      # default name
+  base_unit: afg
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: amg, fixed: 4}
+- id: afpusd
+  code: 10
+  name: AMP/USD      # default name
+  base_unit: afp
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: afp, fixed: 4}
+- id: amsusd
+  code: 10
+  name: AMS/USD      # default name
+  base_unit: ams
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: ams, fixed: 4}
+- id: apuusd
+  code: 10
+  name: APU/USD      # default name
+  base_unit: apu
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: apu, fixed: 4}
+- id: apwusd
+  code: 10
+  name: APW/USD      # default name
+  base_unit: apw
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: apw, fixed: 4}
