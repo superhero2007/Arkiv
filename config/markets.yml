@@ -1,11 +1,11 @@
-- id: btccny
+- id: abwusd
   code: 3
-  #name: BTC/CNY      # default name
+  name: ABW/USD      # default name
   base_unit: btc
-  quote_unit: cny
+  quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0, currency: cny, fixed: 2}
-  ask: {fee: 0, currency: btc, fixed: 4}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: abw, fixed: 4}
   sort_order: 1
   #visible: false     # default to true
 - id: ethcny
