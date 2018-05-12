@@ -96,3 +96,155 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: avb, fixed: 4}
+- id: bgmusd
+  code: 10
+  name: Air Vapormax Off-White Black      # default name
+  base_unit: bgm
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: bgm, fixed: 4}
+- id: fddusd
+  code: 10
+  name: Foamposite Dr. Doom      # default name
+  base_unit: fdd
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: fdd, fixed: 4}
+- id: jalusd
+  code: 10
+  name: Jordan 13 Altitude      # default name
+  base_unit: jal
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jal, fixed: 4}
+- id: janusd
+  code: 10
+  name: Jordan 4 30th Anniversary Laser      # default name
+  base_unit: jan
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jan, fixed: 4}
+- id: jaqusd
+  code: 10
+  name: Jordan 4 30th Anniversary Laser      # default name
+  base_unit: jaq
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jaq, fixed: 4}
+- id: jbbusd
+  code: 10
+  name: Jordan 8 Bugs Bunny      # default name
+  base_unit: jbb
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jbb, fixed: 4}
+- id: jbcusd
+  code: 10
+  name: Jordan 15 Bred CDP      # default name
+  base_unit: jbc
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jbc, fixed: 4}
+- id: jbgusd
+  code: 10
+  name: Jordan 5 Black Grape      # default name
+  base_unit: jbg
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jbg, fixed: 4}
+- id: jbrusd
+  code: 10
+  name: Jordan 5 Black Grape      # default name
+  base_unit: jbr
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jbr, fixed: 4}
+- id: jbuusd
+  code: 10
+  name: Jordan 5 Black/University Blue      # default name
+  base_unit: jbu
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jbu, fixed: 4}
+- id: jcbusd
+  code: 10
+  name: Jordan 9 Calvin Bailey      # default name
+  base_unit: jcb
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jcb, fixed: 4}
+- id: jccusd
+  code: 10
+  name: Jordan 14 Candy Cane      # default name
+  base_unit: jcc
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jcc, fixed: 4}
+- id: jchusd
+  code: 10
+  name: Jordan 8 Chrome      # default name
+  base_unit: jch
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jch, fixed: 4}
+- id: jcousd
+  code: 10
+  name: Jordan 17 Copper      # default name
+  base_unit: jco
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jco, fixed: 4}
+- id: jcrusd
+  code: 10
+  name: Jordan 13 Cherry      # default name
+  base_unit: jcr
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jcr, fixed: 4}
+- id: jdmusd
+  code: 10
+  name: Jordan 7 DMP Magic      # default name
+  base_unit: jdm
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jdm, fixed: 4}
+- id: jfeusd
+  code: 10
+  name: Jordan 3 Fire Red      # default name
+  base_unit: jfe
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jfe, fixed: 4}
+- id: jfgusd
+  code: 10
+  name: Jordan 12 Flu Game      # default name
+  base_unit: jfg
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jfg, fixed: 4}
+- id: jfiusd
+  code: 10
+  name: Jordan 4 Fire Red     # default name
+  base_unit: jfi
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jfi, fixed: 4}

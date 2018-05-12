@@ -293,10 +293,40 @@ en:
     currency:
       btc: BTC
       eth: ETH
-      cny: CNY
+      usd: USD
       doge: DOGE
       pts: PTS
       ltc: LTC
+      aff: AFF
+      abw: ABW
+      afo: AFO
+      afl: AFL 
+      afx: AFX 
+      amg: AMG 
+      afp: AFP 
+      apu: APU 
+      apw: APW 
+      avb: AVB 
+      bgm: BGM
+      fdd: FDD 
+      jal: JAL
+      amb: AMB
+      jan: JAN 
+      jaq: JAQ 
+      jbb: JBB 
+      jbc: JBC 
+      jbg: JBG 
+      jbr: JBR 
+      jbu: JBU
+      jcb: JCB 
+      jcc: JCC
+      jch: JCH 
+      jco: JCO 
+      jcr: JCR 
+      jdm: JDM 
+      jfe: JFE 
+      jfg: JFG 
+      jfi: JFI 
   currency:
     satoshi:
       key: BTC

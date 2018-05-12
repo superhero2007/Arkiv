@@ -3,13 +3,13 @@ defaults: &defaults
   # sites hosts
   # session expire seconds
   # admin role account
-  URL_HOST: ${domain_url}
+  URL_HOST: localhost:3000
   URL_SCHEMA: http
   SESSION_EXPIRE: 60
   ADMIN: 'admin@peatio.dev,admin@example.com'
   TIMEZONE: 'Cairo'
 
-  REDIS_URL: redis://redis:6379
+  REDIS_URL: redis://localhost:6379
 
   # below settings only in production env
   # system notify mail settings
