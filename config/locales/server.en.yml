@@ -315,6 +315,11 @@ en:
       jaq: JAQ 
       jbb: JBB 
       jbc: JBC 
+      jbg: JBG 
+      jbr: JBR 
+      jbu: JBU
+      jcb: JCB 
+      jcc: JCC
   currency:
     satoshi:
       key: BTC

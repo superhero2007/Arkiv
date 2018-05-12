@@ -152,3 +152,43 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jbc, fixed: 4}
+- id: jbgusd
+  code: 10
+  name: Jordan 5 Black Grape      # default name
+  base_unit: jbg
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jbg, fixed: 4}
+- id: jbrusd
+  code: 10
+  name: Jordan 5 Black Grape      # default name
+  base_unit: jbr
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jbr, fixed: 4}
+- id: jbuusd
+  code: 10
+  name: Jordan 5 Black/University Blue      # default name
+  base_unit: jbu
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jbu, fixed: 4}
+- id: jcbusd
+  code: 10
+  name: Jordan 9 Calvin Bailey      # default name
+  base_unit: jcb
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jcb, fixed: 4}
+- id: jccusd
+  code: 10
+  name: Jordan 14 Candy Cane      # default name
+  base_unit: jcc
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jcc, fixed: 4}

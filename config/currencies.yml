@@ -162,7 +162,7 @@
   family: SHOE
 - id: 22
   key: arkiv
-  name: ' Jordan 5 Black Grape'
+  name: 'Jordan 5 Black Grape'
   code: jbg
   symbol: "JBG"
   coin: true
