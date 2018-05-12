@@ -330,6 +330,17 @@ en:
       jfm: JFM 
       jfp: JFP 
       jgq: JGQ 
+      jfr: JFR 
+      jgb: JGB 
+      jgm: JGM 
+      jgp: JGP
+      jgr: JGR
+      jhp: JHP
+      jib: JIB 
+      jff: JFF 
+      jss: JSS 
+      jls: JLs 
+      jla: JLA  
   currency:
     satoshi:
       key: BTC

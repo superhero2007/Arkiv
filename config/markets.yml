@@ -272,3 +272,83 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jgq, fixed: 4}
+- id: jfrusd
+  code: 10
+  name: Jordan 5 Fire Red     # default name
+  base_unit: jfr
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jfr, fixed: 4}
+- id: jgbusd
+  code: 10
+  name: Jordan 5 Green Bean     # default name
+  base_unit: jgb
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jgb, fixed: 4}
+- id: jgmusd
+  code: 10
+  name: Jordan 6 Golden Moments     # default name
+  base_unit: jgm
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jgm, fixed: 4}
+- id: jgpusd
+  code: 10
+  name: Jordan 21 Graphite     # default name
+  base_unit: jgp
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jgp, fixed: 4}
+- id: jgrusd
+  code: 10
+  name: Jordan 5 Grape     # default name
+  base_unit: jgr
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jgr, fixed: 4}
+- id: jhpusd
+  code: 10
+  name: Jordan 1 Retro High NRG Patent Gold Toe     # default name
+  base_unit: jhp
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jhp, fixed: 4}
+- id: jibusd
+  code: 10
+  name: Jordan 6 Infrared Black     # default name
+  base_unit: jib
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jib, fixed: 4}
+- id: jffusd
+  code: 10
+  name: Jordan 7 J2K Filbert     # default name
+  base_unit: jff
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jff, fixed: 4}
+- id: jlsusd
+  code: 10
+  name: Jordan 3 Retro JTH Superbowl     # default name
+  base_unit: jls
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jls, fixed: 4}
+- id: jlausd
+  code: 10
+  name: Jordan 5 Laney     # default name
+  base_unit: jla
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jla, fixed: 4}
