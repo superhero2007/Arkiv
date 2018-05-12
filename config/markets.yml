@@ -96,3 +96,27 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: avb, fixed: 4}
+- id: bgmusd
+  code: 10
+  name: Air Vapormax Off-White Black      # default name
+  base_unit: bgm
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: bgm, fixed: 4}
+- id: fddusd
+  code: 10
+  name: Foamposite Dr. Doom      # default name
+  base_unit: fdd
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: fdd, fixed: 4}
+- id: jalusd
+  code: 10
+  name: Jordan 13 Altitude      # default name
+  base_unit: jal
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jal, fixed: 4}

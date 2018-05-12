@@ -307,6 +307,10 @@ en:
       apu: APU 
       apw: APW 
       avb: AVB 
+      bgm: BGM
+      fdd: FDD 
+      jal: JAL
+      amb: AMB
   currency:
     satoshi:
       key: BTC
