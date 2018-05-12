@@ -324,6 +324,9 @@ en:
       jco: JCO 
       jcr: JCR 
       jdm: JDM 
+      jfe: JFE 
+      jfg: JFG 
+      jfi: JFI 
   currency:
     satoshi:
       key: BTC

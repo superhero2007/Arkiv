@@ -224,3 +224,27 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jdm, fixed: 4}
+- id: jfeusd
+  code: 10
+  name: Jordan 3 Fire Red      # default name
+  base_unit: jfe
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jfe, fixed: 4}
+- id: jfgusd
+  code: 10
+  name: Jordan 12 Flu Game      # default name
+  base_unit: jfg
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jfg, fixed: 4}
+- id: jfiusd
+  code: 10
+  name: Jordan 4 Fire Red     # default name
+  base_unit: jfi
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jfi, fixed: 4}
