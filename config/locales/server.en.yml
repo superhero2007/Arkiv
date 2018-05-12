@@ -311,6 +311,10 @@ en:
       fdd: FDD 
       jal: JAL
       amb: AMB
+      jan: JAN 
+      jaq: JAQ 
+      jbb: JBB 
+      jbc: JBC 
   currency:
     satoshi:
       key: BTC

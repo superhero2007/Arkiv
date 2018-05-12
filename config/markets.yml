@@ -120,3 +120,35 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jal, fixed: 4}
+- id: janusd
+  code: 10
+  name: Jordan 4 30th Anniversary Laser      # default name
+  base_unit: jan
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jan, fixed: 4}
+- id: jaqusd
+  code: 10
+  name: Jordan 4 30th Anniversary Laser      # default name
+  base_unit: jaq
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jaq, fixed: 4}
+- id: jbbusd
+  code: 10
+  name: Jordan 8 Bugs Bunny      # default name
+  base_unit: jbb
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jbb, fixed: 4}
+- id: jbcusd
+  code: 10
+  name: Jordan 15 Bred CDP      # default name
+  base_unit: jbc
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jbc, fixed: 4}
