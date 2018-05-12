@@ -13,6 +13,6 @@ development: &defaults
   encoding: utf8
   database: peatio_development
   username: root
-  password: jeve2015
+  password: 
   pool: 10
   reconnect: true

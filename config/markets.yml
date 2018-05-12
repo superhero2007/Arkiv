@@ -352,3 +352,59 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jla, fixed: 4}
+- id: jlyusd
+  code: 10
+  name: Jordan 14 Laney     # default name
+  base_unit: jly
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jly, fixed: 4}
+- id: jmjusd
+  code: 10
+  name: Jordan 9 Motorboat Jones     # default name
+  base_unit: jmj
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jmj, fixed: 4}
+- id: jngusd
+  code: 10
+  name: Jordan 13 Neutral Grey     # default name
+  base_unit: jng
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jng, fixed: 4}
+- id: jogusd
+  code: 10
+  name: Jordan 20 OG Quickstrike     # default name
+  base_unit: jog
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jog, fixed: 4}
+- id: jolusd
+  code: 10
+  name: Jordan 6 Olympic London     # default name
+  base_unit: jol
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jol, fixed: 4}
+- id: jpbusd
+  code: 10
+  name: Jordan 9 Photo Blue     # default name
+  base_unit: jpb
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jpb, fixed: 4}
+- id: jplusd
+  code: 10
+  name: Jordan 12 Playoffs     # default name
+  base_unit: jpl
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jpl, fixed: 4}

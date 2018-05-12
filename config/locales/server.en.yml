@@ -340,7 +340,14 @@ en:
       jff: JFF 
       jss: JSS 
       jls: JLs 
-      jla: JLA  
+      jla: JLA 
+      jly: JLY 
+      jmj: JMJ 
+      jng: JNG 
+      jog: JOG 
+      jol: JOL 
+      jpb: JPB 
+      jpl: JPL 
   currency:
     satoshi:
       key: BTC
