@@ -16,3 +16,12 @@ production:
   pool: 10
   reconnect: true
   host: <%= ENV["MYSQL_HOST"] %>
+
+development: &defaults
+  adapter: mysql2
+  encoding: utf8
+  database: peatio_development
+  username: root
+  password: 
+  pool: 10
+  reconnect: true
