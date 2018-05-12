@@ -1642,6 +1642,35 @@ img{
   margin-bottom: 22px;
 }
 
+
+.login_section{
+  margin: 50px 0;
+  padding: 19px 15px;
+  box-shadow: 0px 0px 3px 0px #6d6a6a
+}
+
+.login_section label{
+  display: none;
+}
+
+.login_section .hint{
+  display: none;
+}
+
+.login_section .form-control{
+  width: 100%;
+  margin: 10px auto;
+}
+
+.form-horizontal .form-group{
+  margin: 0;
+}
+
+#setting_list .fa{
+  color: black;
+}
+
+
 /***
 
 ====================================================================
