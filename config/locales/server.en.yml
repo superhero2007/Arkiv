@@ -320,6 +320,10 @@ en:
       jbu: JBU
       jcb: JCB 
       jcc: JCC
+      jch: JCH 
+      jco: JCO 
+      jcr: JCR 
+      jdm: JDM 
   currency:
     satoshi:
       key: BTC

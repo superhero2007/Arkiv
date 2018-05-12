@@ -192,3 +192,35 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jcc, fixed: 4}
+- id: jchusd
+  code: 10
+  name: Jordan 8 Chrome      # default name
+  base_unit: jch
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jch, fixed: 4}
+- id: jcousd
+  code: 10
+  name: Jordan 17 Copper      # default name
+  base_unit: jco
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jco, fixed: 4}
+- id: jcrusd
+  code: 10
+  name: Jordan 13 Cherry      # default name
+  base_unit: jcr
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jcr, fixed: 4}
+- id: jdmusd
+  code: 10
+  name: Jordan 7 DMP Magic      # default name
+  base_unit: jdm
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: jdm, fixed: 4}
