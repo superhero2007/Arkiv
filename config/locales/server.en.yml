@@ -327,6 +327,9 @@ en:
       jfe: JFE 
       jfg: JFG 
       jfi: JFI 
+      jfm: JFM 
+      jfp: JFP 
+      jgq: JGQ 
   currency:
     satoshi:
       key: BTC
