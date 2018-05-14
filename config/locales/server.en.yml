@@ -636,6 +636,401 @@ en:
       key: JIB 
       code: Jordan 6 Infrared Black 
       name: Jordan 6 Infrared Black
+      format: '0,0.0000'
+    arkiv41:
+      key: JFF 
+      code: Jordan 7 J2K Filbert 
+      name: Jordan 7 J2K Filbert
+      format: '0,0.0000'
+    arkiv42:
+      key: JJS  
+      code: Jordan 3 Retro JTH Superbowl 
+      name: Jordan 3 Retro JTH Superbowl
+      format: '0,0.0000'
+    arkiv43:
+      key: JLA   
+      code: Jordan 5 Laney 
+      name: Jordan 5 Laney
+      format: '0,0.0000'
+    arkiv44:
+      key: JLY   
+      code: Jordan 14 Laney 
+      name: Jordan 14 Laney
+      format: '0,0.0000'
+    arkiv45:
+      key: JMJ    
+      code: Jordan 9 Motorboat Jones 
+      name: Jordan 9 Motorboat Jones
+      format: '0,0.0000'
+    arkiv46:
+      key: JMJ    
+      code: Jordan 9 Motorboat Jones 
+      name: Jordan 9 Motorboat Jones
+      format: '0,0.0000'
+    arkiv47:
+      key: JNG    
+      code: Jordan 13 Neutral Grey 
+      name: Jordan 13 Neutral Grey
+      format: '0,0.0000'
+    arkiv48:
+      key: JOG    
+      code: Jordan 20 OG Quickstrike 
+      name: Jordan 20 OG Quickstrike
+      format: '0,0.0000'
+    arkiv49:
+      key: JOL   
+      code: Jordan 6 Olympic London 
+      name: Jordan 6 Olympic London
+      format: '0,0.0000'
+    arkiv50:
+      key: JPB    
+      code: Jordan 9 Photo Blue 
+      name: Jordan 9 Photo Blue
+      format: '0,0.0000'
+    arkiv51:
+      key: JPL    
+      code: Jordan 12 Playoffs 
+      name: Jordan 12 Playoffs
+      format: '0,0.0000'
+    arkiv52:
+      key: JPL    
+      code: Jordan 9 Powder 
+      name: Jordan 9 Powder
+      format: '0,0.0000'
+    arkiv53:
+      key: JPS    
+      code: Jordan 8 Playoffs 
+      name: Jordan 8 Playoffs
+      format: '0,0.0000'
+    arkiv54:
+      key: JRA    
+      code: Jordan 7 Raptors 
+      name: Jordan 7 Raptors
+      format: '0,0.0000'
+    arkiv55:
+      key: JRB    
+      code: Jordan 3 Retro Black Cement 
+      name: Jordan 3 Retro Black Cement
+      format: '0,0.0000'
+    arkiv56:
+      key: JRC   
+      code: Jordan 2 White/Red CDP 
+      name: Jordan 2 White/Red CDP
+      format: '0,0.0000'
+    arkiv57:
+      key: JRH   
+      code: Jordan 3 Retro Tinker Hatfield 
+      name: Jordan 3 Retro Tinker Hatfield
+      format: '0,0.0000'
+    arkiv58:
+      key: JRO  
+      code: Jordan 1 Retro High Off-White Chicago 
+      name: Jordan 1 Retro High Off-White Chicago
+      format: '0,0.0000'
+    arkiv59:
+      key: JRR
+      code: Jordan 1 Retro Royal 2017 
+      name: Jordan 1 Retro Royal 2017
+      format: '0,0.0000'
+    arkiv60:
+      key: JRT 
+      code: Jordan 5 Fire Red Black Tongue 
+      name: Jordan 5 Fire Red Black Tongue
+      format: '0,0.0000'
+    arkiv61:
+      key: JRY 
+      code: Jordan 5 Retro Tokyo T23 
+      name: Jordan 5 Retro Tokyo T23
+      format: '0,0.0000'
+    arkiv62:
+      key: JSA 
+      code: Jordan 9 Silver Anniversary 
+      name: Jordan 9 Silver Anniversary
+      format: '0,0.0000'
+    arkiv63:
+      key: JSE
+      code: Jordan 5 Stealth 
+      name: Jordan 5 Stealth
+      format: '0,0.0000'
+    arkiv64:
+      key: JSJ
+      code: Jordan 9 Slim Jenkins 
+      name: Jordan 9 Slim Jenkins
+      format: '0,0.0000'
+    arkiv65:
+      key: JSL 
+      code: Jordan 20 Stealth 
+      name: Jordan 20 Stealth
+      format: '0,0.0000'
+    arkiv66:
+      key: JSR 
+      code: Jordan 18 White/Sport Royal 
+      name: Jordan 18 White/Sport Royal
+      format: '0,0.0000'
+    arkiv67:
+      key: JST 
+      code: Jordan 3 Stealth 
+      name: Jordan 3 Stealth
+      format: '0,0.0000'
+    arkiv68:
+      key: JTB  
+      code: Jordan 4 Toro Bravo 
+      name: Jordan 4 Toro Bravo
+      format: '0,0.0000'
+    arkiv69:
+      key: JTH  
+      code: Jordan 4 Thunder 
+      name: Jordan 4 Thunder
+      format: '0,0.0000'
+    arkiv70:
+      key: JTY   
+      code: Jordan 4 Tour Yellow/Rare Air 
+      name: Jordan 4 Tour Yellow/Rare Air
+      format: '0,0.0000'
+    arkiv71:
+      key: JWC   
+      code: Jordan 4 White Cement 
+      name: Jordan 4 White Cement
+      format: '0,0.0000'
+    arkiv72:
+      key: KAP    
+      code: KD 7 Aunt Pearl 
+      name: KD 7 Aunt Pearl
+      format: '0,0.0000'
+    arkiv73:
+      key: KBH     
+      code: KD 5 BHM 
+      name: KD 5 BHM
+      format: '0,0.0000'
+    arkiv74:
+      key: KDE      
+      code: KD 4 Easter 
+      name: KD 4 Easter
+      format: '0,0.0000'
+    arkiv75:
+      key: KEA       
+      code: Kobe 11 Elite All Star 
+      name: Kobe 11 Elite All Star
+      format: '0,0.0000'
+    arkiv76:
+      key: KEB       
+      code: Kobe 9 Elite BHM 
+      name: Kobe 9 Elite BHM
+      format: '0,0.0000'
+    arkiv77:
+      key: KEE       
+      code: KD 5 Elite EYBL 
+      name: KD 5 Elite EYBL
+      format: '0,0.0000'
+    arkiv78:
+      key: KEL       
+      code: Kobe 11 Elite 4KB
+      name: Kobe 11 Elite 4KB
+      format: '0,0.0000'
+    arkiv79:
+      key: KEF        
+      code: KD 7 EXT Floral
+      name: KD 7 EXT Floral
+      format: '0,0.0000'
+    arkiv80:
+      key: KGF        
+      code: Kobe 9 Gold Fundamentals
+      name: Kobe 9 Gold Fundamentals
+      format: '0,0.0000'
+    arkiv81:
+      key: KIN        
+      code: Kyrie 2 Inferno
+      name: Kyrie 2 Inferno
+      format: '0,0.0000'
+    arkiv82:
+      key: KIN        
+      code: Kobe 9 NOLA Gumbo League Maestro
+      name: Kobe 9 NOLA Gumbo League Maestro
+      format: '0,0.0000'
+    arkiv83:
+      key: KRG        
+      code: KD 4 Rogue Green UNDFTD
+      name: KD 4 Rogue Green UNDFTD
+      format: '0,0.0000'
+    arkiv84:
+      key: KSE        
+      code: KD 5 All Star Area 72 Extraterrestrial
+      name: KD 5 All Star Area 72 Extraterrestrial
+      format: '0,0.0000'
+    arkiv85:
+      key: KSP       
+      code: KD 6 Supreme DC Preheat
+      name: KD 6 Supreme DC Preheat
+      format: '0,0.0000'
+    arkiv86:
+      key: KST        
+      code: KD 4 Scoring Title
+      name: KD 4 Scoring Title
+      format: '0,0.0000'
+    arkiv87:
+      key: KVB         
+      code: Kobe 8 Venice Beach
+      name: Kobe 8 Venice Beach
+      format: '0,0.0000'
+    arkiv88:
+      key: KAA          
+      code: Lebron X Allstar Area 72
+      name: Lebron X Allstar Area 72
+      format: '0,0.0000'
+    arkiv89:
+      key: KBB           
+      code: Lebron 9 Big Bang AS
+      name: Lebron 9 Big Bang AS
+      format: '0,0.0000'
+    arkiv90:
+      key: LBHX           
+      code: Lebron X BHM
+      name: Lebron X BHM
+      format: '0,0.0000'
+    arkiv91:
+      key: LBH          
+      code: Lebron 11 BHM
+      name: Lebron 11 BHM
+      format: '0,0.0000'
+    arkiv92:
+      key: LBS          
+      code: Lebron X EXT Black Suede
+      name: Lebron X EXT Black Suede
+      format: '0,0.0000'
+    arkiv93:
+      key: LCG           
+      code: Lebron 9 Cool Grey
+      name: Lebron 9 Cool Grey
+      format: '0,0.0000'
+    arkiv94:
+      key: LCH           
+      code: Lebron 9 Christmas
+      name: Lebron 9 Christmas
+      format: '0,0.0000'
+    arkiv95:
+      key: LED            
+      code: Lebron X EXT Denim
+      name: Lebron X EXT Denim
+      format: '0,0.0000'
+    arkiv96:
+      key: LEH           
+      code: Lebron X EXT Hazelnut
+      name: Lebron X EXT Hazelnut
+      format: '0,0.0000'
+    arkiv97:
+      key: LES           
+      code: Kobe 9 EXT Snakeskin
+      name: Kobe 9 EXT Snakeskin
+      format: '0,0.0000'
+    arkiv98:
+      key: LFC            
+      code: Lunar Flyknit Chukka Wolf Grey/Red
+      name: Lunar Flyknit Chukka Wolf Grey/Red
+      format: '0,0.0000'
+    arkiv99:
+      key: LFG             
+      code: Lunar Flyknit Chukka Gold Trophy
+      name: Lunar Flyknit Chukka Gold Trophy
+      format: '0,0.0000'
+    arkiv100:
+      key: LFI             
+      code: Lebron 11 Forging Iron
+      name: Lebron 11 Forging Iron
+      format: '0,0.0000'
+    arkiv101:
+      key: LMA             
+      code: Lebron 9 Mango
+      name: Lebron 9 Mango
+      format: '0,0.0000'
+    arkiv102:
+      key: LMH             
+      code: Lebron 9 Miami Hurricanes
+      name: Lebron 9 Miami Hurricanes
+      format: '0,0.0000'
+    arkiv103:
+      key: LMHH            
+      code: Lebron 9 Miami Heat Home
+      name: Lebron 9 Miami Heat Home
+      format: '0,0.0000'
+    arkiv104:
+      key: LMHB           
+      code: Lebron 8 South Beach
+      name: Lebron 8 South Beach
+      format: '0,0.0000'
+    arkiv105:
+      key: LSL           
+      code: Lebron 8 V/2 Summit Lake Hornets
+      name: Lebron 8 V/2 Summit Lake Hornets
+      format: '0,0.0000'
+    arkiv106:
+      key: LXC           
+      code: Lebron X Christmas
+      name: Lebron X Christmas
+    arkiv107:
+      key: MUD            
+      code: More Uptempo Dusk to Dawn
+      name: More Uptempo Dusk to Dawn
+      format: '0,0.0000'
+    arkiv108:
+      key: MUO            
+      code: More Uptempo Olympics
+      name: More Uptempo Olympics
+      format: '0,0.0000'
+    arkiv109:
+      key: NAP             
+      code: Nike Air Presto Ultra Flyknit Olympic
+      name: Nike Air Presto Ultra Flyknit Olympic
+      format: '0,0.0000'
+    arkiv110:
+      key: NDC             
+      code: Nike Dunk SB Low Money Cat
+      name: Nike Dunk SB Low Money Cat
+      format: '0,0.0000'
+    arkiv111:
+      key: NDH             
+      code: Nike Dunk SB High Quagmire
+      name: Nike Dunk SB High Quagmire
+      format: '0,0.0000'
+    arkiv112:
+      key: NDG             
+      code: Nike Dunk SB High Melvins
+      name: Nike Dunk SB High Melvins
+      format: '0,0.0000'
+    arkiv113:
+      key: NDL             
+      name: Nike Dunk SB Low Raygun
+      code: Nike Dunk SB Low Raygun
+      format: '0,0.0000'
+    arkiv114:
+      key: RRG              
+      name: Roshe Run Gold Trophy
+      code: Roshe Run Gold Trophy
+      format: '0,0.0000'
+    arkiv115:
+      key: YBB               
+      name: Yeezy Boost 350 V2 Beluga 2.0
+      code: Yeezy Boost 350 V2 Beluga 2.0
+      format: '0,0.0000'
+    arkiv116:
+      key: YBC              
+      name: Yeezy Boost 350 V2 Cream White
+      code: Yeezy Boost 350 V2 Cream White
+      format: '0,0.0000'
+    arkiv117:
+      key: YBT             
+      name: Yeezy Boost 350 V2 Blue Tint
+      code: Yeezy Boost 350 V2 Blue Tint
+      format: '0,0.0000'
+    arkiv118:
+      key: YBX            
+      name: Yeezy Boost 350 V2 Zebra
+      code: Yeezy Boost 350 V2 Zebra
+      format: '0,0.0000'
+    arkiv119:
+      key: YBZ            
+      name: Zoom Rookie Glow in the Dark
+      code: Zoom Rookie Glow in the Dark
+      format: '0,0.0000'
     renminbi:
       key: USD
       code: USD 
