@@ -6475,7 +6475,8 @@ img{
 
 .shop-item .inner-box .image{
   position:relative;
-  background-color:#f8f8f8;
+  background-color: white;
+  min-height: 200px;
 }
 
 .shop-item .inner-box .image img{
@@ -6529,6 +6530,7 @@ img{
 .shop-item .inner-box .lower-content .upper-box{
   position:relative;
   padding:15px 18px;
+  min-height: 160px;
 }
 
 .shop-item .inner-box .lower-content .upper-box h3{
