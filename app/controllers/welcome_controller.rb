@@ -7,4 +7,7 @@ class WelcomeController < ApplicationController
   def shop
 
   end
+  def privacy
+
+  end
 end

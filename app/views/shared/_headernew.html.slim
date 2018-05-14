@@ -5,52 +5,34 @@ header.main-header
         .clearfix
           .top-left
             ul.clearfix
-              li
+              li style="visibility: hidden;"
                 span
                   | Buy BTC:
                 |  $2462
-              li
+              li style="visibility: hidden;"
                 span
                   | Sell BTC:
                 |  $2465
               li.email
                 a[href="#"]
-                  span.icon.fa.fa-envelope-o
-                  | Supportteam@arkiv.com
+                  i.fas.fa-envelope
+                  | help@arkivoffcial.com
           .top-right.clearfix
             ul.clearfix
               li
                 a href="#{signin_path}"
-                  span.icon.flaticon-web-log-in
+                  i.fas.fa-sign-in-alt
                   | Sign In
               li
                 a href="#{signup_path}"
-                  span.icon.flaticon-file-1
+                  i.fas.fa-file
                   | Register
-              li.language.dropdown
-                a#dropdownMenu1.btn.btn-default.dropdown-toggle[data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#"]
-                  span.flag-icon
-                    img[src="images/icons/flag-icon.png" alt=""]
-                  | En  
-                  span.arrow-icon.fa.fa-angle-down
-                ul.dropdown-menu.style-one[aria-labelledby="dropdownMenu1"]
-                  li
-                    a[href="#"]
-                      | Arabic
-                  li
-                    a[href="#"]
-                      | China
-                  li
-                    a[href="#"]
-                      | German
-                  li
-                    a[href="#"]
-                      | French
+
   .header-upper
     .auto-container.clearfix
       .pull-left.logo-outer
         .logo
-          a[href="index.html"]
+          a[href="/"]
             img src='#{image_path 'logo.png'}' style="width: 47%;"
       .pull-right.upper-right.clearfix
         .nav-outer.clearfix
@@ -63,86 +45,27 @@ header.main-header
             .navbar-collapse.collapse.clearfix
               ul.navigation.clearfix
                 li.current
-                  a[href="index.html"]
+                  a[href="/"]
                     | Home
                 li.dropdown
                   a[href="#"]
                     | About us
-                  ul
-                    li
-                      a[href="about.html"]
-                        | About Company
-                    li
-                      a[href="cases.html"]
-                        | Our Cases
-                    li
-                      a[href="case-single.html"]
-                        | Single Case
-                    li
-                      a[href="team.html"]
-                        | Meet Our Team
-                li.dropdown
-                  a[href="#"]
-                    | Services
-                  ul
-                    li
-                      a[href="services.html"]
-                        | services
-                    li
-                      a[href="services-single.html"]
-                        | Initial Coin Offering
-                    li
-                      a[href="bitcoin-investment.html"]
-                        | Bitcoion Investment
-                    li
-                      a[href="research-development.html"]
-                        | Research & Development
-                    li
-                      a[href="workshop-seminars.html"]
-                        | Worshops & Seminars
-                    li
-                      a[href="payment-integration.html"]
-                        | Payment Integration
-                    li
-                      a[href="bitcoin-atm.html"]
-                        | Bitcoin ATM’s & Kiosks
+
+
                 li
-                  a[href="how-it-works.html"]
+                  a[href="/"]
                     | How it Works
+
                 li.dropdown
-                  a[href="#"]
-                    | Blog
-                  ul
-                    li
-                      a[href="blog.html"]
-                        | Blog Default
-                    li
-                      a[href="blog-classic.html"]
-                        | Blog Large Image
-                    li
-                      a[href="blog-single.html"]
-                        | Single Post
+                  a[href="/shop"]
+                    | Listings
+
                 li.dropdown
-                  a[href="#"]
-                    | Shop
-                  ul
-                    li
-                      a[href="shop.html"]
-                        | Our Products
-                    li
-                      a[href="shop-single.html"]
-                        | Single Product
-                    li
-                      a[href="shoping-cart.html"]
-                        | Shopping Cart
-                    li
-                      a[href="checkout.html"]
-                        | Checkout
-                    li
-                      a[href="account.html"]
-                        | My Account
+                  a[href="/privacy"]
+                    | Privacy
+
                 li
-                  a[href="contact.html"]
+                  a[href=""]
                     | Contact Us
           .outer-box
             .search-box-outer

@@ -1,6 +1,15 @@
-= simple_form_for @identity do |f|
-  = f.input :old_password
-  = f.input :password
-  = f.input :password_confirmation
-  hr.split
-  = f.button :wrapped, cancel: settings_path
+.container
+  .row
+    .col-sm-6.col-sm-offset-3
+      .login_section
+        = simple_form_for @identity do |f|
+          p Old Password
+          = f.input :old_password
+          p New Password
+          = f.input :password
+          p Confirm Password
+          = f.input :password_confirmation
+          hr.split
+          = f.button :wrapped, cancel: settings_path
+
+

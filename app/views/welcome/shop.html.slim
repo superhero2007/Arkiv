@@ -6,52 +6,34 @@
           .clearfix
             .top-left
               ul.clearfix
-                li
+                li style="visibility: hidden;"
                   span
                     | Buy BTC:
                   |  $2462
-                li
+                li style="visibility: hidden;"
                   span
                     | Sell BTC:
                   |  $2465
                 li.email
                   a[href="#"]
-                    span.icon.fa.fa-envelope-o
-                    | Supportteam@arkiv.com
+                    i.fas.fa-envelope
+                    | help@arkivoffcial.com
             .top-right.clearfix
               ul.clearfix
                 li
-                  a[href="#"]
-                    span.fas.fa-sign-in-alt
+                  a href="#{signin_path}"
+                    i.fas.fa-sign-in-alt
                     | Sign In
                 li
-                  a[href="#"]
-                    span.icon.flaticon-file-1
+                  a href="#{signup_path}"
+                    i.fas.fa-file
                     | Register
-                li.language.dropdown
-                  a#dropdownMenu1.btn.btn-default.dropdown-toggle[data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#"]
-                    span.flag-icon
-                      img[src="images/icons/flag-icon.png" alt=""]
-                    | En  
-                    span.arrow-icon.fa.fa-angle-down
-                  ul.dropdown-menu.style-one[aria-labelledby="dropdownMenu1"]
-                    li
-                      a[href="#"]
-                        | Arabic
-                    li
-                      a[href="#"]
-                        | China
-                    li
-                      a[href="#"]
-                        | German
-                    li
-                      a[href="#"]
-                        | French
+
     .header-upper
       .auto-container.clearfix
         .pull-left.logo-outer
           .logo
-            a[href="index.html"]
+            a[href="/"]
               img src='#{image_path 'logo.png'}' style="width: 47%;"
         .pull-right.upper-right.clearfix
           .nav-outer.clearfix
@@ -64,87 +46,139 @@
               .navbar-collapse.collapse.clearfix
                 ul.navigation.clearfix
                   li.current
-                    a[href="index.html"]
+                    a[href="/"]
                       | Home
                   li.dropdown
                     a[href="#"]
                       | About us
-                    ul
-                      li
-                        a[href="about.html"]
-                          | About Company
-                      li
-                        a[href="cases.html"]
-                          | Our Cases
-                      li
-                        a[href="case-single.html"]
-                          | Single Case
-                      li
-                        a[href="team.html"]
-                          | Meet Our Team
-                  li.dropdown
-                    a[href="#"]
-                      | Services
-                    ul
-                      li
-                        a[href="services.html"]
-                          | services
-                      li
-                        a[href="services-single.html"]
-                          | Initial Coin Offering
-                      li
-                        a[href="bitcoin-investment.html"]
-                          | Bitcoion Investment
-                      li
-                        a[href="research-development.html"]
-                          | Research & Development
-                      li
-                        a[href="workshop-seminars.html"]
-                          | Worshops & Seminars
-                      li
-                        a[href="payment-integration.html"]
-                          | Payment Integration
-                      li
-                        a[href="bitcoin-atm.html"]
-                          | Bitcoin ATM’s & Kiosks
+
+
                   li
-                    a[href="how-it-works.html"]
+                    a[href="/"]
                       | How it Works
+
                   li.dropdown
-                    a[href="#"]
-                      | Blog
-                    ul
-                      li
-                        a[href="blog.html"]
-                          | Blog Default
-                      li
-                        a[href="blog-classic.html"]
-                          | Blog Large Image
-                      li
-                        a[href="blog-single.html"]
-                          | Single Post
+                    a[href="/shop"]
+                      | Listings
+
                   li.dropdown
-                    a[href="#"]
-                      | Shop
-                    ul
-                      li
-                        a[href="shop.html"]
-                          | Our Products
-                      li
-                        a[href="shop-single.html"]
-                          | Single Product
-                      li
-                        a[href="shoping-cart.html"]
-                          | Shopping Cart
-                      li
-                        a[href="checkout.html"]
-                          | Checkout
-                      li
-                        a[href="account.html"]
-                          | My Account
+                    a[href="/privacy"]
+                      | Privacy
+
                   li
-                    a[href="contact.html"]
+                    a[href="/"]
                       | Contact Us
+            .outer-box
+              .search-box-outer
+                .dropdown
+                  button#dropdownMenu3.search-box-btn.dropdown-toggle[type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"]
+                    span.fa.fa-search
+                  ul.dropdown-menu.pull-right.search-panel[aria-labelledby="dropdownMenu3"]
+                    li.panel-outer
+                      .form-container
+                        form[method="post" action="blog.html"]
+                          .form-group
+                            input[type="search" name="field-name" value="" placeholder="Search Here" required]
+                            button.search-btn[type="submit"]
+                              span.fa.fa-search
+              .reservation-form-btn.consult-form-btn
+                span.icon.flaticon-menu-options
+    .sticky-header
+      .auto-container.clearfix
+        .logo.pull-left
+          a.img-responsive[href="index.html"]
+            img[src="images/logo.png" style="width: 24%;" alt="" title=""]
+        .right-col.pull-right
+          nav.main-menu
+            .navbar-header
+              button.navbar-toggle[type="button" data-toggle="collapse" data-target=".navbar-collapse"]
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            .navbar-collapse.collapse.clearfix
+              ul.navigation.clearfix
+                li.current
+                  a[href="index.html"]
+                    | Home
+                li.dropdown
+                  a[href="#"]
+                    | About us
+                  ul
+                    li
+                      a[href="about.html"]
+                        | About Company
+                    li
+                      a[href="cases.html"]
+                        | Our Cases
+                    li
+                      a[href="case-single.html"]
+                        | Single Case
+                    li
+                      a[href="team.html"]
+                        | Meet Our Team
+                li.dropdown
+                  a[href="#"]
+                    | Services
+                  ul
+                    li
+                      a[href="services.html"]
+                        | services
+                    li
+                      a[href="services-single.html"]
+                        | Initial Coin Offering
+                    li
+                      a[href="bitcoin-investment.html"]
+                        | Bitcoion Investment
+                    li
+                      a[href="research-development.html"]
+                        | Research & Development
+                    li
+                      a[href="workshop-seminars.html"]
+                        | Worshops & Seminars
+                    li
+                      a[href="payment-integration.html"]
+                        | Payment Integration
+                    li
+                      a[href="bitcoin-atm.html"]
+                        | Bitcoin ATM’s & Kiosks
+                li
+                  a[href="how-it-works.html"]
+                    | How it Works
+                li.dropdown
+                  a[href="#"]
+                    | Blog
+                  ul
+                    li
+                      a[href="blog.html"]
+                        | Blog Default
+                    li
+                      a[href="blog-classic.html"]
+                        | Blog Large Image
+                    li
+                      a[href="blog-single.html"]
+                        | Single Post
+                li.dropdown
+                  a[href="#"]
+                    | Shop
+                  ul
+                    li
+                      a[href="shop.html"]
+                        | Our Products
+                    li
+                      a[href="shop-single.html"]
+                        | Single Product
+                    li
+                      a[href="shoping-cart.html"]
+                        | Shopping Cart
+                    li
+                      a[href="checkout.html"]
+                        | Checkout
+                    li
+                      a[href="account.html"]
+                        | My Account
+                li
+                  a[href="contact.html"]
+                    | Contact Us
             .outer-box
               .search-box-outer
                 .dropdown
@@ -261,18 +295,14 @@
       h1
         | Our Products
       .title
-        | Our goal here is to provide low prices on high quality
+        | We guarantee every
+
         br
-        |  products and excellent service.
-    .page-info
-      .auto-container
-        .inner-container
-          ul.bread-crumb
-            li
-              a[href="index.html"]
-                | Home
-            li
-              | Shop
+        | pair on our exchange is 100% authentic.
+      br
+      a.theme-btn.btn-style-one href="#{signup_path}"
+        | Start Trading
+
   .sidebar-page-container
     .auto-container
       .row.clearfix
@@ -289,239 +319,14 @@
                       option
                         | Default Sorting
                       option
-                        | By Order
+                        | Price Low to High
                       option
-                        | By Price
-            .row.clearfix
-              .shop-item.col-lg-4.col-md-6.col-sm-6.col-xs-12
-                .inner-box
-                  .image
-                    img src='#{image_path 'witherspoon.jpg'}'
-                    a.overlay-box[href="shop-single.html"]
-                      span.icon.fa.fa-link
-                  .lower-content
-                    .upper-box
-                      h3
-                        a[href="shop-single.html"]
-                          | The Innovators
-                      .price
-                        | $34.99
-                    .lower-box.clearfix
-                      .pull-left
-                        a.add-cart[href="shop-single.html"]
-                          | Add to Cart
-                      .pull-right
-                        .rating
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star-half-empty
-              .shop-item.col-lg-4.col-md-6.col-sm-6.col-xs-12
-                .inner-box
-                  .image
-                    img src='#{image_path 'witherspoon.jpg'}'
-                    a.overlay-box[href="shop-single.html"]
-                      span.icon.fa.fa-link
-                  .lower-content
-                    .upper-box
-                      h3
-                        a[href="shop-single.html"]
-                          | Win Your Friends
-                      .price
-                        | $29.00
-                    .lower-box.clearfix
-                      .pull-left
-                        a.add-cart[href="shop-single.html"]
-                          | Add to Cart
-                      .pull-right
-                        .rating
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star-half-empty
-              .shop-item.col-lg-4.col-md-6.col-sm-6.col-xs-12
-                .inner-box
-                  .image
-                    img src='#{image_path 'witherspoon.jpg'}'
-                    a.overlay-box[href="shop-single.html"]
-                      span.icon.fa.fa-link
-                  .lower-content
-                    .upper-box
-                      h3
-                        a[href="shop-single.html"]
-                          | Business Adventures
-                      .price
-                        | $24.99
-                    .lower-box.clearfix
-                      .pull-left
-                        a.add-cart[href="shop-single.html"]
-                          | Add to Cart
-                      .pull-right
-                        .rating
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star-half-empty
-              .shop-item.col-lg-4.col-md-6.col-sm-6.col-xs-12
-                .inner-box
-                  .image
-                    img src='#{image_path 'witherspoon.jpg'}'
-                    a.overlay-box[href="shop-single.html"]
-                      span.icon.fa.fa-link
-                  .lower-content
-                    .upper-box
-                      h3
-                        a[href="shop-single.html"]
-                          | Good to Great
-                      .price
-                        | $29.00
-                    .lower-box.clearfix
-                      .pull-left
-                        a.add-cart[href="shop-single.html"]
-                          | Add to Cart
-                      .pull-right
-                        .rating
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star-half-empty
-              .shop-item.col-lg-4.col-md-6.col-sm-6.col-xs-12
-                .inner-box
-                  .image
-                    img src='#{image_path 'witherspoon.jpg'}'
-                    a.overlay-box[href="shop-single.html"]
-                      span.icon.fa.fa-link
-                  .lower-content
-                    .upper-box
-                      h3
-                        a[href="shop-single.html"]
-                          | Built to Last
-                      .price
-                        | $24.99
-                    .lower-box.clearfix
-                      .pull-left
-                        a.add-cart[href="shop-single.html"]
-                          | Add to Cart
-                      .pull-right
-                        .rating
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star-half-empty
-              .shop-item.col-lg-4.col-md-6.col-sm-6.col-xs-12
-                .inner-box
-                  .image
-                    img src='#{image_path 'witherspoon.jpg'}'
-                    a.overlay-box[href="shop-single.html"]
-                      span.icon.fa.fa-link
-                  .lower-content
-                    .upper-box
-                      h3
-                        a[href="shop-single.html"]
-                          | Art of the Start
-                      .price
-                        | $34.99
-                    .lower-box.clearfix
-                      .pull-left
-                        a.add-cart[href="shop-single.html"]
-                          | Add to Cart
-                      .pull-right
-                        .rating
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star-half-empty
-              .shop-item.col-lg-4.col-md-6.col-sm-6.col-xs-12
-                .inner-box
-                  .image
-                    img src='#{image_path 'witherspoon.jpg'}'
-                    a.overlay-box[href="shop-single.html"]
-                      span.icon.fa.fa-link
-                  .lower-content
-                    .upper-box
-                      h3
-                        a[href="shop-single.html"]
-                          | Business Adventures
-                      .price
-                        | $24.99
-                    .lower-box.clearfix
-                      .pull-left
-                        a.add-cart[href="shop-single.html"]
-                          | Add to Cart
-                      .pull-right
-                        .rating
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star-half-empty
-              .shop-item.col-lg-4.col-md-6.col-sm-6.col-xs-12
-                .inner-box
-                  .image
-                    img src='#{image_path 'witherspoon.jpg'}'
-                    a.overlay-box[href="shop-single.html"]
-                      span.icon.fa.fa-link
-                  .lower-content
-                    .upper-box
-                      h3
-                        a[href="shop-single.html"]
-                          | Lords of Strategy
-                      .price
-                        | $34.99
-                    .lower-box.clearfix
-                      .pull-left
-                        a.add-cart[href="shop-single.html"]
-                          | Add to Cart
-                      .pull-right
-                        .rating
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star-half-empty
-              .shop-item.col-lg-4.col-md-6.col-sm-6.col-xs-12
-                .inner-box
-                  .image
-                    img src='#{image_path 'witherspoon.jpg'}'
-                    a.overlay-box[href="shop-single.html"]
-                      span.icon.fa.fa-link
-                  .lower-content
-                    .upper-box
-                      h3
-                        a[href="shop-single.html"]
-                          | Win Your Friends
-                      .price
-                        | $29.00
-                    .lower-box.clearfix
-                      .pull-left
-                        a.add-cart[href="shop-single.html"]
-                          | Add to Cart
-                      .pull-right
-                        .rating
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star
-                          span.fa.fa-star-half-empty
-            .styled-pagination.text-center
-              ul.clearfix
-                li
-                  a[href="#"]
-                    span.fa.fa-caret-left
-                li
-                  a.active[href="#"]
-                    | 1
-                li
-                  a[href="#"]
-                    | 2
-                li
-                  a[href="#"]
+                        | Brand
+                      option
+                        | Most Traded
+                      option
+                        | Size
+
                     span.fa.fa-caret-right
         .sidebar-side.pull-left.col-lg-3.col-md-4.col-sm-12.col-xs-12
           aside.sidebar.default-sidebar
@@ -531,97 +336,179 @@
                   input[type="search" name="search-field" value="" placeholder="Search..." required]
                   button[type="submit"]
                     span.icon.fa.fa-search
-            .sidebar-widget.sidebar-blog-category
-              .sidebar-title
-                h2
-                  | Categories
-              ul.blog-cat.style-two
-                li
-                  a[href="#"]
-                    | Business Growth
-                    span
-                      | (6)
-                li
-                  a[href="#"]
-                    | Consulting
-                    span
-                      | (4)
-                li
-                  a[href="#"]
-                    | Management
-                    span
-                      | (5)
-                li
-                  a[href="#"]
-                    | Customer Insights
-                    span
-                      | (8)
-                li
-                  a[href="#"]
-                    | Organization
-                    span
-                      | (4)
-            .sidebar-widget.price-filters.rangeslider-widget
-              .sidebar-title
-                h2
-                  | Filter By Price
-              .range-slider-one.clearfix
-                .price-range-slider
-                .clearfix
-                  .pull-left
-                    a.theme-btn.btn-style-one[href="#"]
-                      | Filtter
-                  .pull-right
-                    .title
-                      | Price:
-                    .input
-                      input.property-amount[type="text" name="field-name" readonly]
-            .sidebar-widget.related-posts
-              .sidebar-title
-                h2
-                  | Popular Products
-              .post
-                figure.post-thumb
+
+      .row.clearfix
+        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
+          .inner-box
+            .image
+              img src='#{image_path 'witherspoon.jpg'}'
+              a.overlay-box[href="shop-single.html"]
+                span.icon.fa.fa-link
+            .lower-content
+              .upper-box
+                h3
                   a[href="shop-single.html"]
-                    img[src="images/resource/products/prod-thumb-1.jpg" alt=""]
-                h4
-                  a[href="shop-single.html"]
-                    | The Innovators
+                    | Jordan
                 .price
                   | $34.99
-                .rating
-                  span.fa.fa-star
-                  span.fa.fa-star
-                  span.fa.fa-star
-                  span.fa.fa-star
-                  span.fa.fa-star-half-o.light
-              .post
-                figure.post-thumb
+                .size
+                  | Size: 12
+              .lower-box.clearfix
+
+                  a.theme-btn.btn-style-two[href="#{signup_path}"]
+                    | Trade Now
+        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
+          .inner-box
+            .image
+              img src='#{image_path 'witherspoon.jpg'}'
+              a.overlay-box[href="shop-single.html"]
+                span.icon.fa.fa-link
+            .lower-content
+              .upper-box
+                h3
                   a[href="shop-single.html"]
-                    img[src="images/resource/products/prod-thumb-2.jpg" alt=""]
-                h4
-                  a[href="shop-single.html"]
-                    | Good to Great
+                    | Jordan
                 .price
-                  | $29.00
-                .rating
-                  span.fa.fa-star
-                  span.fa.fa-star
-                  span.fa.fa-star
-                  span.fa.fa-star
-                  span.fa.fa-star
-              .post
-                figure.post-thumb
+                  | $34.99
+                .size
+                  | Size: 12
+              .lower-box.clearfix
+
+                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                  | Trade Now
+
+        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
+          .inner-box
+            .image
+              img src='#{image_path 'witherspoon.jpg'}'
+              a.overlay-box[href="shop-single.html"]
+                span.icon.fa.fa-link
+            .lower-content
+              .upper-box
+                h3
                   a[href="shop-single.html"]
-                    img[src="images/resource/products/prod-thumb-3.jpg" alt=""]
-                h4
-                  a[href="shop-single.html"]
-                    | Built to Last
+                    | Jordan
                 .price
-                  | $24.99
-                .rating
-                  span.fa.fa-star
-                  span.fa.fa-star
-                  span.fa.fa-star
-                  span.fa.fa-star
-                  span.fa.fa-star-half-o.light
+                  | $34.99
+                .size
+                  | Size: 12
+              .lower-box.clearfix
+
+                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                  | Trade Now
+
+        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
+          .inner-box
+            .image
+              img src='#{image_path 'witherspoon.jpg'}'
+              a.overlay-box[href="shop-single.html"]
+                span.icon.fa.fa-link
+            .lower-content
+              .upper-box
+                h3
+                  a[href="shop-single.html"]
+                    | Jordan
+                .price
+                  | $34.99
+                .size
+                  | Size: 12
+              .lower-box.clearfix
+
+                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                  | Trade Now
+
+        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
+          .inner-box
+            .image
+              img src='#{image_path 'witherspoon.jpg'}'
+              a.overlay-box[href="shop-single.html"]
+                span.icon.fa.fa-link
+            .lower-content
+              .upper-box
+                h3
+                  a[href="shop-single.html"]
+                    | Jordan
+                .price
+                  | $34.99
+                .size
+                  | Size: 12
+              .lower-box.clearfix
+
+                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                  | Trade Now
+
+        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
+          .inner-box
+            .image
+              img src='#{image_path 'witherspoon.jpg'}'
+              a.overlay-box[href="shop-single.html"]
+                span.icon.fa.fa-link
+            .lower-content
+              .upper-box
+                h3
+                  a[href="shop-single.html"]
+                    | Jordan
+                .price
+                  | $34.99
+                .size
+                  | Size: 12
+              .lower-box.clearfix
+
+                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                  | Trade Now
+
+        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
+          .inner-box
+            .image
+              img src='#{image_path 'witherspoon.jpg'}'
+              a.overlay-box[href="shop-single.html"]
+                span.icon.fa.fa-link
+            .lower-content
+              .upper-box
+                h3
+                  a[href="shop-single.html"]
+                    | Jordan
+                .price
+                  | $34.99
+                .size
+                  | Size: 12
+              .lower-box.clearfix
+
+                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                  | Trade Now
+
+        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
+            .inner-box
+              .image
+                img src='#{image_path 'witherspoon.jpg'}'
+                a.overlay-box[href="shop-single.html"]
+                  span.icon.fa.fa-link
+              .lower-content
+                .upper-box
+                  h3
+                    a[href="shop-single.html"]
+                      | Jordan
+                  .price
+                    | $34.99
+                  .size
+                    | Size: 12
+                .lower-box.clearfix
+
+                  a.theme-btn.btn-style-two[href="#{signup_path}"]
+                    | Trade Now
+
+
+
+      .styled-pagination.text-center
+            ul.clearfix
+              li
+                a[href="#"]
+                  span.fa.fa-caret-left
+              li
+                a.active[href="#"]
+                  | 1
+              li
+                a[href="#"]
+                  | 2
+              li
+                a[href="#"]

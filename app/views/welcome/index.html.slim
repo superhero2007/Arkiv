@@ -30,52 +30,34 @@
           .clearfix
             .top-left
               ul.clearfix
-                li
+                li style="visibility: hidden;"
                   span
                     | Buy BTC:
                   |  $2462
-                li
+                li style="visibility: hidden;"
                   span
                     | Sell BTC:
                   |  $2465
                 li.email
                   a[href="#"]
-                    span.icon.fa.fa-envelope-o
-                    | Supportteam@arkiv.com
+                    i.fas.fa-envelope
+                    | help@arkivoffcial.com
             .top-right.clearfix
               ul.clearfix
                 li
                   a href="#{signin_path}"
-                    span.icon.flaticon-web-log-in
+                    i.fas.fa-sign-in-alt
                     | Sign In
                 li
                   a href="#{signup_path}"
-                    span.icon.flaticon-file-1
+                    i.fas.fa-file
                     | Register
-                li.language.dropdown
-                  a#dropdownMenu1.btn.btn-default.dropdown-toggle[data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#"]
-                    span.flag-icon
-                      img[src="images/icons/flag-icon.png" alt=""]
-                    | En  
-                    span.arrow-icon.fa.fa-angle-down
-                  ul.dropdown-menu.style-one[aria-labelledby="dropdownMenu1"]
-                    li
-                      a[href="#"]
-                        | Arabic
-                    li
-                      a[href="#"]
-                        | China
-                    li
-                      a[href="#"]
-                        | German
-                    li
-                      a[href="#"]
-                        | French
+
     .header-upper
       .auto-container.clearfix
         .pull-left.logo-outer
           .logo
-            a[href="index.html"]
+            a[href="/"]
               img src='#{image_path 'logo.png'}' style="width: 47%;"
         .pull-right.upper-right.clearfix
           .nav-outer.clearfix
@@ -88,86 +70,27 @@
               .navbar-collapse.collapse.clearfix
                 ul.navigation.clearfix
                   li.current
-                    a[href="index.html"]
+                    a[href="/"]
                       | Home
                   li.dropdown
                     a[href="#"]
                       | About us
-                    ul
-                      li
-                        a[href="about.html"]
-                          | About Company
-                      li
-                        a[href="cases.html"]
-                          | Our Cases
-                      li
-                        a[href="case-single.html"]
-                          | Single Case
-                      li
-                        a[href="team.html"]
-                          | Meet Our Team
-                  li.dropdown
-                    a[href="#"]
-                      | Services
-                    ul
-                      li
-                        a[href="services.html"]
-                          | services
-                      li
-                        a[href="services-single.html"]
-                          | Initial Coin Offering
-                      li
-                        a[href="bitcoin-investment.html"]
-                          | Bitcoion Investment
-                      li
-                        a[href="research-development.html"]
-                          | Research & Development
-                      li
-                        a[href="workshop-seminars.html"]
-                          | Worshops & Seminars
-                      li
-                        a[href="payment-integration.html"]
-                          | Payment Integration
-                      li
-                        a[href="bitcoin-atm.html"]
-                          | Bitcoin ATM’s & Kiosks
+
+
                   li
-                    a[href="how-it-works.html"]
+                    a[href=""]
                       | How it Works
+
                   li.dropdown
-                    a[href="#"]
-                      | Blog
-                    ul
-                      li
-                        a[href="blog.html"]
-                          | Blog Default
-                      li
-                        a[href="blog-classic.html"]
-                          | Blog Large Image
-                      li
-                        a[href="blog-single.html"]
-                          | Single Post
+                    a[href="/shop"]
+                      | Listings
+
                   li.dropdown
-                    a[href="#"]
-                      | Shop
-                    ul
-                      li
-                        a[href="shop.html"]
-                          | Our Products
-                      li
-                        a[href="shop-single.html"]
-                          | Single Product
-                      li
-                        a[href="shoping-cart.html"]
-                          | Shopping Cart
-                      li
-                        a[href="checkout.html"]
-                          | Checkout
-                      li
-                        a[href="account.html"]
-                          | My Account
+                    a[href="/privacy"]
+                      | Privacy
+
                   li
-                    a[href="contact.html"]
+                    a[href=""]
                       | Contact Us
             .outer-box
               .search-box-outer
@@ -289,10 +212,9 @@
           .banner-box
             h1 TRADE SNEAKERS LIKE STOCKS
             .btns-box
-              a.theme-btn.btn-style-one[href="about.html"]
-                | Read More
-              a.theme-btn.btn-style-two[href="services.html"]
-                | Contact Us
+              a.theme-btn.btn-style-one href="#{signup_path}"
+                | Start Trading
+
 
   / service section
   section.services-section
@@ -305,7 +227,7 @@
                             .services-block.col-md-4.col-sm-6.col-xs-12
                               .inner-box
                                 .icon-box
-                                  span.icon.flaticon-shield
+                                  i.fas.fa-lock
                                 h3
                                   a[href="services-single.html"]
                                     | Safe and Security
@@ -314,7 +236,7 @@
                             .services-block.col-md-4.col-sm-6.col-xs-12
                               .inner-box
                                 .icon-box
-                                  span.icon.flaticon-exchange-1
+                                  i.fas.fa-exchange-alt
                                 h3
                                   a[href="services-single.html"]
                                     | Instant Exchange
@@ -325,7 +247,7 @@
                             .services-block.col-md-4.col-sm-6.col-xs-12
                               .inner-box
                                 .icon-box
-                                  span.icon.flaticon-employee
+                                  i.far.fa-life-ring
                                 h3
                                   a[href="services-single.html"]
                                     | Experts Support
@@ -342,14 +264,14 @@
                                             | How It Works
                                           .separator
                                         div
-                                          iframe[width="100%" height="600" src="https://www.youtube.com/embed/yxgdnygG7ps"]
+                                          iframe[width="100%" height="600" src="https://www.youtube.com/embed/ZJp1f24Catc"]
 
   /about us
 
   section.buy-section[style="background-image:url(images/background/pattern-1.png)"]
     .auto-container
       .row.clearfix
-        .content-column.col-md-6.col-sm-12.col-xs-12
+        .content-column.col-md-12.col-sm-12.col-xs-12
           .inner-column
             .sec-title.light
               h2
@@ -363,52 +285,19 @@
               p
                 | We invite you to sign up for a trading account today. You’ll receive email instructions after you sign-up.
             a.theme-btn.btn-style-two[href="#"]
-              | Buy Now
-        .services-column.col-md-6.col-sm-12.col-xs-12
-          .row.clearfix
-            .services-block-three.col-md-4.col-sm-6.col-xs-12
-              .inner-box
-                .icon-box
-                  span.icon.flaticon-bitcoin-2
-                h3
-                  | Create Wallet
-                .number
-                  | 1
-            .services-block-three.col-md-4.col-sm-6.col-xs-12
-              .inner-box
-                .icon-box
-                  span.icon.flaticon-credit-card
-                h3
-                  | Make Payment
-                .number
-                  | 2
-            .services-block-three.col-md-4.col-sm-12.col-xs-12
-              .inner-box
-                .icon-box
-                  span.icon.flaticon-bitcoin
-                h3
-                  | Buy or Sell
-                .number
-                  | 3
+              | Trade Now
+
 
   /registration section
   section.register-section
                       .auto-container
                         .row.clearfix
-                          .content-column.col-md-8.col-sm-12.col-xs-12
+                          .content-column.col-md-12.col-sm-12.col-xs-12
                             .inner-column
-                              .upper-box
-                                .icon-box
-                                  span.icon.flaticon-message
-                                h2
-                                  | Register today to
-                                  br
-                                  |  receive updates and
-                                  br
-                                  |  be part of us.
+
                               .lower-box
                                 .text
-                                  | Enter your email id here and latest news and updates, your details are very confidential as per our company policy.
+                                  h1 Sign up for Email Updates
                                 .register-form
                                   form[method="post" action="contact.html"]
                                     .row.clearfix
@@ -422,6 +311,3 @@
                                         .form-group
                                           button.theme-btn.btn-style-one[type="submit"]
                                             | Submit Now
-                          .image-column.col-md-4.col-sm-12.col-xs-12
-                            .image
-                              img src='#{image_path 'witherspoon.jpg'}'

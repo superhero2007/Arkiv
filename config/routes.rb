@@ -15,6 +15,8 @@ Peatio::Application.routes.draw do
     mount MailsViewer::Engine => '/mails'
   end
 
+  get '/privacy' => 'welcome#privacy', as: :privacy
+
   get '/shop' => 'welcome#shop', as: :shop
   get '/signin' => 'sessions#new', :as => :signin
   get '/signup' => 'identities#new', :as => :signup
