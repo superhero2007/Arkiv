@@ -179,6 +179,7 @@ header {
       span.locked { color: #777; }
     }
     p { margin: 8px; }
+
   }
 
   i.fa.fa-wifi { color: $text-color; }
@@ -187,6 +188,8 @@ header {
     .dropdown-menu {
       right: -1px !important;
       padding: 0px !important;
+      max-height: 50vh;
+      overflow: auto;
     }
   }
 
