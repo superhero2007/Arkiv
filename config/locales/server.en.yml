@@ -348,6 +348,74 @@ en:
       jol: JOL 
       jpb: JPB 
       jpl: JPL 
+      jpo: JPO
+      jps: JPS
+      jra: JRA 
+      jrb: JRB 
+      jrc: JRC 
+      jrh: JRH 
+      jro: JRO 
+      jrr: JRR 
+      jrt: JRT 
+      jry: JRY 
+      jsa: JSA
+      jse: JSE 
+      jsj: JSJ 
+      jsl: JSL 
+      jsr: JSR 
+      jst: JST 
+      jtb: JTB 
+      jth: JTH 
+      jty: JTY 
+      jwc: JWC 
+      kap: KAP 
+      kbh: KBH 
+      kde: KDE 
+      kea: KEA 
+      keb: KEB 
+      kee: KEE 
+      kel: KEL 
+      kef: KEF 
+      kgf: KGF 
+      kin: KIN 
+      kng: KNG 
+      krg: KRG 
+      kse: KSE 
+      ksp: KSP 
+      kst: KST 
+      kvb: KVB 
+      laa: LAA 
+      lbb: LBB 
+      lbhx: LBHX 
+      lbh: LBH 
+      lbs: LBS 
+      lcg: LCG 
+      lch: LCH 
+      led: LED 
+      leh: LEH 
+      les: LES 
+      lfc: LFC 
+      lfg: LFG 
+      lhi: LHI 
+      lma: LMA 
+      lmh: LMH 
+      lmhh: LMHH 
+      lmhb: LMHB 
+      lsl: LSL 
+      lxc: LXC 
+      mud: MUD 
+      muo: MUO 
+      nap: NAP 
+      ndc: NDC 
+      ndh: NDH 
+      ndg: NDG 
+      ndl: NDL 
+      rrg: RRG 
+      ybb: YBB 
+      ybc: YBC 
+      ybt: YBT 
+      ybx: YBX 
+      ybz: YBZ 
   currency:
     satoshi:
       key: BTC
