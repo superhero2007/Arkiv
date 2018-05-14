@@ -434,13 +434,212 @@ en:
       format: '0,0.0000'
     arkiv:
       key: ABW
-      code: ARKIV shoe
-      name: ARKIV shoe
+      code: Air Bacon Warriors
+      name: Air Bacon Warriors
       format: '0,0.0000'
+    arkiv1:
+      key: AFF
+      code: Air Force Max Fab 5 
+      name: Air Force Max Fab 5
+      format: '0,0.0000'
+    arkiv2:
+      key: AFL 
+      code: Air Force 1 Low BHM 
+      name: Air Force 1 Low BHM
+      format: '0,0.0000'
+    arkiv3:
+      key: AFO 
+      code: Air Force 180 Olympics 
+      name: Air Force 180 Olympics
+      format: '0,0.0000'
+    arkiv4:
+      key: AFX 
+      code: Air Force 1 07 Virgil X MOMA 
+      name: Air Force 1 07 Virgil X MOMA
+      format: '0,0.0000'
+    arkiv5:
+      key: AMB 
+      code: Air Max 95 Beaches or Rio 
+      name: Air Max 95 Beaches or Rio
+      format: '0,0.0000'
+    arkiv6:
+      key: AMG
+      code: Air Max Penny 1 Game Royal 
+      name: Air Max Penny 1 Game Royal
+      format: '0,0.0000'
+    arkiv7:
+      key: AMP
+      code: Air Max Penny 1 Orlando 
+      name: Air Max Penny 1 Orlando
+      format: '0,0.0000'
+    arkiv8:
+      key: AMS
+      code: Air Max 90 Sunset Pack 
+      name: Air Max 90 Sunset Pack
+      format: '0,0.0000'
+    arkiv9:
+      key: APU 
+      code: Air Presto Unholy Cumulus 
+      name: Air Presto Unholy Cumulus
+      format: '0,0.0000'
+    arkiv10:
+      key: APW
+      code: Air Presto Off-White 
+      name: Air Presto Off-White
+      format: '0,0.0000'
+    arkiv11:
+      key: AVB
+      code: Air Vapormax Off-White Black 
+      name: Air Vapormax Off-White Black
+      format: '0,0.0000'
+    arkiv12:
+      key: BGM
+      code: Blazer Geoff McFetridge 
+      name: Blazer Geoff McFetridge
+      format: '0,0.0000'
+    arkiv13:
+      key: FDD
+      code: Foamposite Dr. Doom 
+      name: Foamposite Dr. Doom
+      format: '0,0.0000'
+    arkiv14:
+      key: FDD
+      code: Jordan 13 Altitude 
+      name: Jordan 13 Altitude
+      format: '0,0.0000'
+    arkiv15:
+      key: JAN
+      code: Jordan 4 30th Anniversary Laser 
+      name: Jordan 4 30th Anniversary Laser
+      format: '0,0.0000'
+    arkiv16:
+      key: JAQ 
+      code: Jordan 8 Aqua 
+      name: Jordan 8 Aqua
+      format: '0,0.0000'
+    arkiv17:
+      key: JBB 
+      code: Jordan 8 Bugs Bunny 
+      name: Jordan 8 Bugs Bunny
+      format: '0,0.0000'
+    arkiv18:
+      key: JBC
+      code: Jordan 15 Bred CDP 
+      name: Jordan 15 Bred CDP
+      format: '0,0.0000'
+    arkiv19:
+      key: JBG 
+      code: Jordan 5 Black Grape 
+      name: Jordan 5 Black Grape
+      format: '0,0.0000'
+    arkiv20:
+      key: JBR
+      code: Jordan 13 Bred 
+      name: Jordan 13 Bred
+      format: '0,0.0000'
+    arkiv21:
+      key: JBU
+      code: Jordan 5 Black/University Blue 
+      name: Jordan 5 Black/University Blue
+      format: '0,0.0000'
+    arkiv22:
+      key: JCB 
+      code: Jordan 9 Calvin Bailey 
+      name: Jordan 9 Calvin Bailey
+      format: '0,0.0000'
+    arkiv23:
+      key: JCC 
+      code: Jordan 14 Candy Cane 
+      name: Jordan 14 Candy Cane
+      format: '0,0.0000'
+    arkiv24:
+      key: JCH 
+      code: Jordan 8 Chrome 
+      name: Jordan 8 Chrome
+      format: '0,0.0000'
+    arkiv25:
+      key: JCO 
+      code: Jordan 17 Copper 
+      name: Jordan 17 Copper
+      format: '0,0.0000'
+    arkiv26:
+      key: JCR  
+      code: Jordan 13 Cherry 
+      name: Jordan 13 Cherry
+      format: '0,0.0000'
+    arkiv27:
+      key: JDM  
+      code: Jordan 7 DMP Magic 
+      name: Jordan 7 DMP Magic
+      format: '0,0.0000'
+    arkiv28:
+      key: JFE   
+      code: Jordan 3 Fire Red Jordan 12 Flu Game 
+      name: Jordan 3 Fire Red Jordan 12 Flu Game
+      format: '0,0.0000'
+    arkiv29:
+      key: JFG   
+      code: Jordan 12 Flu Game 
+      name: Jordan 12 Flu Game
+      format: '0,0.0000'
+    arkiv30:
+      key: JFI   
+      code: Jordan 4 Fire Red 
+      name: Jordan 4 Fire Red
+      format: '0,0.0000'
+    arkiv31:
+      key: JFM   
+      code: Jordan 9 Fontay Montana Knicks 
+      name: Jordan 9 Fontay Montana Knicks
+      format: '0,0.0000'
+    arkiv32:
+      key: JFP  
+      code: Jordan 3 Fear Pack 
+      name: Jordan 3 Fear Pack
+      format: '0,0.0000'
+    arkiv33:
+      key: JGQ 
+      code: Jordan Future QS Glow 
+      name: Jordan Future QS Glow
+      format: '0,0.0000'
+    arkiv34:
+      key: JFR  
+      code: Jordan 5 Fire Red 
+      name: Jordan 5 Fire Red
+      format: '0,0.0000'
+    arkiv35:
+      key: JGB  
+      code: Jordan 5 Green Bean 
+      name: Jordan 5 Green Bean
+      format: '0,0.0000'
+    arkiv36:
+      key: JGM   
+      code: Jordan 6 Golden Moments 
+      name: Jordan 6 Golden Moments
+      format: '0,0.0000'
+    arkiv37:
+      key: JGP  
+      code: Jordan 21 Graphite 
+      name: Jordan 21 Graphite
+      format: '0,0.0000'
+    arkiv38:
+      key: JGR 
+      code: Jordan 5 Grape 
+      name: Jordan 5 Grape
+      format: '0,0.0000'
+    arkiv39:
+      key: JHP 
+      code: Jordan 1 Retro High NRG Patent Gold Toe 
+      name: Jordan 1 Retro High NRG Patent Gold Toe
+      format: '0,0.0000'
+    arkiv40:
+      key: JIB 
+      code: Jordan 6 Infrared Black 
+      name: Jordan 6 Infrared Black
     renminbi:
-      key: CNY
-      code: CNY
-      name: Chinese Yuan
+      key: USD
+      code: USD 
+      name: US Dollar
       format: '0,0.00'
     dogecoin:
       key: DOG

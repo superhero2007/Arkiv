@@ -35,280 +35,280 @@
   coin: true
   family: SHOE
 - id: 4
-  key: arkiv
+  key: arkiv1
   name: 'Air Force Max Fab 5'
   code: aff
   symbol: "AFF"
   coin: true
   family: SHOE
 - id: 5
-  key: arkiv
+  key: arkiv2
   name: 'Air Force 1 Low BHM'
   code: afl
   symbol: "AFL"
   coin: true
   family: SHOE
 - id: 6
-  key: arkiv
+  key: arkiv3
   name: 'Air Force 180 Olympics'
   code: afo
   symbol: "AFO"
   coin: true
   family: SHOE
 - id: 7
-  key: arkiv
+  key: arkiv4
   name: 'Air Force 1 07 Virgil X MOMA'
   code: afx
   symbol: "AFX"
   coin: true
   family: SHOE
 - id: 8
-  key: arkiv
+  key: arkiv5
   name: 'Air Max 95 Beaches or Rio'
   code: amb
   symbol: "AMB"
   coin: true
   family: SHOE
 - id: 9
-  key: arkiv
+  key: arkiv6
   name: 'Air Max Penny 1 Game Royal'
   code: amg
   symbol: "AMG"
   coin: true
   family: SHOE
 - id: 10
-  key: arkiv
+  key: arkiv7
   name: 'Air Max Penny 1 Orlando'
   code: amp
   symbol: "AMP"
   coin: true
   family: SHOE
 - id: 11
-  key: arkiv
+  key: arkiv8
   name: 'Air Max 90 Sunset Pack'
   code: ams
   symbol: "AMS"
   coin: true
   family: SHOE
 - id: 12
-  key: arkiv
+  key: arkiv9
   name: 'Air Presto Unholy Cumulus'
   code: apu
   symbol: "APU"
   coin: true
   family: SHOE
 - id: 13
-  key: arkiv
+  key: arkiv10
   name: 'Air Presto Off-White'
   code: apw
   symbol: "APW"
   coin: true
   family: SHOE
 - id: 14
-  key: arkiv
+  key: arkiv11
   name: 'Air Vapormax Off-White Black'
   code: avb
   symbol: "AVB"
   coin: true
   family: SHOE
 - id: 15
-  key: arkiv
+  key: arkiv12
   name: 'Blazer Geoff McFetridge'
   code: bgm
   symbol: "BGM"
   coin: true
   family: SHOE
 - id: 16
-  key: arkiv
+  key: arkiv13
   name: 'Foamposite Dr. Doom'
   code: fdd
   symbol: "FDD"
   coin: true
   family: SHOE
 - id: 17
-  key: arkiv
+  key: arkiv14
   name: 'Jordan 13 Altitude'
   code: jal
   symbol: "JAL"
   coin: true
   family: SHOE
 - id: 18
-  key: arkiv
+  key: arkiv15
   name: 'Jordan 4 30th Anniversary Laser'
   code: jan 
   symbol: "JAN"
   coin: true
   family: SHOE
 - id: 19
-  key: arkiv
+  key: arkiv16
   name: 'Jordan 8 Aqua'
   code: jaq
   symbol: "JAQ"
   coin: true
   family: SHOE
 - id: 20
-  key: arkiv
+  key: arkiv17
   name: 'Jordan 8 Bugs Bunny'
   code: jbb
   symbol: "JBB"
   coin: true
   family: SHOE
 - id: 21
-  key: arkiv
+  key: arkiv18
   name: 'Jordan 15 Bred CDP'
   code: jbc
   symbol: "JBC"
   coin: true
   family: SHOE
 - id: 22
-  key: arkiv
+  key: arkiv19
   name: 'Jordan 5 Black Grape'
   code: jbg
   symbol: "JBG"
   coin: true
   family: SHOE
 - id: 23
-  key: arkiv
+  key: arkiv20
   name: 'Jordan 13 Bred'
   code: jbr
   symbol: "JBR"
   coin: true
   family: SHOE
 - id: 24
-  key: arkiv
+  key: arkiv21
   name: 'Jordan 5 Black/University Blue'
   code: jbu
   symbol: "JBU"
   coin: true
   family: SHOE  
 - id: 25
-  key: arkiv
+  key: arkiv22
   name: 'Jordan 9 Calvin Bailey'
   code: jcb
   symbol: "JCB"
   coin: true
   family: SHOE  
 - id: 26
-  key: arkiv
+  key: arkiv23
   name: 'Jordan 14 Candy Cane'
   code: jcc
   symbol: "JCC"
   coin: true
   family: SHOE
 - id: 27
-  key: arkiv
+  key: arkiv24
   name: 'Jordan 8 Chrome'
   code: jch
   symbol: "JCH"
   coin: true
   family: SHOE  
 - id: 28
-  key: arkiv
+  key: arkiv25
   name: 'Jordan 17 Copper'
   code: jco
   symbol: "JCO"
   coin: true
   family: SHOE  
 - id: 29
-  key: arkiv
+  key: arkiv26
   name: 'Jordan 13 Cherry'
   code: jcr
   symbol: "JCR"
   coin: true
   family: SHOE 
 - id: 30
-  key: arkiv
+  key: arkiv27
   name: 'Jordan 7 DMP Magic'
   code: jdm
   symbol: "JDM"
   coin: true
   family: SHOE
 - id: 31
-  key: arkiv
+  key: arkiv28
   name: 'Jordan 3 Fire Red'
   code: jfe
   symbol: "JFE"
   coin: true
   family: SHOE
 - id: 32
-  key: arkiv
+  key: arkiv29
   name: 'Jordan 12 Flu Game'
   code: jfg
   symbol: "JFG"
   coin: true
   family: SHOE
 - id: 33
-  key: arkiv
+  key: arkiv30
   name: 'Jordan 4 Fire Red'
   code: jfi
   symbol: "JFI"
   coin: true
   family: SHOE
 - id: 34
-  key: arkiv
+  key: arkiv31
   name: 'Jordan 9 Fontay Montana Knicks'
   code: jfm
   symbol: "JFM"
   coin: true
   family: SHOE
 - id: 35
-  key: arkiv
+  key: arkiv32
   name: 'Jordan 3 Fear Pack'
   code: jfp
   symbol: "JFP"
   coin: true
   family: SHOE
 - id: 36
-  key: arkiv
+  key: arkiv33
   name: 'Jordan Future QS Glow'
   code: jgq
   symbol: "JGQ"
   coin: true
   family: SHOE
 - id: 37
-  key: arkiv
+  key: arkiv34
   name: 'Jordan 5 Fire Red'
   code: jfr
   symbol: "JFR"
   coin: true
   family: SHOE
 - id: 38
-  key: arkiv
+  key: arkiv35
   name: 'Jordan 5 Green Bean'
   code: jgb 
   symbol: "JGB"
   coin: true
   family: SHOE
 - id: 39
-  key: arkiv
+  key: arkiv36
   name: 'Jordan 6 Golden Moments'
   code: jgm
   symbol: "JGM"
   coin: true
   family: SHOE
 - id: 40
-  key: arkiv
+  key: arkiv37
   name: 'Jordan 21 Graphite'
   code: jgp
   symbol: "JGP"
   coin: true
   family: SHOE
 - id: 41
-  key: arkiv
+  key: arkiv38
   name: 'Jordan 5 Grape'
   code: jgr
   symbol: "JGR"
   coin: true
   family: SHOE
 - id: 42
-  key: arkiv
+  key: arkiv39
   name: 'Jordan 1 Retro High NRG Patent Gold Toe'
   code: jhp
   symbol: "JHP"
   coin: true
   family: SHOE
 - id: 43
-  key: arkiv
+  key: arkiv40
   name: 'Jordan 6 Infrared Black'
   code: jib
   symbol: "JIB"
