@@ -1,6 +1,6 @@
 - id: abwusd
   code: 3
-  name: Air Bacon Warriors     # default name
+  name: ABW/USD #Air Bacon Warriors     # default name
   base_unit: abw 
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -10,7 +10,7 @@
   #visible: false     # default to true
 - id: affusd
   code: 6
-  name: Air Force Max Fab 5      # default name
+  name: AAF/USD #Air Force Max Fab 5      # default name
   base_unit: aff
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -18,7 +18,7 @@
   ask: {fee: 0, currency: aff, fixed: 0}
 - id: aflusd
   code: 7
-  name: Air Force 1 Low BHM      # default name
+  name: AFL/USD #Air Force 1 Low BHM      # default name
   base_unit: afl
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -26,7 +26,7 @@
   ask: {fee: 0, currency: afl, fixed: 0}
 - id: afousd
   code: 8
-  name: Air Force 180 Olympics      # default name
+  name: AFO/USD #Air Force 180 Olympics      # default name
   base_unit: afo
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -34,7 +34,7 @@
   ask: {fee: 0, currency: afo, fixed: 0}
 - id: afxusd
   code: 9
-  name: Air Force 1 07 Virgil X MOMA      # default name
+  name: AFX/USD #Air Force 1 07 Virgil X MOMA      # default name
   base_unit: afx
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -42,15 +42,15 @@
   ask: {fee: 0, currency: afx, fixed: 0}
 - id: ambusd
   code: 10
-  name: Air Max 95 Beaches or Rio      # default name
-  base_unit: afx
+  name: AMB/USD #Air Max 95 Beaches or Rio      # default name
+  base_unit: amb 
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: amb, fixed: 0}
 - id: amgusd
   code: 10
-  name: Air Max Penny 1 Game Royal      # default name
+  name: AMG/USD #Air Max Penny 1 Game Royal      # default name
   base_unit: amg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -58,7 +58,7 @@
   ask: {fee: 0, currency: amg, fixed: 0}
 - id: afpusd
   code: 10
-  name: Air Max Penny 1 Orlando      # default name
+  name: AFP/USD #Air Max Penny 1 Orlando      # default name
   base_unit: afp
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -66,7 +66,7 @@
   ask: {fee: 0, currency: afp, fixed: 0}
 - id: amsusd
   code: 10
-  name: Air Max 90 Sunset Pack      # default name
+  name: AMS/USD #Air Max 90 Sunset Pack      # default name
   base_unit: ams
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -74,7 +74,7 @@
   ask: {fee: 0, currency: ams, fixed: 0}
 - id: apuusd
   code: 10
-  name: Air Presto Unholy Cumulus      # default name
+  name: APU/USD #Air Presto Unholy Cumulus      # default name
   base_unit: apu
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -82,7 +82,7 @@
   ask: {fee: 0, currency: apu, fixed: 0}
 - id: apwusd
   code: 10
-  name: Air Presto Off-White      # default name
+  name: APW/USD #Air Presto Off-White      # default name
   base_unit: apw
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -90,7 +90,7 @@
   ask: {fee: 0, currency: apw, fixed: 0}
 - id: avbusd
   code: 10
-  name: Air Vapormax Off-White Black      # default name
+  name: AVB/USD #Air Vapormax Off-White Black      # default name
   base_unit: avb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -98,7 +98,7 @@
   ask: {fee: 0, currency: avb, fixed: 0}
 - id: bgmusd
   code: 10
-  name: Air Vapormax Off-White Black      # default name
+  name: BGM/USD #Air Vapormax Off-White Black      # default name
   base_unit: bgm
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -106,7 +106,7 @@
   ask: {fee: 0, currency: bgm, fixed: 0}
 - id: fddusd
   code: 10
-  name: Foamposite Dr. Doom      # default name
+  name: FDD/USD #Foamposite Dr. Doom      # default name
   base_unit: fdd
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -114,7 +114,7 @@
   ask: {fee: 0, currency: fdd, fixed: 0}
 - id: jalusd
   code: 10
-  name: Jordan 13 Altitude      # default name
+  name: JAL/USD #Jordan 13 Altitude      # default name
   base_unit: jal
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -122,7 +122,7 @@
   ask: {fee: 0, currency: jal, fixed: 0}
 - id: janusd
   code: 10
-  name: Jordan 0 30th Anniversary Laser      # default name
+  name: JAN/USD #Jordan 0 30th Anniversary Laser      # default name
   base_unit: jan
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -130,7 +130,7 @@
   ask: {fee: 0, currency: jan, fixed: 0}
 - id: jaqusd
   code: 10
-  name: Jordan 0 30th Anniversary Laser      # default name
+  name: JAQ/USD #Jordan 0 30th Anniversary Laser      # default name
   base_unit: jaq
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -138,7 +138,7 @@
   ask: {fee: 0, currency: jaq, fixed: 0}
 - id: jbbusd
   code: 10
-  name: Jordan 8 Bugs Bunny      # default name
+  name: JBB/USD #Jordan 8 Bugs Bunny      # default name
   base_unit: jbb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -146,7 +146,7 @@
   ask: {fee: 0, currency: jbb, fixed: 0}
 - id: jbcusd
   code: 10
-  name: Jordan 15 Bred CDP      # default name
+  name: JBC/USD #Jordan 15 Bred CDP      # default name
   base_unit: jbc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -154,7 +154,7 @@
   ask: {fee: 0, currency: jbc, fixed: 0}
 - id: jbgusd
   code: 10
-  name: Jordan 5 Black Grape      # default name
+  name: JBG/USD #Jordan 5 Black Grape      # default name
   base_unit: jbg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -162,7 +162,7 @@
   ask: {fee: 0, currency: jbg, fixed: 0}
 - id: jbrusd
   code: 10
-  name: Jordan 5 Black Grape      # default name
+  name: JBR/USD #Jordan 5 Black Grape      # default name
   base_unit: jbr
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -170,7 +170,7 @@
   ask: {fee: 0, currency: jbr, fixed: 0}
 - id: jbuusd
   code: 10
-  name: Jordan 5 Black/University Blue      # default name
+  name: JBU/USD #Jordan 5 Black/University Blue      # default name
   base_unit: jbu
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -178,7 +178,7 @@
   ask: {fee: 0, currency: jbu, fixed: 0}
 - id: jcbusd
   code: 10
-  name: Jordan 9 Calvin Bailey      # default name
+  name: JCB/USD #Jordan 9 Calvin Bailey      # default name
   base_unit: jcb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -186,7 +186,7 @@
   ask: {fee: 0, currency: jcb, fixed: 0}
 - id: jccusd
   code: 10
-  name: Jordan 10 Candy Cane      # default name
+  name: JCC/USD #Jordan 10 Candy Cane      # default name
   base_unit: jcc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -194,7 +194,7 @@
   ask: {fee: 0, currency: jcc, fixed: 0}
 - id: jchusd
   code: 10
-  name: Jordan 8 Chrome      # default name
+  name: JCH/USD #Jordan 8 Chrome      # default name
   base_unit: jch
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -202,7 +202,7 @@
   ask: {fee: 0, currency: jch, fixed: 0}
 - id: jcousd
   code: 10
-  name: Jordan 17 Copper      # default name
+  name: JCO/USD #Jordan 17 Copper      # default name
   base_unit: jco
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -210,7 +210,7 @@
   ask: {fee: 0, currency: jco, fixed: 0}
 - id: jcrusd
   code: 10
-  name: Jordan 13 Cherry      # default name
+  name: JCR/USD #Jordan 13 Cherry      # default name
   base_unit: jcr
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -218,7 +218,7 @@
   ask: {fee: 0, currency: jcr, fixed: 0}
 - id: jdmusd
   code: 10
-  name: Jordan 7 DMP Magic      # default name
+  name: JDM/USD #Jordan 7 DMP Magic      # default name
   base_unit: jdm
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
