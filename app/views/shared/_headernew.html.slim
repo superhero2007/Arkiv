@@ -14,19 +14,36 @@ header.main-header
                   | Sell BTC:
                 |  $2465
               li.email
-                a[href="#"]
+                a[href="mailto:help@arkivoffcial.com"]
                   i.fas.fa-envelope
                   | help@arkivoffcial.com
           .top-right.clearfix
             ul.clearfix
-              li
-                a href="#{signin_path}"
-                  i.fas.fa-sign-in-alt
-                  | Sign In
-              li
-                a href="#{signup_path}"
-                  i.fas.fa-file
-                  | Register
+              - unless current_user
+                li
+                  a href="#{signin_path}"
+                    i.fas.fa-sign-in-alt
+                    | Sign In
+              - else
+                li
+                  a href="#{settings_path}"
+                    | Settings
+
+                li
+                  a href="#{funds_path}"
+                    | Portfolio
+
+
+              - unless current_user
+                li
+                  a href="#{signup_path}"
+                    i.fas.fa-file
+                    | Register
+              - else
+                li
+                  a href="#{signout_path}"
+                    i.fas.fa-sign-in-alt
+                    | Sign Out
 
   .header-upper
     .auto-container.clearfix
@@ -47,14 +64,14 @@ header.main-header
                 li.current
                   a[href="/"]
                     | Home
-                li.dropdown
-                  a[href="#"]
-                    | About us
-
 
                 li
-                  a[href="/"]
+                  a[href="/#how_it_work"]
                     | How it Works
+                li.dropdown
+                  a[href="/#about"]
+                      | About us
+
 
                 li.dropdown
                   a[href="/shop"]
