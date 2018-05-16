@@ -226,7 +226,7 @@
   ask: {fee: 0, currency: jdm, fixed: 0}
 - id: jfeusd
   code: 10
-  name: Jordan 3 Fire Red      # default name
+  name: JFE/USD #Jordan 3 Fire Red      # default name
   base_unit: jfe
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -234,7 +234,7 @@
   ask: {fee: 0, currency: jfe, fixed: 0}
 - id: jfgusd
   code: 10
-  name: Jordan 12 Flu Game      # default name
+  name: JFG/USD #Jordan 12 Flu Game      # default name
   base_unit: jfg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -242,7 +242,7 @@
   ask: {fee: 0, currency: jfg, fixed: 0}
 - id: jfiusd
   code: 10
-  name: Jordan 0 Fire Red     # default name
+  name: JFI/USD #Jordan 0 Fire Red     # default name
   base_unit: jfi
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -250,7 +250,7 @@
   ask: {fee: 0, currency: jfi, fixed: 0}
 - id: jfmusd
   code: 10
-  name: Jordan 9 Fontay Montana Knicks     # default name
+  name: JFM/USD #Jordan 9 Fontay Montana Knicks     # default name
   base_unit: jfm
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -258,7 +258,7 @@
   ask: {fee: 0, currency: jfm, fixed: 0}
 - id: jfpusd
   code: 10
-  name: Jordan 9 Fontay Montana Knicks     # default name
+  name: JFP/USD #Jordan 9 Fontay Montana Knicks     # default name
   base_unit: jfp
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -266,7 +266,7 @@
   ask: {fee: 0, currency: jfp, fixed: 0}
 - id: jgqusd
   code: 10
-  name: Jordan Future QS Glow     # default name
+  name: JGQ/USD #Jordan Future QS Glow     # default name
   base_unit: jgq
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -274,7 +274,7 @@
   ask: {fee: 0, currency: jgq, fixed: 0}
 - id: jfrusd
   code: 10
-  name: Jordan 5 Fire Red     # default name
+  name: JFR/USD #Jordan 5 Fire Red     # default name
   base_unit: jfr
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -282,7 +282,7 @@
   ask: {fee: 0, currency: jfr, fixed: 0}
 - id: jgbusd
   code: 10
-  name: Jordan 5 Green Bean     # default name
+  name: JGB/USD #Jordan 5 Green Bean     # default name
   base_unit: jgb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -290,7 +290,7 @@
   ask: {fee: 0, currency: jgb, fixed: 0}
 - id: jgmusd
   code: 10
-  name: Jordan 6 Golden Moments     # default name
+  name: JGM/USD #Jordan 6 Golden Moments     # default name
   base_unit: jgm
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -298,7 +298,7 @@
   ask: {fee: 0, currency: jgm, fixed: 0}
 - id: jgpusd
   code: 10
-  name: Jordan 21 Graphite     # default name
+  name: JGP/USD #Jordan 21 Graphite     # default name
   base_unit: jgp
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -306,7 +306,7 @@
   ask: {fee: 0, currency: jgp, fixed: 0}
 - id: jgrusd
   code: 10
-  name: Jordan 5 Grape     # default name
+  name: JGR/USD #Jordan 5 Grape     # default name
   base_unit: jgr
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -314,7 +314,7 @@
   ask: {fee: 0, currency: jgr, fixed: 0}
 - id: jhpusd
   code: 10
-  name: Jordan 1 Retro High NRG Patent Gold Toe     # default name
+  name: JHP/USD #Jordan 1 Retro High NRG Patent Gold Toe     # default name
   base_unit: jhp
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -322,7 +322,7 @@
   ask: {fee: 0, currency: jhp, fixed: 0}
 - id: jibusd
   code: 10
-  name: Jordan 6 Infrared Black     # default name
+  name: JIB/USD #Jordan 6 Infrared Black     # default name
   base_unit: jib
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -330,7 +330,7 @@
   ask: {fee: 0, currency: jib, fixed: 0}
 - id: jffusd
   code: 10
-  name: Jordan 7 J2K Filbert     # default name
+  name: JFF/USD #Jordan 7 J2K Filbert     # default name
   base_unit: jff
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -338,15 +338,15 @@
   ask: {fee: 0, currency: jff, fixed: 0}
 - id: jlsusd
   code: 10
-  name: Jordan 3 Retro JTH Superbowl     # default name
+  name: JLS/USD #Jordan 3 Retro JTH Superbowl     # default name
   base_unit: jls
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jls, fixed: 0}
-- id: jlausd
+- id: jlausd #jlausd
   code: 10
-  name: Jordan 5 Laney     # default name
+  name: JLA/USD #Jordan 5 Laney     # default name
   base_unit: jla
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -354,7 +354,7 @@
   ask: {fee: 0, currency: jla, fixed: 0}
 - id: jlyusd
   code: 10
-  name: Jordan 10 Laney     # default name
+  name: JLY/USD #Jordan 10 Laney     # default name
   base_unit: jly
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -362,7 +362,7 @@
   ask: {fee: 0, currency: jly, fixed: 0}
 - id: jmjusd
   code: 10
-  name: Jordan 9 Motorboat Jones     # default name
+  name: JMJ/USD #Jordan 9 Motorboat Jones     # default name
   base_unit: jmj
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -370,7 +370,7 @@
   ask: {fee: 0, currency: jmj, fixed: 0}
 - id: jngusd
   code: 10
-  name: Jordan 13 Neutral Grey     # default name
+  name: JNG/USD #Jordan 13 Neutral Grey     # default name
   base_unit: jng
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -378,7 +378,7 @@
   ask: {fee: 0, currency: jng, fixed: 0}
 - id: jogusd
   code: 10
-  name: Jordan 20 OG Quickstrike     # default name
+  name: JOG/USD #Jordan 20 OG Quickstrike     # default name
   base_unit: jog
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -386,7 +386,7 @@
   ask: {fee: 0, currency: jog, fixed: 0}
 - id: jolusd
   code: 10
-  name: Jordan 6 Olympic London     # default name
+  name: JOL/USD #Jordan 6 Olympic London     # default name
   base_unit: jol
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -394,7 +394,7 @@
   ask: {fee: 0, currency: jol, fixed: 0}
 - id: jpbusd
   code: 10
-  name: Jordan 9 Photo Blue     # default name
+  name: JPB/USD #Jordan 9 Photo Blue     # default name
   base_unit: jpb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -402,7 +402,7 @@
   ask: {fee: 0, currency: jpb, fixed: 0}
 - id: jplusd
   code: 10
-  name: Jordan 12 Playoffs     # default name
+  name: JPL/USD #Jordan 12 Playoffs     # default name
   base_unit: jpl
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -410,7 +410,7 @@
   ask: {fee: 0, currency: jpl, fixed: 0}
 - id: jpousd
   code: 10
-  name: Jordan 9 Powder     # default name
+  name: JPO/USD #Jordan 9 Powder     # default name
   base_unit: jpo
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -418,7 +418,7 @@
   ask: {fee: 0, currency: jpo, fixed: 0}
 - id: jpsusd
   code: 10
-  name: Jordan 8 Playoffs     # default name
+  name: JPS/USD #Jordan 8 Playoffs     # default name
   base_unit: jps
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -426,7 +426,7 @@
   ask: {fee: 0, currency: jps, fixed: 0}
 - id: jrausd
   code: 10
-  name: Jordan 7 Raptors     # default name
+  name: JRA/USD #Jordan 7 Raptors     # default name
   base_unit: jra
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -434,7 +434,7 @@
   ask: {fee: 0, currency: jra, fixed: 0}
 - id: jrbusd
   code: 10
-  name: Jordan 3 Retro Black Cement    # default name
+  name: JRB/USD #Jordan 3 Retro Black Cement    # default name
   base_unit: jrb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -442,7 +442,7 @@
   ask: {fee: 0, currency: jrb, fixed: 0}
 - id: jrcusd
   code: 10
-  name: Jordan 2 White/Red CDP    # default name
+  name: JRC/USD #Jordan 2 White/Red CDP    # default name
   base_unit: jrc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -450,7 +450,7 @@
   ask: {fee: 0, currency: jrc, fixed: 0}
 - id: jrhusd
   code: 10
-  name: Jordan 3 Retro Tinker Hatfield    # default name
+  name: JRH/USD #Jordan 3 Retro Tinker Hatfield    # default name
   base_unit: jrh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -458,7 +458,7 @@
   ask: {fee: 0, currency: jrh, fixed: 0}
 - id: jrousd
   code: 10
-  name: Jordan 1 Retro High Off-White Chicago    # default name
+  name: JRO/USD #Jordan 1 Retro High Off-White Chicago    # default name
   base_unit: jro
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -466,7 +466,7 @@
   ask: {fee: 0, currency: jro, fixed: 0}
 - id: jrrusd
   code: 10
-  name: Jordan 1 Retro Royal 2017   # default name
+  name: JRR/USD #Jordan 1 Retro Royal 2017   # default name
   base_unit: jrr
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -474,7 +474,7 @@
   ask: {fee: 0, currency: jrr, fixed: 0}
 - id: jrtusd
   code: 10
-  name: Jordan 5 Fire Red Black Tongue   # default name
+  name: JRT/USD #Jordan 5 Fire Red Black Tongue   # default name
   base_unit: jrt
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -482,7 +482,7 @@
   ask: {fee: 0, currency: jrt, fixed: 0}
 - id: jryusd
   code: 10
-  name: Jordan 5 Retro Tokyo T23   # default name
+  name: JRY/USD #Jordan 5 Retro Tokyo T23   # default name
   base_unit: jry
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -490,7 +490,7 @@
   ask: {fee: 0, currency: jry, fixed: 0}
 - id: jsausd
   code: 10
-  name: Jordan 9 Silver Anniversary  # default name
+  name: JSA/USD #Jordan 9 Silver Anniversary  # default name
   base_unit: jsa
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -498,7 +498,7 @@
   ask: {fee: 0, currency: jsa, fixed: 0}
 - id: jseusd
   code: 10
-  name: Jordan 5 Stealth  # default name
+  name: JSE/USD #Jordan 5 Stealth  # default name
   base_unit: jse
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -506,7 +506,7 @@
   ask: {fee: 0, currency: jse, fixed: 0}
 - id: jsjusd
   code: 10
-  name: Jordan 9 Slim Jenkins # default name
+  name: JSJ/USD #Jordan 9 Slim Jenkins # default name
   base_unit: jsj
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -514,7 +514,7 @@
   ask: {fee: 0, currency: jsj, fixed: 0}
 - id: jslusd
   code: 10
-  name: Jordan 20 Stealth # default name
+  name: JSL/USD #Jordan 20 Stealth # default name
   base_unit: jsl
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -522,7 +522,7 @@
   ask: {fee: 0, currency: jsl, fixed: 0}
 - id: jsrusd
   code: 10
-  name: Jordan 18 White/Sport Royal # default name
+  name: JSR/USD #Jordan 18 White/Sport Royal # default name
   base_unit: jsr
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -530,7 +530,7 @@
   ask: {fee: 0, currency: jsr, fixed: 0}
 - id: jstusd
   code: 10
-  name: Jordan 3 Stealth # default name
+  name: JST/USD #Jordan 3 Stealth # default name
   base_unit: jst
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -538,7 +538,7 @@
   ask: {fee: 0, currency: jst, fixed: 0}
 - id: jtbusd
   code: 10
-  name: Jordan 4 Toro Bravo # default name
+  name: JTB/USD #Jordan 4 Toro Bravo # default name
   base_unit: jtb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -546,7 +546,7 @@
   ask: {fee: 0, currency: jtb, fixed: 0}
 - id: jthusd
   code: 10
-  name: Jordan 4 Thunder # default name
+  name: JTH/USD #Jordan 4 Thunder # default name
   base_unit: jth
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -554,7 +554,7 @@
   ask: {fee: 0, currency: jth, fixed: 0}
 - id: jtyusd
   code: 10
-  name: Jordan 4 Tour Yellow/Rare Air # default name
+  name: JTY/USD #Jordan 4 Tour Yellow/Rare Air # default name
   base_unit: jty
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -562,7 +562,7 @@
   ask: {fee: 0, currency: jty, fixed: 0}
 - id: jwcusd
   code: 10
-  name: Jordan 4 White Cement # default name
+  name: JWC/USD #Jordan 4 White Cement # default name
   base_unit: jwc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -570,7 +570,7 @@
   ask: {fee: 0, currency: jwc, fixed: 0}
 - id: kapusd
   code: 10
-  name: KD 7 Aunt Pearl # default name
+  name: KAP/USD #KD 7 Aunt Pearl # default name
   base_unit: kap
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -578,7 +578,7 @@
   ask: {fee: 0, currency: kap, fixed: 0}
 - id: kbhusd
   code: 10
-  name: KD 5 BHM # default name
+  name: KBH/USD #KD 5 BHM # default name
   base_unit: kbh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -586,7 +586,7 @@
   ask: {fee: 0, currency: kbh, fixed: 0}
 - id: kdeusd
   code: 10
-  name: KD 4 Easter # default name
+  name: KDE/USD #KD 4 Easter # default name
   base_unit: kde
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -594,7 +594,7 @@
   ask: {fee: 0, currency: kde, fixed: 0}
 - id: keausd
   code: 10
-  name: Kobe 11 Elite All Star # default name
+  name: KEA/USD #Kobe 11 Elite All Star # default name
   base_unit: kea
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -602,7 +602,7 @@
   ask: {fee: 0, currency: kea, fixed: 0}
 - id: kebusd
   code: 10
-  name: Kobe 9 Elite BHM # default name
+  name: KEB/USD #Kobe 9 Elite BHM # default name
   base_unit: keb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -610,7 +610,7 @@
   ask: {fee: 0, currency: keb, fixed: 0}
 - id: keeusd
   code: 10
-  name: KD 5 Elite EYBL # default name
+  name: KEE/USD #KD 5 Elite EYBL # default name
   base_unit: kee
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -618,7 +618,7 @@
   ask: {fee: 0, currency: kee, fixed: 0}
 - id: kelusd
   code: 10
-  name: Kobe 11 Elite 4KB # default name
+  name: KEL/USD #Kobe 11 Elite 4KB # default name
   base_unit: kel
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -626,7 +626,7 @@
   ask: {fee: 0, currency: kel, fixed: 0}
 - id: kefusd
   code: 10
-  name: KD 7 EXT Floral # default name
+  name: KEF/USD #KD 7 EXT Floral # default name
   base_unit: kef
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -634,7 +634,7 @@
   ask: {fee: 0, currency: kef, fixed: 0}
 - id: kgfusd
   code: 10
-  name: Kobe 9 Gold Fundamentals # default name
+  name: KFG/USD #Kobe 9 Gold Fundamentals # default name
   base_unit: kgf
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -642,7 +642,7 @@
   ask: {fee: 0, currency: kgf, fixed: 0}
 - id: kinusd
   code: 10
-  name: Kyrie 2 Inferno # default name
+  name: KIN/USD #Kyrie 2 Inferno # default name
   base_unit: kin
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -650,7 +650,7 @@
   ask: {fee: 0, currency: kin, fixed: 0}
 - id: kngusd
   code: 10
-  name: Kobe 9 NOLA Gumbo League Maestro # default name
+  name: KNG/USD #Kobe 9 NOLA Gumbo League Maestro # default name
   base_unit: kng
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -658,7 +658,7 @@
   ask: {fee: 0, currency: kng, fixed: 0}
 - id: krgusd
   code: 10
-  name: KD 4 Rogue Green UNDFTD # default name
+  name: KRG/USD #KD 4 Rogue Green UNDFTD # default name
   base_unit: krg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -666,7 +666,7 @@
   ask: {fee: 0, currency: krg, fixed: 0}
 - id: ksgusd
   code: 10
-  name: KD 5 All Star Area 72 Extraterrestrial # default name
+  name: KSG/USD #KD 5 All Star Area 72 Extraterrestrial # default name
   base_unit: ksg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -674,7 +674,7 @@
   ask: {fee: 0, currency: ksg, fixed: 0}
 - id: kspusd
   code: 10
-  name: KD 6 Supreme DC Preheat # default name
+  name: KSP/USD #KD 6 Supreme DC Preheat # default name
   base_unit: ksp
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -682,7 +682,7 @@
   ask: {fee: 0, currency: ksp, fixed: 0}
 - id: kstusd
   code: 10
-  name: KD 4 Scoring Title # default name
+  name: KST/USD #KD 4 Scoring Title # default name
   base_unit: kst
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -690,7 +690,7 @@
   ask: {fee: 0, currency: kst, fixed: 0}
 - id: kvbusd
   code: 10
-  name: Kobe 8 Venice Beach # default name
+  name: KVB/USD #Kobe 8 Venice Beach # default name
   base_unit: kvb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -698,7 +698,7 @@
   ask: {fee: 0, currency: kvb, fixed: 0}
 - id: laausd
   code: 10
-  name: Lebron X Allstar Area 72 # default name
+  name: LAA/USD #Lebron X Allstar Area 72 # default name
   base_unit: laa
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -706,7 +706,7 @@
   ask: {fee: 0, currency: laa, fixed: 0}
 - id: lbbusd
   code: 10
-  name: Lebron 9 Big Bang AS # default name
+  name: LBB/USD #Lebron 9 Big Bang AS # default name
   base_unit: lbb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -714,7 +714,7 @@
   ask: {fee: 0, currency: lbb, fixed: 0}
 - id: lbhxusd
   code: 10
-  name: Lebron 9 Big Bang AS # default name
+  name: LBHX/USD #Lebron 9 Big Bang AS # default name
   base_unit: lbhx
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -722,7 +722,7 @@
   ask: {fee: 0, currency: lbhx, fixed: 0}
 - id: lbnusd
   code: 10
-  name: Lebron 11 BHM # default name
+  name: LBN/USD #Lebron 11 BHM # default name
   base_unit: lbn
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -730,7 +730,7 @@
   ask: {fee: 0, currency: lbn, fixed: 0}
 - id: lbsusd
   code: 10
-  name: Lebron X EXT Black Suede # default name
+  name: LBS/USD #Lebron X EXT Black Suede # default name
   base_unit: lbs
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -738,7 +738,7 @@
   ask: {fee: 0, currency: lbs, fixed: 0}
 - id: lcgusd
   code: 10
-  name: Lebron 9 Cool Grey # default name
+  name: LCG/USD #Lebron 9 Cool Grey # default name
   base_unit: lcg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -746,7 +746,7 @@
   ask: {fee: 0, currency: lcg, fixed: 0}
 - id: lchusd
   code: 10
-  name: Lebron 9 Christmas # default name
+  name: LCH/USD #Lebron 9 Christmas # default name
   base_unit: lch
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -754,7 +754,7 @@
   ask: {fee: 0, currency: lch, fixed: 0}
 - id: ledusd
   code: 10
-  name: Lebron X EXT Denim # default name
+  name: LED/USD #Lebron X EXT Denim # default name
   base_unit: led
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -762,7 +762,7 @@
   ask: {fee: 0, currency: led, fixed: 0}
 - id: lehusd
   code: 10
-  name: Lebron X EXT Hazelnut # default name
+  name: LEH/USD #Lebron X EXT Hazelnut # default name
   base_unit: leh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -770,7 +770,7 @@
   ask: {fee: 0, currency: leh, fixed: 0}
 - id: lesusd
   code: 10
-  name: Kobe 9 EXT Snakeskin # default name
+  name: LES/USD #Kobe 9 EXT Snakeskin # default name
   base_unit: les
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -778,7 +778,7 @@
   ask: {fee: 0, currency: les, fixed: 0}
 - id: lfcusd
   code: 10
-  name: Lunar Flyknit Chukka Wolf Grey/Red # default name
+  name: LFC/USD #Lunar Flyknit Chukka Wolf Grey/Red # default name
   base_unit: lfc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -786,7 +786,7 @@
   ask: {fee: 0, currency: lfc, fixed: 0}
 - id: lfgusd
   code: 10
-  name: Lunar Flyknit Chukka Gold Trophy # default name
+  name: LFG/USD #Lunar Flyknit Chukka Gold Trophy # default name
   base_unit: lfg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -794,7 +794,7 @@
   ask: {fee: 0, currency: lfg, fixed: 0}
 - id: lfiusd
   code: 10
-  name: Lunar Flyknit Chukka Gold Trophy # default name
+  name: LFI/USD #Lunar Flyknit Chukka Gold Trophy # default name
   base_unit: lfi
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -802,7 +802,7 @@
   ask: {fee: 0, currency: lfi, fixed: 0}
 - id: lmausd
   code: 10
-  name: Lebron 9 Mango # default name
+  name: LMA/USD #Lebron 9 Mango # default name
   base_unit: lma
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -810,7 +810,7 @@
   ask: {fee: 0, currency: lma, fixed: 0}
 - id: lmhusd
   code: 10
-  name: Lebron 9 Miami Hurricanes # default name
+  name: LMH/USD #Lebron 9 Miami Hurricanes # default name
   base_unit: lmh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -818,7 +818,7 @@
   ask: {fee: 0, currency: lmh, fixed: 0}
 - id: lmhhusd
   code: 10
-  name: Lebron 9 Miami Heat Home # default name
+  name: LMHH/USD #Lebron 9 Miami Heat Home # default name
   base_unit: lmhh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -826,7 +826,7 @@
   ask: {fee: 0, currency: lmhh, fixed: 0}
 - id: lmhbusd
   code: 10
-  name: Lebron 8 South Beach # default name
+  name: LMHB/USD #Lebron 8 South Beach # default name
   base_unit: lmhb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -834,7 +834,7 @@
   ask: {fee: 0, currency: lmhb, fixed: 0}
 - id: lslusd
   code: 10
-  name: Lebron 8 South Beach # default name
+  name: LSL/USD #Lebron 8 South Beach # default name
   base_unit: lsl
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -842,7 +842,7 @@
   ask: {fee: 0, currency: lsl, fixed: 0}
 - id: lxcusd
   code: 10
-  name: Lebron X Christmas # default name
+  name: LXC/USD #Lebron X Christmas # default name
   base_unit: lxc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -850,7 +850,7 @@
   ask: {fee: 0, currency: lxc, fixed: 0}
 - id: mudusd
   code: 10
-  name: More Uptempo Dusk to Dawn # default name
+  name: MUD/USD #More Uptempo Dusk to Dawn # default name
   base_unit: mud
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -858,7 +858,7 @@
   ask: {fee: 0, currency: mud, fixed: 0}
 - id: muousd
   code: 10
-  name: More Uptempo Olympics # default name
+  name: MUO/USD #More Uptempo Olympics # default name
   base_unit: muo
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -866,7 +866,7 @@
   ask: {fee: 0, currency: muo, fixed: 0}
 - id: napusd
   code: 10
-  name: Nike Air Presto Ultra Flyknit Olympic # default name
+  name: NAP/USD #Nike Air Presto Ultra Flyknit Olympic # default name
   base_unit: nap
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -874,7 +874,7 @@
   ask: {fee: 0, currency: nap, fixed: 0}
 - id: ndcusd
   code: 10
-  name: Nike Dunk SB Low Money Cat # default name
+  name: NDC/USD #Nike Dunk SB Low Money Cat # default name
   base_unit: ndc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -882,7 +882,7 @@
   ask: {fee: 0, currency: ndc, fixed: 0}
 - id: ndhusd
   code: 10
-  name: Nike Dunk SB High Quagmire # default name
+  name: NDH/USD #Nike Dunk SB High Quagmire # default name
   base_unit: ndh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -890,7 +890,7 @@
   ask: {fee: 0, currency: ndh, fixed: 0}
 - id: ndgusd
   code: 10
-  name: Nike Dunk SB High Melvins # default name
+  name: NDG/USD #Nike Dunk SB High Melvins # default name
   base_unit: ndg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -898,7 +898,7 @@
   ask: {fee: 0, currency: ndg, fixed: 0}
 - id: ndlusd
   code: 10
-  name: Nike Dunk SB Low Raygun # default name
+  name: NDL/USD #Nike Dunk SB Low Raygun # default name
   base_unit: ndl
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -906,7 +906,7 @@
   ask: {fee: 0, currency: ndl, fixed: 0}
 - id: rrgusd
   code: 10
-  name: Roshe Run Gold Trophy # default name
+  name: RRG/USD #Roshe Run Gold Trophy # default name
   base_unit: rrg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -914,7 +914,7 @@
   ask: {fee: 0, currency: rrg, fixed: 0}
 - id: ybbusd
   code: 10
-  name: Yeezy Boost 350 V2 Beluga 2.0 # default name
+  name: YYB/USD #Yeezy Boost 350 V2 Beluga 2.0 # default name
   base_unit: ybb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -922,7 +922,7 @@
   ask: {fee: 0, currency: ybb, fixed: 0}
 - id: ybcusd
   code: 10
-  name: Yeezy Boost 350 V2 Cream White # default name
+  name: YBC/USD #Yeezy Boost 350 V2 Cream White # default name
   base_unit: ybc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -930,7 +930,7 @@
   ask: {fee: 0, currency: ybc, fixed: 0}
 - id: ybtusd
   code: 10
-  name: Yeezy Boost 350 V2 Blue Tint # default name
+  name: YBT/USD #Yeezy Boost 350 V2 Blue Tint # default name
   base_unit: ybt
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -938,7 +938,7 @@
   ask: {fee: 0, currency: ybt, fixed: 0}
 - id: ybxusd
   code: 10
-  name: Yeezy Boost 350 V2 Zebra # default name
+  name: YBX/USD #Yeezy Boost 350 V2 Zebra # default name
   base_unit: ybx
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -946,7 +946,7 @@
   ask: {fee: 0, currency: ybx, fixed: 0}
 - id: ybzusd
   code: 10
-  name: Zoom Rookie Glow in the Dark # default name
+  name: YBZ/USD #Zoom Rookie Glow in the Dark # default name
   base_unit: ybz
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
