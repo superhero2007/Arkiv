@@ -7,7 +7,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: abw, fixed: 0}
   sort_order: 1
-  #visible: false     # default to true
+  visible: false     # default to true
 - id: affusd
   code: 6
   name: AAF/USD #Air Force Max Fab 5      # default name
@@ -16,6 +16,7 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: aff, fixed: 0}
+  visible: false
 - id: aflusd
   code: 7
   name: AFL/USD #Air Force 1 Low BHM      # default name
@@ -24,6 +25,7 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: afl, fixed: 0}
+  visible: false
 - id: afousd
   code: 8
   name: AFO/USD #Air Force 180 Olympics      # default name
@@ -32,6 +34,7 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: afo, fixed: 0}
+  visible: false
 - id: afxusd
   code: 9
   name: AFX/USD #Air Force 1 07 Virgil X MOMA      # default name
@@ -56,14 +59,16 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: amg, fixed: 0}
-- id: afpusd
+  visible: false 
+- id: ampusd
   code: 10
   name: AFP/USD #Air Max Penny 1 Orlando      # default name
-  base_unit: afp
+  base_unit: amp
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: afp, fixed: 0}
+  ask: {fee: 0, currency: amp, fixed: 0}
+  visible: false
 - id: amsusd
   code: 10
   name: AMS/USD #Air Max 90 Sunset Pack      # default name
@@ -104,6 +109,7 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: bgm, fixed: 0}
+  visible: false
 - id: fddusd
   code: 10
   name: FDD/USD #Foamposite Dr. Doom      # default name
@@ -448,6 +454,7 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jrc, fixed: 0}
+  visible: false 
 - id: jrhusd
   code: 10
   name: JRH/USD #Jordan 3 Retro Tinker Hatfield    # default name
@@ -784,6 +791,7 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: lfc, fixed: 0}
+  visible: false
 - id: lfgusd
   code: 10
   name: LFG/USD #Lunar Flyknit Chukka Gold Trophy # default name
@@ -792,6 +800,7 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: lfg, fixed: 0}
+  visible: false 
 - id: lfiusd
   code: 10
   name: LFI/USD #Lunar Flyknit Chukka Gold Trophy # default name
@@ -872,6 +881,7 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: nap, fixed: 0}
+  visible: false
 - id: ndcusd
   code: 10
   name: NDC/USD #Nike Dunk SB Low Money Cat # default name
@@ -912,6 +922,7 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: rrg, fixed: 0}
+  visible: false 
 - id: ybbusd
   code: 10
   name: YYB/USD #Yeezy Boost 350 V2 Beluga 2.0 # default name
@@ -936,19 +947,19 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: ybt, fixed: 0}
-- id: ybxusd
-  code: 10
-  name: YBX/USD #Yeezy Boost 350 V2 Zebra # default name
-  base_unit: ybx
-  quote_unit: usd
-  #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: ybx, fixed: 0}
 - id: ybzusd
   code: 10
-  name: YBZ/USD #Zoom Rookie Glow in the Dark # default name
+  name: YBX/USD #Yeezy Boost 350 V2 Zebra # default name
   base_unit: ybz
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: ybz, fixed: 0}
+- id: zrgusd
+  code: 10
+  name: ZRG/USD #Zoom Rookie Glow in the Dark # default name
+  base_unit: zrg
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0, currency: zrg, fixed: 0}
