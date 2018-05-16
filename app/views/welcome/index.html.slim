@@ -39,19 +39,36 @@
                     | Sell BTC:
                   |  $2465
                 li.email
-                  a[href="#"]
+                  a[href="mailto:help@arkivoffcial.com"]
                     i.fas.fa-envelope
                     | help@arkivoffcial.com
             .top-right.clearfix
               ul.clearfix
-                li
-                  a href="#{signin_path}"
-                    i.fas.fa-sign-in-alt
-                    | Sign In
-                li
-                  a href="#{signup_path}"
-                    i.fas.fa-file
-                    | Register
+                - unless current_user
+                  li
+                    a href="#{signin_path}"
+                      i.fas.fa-sign-in-alt
+                      | Sign In
+                - else
+                  li
+                    a href="#{settings_path}"
+                      | Settings
+
+                  li
+                    a href="#{funds_path}"
+                      | Portfolio
+
+
+                - unless current_user
+                    li
+                      a href="#{signup_path}"
+                        i.fas.fa-file
+                        | Register
+                - else
+                    li
+                      a href="#{signout_path}"
+                        i.fas.fa-sign-in-alt
+                        | Sign Out
 
     .header-upper
       .auto-container.clearfix
@@ -72,14 +89,16 @@
                   li.current
                     a[href="/"]
                       | Home
+                  li
+                    a[href="#how_it_work"]
+                      | How it Works
+
                   li.dropdown
-                    a[href="#"]
+                    a[href="#about"]
                       | About us
 
 
-                  li
-                    a[href=""]
-                      | How it Works
+
 
                   li.dropdown
                     a[href="/shop"]
@@ -230,9 +249,9 @@
                                   i.fas.fa-lock
                                 h3
                                   a[href="services-single.html"]
-                                    | Safe and Security
+                                    | Safety and Security
                                 .text
-                                  | Give you a complete account of the system, expound the actual teachings.
+                                  | We’ve built in cutting edge security measures into our system.
                             .services-block.col-md-4.col-sm-6.col-xs-12
                               .inner-box
                                 .icon-box
@@ -241,23 +260,21 @@
                                   a[href="services-single.html"]
                                     | Instant Exchange
                                 .text
-                                  | Master builder of human happiness no one
-                                  br
-                                  |  rejects dislikes avoids itself.
+                                  | Funds are transferred instantly once user orders are executed.
+
                             .services-block.col-md-4.col-sm-6.col-xs-12
                               .inner-box
                                 .icon-box
                                   i.far.fa-life-ring
                                 h3
                                   a[href="services-single.html"]
-                                    | Experts Support
+                                    | Expert Support
                                 .text
-                                  | To take a trivial example, which off us ever
-                                  br
-                                  |  undertakes laborious physical.
+                                  | Have questions? We typically respond within 24 hours.
+
 
   /how it works
-  section.services-section-two
+  section.services-section-two#how_it_work
                                       .auto-container
                                         .sec-title.light
                                           h2
@@ -268,7 +285,7 @@
 
   /about us
 
-  section.buy-section[style="background-image:url(images/background/pattern-1.png)"]
+  section.buy-section#about[style="background-image:url(images/background/pattern-1.png)"]
     .auto-container
       .row.clearfix
         .content-column.col-md-12.col-sm-12.col-xs-12
@@ -284,7 +301,7 @@
                 | We built our exchange so anyone (anywhere) interested in trading sneakers can do so inexpensively, in a fair and transparent marketplace. The building blocks of our exchange are integrity, security and ease of use, ensuring a positive experience for all. Our patent-pending technology enables our users the potential to profit from their sneaker-related knowledge and experience.
               p
                 | We invite you to sign up for a trading account today. You’ll receive email instructions after you sign-up.
-            a.theme-btn.btn-style-two[href="#"]
+            a.theme-btn.btn-style-two[href="/shop"]
               | Trade Now
 
 
@@ -297,7 +314,7 @@
 
                               .lower-box
                                 .text
-                                  h1 Sign up for Email Updates
+                                  h1 Sign up for email updates
                                 .register-form
                                   form[method="post" action="contact.html"]
                                     .row.clearfix

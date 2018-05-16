@@ -15,19 +15,36 @@
                     | Sell BTC:
                   |  $2465
                 li.email
-                  a[href="#"]
+                  a[href="mailto:help@arkivoffcial.com"]
                     i.fas.fa-envelope
                     | help@arkivoffcial.com
             .top-right.clearfix
               ul.clearfix
-                li
-                  a href="#{signin_path}"
-                    i.fas.fa-sign-in-alt
-                    | Sign In
-                li
-                  a href="#{signup_path}"
-                    i.fas.fa-file
-                    | Register
+                - unless current_user
+                  li
+                    a href="#{signin_path}"
+                      i.fas.fa-sign-in-alt
+                      | Sign In
+                - else
+                  li
+                    a href="#{settings_path}"
+                      | Settings
+
+                  li
+                    a href="#{funds_path}"
+                      | Portfolio
+
+
+                - unless current_user
+                    li
+                      a href="#{signup_path}"
+                        i.fas.fa-file
+                        | Register
+                - else
+                    li
+                      a href="#{signout_path}"
+                        i.fas.fa-sign-in-alt
+                        | Sign Out
 
     .header-upper
       .auto-container.clearfix
@@ -48,14 +65,15 @@
                   li.current
                     a[href="/"]
                       | Home
+
+                  li
+                    a[href="/#how_it_work"]
+                      | How it Works
                   li.dropdown
-                    a[href="#"]
+                    a[href="/#about"]
                       | About us
 
 
-                  li
-                    a[href="/"]
-                      | How it Works
 
                   li.dropdown
                     a[href="/shop"]
@@ -295,10 +313,10 @@
       h1
         | Our Products
       .title
-        | We guarantee every
+        | Every pair on our exchange
 
         br
-        | pair on our exchange is 100% authentic.
+        | is deadstock and 100% authentic.
       br
       a.theme-btn.btn-style-one href="#{signup_path}"
         | Start Trading
@@ -338,83 +356,7 @@
                     span.icon.fa.fa-search
 
       .row.clearfix
-        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
-          .inner-box
-            .image
-              img src='http://via.placeholder.com/350x250'
-              a.overlay-box[href="shop-single.html"]
-                span.icon.fa.fa-link
-            .lower-content
-              .upper-box
-                h3
-                  a[href="shop-single.html"]
-                    | Air Bacon Warriors
-                .symbol
-                  | ABW
-                .size
-                  | Size: 13
-              .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
-                  | Trade Now
-        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
-          .inner-box
-            .image
-              img src='http://via.placeholder.com/350x250'
-              a.overlay-box[href="shop-single.html"]
-                span.icon.fa.fa-link
-            .lower-content
-              .upper-box
-                h3
-                  a[href="shop-single.html"]
-                    | Air Force Max Fab 5
-                .symbol
-                  | AFF
-                .size
-                  | Size: 13
-              .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
-                  | Trade Now
-        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
-          .inner-box
-            .image
-              img src='http://via.placeholder.com/350x250'
-              a.overlay-box[href="shop-single.html"]
-                span.icon.fa.fa-link
-            .lower-content
-              .upper-box
-                h3
-                  a[href="shop-single.html"]
-                    | Air Force 1 Low BHM
-                .symbol
-                  | AFL
-                .size
-                  | Size: 13
-              .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
-                  | Trade Now
-
-        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
-          .inner-box
-            .image
-              img src='http://via.placeholder.com/350x250'
-              a.overlay-box[href="shop-single.html"]
-                span.icon.fa.fa-link
-            .lower-content
-              .upper-box
-                h3
-                  a[href="shop-single.html"]
-                    | Air Force 180 Olympics
-                .symbol
-                  | AFO
-                .size
-                  | Size: 13
-              .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
-                  | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -433,7 +375,7 @@
                   | Size: 10
               .lower-box.clearfix
 
-                  a.theme-btn.btn-style-two[href="#{signup_path}"]
+                  a.theme-btn.btn-style-two[href="/markets/afxusd"]
                     | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -452,48 +394,8 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/ambusd"]
                   | Trade Now
-        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
-          .inner-box
-            .image
-              img src='http://via.placeholder.com/350x250'
-              a.overlay-box[href="shop-single.html"]
-                span.icon.fa.fa-link
-            .lower-content
-              .upper-box
-                h3
-                  a[href="shop-single.html"]
-                    | Air Max Penny 1 Game Royal
-                .symbol
-                  | AMG
-                .size
-                  | Size: 13
-              .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
-                  | Trade Now
-
-        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
-          .inner-box
-            .image
-              img src='http://via.placeholder.com/350x250'
-              a.overlay-box[href="shop-single.html"]
-                span.icon.fa.fa-link
-            .lower-content
-              .upper-box
-                h3
-                  a[href="shop-single.html"]
-                    | Air Max Penny 1 Orlando
-                .symbol
-                  | AMP
-                .size
-                  | Size: 13
-              .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
-                  | Trade Now
-
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -512,7 +414,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/amsusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -532,7 +434,7 @@
                   | Size: XXL
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/apuusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -552,7 +454,7 @@
                   | Size: 11
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/apwusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -572,28 +474,10 @@
                   | Size: 12
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/avbusd"]
                   | Trade Now
 
-        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
-          .inner-box
-            .image
-              img src='http://via.placeholder.com/350x250'
-              a.overlay-box[href="shop-single.html"]
-                span.icon.fa.fa-link
-            .lower-content
-              .upper-box
-                h3
-                  a[href="shop-single.html"]
-                    | Blazer Geoff McFetridge
-                .symbol
-                  | BGM
-                .size
-                  | Size: 13
-              .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
-                  | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -612,7 +496,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/fddusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -632,7 +516,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jalusd"]
                   | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -651,7 +535,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/janusd}"]
                   | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -670,7 +554,7 @@
                   | Size: 13.5
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jagusd"]
                   | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -689,7 +573,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jbbusd"]
                   | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -708,7 +592,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jbcusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -728,7 +612,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jbgusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -748,7 +632,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jbrusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -768,7 +652,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jbuusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -788,7 +672,7 @@
                   | Size: 14
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jcbusd"]
                   | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -807,7 +691,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jccusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -827,7 +711,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jchusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -847,7 +731,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jcousd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -867,7 +751,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jcrusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -887,7 +771,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jdmusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -907,7 +791,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jfeusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -927,7 +811,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jfgusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -947,7 +831,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jfiusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -967,7 +851,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jfmusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -987,7 +871,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jfpusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1007,7 +891,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jfqusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1027,7 +911,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jfrusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1047,7 +931,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jgbusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1067,7 +951,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jgmusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1087,7 +971,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jgpusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1107,7 +991,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jgrusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1127,7 +1011,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jhpusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1147,7 +1031,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jibusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1167,7 +1051,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jjfusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1187,7 +1071,7 @@
                   | Size: 12
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jjsusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1207,7 +1091,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jlausd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1227,7 +1111,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jlyusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1247,7 +1131,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jmjusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1267,7 +1151,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jmgusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1287,7 +1171,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jogusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1307,7 +1191,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jolusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1327,7 +1211,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jpbusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1347,7 +1231,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jplusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1367,7 +1251,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jpousd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1387,7 +1271,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jpsusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1407,7 +1291,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jrausd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1427,28 +1311,9 @@
                   | Size: 12
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jrbusd"]
                   | Trade Now
 
-        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
-          .inner-box
-            .image
-              img src='http://via.placeholder.com/350x250'
-              a.overlay-box[href="shop-single.html"]
-                span.icon.fa.fa-link
-            .lower-content
-              .upper-box
-                h3
-                  a[href="shop-single.html"]
-                    | Jordan 2 White/Red CDP
-                .symbol
-                  | JRC
-                .size
-                  | Size: 13
-              .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
-                  | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -1467,7 +1332,7 @@
                   | Size: 12
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jrhusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1487,7 +1352,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jrousd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1507,7 +1372,7 @@
                   | Size: 12
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jrrusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1527,7 +1392,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jrtusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1547,7 +1412,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jryusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1567,7 +1432,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jsausd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1587,7 +1452,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jseusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1607,7 +1472,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jsjusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1627,7 +1492,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jslusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1647,7 +1512,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jsrusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1667,7 +1532,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jstusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1687,7 +1552,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jtbusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1707,7 +1572,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jthusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1727,7 +1592,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jtyusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1747,7 +1612,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/jwcusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1767,7 +1632,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/kapusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1787,7 +1652,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/kbhusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1807,7 +1672,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/kdeusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1827,7 +1692,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/keausd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1847,7 +1712,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/kebusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1867,7 +1732,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/keeusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1887,7 +1752,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/kefusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1907,7 +1772,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/kelusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1927,7 +1792,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/kgfusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1947,7 +1812,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/kinusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1967,7 +1832,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/kngusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -1987,7 +1852,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/krgusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2007,7 +1872,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/kseusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2027,7 +1892,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/kspusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2047,7 +1912,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/kstusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2067,7 +1932,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/kvbusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2087,7 +1952,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/laausd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2107,7 +1972,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lbbusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2127,7 +1992,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lbhusd"]
                   | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -2146,7 +2011,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lbmusd"]
                   | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -2165,7 +2030,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lbsusd"]
                   | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -2184,7 +2049,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lcgusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2204,7 +2069,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lchusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2224,7 +2089,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lcdusd"]
                   | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -2243,7 +2108,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lehusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2263,47 +2128,11 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lesusd"]
                   | Trade Now
 
-        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
-          .inner-box
-            .image
-              img src='http://via.placeholder.com/350x250'
-              a.overlay-box[href="shop-single.html"]
-                span.icon.fa.fa-link
-            .lower-content
-              .upper-box
-                h3
-                  a[href="shop-single.html"]
-                    | Lunar Flyknit Chukka Wolf Grey/Red
-                .symbol
-                  | LFC
-                .size
-                  | Size: 13
-              .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
-                  | Trade Now
-        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
-          .inner-box
-            .image
-              img src='http://via.placeholder.com/350x250'
-              a.overlay-box[href="shop-single.html"]
-                span.icon.fa.fa-link
-            .lower-content
-              .upper-box
-                h3
-                  a[href="shop-single.html"]
-                    | Lunar Flyknit Chukka Gold Trophy
-                .symbol
-                  | LFG
-                .size
-                  | Size: 13
-              .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
-                  | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
@@ -2321,7 +2150,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lfiusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2341,7 +2170,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lmausd"]
                   | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -2360,7 +2189,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lmhusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2380,7 +2209,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lmeusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2400,7 +2229,7 @@
                   | Size: 12
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lsbusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2420,7 +2249,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lslusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2440,7 +2269,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/lxcusd"]
                   | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -2459,7 +2288,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/mudusd"]
                   | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -2478,27 +2307,9 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/muousd"]
                   | Trade Now
-        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
-          .inner-box
-            .image
-              img src='http://via.placeholder.com/350x250'
-              a.overlay-box[href="shop-single.html"]
-                span.icon.fa.fa-link
-            .lower-content
-              .upper-box
-                h3
-                  a[href="shop-single.html"]
-                    | Nike Air Presto Ultra Flyknit Olympic
-                .symbol
-                  | NAP
-                .size
-                  | Size: 13
-              .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
-                  | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
@@ -2516,7 +2327,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/ndcusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2536,7 +2347,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/ndhusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2556,7 +2367,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/ndmusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2576,28 +2387,10 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/ndlusd"]
                   | Trade Now
 
-        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
-          .inner-box
-            .image
-              img src='http://via.placeholder.com/350x250'
-              a.overlay-box[href="shop-single.html"]
-                span.icon.fa.fa-link
-            .lower-content
-              .upper-box
-                h3
-                  a[href="shop-single.html"]
-                    | Roshe Run Gold Trophy
-                .symbol
-                  | RRG
-                .size
-                  | Size: 13
-              .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
-                  | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
@@ -2616,7 +2409,7 @@
                   | Size: 11
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/ybbusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2636,7 +2429,7 @@
                   | Size: 12
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/ybcusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2656,7 +2449,7 @@
                   | Size: 11
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/ybtusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2676,7 +2469,7 @@
                   | Size: 10
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/ybzusd"]
                   | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
@@ -2696,7 +2489,7 @@
                   | Size: 13
               .lower-box.clearfix
 
-                a.theme-btn.btn-style-two[href="#{signup_path}"]
+                a.theme-btn.btn-style-two[href="/markets/zrgusd"]
                   | Trade Now
 
 
