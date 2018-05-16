@@ -414,8 +414,8 @@ en:
       ybb: YBB 
       ybc: YBC 
       ybt: YBT 
-      ybx: YBX 
-      ybz: YBZ 
+      ybx: YBZ  
+      ybz: ZRG 
   currency:
     satoshi:
       key: BTC
