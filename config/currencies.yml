@@ -798,63 +798,63 @@
   symbol: "NDC"
   family: SHOE
 - id: 113
-  key: arkiv
+  key: arkiv111
   name: 'Nike Dunk SB High Quagmire'
   code: ndh 
   coin: true
   symbol: "NDH"
   family: SHOE
 - id: 114
-  key: arkiv
+  key: arkiv112
   name: 'Nike Dunk SB High Melvins'
   code: ndg 
   coin: true
   symbol: "NDG"
   family: SHOE
 - id: 115
-  key: arkiv
+  key: arkiv113
   name: 'Nike Dunk SB Low Raygun'
   code: ndl 
   coin: true
   symbol: "NDL"
   family: SHOE
 - id: 116
-  key: arkiv
+  key: arkiv114
   name: 'Roshe Run Gold Trophy'
   code: rrg 
   coin: true
   symbol: "RRG"
   family: SHOE
 - id: 117
-  key: arkiv
+  key: arkiv115
   name: 'Yeezy Boost 350 V2 Beluga 2.0'
   code: ybb 
   coin: true
   symbol: "YBB"
   family: SHOE
 - id: 118
-  key: arkiv
+  key: arkiv116
   name: 'Yeezy Boost 350 V2 Cream White'
   code: ybc 
   coin: true
   symbol: "YBC"
   family: SHOE
 - id: 119
-  key: arkiv
+  key: arkiv117
   name: 'Yeezy Boost 350 V2 Blue Tint'
   code: ybt 
   coin: true
   symbol: "YBT"
   family: SHOE
 - id: 120
-  key: arkiv
+  key: arkiv118
   name: 'Yeezy Boost 350 V2 Zebra'
   code: ybx 
   coin: true
   symbol: "YBX"
   family: SHOE
 - id: 121
-  key: arkiv
+  key: arkiv119
   name: 'Zoom Rookie Glow in the Dark'
   code: ybz
   coin: true
