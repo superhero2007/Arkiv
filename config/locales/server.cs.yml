@@ -872,7 +872,7 @@ cs:
         amount: Částka
         time: Čas umístění
       mask:
-        warning: Prosím <a class=text-up href='/'>Registrujte se</a> nebo <a class=text-up href='/'>se přihlaste</a> !
+        warning: Prosím <a class=text-up href='/signup'>Registrujte se</a> nebo <a class=text-up href='/signin'>se přihlaste</a> !
       klime_chart:
         title: Svíčkový graf
       global:

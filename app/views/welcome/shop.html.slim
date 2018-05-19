@@ -84,23 +84,9 @@
                       | Privacy
 
                   li
-                    a[href="/"]
+                    a[href="/#contact"]
                       | Contact Us
-            .outer-box
-              .search-box-outer
-                .dropdown
-                  button#dropdownMenu3.search-box-btn.dropdown-toggle[type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"]
-                    span.fa.fa-search
-                  ul.dropdown-menu.pull-right.search-panel[aria-labelledby="dropdownMenu3"]
-                    li.panel-outer
-                      .form-container
-                        form[method="post" action="blog.html"]
-                          .form-group
-                            input[type="search" name="field-name" value="" placeholder="Search Here" required]
-                            button.search-btn[type="submit"]
-                              span.fa.fa-search
-              .reservation-form-btn.consult-form-btn
-                span.fas.fa-bars
+
     .sticky-header
       .auto-container.clearfix
         .logo.pull-left
@@ -183,7 +169,7 @@
                       a[href="shop.html"]
                         | Our Products
                     li
-                      a[href="shop-single.html"]
+                      a[href="#"]
                         | Single Product
                     li
                       a[href="shoping-cart.html"]
@@ -294,7 +280,7 @@
                       a[href="shop.html"]
                         | Our Products
                     li
-                      a[href="shop-single.html"]
+                      a[href="#"]
                         | Single Product
                     li
                       a[href="shoping-cart.html"]
@@ -313,7 +299,7 @@
       h1
         | Our Products
       .title
-        | Every pair on our exchange
+        | Every pair on our exchange&nbsp;
 
         br
         | is deadstock and 100% authentic.
@@ -362,120 +348,138 @@
           .inner-box
             .image
               img src='https://dl.airtable.com/6fHWWdYjRaOcrWdic6oO_virgil%20moma.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Air Force 1 07 Virgil X MOMA
                 .symbol
                   | AFX
                 .size
                   | Size: 10
               .lower-box.clearfix
-
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
                   a.theme-btn.btn-style-two[href="/markets/afxusd"]
                     | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/jdmOPx8aRF2FEbRLf3xW_beaches%20of%20rio.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Air Max 95 Beaches or Rio
                 .symbol
                   | AMB
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/ambusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/ambusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/AHvfCsimT8i75UCCgdBz_AMax%2090%20sunset%20.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Air Max 90 Sunset Pack
                 .symbol
                   | AMS
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/amsusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/amsusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/93Xr5laGSKGMjFt41F5w_unholy%20cumulus.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Air Presto Unholy Cumulus
                 .symbol
                   | APU
                 .size
                   | Size: XXL
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/apuusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/apuusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/nZKyDYTumzpntGDA3e9w_presto%20off%20white.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Air Presto Off-White
                 .symbol
                   | APW
                 .size
                   | Size: 11
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/apwusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/apwusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/dGn4apLlQfChTkCHBwcM_off%20white%20blk.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Air Vapormax Off-White Black
                 .symbol
                   | AVB
                 .size
                   | Size: 12
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/avbusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/avbusd"]
+                    | Trade Now
 
 
 
@@ -483,1653 +487,1902 @@
           .inner-box
             .image
               img src='https://dl.airtable.com/7EtkT4jrT9Kgc0Gfq0do_dr%20doom.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Foamposite Dr. Doom
                 .symbol
                   | FDD
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/fddusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/fddusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/ZLUbhCDsSumm1lXYFDUN_J13%20Altitude.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 13 Altitude
                 .symbol
                   | JAL
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jalusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jalusd"]
+                    | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/VyKbL5ySh6YWGJ4fnNn0_laser%2030th.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 4 30th Anniversary Laser
                 .symbol
                   | JAN
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/janusd}"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/janusd}"]
+                    | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/jSKNf8xURECc8sv7mq5Y_aqua%208.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 8 Aqua
                 .symbol
                   | JAQ
                 .size
                   | Size: 13.5
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jagusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jagusd"]
+                    | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/R99bQrtXTIqJ90NJixJw_bugs%20bunny.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 8 Bugs Bunny
                 .symbol
                   | JBB
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jbbusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jbbusd"]
+                    | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/3HxdctY0QxGdIqCo7FUv_jordan%2015%20bred%20cdp.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 15 Bred CDP
                 .symbol
                   | JBC
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jbcusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jbcusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/bIWr1KOcTyKFgXBPKxsm_Blk%20Grape.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 5 Black Grape
                 .symbol
                   | JBG
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jbgusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jbgusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/lFYEbpo3QeBMsLXMVw9G_bred.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 13 Bred
                 .symbol
                   | JBR
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jbrusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jbrusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/uqvOjiQkKecztVo7fPcw_J5%20blk%20university%20blue.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 5 Black/University Blue
                 .symbol
                   | JBU
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jbuusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jbuusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/t3u9O367QahzmtS6aPO1_bailey.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 9 Calvin Bailey
                 .symbol
                   | JCB
                 .size
                   | Size: 14
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jcbusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jcbusd"]
+                    | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/0JLENk7lSFCLbXHemOhk_candycane.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 14 Candy Cane
                 .symbol
                   | JCC
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jccusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jccusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/X9R7zFNbRTudQxB1rghv_chrome.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 8 Chrome
                 .symbol
                   | JCH
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jchusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jchusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/hfJbj5QpQ5K6AdUTVBUB_copper%20j17.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 17 Copper
                 .symbol
                   | JCO
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jcousd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jcousd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/8jwmAp5LTNWsFEK5qejw_cherry%2013.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 13 Cherry
                 .symbol
                   | JCR
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jcrusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jcrusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/yVmVDRTSAmdy3sci5POQ_magic%20J7.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 7 DMP Magic
                 .symbol
                   | JDM
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jdmusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jdmusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/EGt4q210Q0CKADdqLgIi_J3%20fiure%20red.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 3 Fire Red
                 .symbol
                   | JFE
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jfeusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jfeusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/zHLJuMWLSYudrEr7Sxr3_jordan%209%20flu%20game.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 12 Flu Game
                 .symbol
                   | JFG
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jfgusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jfgusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/ZbS4ScpcSCykGWvjJBIL_J4%20Fire%20Red.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 4 Fire Red
                 .symbol
                   | JFI
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jfiusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jfiusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/dMyhAKQIiBaR7oKxDQnX_fontay.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 9 Fontay Montana Knicks
                 .symbol
                   | JFM
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jfmusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jfmusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/vw6ZEcxORdici6eMmem3_J3%20Fear.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 3 Fear Pack
                 .symbol
                   | JFP
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jfpusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jfpusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/hXgi6RqTne22fO7DmmvR_qs%20glow.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan Future QS Glow
                 .symbol
                   | JGQ
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jgqusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jgqusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/8oVl1y2OSI29I8r2N2Wa_fire%20red%205.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 5 Fire Red
                 .symbol
                   | JFR
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jfrusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jfrusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/V0jFLevsRDqB5xYENR3g_green%20bean.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 5 Green Bean
                 .symbol
                   | JGB
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jgbusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jgbusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/uiT1sRfyFyvbv3A4DgXH_GMP.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 6 Golden Moments
                 .symbol
                   | JGM
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jgmusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jgmusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/m66FABUURPGf6DHKHgi0_graphite.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 21 Graphite
                 .symbol
                   | JGP
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jgpusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jgpusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/Nnonq1HQYaH9X52jZtqg_grape.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 5 Grape
                 .symbol
                   | JGR
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jgrusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jgrusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/hh1HC7vRHm7oBIa9Csyd_gold%20toe.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 1 Retro High NRG Patent Gold Toe
                 .symbol
                   | JHP
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jhpusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jhpusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/9FkIirCPTYinzRCZwZLV_infrared.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 6 Infrared Black
                 .symbol
                   | JIB
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jibusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jibusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/BOodZblSNuyPCkCY1UoQ_J2K%20Filbert.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 7 J2K Filbert
                 .symbol
                   | JFF
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jffusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jffusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/aNKUexjToyyKnIKfbXAV_JTH.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 3 Retro JTH Superbowl
                 .symbol
                   | JLS
                 .size
                   | Size: 12
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jlsusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jlsusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/HfcwvbXKRtqVoxEXWtTS_laney.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 5 Laney
                 .symbol
                   | JLA
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jlausd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jlausd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/SXBxjdhiS3iZZLBjxzie_laney%2014.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 14 Laney
                 .symbol
                   | JLY
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jlyusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jlyusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/yR3wJauSSn6bujfCWRgl_motorboat%20jones.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 9 Motorboat Jones
                 .symbol
                   | JMJ
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jmjusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jmjusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/oOT8zCPTS2E2HDEp5DMA_J13%20Neutral%20Grey.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 13 Neutral Grey
                 .symbol
                   | JNG
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jmgusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jmgusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/ptPm7h3RImVidC9SNCn5_quickstrike.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 20 OG Quickstrike
                 .symbol
                   | JOG
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jogusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jogusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/zBJieWJAQT2pdzHFh8pC_j6%20olympic.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 6 Olympic London
                 .symbol
                   | JOL
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jolusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jolusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/wn0efLthRrCZD8gGin1X_photo%20blue.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 9 Photo Blue
                 .symbol
                   | JPB
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jpbusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jpbusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/dXw4VxntSyOwiZ4fpAaX_jordan%2012%20playoffs.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 12 Playoffs
                 .symbol
                   | JPL
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jplusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jplusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/y9F6DhsNTI6BdO0SFNLb_jordan%209%20powder.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 9 Powder
                 .symbol
                   | JPO
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jpousd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jpousd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/HRcuAPVuSuhXk1fRxiut_playoff%208.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 8 Playoffs
                 .symbol
                   | JPS
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jpsusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jpsusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/1wohoF7Q9OCWqHU00T0I_raptor.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 7 Raptors
                 .symbol
                   | JRA
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jrausd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jrausd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/2q3NJJqwSpOeRKh5gcXv_blk%20cement%202018.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 3 Retro Black Cement
                 .symbol
                   | JRB
                 .size
                   | Size: 12
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jrbusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jrbusd"]
+                    | Trade Now
 
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/RunnvtbR3WXvDo8BoE0V_tinker.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 3 Retro Tinker Hatfield
                 .symbol
                   | JRH
                 .size
                   | Size: 12
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jrhusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jrhusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/vqQUi7pmQzq046MmXbC0_off%20white%201s.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 1 Retro High Off-White Chicago
                 .symbol
                   | JRO
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jrousd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jrousd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/t8iNchPQRNWdOluGgHbI_J1%20Royal.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 1 Retro Royal 2017
                 .symbol
                   | JRR
                 .size
                   | Size: 12
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jrrusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jrrusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/QzghXHv7QQKZJjFGtgLx_blk%20tongue.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 5 Fire Red Black Tongue
                 .symbol
                   | JRT
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jrtusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jrtusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/DrePKJaGRnS8Ecd7ftiG_tokyo%205s.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 5 Retro Tokyo T23
                 .symbol
                   | JRY
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jryusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jryusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/5efy766lTw2kCIjrzqqx_silver%20anny.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 9 Silver Anniversary
                 .symbol
                   | JSA
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jsausd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jsausd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/JVt7jPQITx6iknTqDT7x_jordan%205%20stealth.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 5 Stealth
                 .symbol
                   | JSE
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jseusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jseusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/NfhNR5biSUaiEUDYYSUi_slim%20j.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 9 Slim Jenkins
                 .symbol
                   | JSJ
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jsjusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jsjusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/x2PYezXUSgiQaAH3zRyJ_stealth.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 20 Stealth
                 .symbol
                   | JSL
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jslusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jslusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/4XuqguQuKk6RSwjr7c3g_white.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 18 White/Sport Royal
                 .symbol
                   | JSR
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jsrusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jsrusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/f7uvmt8Sn6zfuheTNjsg_stealth%20J3.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 3 Stealth
                 .symbol
                   | JST
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jstusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jstusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/zgm73h2uSGWgdBmIEve3_toro.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 4 Toro Bravo
                 .symbol
                   | JTB
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jtbusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jtbusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/UJ2YpzJITBGNFEGrSNtU_thunder.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 4 Thunder
                 .symbol
                   | JTH
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jthusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jthusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/MbtBSvNMTVWGPdkTppjt_J4%20Rare%20Air.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 4 Tour Yellow/Rare Air
                 .symbol
                   | JTY
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jtyusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jtyusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/RsoSjRRWqqGYn8vuw14A_white%20cement.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Jordan 4 White Cement
                 .symbol
                   | JWC
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/jwcusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/jwcusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/iFcKJJE2TYG5ksAXCEhN_aunt%20pearl.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | KD 7 Aunt Pearl
                 .symbol
                   | KAP
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/kapusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/kapusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/7TNrsWzZQ0SBvbFCipyh_bhm.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | KD 5 BHM
                 .symbol
                   | KBH
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/kbhusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/kbhusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/GvyYiPPR42ItEqVi8mGg_KD%20Easter.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | KD 4 Easter
                 .symbol
                   | KDE
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/kdeusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/kdeusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/i82YE9DBSGbfOzlvT4FH_allstar%20elite.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Kobe 11 Elite All Star
                 .symbol
                   | KEA
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/keausd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/keausd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/7LBsfk5QgFlp4TUqyodw_kobe%209%20bhm.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Kobe 9 Elite BHM
                 .symbol
                   | KEB
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/kebusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/kebusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/XEJUYtz9SxiVT10gWjLV_Eybl.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | KD 5 Elite EYBL
                 .symbol
                   | KEE
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/keeusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/keeusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/UH0LnxSitm4Z0LhQuAV1_floral.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | KD 7 EXT Floral
                 .symbol
                   | KEF
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/kefusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/kefusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/0T96YGzlSQmTpdNpPuOW_kobe%2011%204kb.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Kobe 11 Elite 4KB
                 .symbol
                   | KEL
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/kelusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/kelusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/XO69AdWOQyLWnNvl51qp_gold%20funda.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Kobe 9 Gold Fundamentals
                 .symbol
                   | KFG
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/kfgusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/kfgusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/RXraxhCR1eBtEtZTYEwC_inferno.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Kyrie 2 Inferno
                 .symbol
                   | KIN
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/kinusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/kinusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/o6nc7JSwT2KuPoTPDm3f_gumbo.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Kobe 9 NOLA Gumbo League Maestro
                 .symbol
                   | KNG
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/kngusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/kngusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/jW2iOjjMS6mEXrEl9g2c_rogue%20green.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | KD 4 Rogue Green UNDFTD
                 .symbol
                   | KRG
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/krgusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/krgusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/DMMQo8IQoKpRAYRumHPQ_extraterestrial.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | KD 5 All Star Area 72 Extraterrestrial
                 .symbol
                   | KSG
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/ksgusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/ksgusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/7kii2Yy4SBWis5yktHc7_PreHeat.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | KD 6 Supreme DC Preheat
                 .symbol
                   | KSP
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/kspusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/kspusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/IGyt9ZL4QySM2TRn8oYG_scoring%20title.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | KD 4 Scoring Title
                 .symbol
                   | KST
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/kstusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/kstusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/vylyMs7AT6iNRxyZEkdt_venice%20beach.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Kobe 8 Venice Beach
                 .symbol
                   | KVB
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/kvbusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/kvbusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/znRlJ8qhRgqSI6Js6PoG_lebron%20x%20allstar%20area%2072.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron X Allstar Area 72
                 .symbol
                   | LAA
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/laausd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/laausd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/r9msY8fRpWqorH0516ls_BigBang.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron 9 Big Bang AS
                 .symbol
                   | LBB
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/lbbusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/lbbusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/PTapdnsAQvGHGPhP8fWN_lebron%2010%20bhm.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron X BHM
                 .symbol
                   | LBHX
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/lbhxusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/lbhxusd"]
+                    | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/ao9P02VRxqvZm08M0YOP_lebron%2011%20bhm.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron 11 BHM
                 .symbol
                   | LBN
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/lbnusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/lbnusd"]
+                    | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/1PtbEKzkQSeYTSjnGVed_suede.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron X EXT Black Suede
                 .symbol
                   | LBS
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/lbsusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/lbsusd"]
+                    | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/N7X9K2bORhO4esI01eDa_cool%20grey.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron 9 Cool Grey
                 .symbol
                   | LCG
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/lcgusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/lcgusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/QB1KeaOBQrKOP7ML9gyt_christmas.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron 9 Christmas
                 .symbol
                   | LCH
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/lchusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/lchusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/wGR3NxjRaKYjW39Ycbk8_denim%20lebro.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron X EXT Denim
                 .symbol
                   | LED
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/ledusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/ledusd"]
+                    | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/2OLvj2QeKneYNrksAofA_hazelnut.png'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron X EXT Hazelnut
                 .symbol
                   | LEH
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/lehusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/lehusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/S70zxtaXR5SUiYmcYzxC_snakeskin.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Kobe 9 EXT Snakeskin
                 .symbol
                   | LES
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/lesusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/lesusd"]
+                    | Trade Now
 
 
 
@@ -2137,258 +2390,297 @@
           .inner-box
             .image
               img src='https://dl.airtable.com/Vfh3orkAROiyUmrxZXPV_forging.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron 11 Forging Iron
                 .symbol
                   | LFI
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/lfiusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/lfiusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/trNHO4a7Q4CvzE1v96hl_mango.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron 9 Mango
                 .symbol
                   | LMA
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/lmausd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/lmausd"]
+                    | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/2GLIOMa3QTu3qC85P9zO_lebron%209%20hurricanes.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron 9 Miami Hurricanes
                 .symbol
                   | LMH
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/lmhusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/lmhusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/dp9p6wxURtuV5Gi2Zb6h_miami%20heat%20home.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron 9 Miami Heat Home
                 .symbol
                   | LMHH
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/lmhhusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/lmhhusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/r7I5oqbgSmmyWtn5uPFk_lebron%208%20SoBeach.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron 8 South Beach
                 .symbol
                   | LMHB
                 .size
                   | Size: 12
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/lmhbusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/lmhbusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/c1YOlzFyQQCKym9wZdIu_summit%20lake.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron 8 V/2 Summit Lake Hornets
                 .symbol
                   | LSL
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/lslusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/lslusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/iyKAI0yzTxmy7bUwMu8l_lebr%2010%20christmas.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Lebron X Christmas
                 .symbol
                   | LXC
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/lxcusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/lxcusd"]
+                    | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/J6WYMItT8iufAbRLz4aj_dusk%20to%20dawn.jpeg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | More Uptempo Dusk to Dawn
                 .symbol
                   | MUD
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/mudusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/mudusd"]
+                    | Trade Now
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/lb6Ko5YcSjelpCWaJCS6_uptempo.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | More Uptempo Olympics
                 .symbol
                   | MUO
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/muousd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/muousd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/Gk6PPlEHSoydERtM9Hpv_money%20cat.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Nike Dunk SB Low Money Cat
                 .symbol
                   | NDC
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/ndcusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/ndcusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/YZCfuAsDRvyP9YpnWg9Y_quagmire.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Nike Dunk SB High Quagmire
                 .symbol
                   | NDH
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/ndhusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/ndhusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/I7W4jJBnTByzk31QQTQw_melvins.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Nike Dunk SB High Melvins
                 .symbol
                   | NDG
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/ndgusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/ndgusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/0KK5zXlQWqdxjuJjcfWH_raygun.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Nike Dunk SB Low Raygun
                 .symbol
                   | NDL
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/ndlusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/ndlusd"]
+                    | Trade Now
 
 
 
@@ -2396,101 +2688,116 @@
           .inner-box
             .image
               img src='https://dl.airtable.com/miMrtGWTUuPnLYjpJsgN_beluga.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Yeezy Boost 350 V2 Beluga 2.0
                 .symbol
                   | YYB
                 .size
                   | Size: 11
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/yybusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/yybusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/AyzdoEbMSCO8F21GLWCq_cream%20white.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Yeezy Boost 350 V2 Cream White
                 .symbol
                   | YBC
                 .size
                   | Size: 12
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/ybcusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/ybcusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/ct8285BjTKCEHrMifKEF_blue%20tint.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Yeezy Boost 350 V2 Blue Tint
                 .symbol
                   | YBT
                 .size
                   | Size: 11
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/ybtusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/ybtusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/339j9E7ZQE6OYjPFuYr5_zebra.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Yeezy Boost 350 V2 Zebra
                 .symbol
                   | YBX
                 .size
                   | Size: 10
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/ybxusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/ybxusd"]
+                    | Trade Now
 
         .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
           .inner-box
             .image
               img src='https://dl.airtable.com/RjB4r1RxSA50wNf2roRw_Glow%20in%20Dark.jpg'
-              a.overlay-box[href="shop-single.html"]
+              a.overlay-box[href="#"]
                 span.icon.fa.fa-link
             .lower-content
               .upper-box
                 h3
-                  a[href="shop-single.html"]
+                  a[href="#"]
                     | Zoom Rookie Glow in the Dark
                 .symbol
                   | ZRG
                 .size
                   | Size: 13
               .lower-box.clearfix
-
-                a.theme-btn.btn-style-two[href="/markets/zrgusd"]
-                  | Trade Now
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/zrgusd"]
+                    | Trade Now
 
 
 

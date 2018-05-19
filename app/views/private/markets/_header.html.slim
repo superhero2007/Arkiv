@@ -22,5 +22,12 @@ header.navbar.navbar-default.navbar-static-top role = "navigation"
         = render partial: 'settings'
       - else
         p.navbar-text
-          == t('private.markets.mask.warning')
+          | Please&nbsp;
+          a.text-up[href="/signup"]
+            | Sign up
+          |  or&nbsp;
+          a.text-up[href="/signin"]
+            | Sign in
+          |  for operation
+          / == t('private.markets.mask.warning')
       = render partial: 'language'
