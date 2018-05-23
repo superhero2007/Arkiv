@@ -900,7 +900,10 @@
   ask: {fee: 0, currency: kin, fixed: 0}
 - id: kngusd
   code: 10
-  name: KNG/USD #Kobe 9 NOLA Gumbo League Maestro # default name
+  name: KNG/USD 
+  size: 13
+  picture: https://dl.airtable.com/o6nc7JSwT2KuPoTPDm3f_gumbo.png
+  shoe: Kobe 9 NOLA Gumbo League Maestro # default name
   base_unit: kng
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -908,7 +911,10 @@
   ask: {fee: 0, currency: kng, fixed: 0}
 - id: krgusd
   code: 10
-  name: KRG/USD #KD 4 Rogue Green UNDFTD # default name
+  name: KRG/USD 
+  size: 13
+  picture: https://dl.airtable.com/jW2iOjjMS6mEXrEl9g2c_rogue%20green.jpg
+  shoe: KD 4 Rogue Green UNDFTD # default name
   base_unit: krg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -916,7 +922,10 @@
   ask: {fee: 0, currency: krg, fixed: 0}
 - id: ksgusd
   code: 10
-  name: KSG/USD #KD 5 All Star Area 72 Extraterrestrial # default name
+  name: KSG/USD 
+  size: 13
+  picture: https://dl.airtable.com/DMMQo8IQoKpRAYRumHPQ_extraterestrial.png
+  shoe: KD 5 All Star Area 72 Extraterrestrial # default name
   base_unit: ksg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -924,7 +933,10 @@
   ask: {fee: 0, currency: ksg, fixed: 0}
 - id: kspusd
   code: 10
-  name: KSP/USD #KD 6 Supreme DC Preheat # default name
+  name: KSP/USD 
+  size: 13
+  picture: https://dl.airtable.com/DMMQo8IQoKpRAYRumHPQ_extraterestrial.png
+  shoe: KD 6 Supreme DC Preheat # default name
   base_unit: ksp
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -932,7 +944,10 @@
   ask: {fee: 0, currency: ksp, fixed: 0}
 - id: kstusd
   code: 10
-  name: KST/USD #KD 4 Scoring Title # default name
+  name: KST/USD 
+  size: 13
+  picture: https://dl.airtable.com/IGyt9ZL4QySM2TRn8oYG_scoring%20title.jpg
+  shoe: KD 4 Scoring Title # default name
   base_unit: kst
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -940,7 +955,10 @@
   ask: {fee: 0, currency: kst, fixed: 0}
 - id: kvbusd
   code: 10
-  name: KVB/USD #Kobe 8 Venice Beach # default name
+  name: KVB/USD 
+  size: 13
+  picture: https://dl.airtable.com/vylyMs7AT6iNRxyZEkdt_venice%20beach.png
+  shoe: Kobe 8 Venice Beach # default name
   base_unit: kvb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -948,7 +966,10 @@
   ask: {fee: 0, currency: kvb, fixed: 0}
 - id: laausd
   code: 10
-  name: LAA/USD #Lebron X Allstar Area 72 # default name
+  name: LAA/USD 
+  size: 13
+  picture: https://dl.airtable.com/znRlJ8qhRgqSI6Js6PoG_lebron%20x%20allstar%20area%2072.jp
+  shoe: Lebron X Allstar Area 72 # default name
   base_unit: laa
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -956,7 +977,10 @@
   ask: {fee: 0, currency: laa, fixed: 0}
 - id: lbbusd
   code: 10
-  name: LBB/USD #Lebron 9 Big Bang AS # default name
+  name: LBB/USD 
+  size: 13
+  picture: https://dl.airtable.com/r9msY8fRpWqorH0516ls_BigBang.jpg
+  shoe: Lebron 9 Big Bang AS # default name
   base_unit: lbb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -964,7 +988,10 @@
   ask: {fee: 0, currency: lbb, fixed: 0}
 - id: lbhxusd
   code: 10
-  name: LBHX/USD #Lebron 9 Big Bang AS # default name
+  name: LBHX/USD 
+  size: 13
+  picture: https://dl.airtable.com/PTapdnsAQvGHGPhP8fWN_lebron%2010%20bhm.png
+  shoe: Lebron X BHM # default name
   base_unit: lbhx
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -972,7 +999,10 @@
   ask: {fee: 0, currency: lbhx, fixed: 0}
 - id: lbnusd
   code: 10
-  name: LBN/USD #Lebron 11 BHM # default name
+  name: LBN/USD 
+  size: 13
+  picture: https://dl.airtable.com/ao9P02VRxqvZm08M0YOP_lebron%2011%20bhm.png
+  shoe: Lebron 11 BHM # default name
   base_unit: lbn
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -980,7 +1010,10 @@
   ask: {fee: 0, currency: lbn, fixed: 0}
 - id: lbsusd
   code: 10
-  name: LBS/USD #Lebron X EXT Black Suede # default name
+  name: LBS/USD 
+  size: 13
+  picture: https://dl.airtable.com/1PtbEKzkQSeYTSjnGVed_suede.jpg
+  shoe: Lebron X EXT Black Suede # default name
   base_unit: lbs
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -988,7 +1021,10 @@
   ask: {fee: 0, currency: lbs, fixed: 0}
 - id: lcgusd
   code: 10
-  name: LCG/USD #Lebron 9 Cool Grey # default name
+  name: LCG/USD 
+  size: 13
+  picture: https://dl.airtable.com/N7X9K2bORhO4esI01eDa_cool%20grey.jpg
+  shoe: Lebron 9 Cool Grey # default name
   base_unit: lcg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -996,7 +1032,10 @@
   ask: {fee: 0, currency: lcg, fixed: 0}
 - id: lchusd
   code: 10
-  name: LCH/USD #Lebron 9 Christmas # default name
+  name: LCH/USD 
+  size: 13
+  picture: https://dl.airtable.com/QB1KeaOBQrKOP7ML9gyt_christmas.jpg
+  shoe: Lebron 9 Christmas # default name
   base_unit: lch
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1004,7 +1043,10 @@
   ask: {fee: 0, currency: lch, fixed: 0}
 - id: ledusd
   code: 10
-  name: LED/USD #Lebron X EXT Denim # default name
+  name: LED/USD 
+  size: 13
+  picture: https://dl.airtable.com/wGR3NxjRaKYjW39Ycbk8_denim%20lebro.png
+  shoe: Lebron X EXT Denim # default name
   base_unit: led
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1012,7 +1054,10 @@
   ask: {fee: 0, currency: led, fixed: 0}
 - id: lehusd
   code: 10
-  name: LEH/USD #Lebron X EXT Hazelnut # default name
+  name: LEH/USD 
+  size: 13
+  picture: https://dl.airtable.com/2OLvj2QeKneYNrksAofA_hazelnut.png
+  shoe: Lebron X EXT Hazelnut # default name
   base_unit: leh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1020,7 +1065,10 @@
   ask: {fee: 0, currency: leh, fixed: 0}
 - id: lesusd
   code: 10
-  name: LES/USD #Kobe 9 EXT Snakeskin # default name
+  name: LES/USD 
+  size: 13
+  picture: https://dl.airtable.com/S70zxtaXR5SUiYmcYzxC_snakeskin.jpg
+  shoe: Kobe 9 EXT Snakeskin # default name
   base_unit: les
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1028,7 +1076,10 @@
   ask: {fee: 0, currency: les, fixed: 0}
 - id: lfcusd
   code: 10
-  name: LFC/USD #Lunar Flyknit Chukka Wolf Grey/Red # default name
+  name: LFC/USD 
+  size: 13
+  picture:
+  shoe: Lunar Flyknit Chukka Wolf Grey/Red # default name
   base_unit: lfc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1037,7 +1088,10 @@
   visible: false
 - id: lfgusd
   code: 10
-  name: LFG/USD #Lunar Flyknit Chukka Gold Trophy # default name
+  name: LFG/USD 
+  size: 13
+  picture:
+  shoe: Lunar Flyknit Chukka Gold Trophy # default name
   base_unit: lfg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1046,7 +1100,10 @@
   visible: false 
 - id: lfiusd
   code: 10
-  name: LFI/USD #Lunar Flyknit Chukka Gold Trophy # default name
+  name: LFI/USD 
+  size: 13
+  picture: https://dl.airtable.com/Vfh3orkAROiyUmrxZXPV_forging.jpg
+  shoe: Lebron 11 Forging Iron # default name
   base_unit: lfi
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1054,7 +1111,10 @@
   ask: {fee: 0, currency: lfi, fixed: 0}
 - id: lmausd
   code: 10
-  name: LMA/USD #Lebron 9 Mango # default name
+  name: LMA/USD 
+  size: 13
+  picture: https://dl.airtable.com/trNHO4a7Q4CvzE1v96hl_mango.jpg
+  shoe: Lebron 9 Mango # default name
   base_unit: lma
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1062,7 +1122,10 @@
   ask: {fee: 0, currency: lma, fixed: 0}
 - id: lmhusd
   code: 10
-  name: LMH/USD #Lebron 9 Miami Hurricanes # default name
+  name: LMH/USD 
+  size: 13
+  picture: https://dl.airtable.com/2GLIOMa3QTu3qC85P9zO_lebron%209%20hurricanes.jpg
+  shoe: Lebron 9 Miami Hurricanes # default name
   base_unit: lmh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1070,7 +1133,10 @@
   ask: {fee: 0, currency: lmh, fixed: 0}
 - id: lmhhusd
   code: 10
-  name: LMHH/USD #Lebron 9 Miami Heat Home # default name
+  name: LMHH/USD 
+  size: 13
+  picture: https://dl.airtable.com/dp9p6wxURtuV5Gi2Zb6h_miami%20heat%20home.jpg
+  shoe: Lebron 9 Miami Heat Home # default name
   base_unit: lmhh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1078,7 +1144,10 @@
   ask: {fee: 0, currency: lmhh, fixed: 0}
 - id: lmhbusd
   code: 10
-  name: LMHB/USD #Lebron 8 South Beach # default name
+  name: LMHB/USD 
+  size: 12
+  picture: https://dl.airtable.com/r7I5oqbgSmmyWtn5uPFk_lebron%208%20SoBeach.jpg
+  shoe: Lebron 8 South Beach # default name
   base_unit: lmhb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1086,7 +1155,10 @@
   ask: {fee: 0, currency: lmhb, fixed: 0}
 - id: lslusd
   code: 10
-  name: LSL/USD #Lebron 8 South Beach # default name
+  name: LSL/USD 
+  size: 13
+  picture: https://dl.airtable.com/c1YOlzFyQQCKym9wZdIu_summit%20lake.jpg
+  shoe: Lebron 8 V/2 Summit Lake Hornets # default name
   base_unit: lsl
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1094,7 +1166,10 @@
   ask: {fee: 0, currency: lsl, fixed: 0}
 - id: lxcusd
   code: 10
-  name: LXC/USD #Lebron X Christmas # default name
+  name: LXC/USD 
+  size: 13
+  picture: https://dl.airtable.com/iyKAI0yzTxmy7bUwMu8l_lebr%2010%20christmas.jpg
+  shoe: Lebron X Christmas # default name
   base_unit: lxc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1102,7 +1177,10 @@
   ask: {fee: 0, currency: lxc, fixed: 0}
 - id: mudusd
   code: 10
-  name: MUD/USD #More Uptempo Dusk to Dawn # default name
+  name: MUD/USD 
+  size: 13
+  picture: https://dl.airtable.com/J6WYMItT8iufAbRLz4aj_dusk%20to%20dawn.jpeg
+  shoe: More Uptempo Dusk to Dawn # default name
   base_unit: mud
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1110,7 +1188,10 @@
   ask: {fee: 0, currency: mud, fixed: 0}
 - id: muousd
   code: 10
-  name: MUO/USD #More Uptempo Olympics # default name
+  name: MUO/USD 
+  size: 13
+  picture: https://dl.airtable.com/lb6Ko5YcSjelpCWaJCS6_uptempo.jpg
+  shoe: More Uptempo Olympics # default name
   base_unit: muo
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1118,7 +1199,10 @@
   ask: {fee: 0, currency: muo, fixed: 0}
 - id: napusd
   code: 10
-  name: NAP/USD #Nike Air Presto Ultra Flyknit Olympic # default name
+  name: NAP/USD 
+  size: 13
+  picture: 
+  shoe: Nike Air Presto Ultra Flyknit Olympic # default name
   base_unit: nap
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1127,7 +1211,10 @@
   visible: false
 - id: ndcusd
   code: 10
-  name: NDC/USD #Nike Dunk SB Low Money Cat # default name
+  name: NDC/USD 
+  size: 13
+  picture: https://dl.airtable.com/Gk6PPlEHSoydERtM9Hpv_money%20cat.jpg
+  shoe: Nike Dunk SB Low Money Cat # default name
   base_unit: ndc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1135,7 +1222,10 @@
   ask: {fee: 0, currency: ndc, fixed: 0}
 - id: ndhusd
   code: 10
-  name: NDH/USD #Nike Dunk SB High Quagmire # default name
+  name: NDH/USD 
+  size: 13
+  picture: https://dl.airtable.com/YZCfuAsDRvyP9YpnWg9Y_quagmire.jpg
+  shoe: Nike Dunk SB High Quagmire # default name
   base_unit: ndh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1143,7 +1233,10 @@
   ask: {fee: 0, currency: ndh, fixed: 0}
 - id: ndgusd
   code: 10
-  name: NDG/USD #Nike Dunk SB High Melvins # default name
+  name: NDG/USD 
+  size: 13
+  picture: https://dl.airtable.com/I7W4jJBnTByzk31QQTQw_melvins.jpg
+  shoe: Nike Dunk SB High Melvins # default name
   base_unit: ndg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1151,7 +1244,10 @@
   ask: {fee: 0, currency: ndg, fixed: 0}
 - id: ndlusd
   code: 10
-  name: NDL/USD #Nike Dunk SB Low Raygun # default name
+  name: NDL/USD 
+  size: 13
+  picture: https://dl.airtable.com/0KK5zXlQWqdxjuJjcfWH_raygun.jpg
+  shoe: Nike Dunk SB Low Raygun # default name
   base_unit: ndl
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1159,7 +1255,10 @@
   ask: {fee: 0, currency: ndl, fixed: 0}
 - id: rrgusd
   code: 10
-  name: RRG/USD #Roshe Run Gold Trophy # default name
+  name: RRG/USD 
+  size: 13
+  picture: 
+  shoe: Roshe Run Gold Trophy # default name
   base_unit: rrg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1176,7 +1275,10 @@
   ask: {fee: 0, currency: ybb, fixed: 0}
 - id: ybcusd
   code: 10
-  name: YBC/USD #Yeezy Boost 350 V2 Cream White # default name
+  name: YBC/USD 
+  size: 12
+  picture: https://dl.airtable.com/AyzdoEbMSCO8F21GLWCq_cream%20white.jpg
+  shoe: Yeezy Boost 350 V2 Cream White # default name
   base_unit: ybc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1184,7 +1286,10 @@
   ask: {fee: 0, currency: ybc, fixed: 0}
 - id: ybtusd
   code: 10
-  name: YBT/USD #Yeezy Boost 350 V2 Blue Tint # default name
+  name: YBT/USD 
+  size: 13
+  picture: https://dl.airtable.com/ct8285BjTKCEHrMifKEF_blue%20tint.jpg
+  shoe: Yeezy Boost 350 V2 Blue Tint # default name
   base_unit: ybt
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1192,7 +1297,10 @@
   ask: {fee: 0, currency: ybt, fixed: 0}
 - id: ybzusd
   code: 10
-  name: YBX/USD #Yeezy Boost 350 V2 Zebra # default name
+  name: YBX/USD 
+  size: 13
+  picture: https://dl.airtable.com/339j9E7ZQE6OYjPFuYr5_zebra.jpg
+  shoe: Yeezy Boost 350 V2 Zebra # default name
   base_unit: ybz
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
@@ -1200,7 +1308,10 @@
   ask: {fee: 0, currency: ybz, fixed: 0}
 - id: zrgusd
   code: 10
-  name: ZRG/USD #Zoom Rookie Glow in the Dark # default name
+  name: ZRG/USD 
+  size: 13
+  picture: https://dl.airtable.com/RjB4r1RxSA50wNf2roRw_Glow%20in%20Dark.jpg
+  shoe: Zoom Rookie Glow in the Dark # default name
   base_unit: zrg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
