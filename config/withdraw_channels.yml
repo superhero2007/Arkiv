@@ -26,833 +26,833 @@
   fee: 0.0005
   type: WithdrawChannelEthereum
 - id: 1000
-  key: arkiv
+  key: satoshi
   currency: abw
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 1001
-  key: arkiv
+  key: satoshi
   currency: aff
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 1002
-  key: arkiv
+  key: satoshi
   currency: afl
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 1003
-  key: arkiv
+  key: satoshi
   currency: afo
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 1004
-  key: arkiv
+  key: satoshi
   currency: afx
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 1005
-  key: arkiv
+  key: satoshi
   currency: amb
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 1006
-  key: arkiv
+  key: satoshi
   currency: amg
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 1007
-  key: arkiv
+  key: satoshi
   currency: amp
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 1008
-  key: arkiv
+  key: satoshi
   currency: ams
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 1009
-  key: arkiv
+  key: satoshi
   currency: apu
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1010
-  key: arkiv
+  key: satoshi
   currency: apw
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 1011
-  key: arkiv
+  key: satoshi
   currency: avb
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi 
 - id: 1012
-  key: arkiv
+  key: satoshi
   currency: bgm
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi 
 - id: 1013
-  key: arkiv
+  key: satoshi
   currency: fdd
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1014
-  key: arkiv
+  key: satoshi
   currency: jal
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1015
-  key: arkiv
+  key: satoshi
   currency: jan
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1016
-  key: arkiv
+  key: satoshi
   currency: jaq
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1017
-  key: arkiv
+  key: satoshi
   currency: jbb
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi 
 - id: 1018
-  key: arkiv
+  key: satoshi
   currency: jbc
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1019
-  key: arkiv
+  key: satoshi
   currency: jbg
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1020
-  key: arkiv
+  key: satoshi
   currency: jbr
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1021
-  key: arkiv
+  key: satoshi
   currency: jbu
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1022
-  key: arkiv
+  key: satoshi
   currency: jcb
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1023
-  key: arkiv
+  key: satoshi
   currency: jcc
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1024
-  key: arkiv
+  key: satoshi
   currency: jch
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1025
-  key: arkiv
+  key: satoshi
   currency: jco
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1026
-  key: arkiv
+  key: satoshi
   currency: jcr
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1027
-  key: arkiv
+  key: satoshi
   currency: jdm
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1028
-  key: arkiv
+  key: satoshi
   currency: jfe
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1029
-  key: arkiv
+  key: satoshi
   currency: jfg
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1030
-  key: arkiv
+  key: satoshi
   currency: jfi
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1031
-  key: arkiv
+  key: satoshi
   currency: jfm
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1032
-  key: arkiv
+  key: satoshi
   currency: jfp
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1033
-  key: arkiv
+  key: satoshi
   currency: jgq
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1034
-  key: arkiv
+  key: satoshi
   currency: jfr
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1035
-  key: arkiv
+  key: satoshi
   currency: jgb
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1036
-  key: arkiv
+  key: satoshi
   currency: jgm
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1037
-  key: arkiv
+  key: satoshi
   currency: jgp
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1038
-  key: arkiv
+  key: satoshi
   currency: jgr
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1039
-  key: arkiv
+  key: satoshi
   currency: jhp
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1040
-  key: arkiv
+  key: satoshi
   currency: jib
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1041
-  key: arkiv
+  key: satoshi
   currency: jjf
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1042
-  key: arkiv
+  key: satoshi
   currency: jjs
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1043
-  key: arkiv
+  key: satoshi
   currency: jla
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1044
-  key: arkiv
+  key: satoshi
   currency: jly
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1045
-  key: arkiv
+  key: satoshi
   currency: jmj
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1046
-  key: arkiv
+  key: satoshi
   currency: jng
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1047
-  key: arkiv
+  key: satoshi
   currency: jog
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1048
-  key: arkiv
+  key: satoshi
   currency: jol
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1049
-  key: arkiv
+  key: satoshi
   currency: jpb
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1050
-  key: arkiv
+  key: satoshi
   currency: jpl
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi  
 - id: 1051
-  key: arkiv
+  key: satoshi
   currency: jpo
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 1052 
-  key: arkiv
+  key: satoshi
   currency: jps 
   fixed: 1053
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 1054
-  key: arkiv
+  key: satoshi
   currency: jra
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 1056
-  key: arkiv
+  key: satoshi
   currency: jrb
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 59
-  key: arkiv
+  key: satoshi
   currency: jrc
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 60
-  key: arkiv
+  key: satoshi
   currency: jrh
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 61
-  key: arkiv
+  key: satoshi
   currency: jro
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 62 
-  key: arkiv
+  key: satoshi
   currency: jrr 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 63 
-  key: arkiv
+  key: satoshi
   currency: jrt 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 64 
-  key: arkiv
+  key: satoshi
   currency: jry
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 65 
-  key: arkiv
+  key: satoshi
   currency: jsa 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 66
-  key: arkiv
+  key: satoshi
   currency: jse 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 67
-  key: arkiv
+  key: satoshi
   currency: jsj 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 68
-  key: arkiv
+  key: satoshi
   currency: jsl
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 69
-  key: arkiv
+  key: satoshi
   currency: jsr 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 70 
-  key: arkiv
+  key: satoshi
   currency: jst 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 71
-  key: arkiv
+  key: satoshi
   currency: jtb
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 72
-  key: arkiv
+  key: satoshi
   currency: jth 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 73
-  key: arkiv
+  key: satoshi
   currency: jty 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 74
-  key: arkiv
+  key: satoshi
   currency: jwc
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 75
-  key: arkiv
+  key: satoshi
   currency: kap 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 76
-  key: arkiv
+  key: satoshi
   currency: kbh 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 77
-  key: arkiv
+  key: satoshi
   currency: kde
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 78
-  key: arkiv
+  key: satoshi
   currency: kea 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 79
-  key: arkiv
+  key: satoshi
   currency: keb 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 80
-  key: arkiv
+  key: satoshi
   currency: kee
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 81
-  key: arkiv
+  key: satoshi
   currency: kel 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 82
-  key: arkiv
+  key: satoshi
   currency: kef
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 83
-  key: arkiv
+  key: satoshi
   currency: kgf 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 84
-  key: arkiv
+  key: satoshi
   currency: kin 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 85
-  key: arkiv
+  key: satoshi
   currency: kng 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 86
-  key: arkiv
+  key: satoshi
   currency: krg
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 87
-  key: arkiv
+  key: satoshi
   currency: kse
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 88
-  key: arkiv
+  key: satoshi
   currency: ksp
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 89
-  key: arkiv
+  key: satoshi
   currency: kst 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 90
-  key: arkiv
+  key: satoshi
   currency: kvb 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 91
-  key: arkiv
+  key: satoshi
   currency: laa
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 92
-  key: arkiv
+  key: satoshi
   currency: lbb
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 93
-  key: arkiv
+  key: satoshi
   currency: lbhx 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 94
-  key: arkiv
+  key: satoshi
   currency: lbh
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 95
-  key: arkiv
+  key: satoshi
   currency: lbs
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 96
-  key: arkiv
+  key: satoshi
   currency: lcg
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 97
-  key: arkiv
+  key: satoshi
   currency: lch
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 98
-  key: arkiv
+  key: satoshi
   currency: led 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 99
-  key: arkiv
+  key: satoshi
   currency: leh 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 100
-  key: arkiv
+  key: satoshi
   currency: les 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 101
-  key: arkiv
+  key: satoshi
   currency: lfc
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 102
-  key: arkiv
+  key: satoshi
   currency: lfg 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 103
-  key: arkiv
+  key: satoshi
   currency: lfi
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 104
-  key: arkiv
+  key: satoshi
   currency: lma 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 105
-  key: arkiv
+  key: satoshi
   currency: lmh 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 106
-  key: arkiv
+  key: satoshi
   currency: lmhh
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 107
-  key: arkiv
+  key: satoshi
   currency: lmhb
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 108
-  key: arkiv
+  key: satoshi
   currency: lsl 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 109
-  key: arkiv
+  key: satoshi
   currency: lxc 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 110
-  key: arkiv
+  key: satoshi
   currency: mud
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 111
-  key: arkiv
+  key: satoshi
   currency: muo 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 112
-  key: arkiv
+  key: satoshi
   currency: nap 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 113
-  key: arkiv
+  key: satoshi
   currency: ndc
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 114
-  key: arkiv
+  key: satoshi
   currency: ndh 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 115
-  key: arkiv
+  key: satoshi
   currency: ndg 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 116
-  key: arkiv
+  key: satoshi
   currency: ndl 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 117
-  key: arkiv
+  key: satoshi
   currency: rrg 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 118
-  key: arkiv
+  key: satoshi
   currency: ybb 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 119
-  key: arkiv
+  key: satoshi
   currency: ybc 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 120
-  key: arkiv
+  key: satoshi
   currency: ybt 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 121
-  key: arkiv
+  key: satoshi
   currency: ybz 
   fixed: 8
   fee: 0.0005
   inuse: true
   type: WithdrawChannelSatoshi
 - id: 122
-  key: arkiv
+  key: satoshi
   currency: zrg 
   fixed: 8
   fee: 0.0005
