@@ -1,5 +1,11 @@
-= simple_form_for @two_factor, url: two_factor_path(@two_factor.class.to_s.demodulize.downcase) do |f|
+.container
+  .row
+    .col-sm-4.col-sm-offset-4
+      .login_section
+        h3  Two Factor Verification
 
-  = two_factor_tag(current_user)
+        = simple_form_for @two_factor, url: two_factor_path(@two_factor.class.to_s.demodulize.downcase) do |f|
 
-  = f.button :wrapped, t('.verify'), cancel: settings_path
+          = two_factor_tag(current_user)
+
+          = f.button :wrapped, t('.verify'), cancel: settings_path
