@@ -2,9 +2,9 @@ module Private
   class FundsController < BaseController
     layout 'funds'
 
-    before_action :auth_activated!
-    before_action :auth_verified!
-    before_action :two_factor_activated!
+    # before_action :auth_activated!
+    # before_action :auth_verified!
+    # before_action :two_factor_activated!
 
     def index
       @deposit_channels = DepositChannel.all
