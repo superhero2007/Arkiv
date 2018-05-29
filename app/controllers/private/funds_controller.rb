@@ -11,7 +11,7 @@ module Private
       @withdraw_channels = WithdrawChannel.where(currency: 'usd')
       @currencies = Currency.where(code: 'usd')
       @deposits = current_user.deposits
-      @accounts = current_user.accounts.where(currency: 1)
+      @accounts = current_user.accounts.where(currency: @currencies.first.id)
       @withdraws = current_user.withdraws
       @fund_sources = current_user.fund_sources
       @banks = Bank.all
