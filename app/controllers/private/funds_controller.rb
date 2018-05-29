@@ -19,6 +19,10 @@ module Private
       gon.jbuilder
     end
 
+    def balances
+      @accounts =  current_user.accounts.page(params[:page]).per(12)
+    end
+
     def gen_address
       current_user.accounts.each do |account|
         next if not account.currency_obj.coin?

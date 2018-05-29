@@ -1,0 +1,21 @@
+.row 
+  - @accounts.each do |account|
+    .col-md-3
+      .panel.panel-default
+        .panel-body
+           strong = account.currency.upcase
+           .row
+             .col-md-4
+                img src='icon-shoe.png'
+             .col-md-8
+               .row
+                 .col-md-8
+                    strong Balance
+                 .col-md-4
+                    span = account.balance
+               .row
+                 .col-md-8
+                    strong Locked
+                 .col-md-4
+                    span = account.locked
+  = paginate @accounts
