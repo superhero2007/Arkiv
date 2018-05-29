@@ -51,6 +51,8 @@ Peatio::Application.routes.draw do
   scope module: :private do
     resource  :id_document, only: [:edit, :update]
 
+    get 'balances', to: 'funds#balances'
+
     resources :settings, only: [:index]
     resources :api_tokens do
       member do
