@@ -38,14 +38,27 @@
             span Deposit USD
           .panel-body
             =form_tag deposit_usd_path
-              =number_field_tag 'test', nil, placeholder: 'Amount', class: 'form-control'
-              a.btn.btn-info.btn-xs href="#" Manage Fund source
-              =select_tag 'name', option_tags = nil, options = {'class'=>'form-control'}
-              =submit_tag 'Submit', class:'btn btn-success'
+              =number_field_tag 'amount', nil, placeholder: 'Amount', class: 'form-control'
+              br 
+                a.btn.btn-info.btn-xs href="#" Manage Deposit Address
+              =select_tag 'fund_source', option_tags = nil, options = {'class'=>'form-control'}
+              br =submit_tag 'Deposit', class:'btn btn-success'
   .col-md-1
     a.btn.btn-danger.btn-xs#close_deposit Close
 .row#withdraw_panel
   .col-md-11
-    h1 I love to withdraw
+    .row
+      .col-md-6.col-md-push-3
+        .panel.panel-info
+          .panel-heading
+            span Withdraw USD
+          .panel-body
+            =form_tag deposit_usd_path
+              =number_field_tag 'test', nil, placeholder: 'Amount', class: 'form-control'
+              br
+                a.btn.btn-info.btn-xs href="#" Manage withdraw Address
+              =select_tag 'fund_source', option_tags = nil, options = {'class'=>'form-control'}
+              br =text_field_tag '2fa_code', nil, placeholder: '2 Factor code', class: 'form-control'
+              br =submit_tag 'Withdraw', class:'btn btn-danger'
   .col-md-1
     a.btn.btn-danger.btn-xs#close_withdraw Close

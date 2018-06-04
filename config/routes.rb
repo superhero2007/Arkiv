@@ -53,6 +53,7 @@ Peatio::Application.routes.draw do
 
     get 'balances', to: 'funds#balances'
     post 'deposit_usd', to: 'funds#deposit_usd'
+    post 'withdraw_usd', to: 'funds#withdraw_usd'
 
     resources :settings, only: [:index]
     resources :api_tokens do
