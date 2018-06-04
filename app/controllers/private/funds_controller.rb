@@ -21,6 +21,7 @@ module Private
 
     def balances
       @accounts =  current_user.accounts.page(params[:page]).per(12)
+      @fund_sources = current_user.fund_sources
     end
 
     def deposit_usd

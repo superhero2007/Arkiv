@@ -41,7 +41,7 @@
               =number_field_tag 'amount', nil, placeholder: 'Amount', class: 'form-control'
               br 
                 a.btn.btn-info.btn-xs href="#" Manage Deposit Address
-              =select_tag 'fund_source', option_tags = nil, options = {'class'=>'form-control'}
+              =select_tag 'fund_source', options_from_collection_for_select(@fund_sources, "id", "uid"), options = {'class'=>'form-control'}
               br =submit_tag 'Deposit', class:'btn btn-success'
   .col-md-1
     a.btn.btn-danger.btn-xs#close_deposit Close
@@ -57,7 +57,7 @@
               =number_field_tag 'test', nil, placeholder: 'Amount', class: 'form-control'
               br
                 a.btn.btn-info.btn-xs href="#" Manage withdraw Address
-              =select_tag 'fund_source', option_tags = nil, options = {'class'=>'form-control'}
+              =select_tag 'fund_source', options_from_collection_for_select(@fund_sources, "id", "uid"), options = {'class'=>'form-control'}
               br =text_field_tag '2fa_code', nil, placeholder: '2 Factor code', class: 'form-control'
               br =submit_tag 'Withdraw', class:'btn btn-danger'
   .col-md-1
