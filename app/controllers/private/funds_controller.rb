@@ -25,7 +25,14 @@ module Private
     end
 
     def deposit_usd
-      redirect_to balances_path, notice: 'Deposit created'
+      fund_source = FundSource.find(params[:fund_source])
+      currency = Currency.where(code: 'usd')
+      account = current_user.accounts.where(currency: currency.first.id)
+      deposit = Deposit.new(account: account.first, amount: params[:amount], member: current_user, currency: currency.first.id, fee: 0.001, fund_uid: fund_source.uid, fund_extra: fund_source.extra)
+      if deposit.save
+        deposit.submit! 
+      end
+      redirect_to balances_path
     end
 
     def withdraw_usd

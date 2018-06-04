@@ -37,12 +37,12 @@
           .panel-heading
             span Deposit USD
           .panel-body
-            =form_tag deposit_usd_path
+            =form_tag deposit_usd_path, id: 'deposit_usd_form'
               =number_field_tag 'amount', nil, placeholder: 'Amount', class: 'form-control'
               br 
                 a.btn.btn-info.btn-xs href="#" Manage Deposit Address
               =select_tag 'fund_source', options_from_collection_for_select(@fund_sources, "id", "uid"), options = {'class'=>'form-control'}
-              br =submit_tag 'Deposit', class:'btn btn-success'
+              br =submit_tag 'Deposit', class:'btn btn-success', id: 'deposit_usd_submit'
   .col-md-1
     a.btn.btn-danger.btn-xs#close_deposit Close
 .row#withdraw_panel
@@ -53,8 +53,8 @@
           .panel-heading
             span Withdraw USD
           .panel-body
-            =form_tag deposit_usd_path
-              =number_field_tag 'test', nil, placeholder: 'Amount', class: 'form-control'
+            =form_tag withdraw_usd_path, id: 'withdraw_usd_form'
+              =number_field_tag 'test', nil, placeholder: 'Amount', class: 'form-control', id: 'witdraw_usd_submit'
               br
                 a.btn.btn-info.btn-xs href="#" Manage withdraw Address
               =select_tag 'fund_source', options_from_collection_for_select(@fund_sources, "id", "uid"), options = {'class'=>'form-control'}

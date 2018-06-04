@@ -17,4 +17,12 @@ $ ->
   $('#close_deposit').on 'click', =>
     $('#deposit_panel').hide()
     $('#currencies_panel').fadeIn()
+
+  $('#deposit_usd_form').submit -> 
+    amount = $('#amount').val()
+    if amount == ''
+      console.log 'Amount not enough'
+
+  $('#deposit_usd_form').on "ajax:success", ->
+    console.log 'data'
     
