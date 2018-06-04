@@ -24,8 +24,9 @@
       <%- else %>
         <%= render 'shared/headernew' %>
       <%- end %>
-
+      
       <div class='container'>
+        <%= render 'shared/alert' %>
         <%= yield %>
       </div>
       <div id="push"></div>
