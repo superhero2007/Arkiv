@@ -1,4 +1,4 @@
-.row 
+.row#currencies_panel
   - @accounts.each do |account|
     .col-md-3
       .panel.panel-default
@@ -18,4 +18,47 @@
                     strong Locked
                  .col-md-4
                     span = account.locked
+               - if !account.currency_obj.coin?
+                 .row
+                   .col-md-3
+                     a.btn.btn-success.btn-xs#deposit_usd href="#" Deposit
+                   .col-md-3.col-md-push-2
+                     a.btn.btn-danger.btn-xs#withdraw_usd href="#" Withdraw
+               - else
+                 .row
+                   .col-md-12
+                     span Shoe            
   = paginate @accounts
+.row#deposit_panel
+  .col-md-11
+    .row
+      .col-md-6.col-md-push-3
+        .panel.panel-info
+          .panel-heading
+            span Deposit USD
+          .panel-body
+            =form_tag deposit_usd_path
+              =number_field_tag 'amount', nil, placeholder: 'Amount', class: 'form-control'
+              br 
+                a.btn.btn-info.btn-xs href="#" Manage Deposit Address
+              =select_tag 'fund_source', option_tags = nil, options = {'class'=>'form-control'}
+              br =submit_tag 'Deposit', class:'btn btn-success'
+  .col-md-1
+    a.btn.btn-danger.btn-xs#close_deposit Close
+.row#withdraw_panel
+  .col-md-11
+    .row
+      .col-md-6.col-md-push-3
+        .panel.panel-info
+          .panel-heading
+            span Withdraw USD
+          .panel-body
+            =form_tag deposit_usd_path
+              =number_field_tag 'test', nil, placeholder: 'Amount', class: 'form-control'
+              br
+                a.btn.btn-info.btn-xs href="#" Manage withdraw Address
+              =select_tag 'fund_source', option_tags = nil, options = {'class'=>'form-control'}
+              br =text_field_tag '2fa_code', nil, placeholder: '2 Factor code', class: 'form-control'
+              br =submit_tag 'Withdraw', class:'btn btn-danger'
+  .col-md-1
+    a.btn.btn-danger.btn-xs#close_withdraw Close

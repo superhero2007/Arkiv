@@ -23,6 +23,14 @@ module Private
       @accounts =  current_user.accounts.page(params[:page]).per(12)
     end
 
+    def deposit_usd
+      redirect_to balances_path, notice: 'Deposit created'
+    end
+
+    def withdraw_usd
+      redirect_to balances_path, notice: 'Withdraw Submited'
+    end
+
     def gen_address
       current_user.accounts.each do |account|
         next if not account.currency_obj.coin?
