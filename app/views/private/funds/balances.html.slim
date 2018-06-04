@@ -9,14 +9,16 @@
                 img src='icon-shoe.png'
              .col-md-8
                .row
-                 .col-md-8
+                 .col-md-12
                     strong Balance
-                 .col-md-4
+               .row
+                 .col-md-12
                     span = account.balance
                .row
-                 .col-md-8
+                 .col-md-12
                     strong Locked
-                 .col-md-4
+               .row
+                 .col-md-12
                     span = account.locked
                - if !account.currency_obj.coin?
                  .row
@@ -27,7 +29,7 @@
                - else
                  .row
                    .col-md-12
-                     span Shoe            
+                     em Shoe            
   = paginate @accounts
 .row#deposit_panel
   .col-md-11

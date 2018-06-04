@@ -1,10 +1,11 @@
 module Private
   class FundsController < BaseController
     layout 'funds'
-
+    
     before_action :auth_activated!
     before_action :auth_verified!
     before_action :two_factor_activated!
+    before_action :set_variables, only: [:deposit_usd, :withdraw_usd ]
 
     def index
       @deposit_channels = DepositChannel.where(currency: 'usd')
@@ -25,17 +26,18 @@ module Private
     end
 
     def deposit_usd
-      fund_source = FundSource.find(params[:fund_source])
-      currency = Currency.where(code: 'usd')
-      account = current_user.accounts.where(currency: currency.first.id)
-      deposit = Deposit.new(account: account.first, amount: params[:amount], member: current_user, currency: currency.first.id, fee: 0.001, fund_uid: fund_source.uid, fund_extra: fund_source.extra)
+      deposit = Deposit.new(account: @account.first, amount: params[:amount], member: current_user, currency: @currency.first.id, fund_uid: @fund_source.uid, fund_extra: @fund_source.extra)
       if deposit.save
         deposit.submit! 
       end
-      redirect_to balances_path
+      redirect_to balances_path, notice: 'Deposit Submited'
     end
 
     def withdraw_usd
+      withdraw = Withdraw.new(account: @account.first, amount: params[:amount], member: current_user, currency: @currency.first.id, fund_uid: @fund_source.uid, fund_extra: @fund_source.extra)
+      if withdraw.save
+        withdraw.submit! 
+      end
       redirect_to balances_path, notice: 'Withdraw Submited'
     end
 
@@ -51,6 +53,12 @@ module Private
         end
       end
       render nothing: true
+    end
+
+    def set_variables
+      @fund_source = FundSource.find(params[:fund_source])
+      @currency = Currency.where(code: 'usd')
+      @account = current_user.accounts.where(currency: @currency.first.id)
     end
 
   end
