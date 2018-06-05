@@ -1,6 +1,8 @@
 $ -> 
   $('#deposit_panel').hide()
   $('#withdraw_panel').hide()
+  $('#withdraw_alert').hide()
+  $('#deposit_alert').hide()
 
   $('#deposit_usd').on 'click', =>
     $('#currencies_panel').hide()
@@ -23,6 +25,16 @@ $ ->
     if amount == ''
       console.log 'Amount not enough'
 
-  $('#fund_sources_form').submit ->
-    console.log 'Am submitted'
-    
+  $('#new_withdraw').on 'ajax:success', ->
+    $('#withdraw_sum').val('')
+    $('#2fa_code').val('')
+    $('#withdraw_alert').show()
+    $('#withdraw_alert').fadeOut(2000)
+
+  $('#new_deposit').on 'ajax:success', ->
+    $('#deposit_amount').val('')
+    $('#deposit_alert').show()
+    $('#deposit_alert').fadeOut(2000)
+
+
+     
