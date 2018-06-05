@@ -42,11 +42,12 @@
             =form_tag deposit_usd_path, id: 'deposit_usd_form'
               =number_field_tag 'amount', nil, placeholder: 'Amount', class: 'form-control'
               br 
-                a.btn.btn-info.btn-xs href="#" Manage Deposit Address
+                a.btn.btn-info.btn-xs data-toggle="modal" data-target=".bd-example-modal-lg" Manage Deposit Address
               =select_tag 'fund_source', options_from_collection_for_select(@fund_sources, "id", "uid"), options = {'class'=>'form-control'}
               br =submit_tag 'Deposit', class:'btn btn-success', id: 'deposit_usd_submit'
   .col-md-1
     a.btn.btn-danger.btn-xs#close_deposit Close
+
 .row#withdraw_panel
   .col-md-11
     .row
@@ -58,9 +59,25 @@
             =form_tag withdraw_usd_path, id: 'withdraw_usd_form'
               =number_field_tag 'test', nil, placeholder: 'Amount', class: 'form-control', id: 'witdraw_usd_submit'
               br
-                a.btn.btn-info.btn-xs href="#" Manage withdraw Address
+                a.btn.btn-info.btn-xs data-toggle="modal" data-target=".bd-example-modal-lg" Manage withdraw Address
               =select_tag 'fund_source', options_from_collection_for_select(@fund_sources, "id", "uid"), options = {'class'=>'form-control'}
               br =text_field_tag '2fa_code', nil, placeholder: '2 Factor code', class: 'form-control'
               br =submit_tag 'Withdraw', class:'btn btn-danger'
   .col-md-1
     a.btn.btn-danger.btn-xs#close_withdraw Close
+
+.modal.fade.bd-example-modal-lg tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true"
+  .modal-dialog.modal-lg
+    .modal-content
+      .modal-header
+        h3 Bank Account Management
+        p To facilitate the choice of bank withdrawals address
+      .modal-body
+        = form_tag
+          .row
+            .col-md-5
+              =select_tag 'extra', options_from_collection_for_select(@banks, "id", "code" ), options = {'class'=>'form-control'}
+            .col-md-5
+              =text_field_tag 'uid', nil, placeholder: 'Bank Account', class: 'form-control'
+            .col-md-2
+              =submit_tag 'Add', class: 'btn btn-primary'
