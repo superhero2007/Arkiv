@@ -5,7 +5,6 @@ module Private
     before_action :auth_activated!
     before_action :auth_verified!
     before_action :two_factor_activated!
-    before_action :set_variables, only: [:withdraw_usd ]
 
     def index
       @deposit_channels = DepositChannel.where(currency: 'usd')
@@ -29,14 +28,6 @@ module Private
       currency = Currency.where(code: 'usd').first
       @usd_account = current_user.accounts.where(currency: currency.id).first
       @fund_sources = current_user.fund_sources
-    end
-
-    def withdraw_usd
-      withdraw = Withdraw.new(account: @account.first, amount: params[:amount], member: current_user, currency: @currency.first.id, fund_uid: @fund_source.uid, fund_extra: @fund_source.extra)
-      if withdraw.save
-        withdraw.submit! 
-      end
-      redirect_to balances_path, notice: 'Withdraw Submited'
     end
 
     def gen_address
