@@ -39,11 +39,12 @@
           .panel-heading
             span Deposit USD
           .panel-body
-            =form_tag deposit_usd_path, id: 'deposit_usd_form'
-              =number_field_tag 'amount', nil, placeholder: 'Amount', class: 'form-control'
+            =form_for @deposit, url: deposits_banks_path do |f|
+              =f.hidden_field :account_id, value: @usd_account.id
+              =f.number_field :amount , placeholder: 'Amount', class: 'form-control'
               br 
                 a.btn.btn-info.btn-xs data-toggle="modal" data-target=".bd-example-modal-lg" Manage Deposit Address
-              =select_tag 'fund_source', options_from_collection_for_select(@fund_sources, "id", "uid"), options = {'class'=>'form-control'}
+              =select_tag 'fund_source' , options_from_collection_for_select(@fund_sources, "id", "uid"), options = {'class'=>'form-control'}
               br =submit_tag 'Deposit', class:'btn btn-success', id: 'deposit_usd_submit'
   .col-md-1
     a.btn.btn-danger.btn-xs#close_deposit Close

@@ -5,7 +5,7 @@ module Private
     before_action :auth_activated!
     before_action :auth_verified!
     before_action :two_factor_activated!
-    before_action :set_variables, only: [:deposit_usd, :withdraw_usd ]
+    before_action :set_variables, only: [:withdraw_usd ]
 
     def index
       @deposit_channels = DepositChannel.where(currency: 'usd')
@@ -24,15 +24,11 @@ module Private
       @accounts =  current_user.accounts.page(params[:page]).per(12)
       @banks = Bank.all
       @fund_source = FundSource.new
+      @deposit = Deposit.new
+      @withdraw = Withdraw.new
+      currency = Currency.where(code: 'usd').first
+      @usd_account = current_user.accounts.where(currency: currency.id).first
       @fund_sources = current_user.fund_sources
-    end
-
-    def deposit_usd
-      deposit = Deposit.new(account: @account.first, amount: params[:amount], member: current_user, currency: @currency.first.id, fund_uid: @fund_source.uid, fund_extra: @fund_source.extra)
-      if deposit.save
-        deposit.submit! 
-      end
-      redirect_to balances_path, notice: 'Deposit Submited'
     end
 
     def withdraw_usd
