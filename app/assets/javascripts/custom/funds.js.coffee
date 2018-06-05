@@ -23,6 +23,6 @@ $ ->
     if amount == ''
       console.log 'Amount not enough'
 
-  $('#deposit_usd_form').on "ajax:success", ->
-    console.log 'data'
+  $('#fund_sources_form').submit ->
+    console.log 'Am submitted'
     
