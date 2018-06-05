@@ -7,11 +7,11 @@ module Private
       before_action :auth_verified!
 
       def channel
-        @channel ||= DepositChannel.find_by_key(self.controller_name.singularize)
+        @channel ||= DepositChannel.find_by_key('bank')
       end
 
       def model_kls
-        "deposits/#{self.controller_name.singularize}".camelize.constantize
+        "deposits/bank".camelize.constantize
       end
     end
   end

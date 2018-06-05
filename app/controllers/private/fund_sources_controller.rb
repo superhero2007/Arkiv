@@ -5,7 +5,8 @@ module Private
       new_fund_source = current_user.fund_sources.new fund_source_params
 
       if new_fund_source.save
-        render json: new_fund_source, status: :ok
+        render nothing: true
+        #render json: new_fund_source, status: :ok
       else
         head :bad_request
       end

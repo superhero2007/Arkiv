@@ -32,10 +32,15 @@ module Deposits
     end
 
     def deposit_params
-      params[:deposit][:currency] = channel.currency
-      params[:deposit][:member_id] = current_user.id
-      params[:deposit][:account_id] = @account.id
-      params.require(:deposit).permit(:fund_source, :amount, :currency, :account_id, :member_id)
+      amount = params[:deposit][:amount]
+      member_id = current_user.id
+      account_id = params[:deposit][:account_id]
+      fund_source_id = params[:fund_source]
+      fund_source = FundSource.find(fund_source_id)
+      fund_uid = fund_source.uid 
+      fund_extra = fund_source.extra
+      currency = Currency.where(code: 'usd').first
+      {account_id: account_id, member_id: member_id, amount: amount, fund_uid: fund_uid, fund_extra: fund_extra, currency: currency.id, fund_source: fund_source.id}
     end
   end
 end
