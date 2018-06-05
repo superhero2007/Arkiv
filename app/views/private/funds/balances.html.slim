@@ -57,11 +57,12 @@
           .panel-heading
             span Withdraw USD
           .panel-body
-            =form_tag withdraw_usd_path, id: 'withdraw_usd_form'
-              =number_field_tag 'test', nil, placeholder: 'Amount', class: 'form-control', id: 'witdraw_usd_submit'
+            =form_for @withdraw, url: withdraws_banks_path do |f|
+              =f.number_field :sum, placeholder: 'Amount', class: 'form-control', id: 'witdraw_usd_submit'
               br
                 a.btn.btn-info.btn-xs data-toggle="modal" data-target=".bd-example-modal-lg" Manage withdraw Address
               =select_tag 'fund_source', options_from_collection_for_select(@fund_sources, "id", "uid"), options = {'class'=>'form-control'}
+              =f.hidden_field :currency, value: Currency.where(code: 'usd')
               br =text_field_tag '2fa_code', nil, placeholder: '2 Factor code', class: 'form-control'
               br =submit_tag 'Withdraw', class:'btn btn-danger'
   .col-md-1
