@@ -73,7 +73,7 @@
         h3 Bank Account Management
         p To facilitate the choice of bank withdrawals address
       .modal-body
-        = form_tag
+        = form_tag fund_sources_path
           .row
             .col-md-5
               =select_tag 'extra', options_from_collection_for_select(@banks, "id", "code" ), options = {'class'=>'form-control'}
