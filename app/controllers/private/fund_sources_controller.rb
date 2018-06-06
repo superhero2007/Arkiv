@@ -12,6 +12,11 @@ module Private
       end
     end
 
+    def index
+      fund_sources = current_user.fund_sources
+      render json: fund_sources, status: :ok
+    end
+
     def update
       account = 
 current_user.accounts.with_currency(fund_source.currency).first
