@@ -10,16 +10,16 @@ module Withdraws
       Rails.logger.info "Withdraw PArams: #{withdraw_params}"
       @withdraw = model_kls.new(withdraw_params)
 
-      if two_factor_auth_verified?
+      #if two_factor_auth_verified?
         if @withdraw.save
           @withdraw.submit!
           render nothing: true
         else
           render text: @withdraw.errors.full_messages.join(', '), status: 403
         end
-      else
-        render text: I18n.t('private.withdraws.create.two_factors_error'), status: 403
-      end
+      #else
+      #  render text: I18n.t('private.withdraws.create.two_factors_error'), status: 403
+      #end
     end
 
     def destroy
