@@ -13,6 +13,16 @@ module Private
       @transactions = Kaminari.paginate_array(@transactions).page(params[:page]).per(20)
     end
 
+    def deposit
+      deposit_history = current_user.deposits.limit(5).order(created_at: :desc)
+      render json: deposit_history , status: :ok
+    end
+
+    def withdraw
+      withdraw_history = current_user.withdraws.limit(5).order(created_at: :desc)
+      render json: withdraw_history , status: :ok
+    end
+
     def trades
       @trades = current_user.trades
         .includes(:ask_member).includes(:bid_member)

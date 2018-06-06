@@ -47,11 +47,21 @@
                 br
                 =form_for @deposit, url: deposits_banks_path, remote: true do |f|
                   =f.hidden_field :account_id, value: @usd_account.id
-                  =f.number_field :amount , placeholder: 'Amount', class: 'form-control'
+                  =f.number_field :amount , placeholder: 'Amount', class: 'form-control', step: 0.0001
                   br 
                     a.btn.btn-info.btn-xs data-toggle="modal" data-target=".bd-example-modal-lg" Manage Deposit Address
                   =select_tag 'fund_source' , options_from_collection_for_select(@fund_sources, "id", "uid"), options = {'class'=>'form-control'}
                   br =submit_tag 'Deposit', class:'btn btn-success', id: 'deposit_usd_submit'
+    .row
+        .col-md-12
+          table.table.table-condensed.table-hover
+            thead
+              tr
+                th.col-md-3 Amount
+                th.col-md-3 Fee
+                th.col-md-3 Status
+                th.col-md-3 Created At
+            tbody#deposit_table
   .col-md-1
     a.btn.btn-danger.btn-xs#close_deposit Close
 
@@ -70,13 +80,23 @@
               .col-md-12
                 br
                 =form_for @withdraw, url: withdraws_banks_path, remote: true do |f|
-                  =f.number_field :sum, placeholder: 'Amount', class: 'form-control'
+                  =f.number_field :sum, placeholder: 'Amount', class: 'form-control', step: 0.0001
                   br
                     a.btn.btn-info.btn-xs data-toggle="modal" data-target=".bd-example-modal-lg" Manage withdraw Address
                   =select_tag 'fund_source', options_from_collection_for_select(@fund_sources, "id", "uid"), options = {'class'=>'form-control'}
                   =f.hidden_field :currency, value: Currency.where(code: 'usd')
-                  br =text_field_tag '2fa_code', nil, placeholder: '2 Factor code', class: 'form-control'
+                  /! br =text_field_tag '2fa_code', nil, placeholder: '2 Factor code', class: 'form-control'
                   br =submit_tag 'Withdraw', class:'btn btn-danger'
+      .row
+        .col-md-12
+          table.table.table-condensed.table-hover
+            thead
+              tr
+                th.col-md-3 Amount
+                th.col-md-3 Fee
+                th.col-md-3 Status
+                th.col-md-3 Created At
+            tbody#withdraw_table
   .col-md-1
     a.btn.btn-danger.btn-xs#close_withdraw Close
 
