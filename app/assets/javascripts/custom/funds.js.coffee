@@ -36,5 +36,18 @@ $ ->
     $('#deposit_alert').show()
     $('#deposit_alert').fadeOut(2000)
 
+  $('#new_fund_source').on 'ajax:success', ->
+    $('#fund_source')
+      .find('option')
+      .remove()
+    $.get '/fund_sources', (data) ->
+      for fund_source in data
+        newOption = document.createElement("option")
+        newOption.value = fund_source.id
+        newOption.text=fund_source.uid
+        $('#fund_source').append newOption
+    $('#fund_sources_modal').modal('hide')
+
+
 
      
