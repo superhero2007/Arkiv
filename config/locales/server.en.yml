@@ -306,6 +306,7 @@ en:
       afp: AFP 
       apu: APU 
       apw: APW 
+      ams: AMS
       avb: AVB 
       bgm: BGM
       fdd: FDD 
@@ -339,7 +340,7 @@ en:
       jib: JIB 
       jff: JFF 
       jss: JSS 
-      jls: JLs 
+      jls: JLS
       jla: JLA 
       jly: JLY 
       jmj: JMJ 
@@ -411,11 +412,16 @@ en:
       ndg: NDG 
       ndl: NDL 
       rrg: RRG 
-      ybb: YBB 
+      yyb: YYB 
       ybc: YBC 
       ybt: YBT 
-      ybx: YBZ  
-      ybz: ZRG 
+      ybx: YBX 
+      zrg: ZRG
+      lfi: LFI
+      lbn: LBN
+      ksg: KSG 
+      kfg: KFG
+
   currency:
     satoshi:
       key: BTC
@@ -1007,7 +1013,7 @@ en:
       code: Roshe Run Gold Trophy
       format: '0,0.0000'
     arkiv115:
-      key: YBB               
+      key: YYB               
       name: Yeezy Boost 350 V2 Beluga 2.0
       code: Yeezy Boost 350 V2 Beluga 2.0
       format: '0,0.0000'

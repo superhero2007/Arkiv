@@ -876,17 +876,17 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: kef, fixed: 0}
-- id: kgfusd
+- id: kfgusd
   code: 10
   name: KFG/USD 
   size: 13
   picture: https://dl.airtable.com/XO69AdWOQyLWnNvl51qp_gold%20funda.jpg
   shoe: Kobe 9 Gold Fundamentals # default name
-  base_unit: kgf
+  base_unit: kfg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: kgf, fixed: 0}
+  ask: {fee: 0, currency: kfg, fixed: 0}
 - id: kinusd
   code: 10
   name: KIN/USD 
@@ -1265,14 +1265,14 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: rrg, fixed: 0}
   visible: false 
-- id: ybbusd
+- id: yybusd
   code: 10
   name: YYB/USD #Yeezy Boost 350 V2 Beluga 2.0 # default name
-  base_unit: ybb
+  base_unit: yyb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: ybb, fixed: 0}
+  ask: {fee: 0, currency: yyb, fixed: 0}
 - id: ybcusd
   code: 10
   name: YBC/USD 
@@ -1295,17 +1295,17 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: ybt, fixed: 0}
-- id: ybzusd
+- id: ybxusd
   code: 10
   name: YBX/USD 
   size: 13
   picture: https://dl.airtable.com/339j9E7ZQE6OYjPFuYr5_zebra.jpg
   shoe: Yeezy Boost 350 V2 Zebra # default name
-  base_unit: ybz
+  base_unit: ybx
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: ybz, fixed: 0}
+  ask: {fee: 0, currency: ybx, fixed: 0}
 - id: zrgusd
   code: 10
   name: ZRG/USD 
