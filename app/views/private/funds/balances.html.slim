@@ -111,7 +111,7 @@
           .row
             .col-md-5
               =f.hidden_field :currency, value: Currency.where(code: 'usd').first.id
-              =f.select :extra , options_from_collection_for_select(@banks, "id", "code" ), {}, { :class => 'form-control' }
+              =f.select :extra , options_from_collection_for_select(@banks, "id", "bank"), {}, { :class => 'form-control' }
             .col-md-5
               =f.text_field :uid, placeholder: 'Bank Account', class: 'form-control'
             .col-md-2
