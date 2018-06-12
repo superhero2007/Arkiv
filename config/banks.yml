@@ -1,80 +1,96 @@
 - id: 1
   code: icbc
+  bank: Industryand Commercial Bank of China
   currency: cny
   deposit: true
   withdraw: true
 - id: 2
   code: cbc
+  bank: Construction Bank of China
   currency: cny
   deposit: true
   withdraw: true
 - id: 3
   code: bc
+  bank: Bank of China
   currency: cny
   deposit: true
   withdraw: true
 - id: 4
   code: bcm
+  bank: Bank of Communications
   currency: cny
   deposit: true
   withdraw: true
 - id: 5
   code: abc
+  bank: Agriculture Bank of China
   currency: cny
   deposit: true
   withdraw: true
 - id: 6
   code: cmb
+  bank: China Merchants Bank Ltd
   currency: cny
   deposit: true
   withdraw: true
 - id: 7
   code: cmbc
+  bank: China Minsheng Banking Co., Ltd
   currency: cny
   deposit: true
   withdraw: true
 - id: 8
   code: cncb
+  bank: China CITIC Bank
   currency: cny
   deposit: true
   withdraw: true
 - id: 9
   code: hxb
+  bank: Hua Xia Bank Co., Ltd.
   currency: cny
   deposit: true
   withdraw: true
 - id: 10
   code: cib
+  bank: Industrial Bank Co., Ltd 
   currency: cny
   deposit: true
   withdraw: true
 - id: 11
   code: spdb
+  bank: Shanghai Pudong Development Bank
   currency: cny
   deposit: true
   withdraw: true
 - id: 12
   code: bob
+  bank: Bank of Beijing
   currency: cny
   deposit: true
   withdraw: true
 - id: 13
   code: ceb
+  bank: China Everbright Bank CO.LTD
   currency: cny
   deposit: true
   withdraw: true
 - id: 14
   code: sdb
+  bank: Shenzhen Development Bank 
   currency: cny
   deposit: true
   withdraw: true
 - id: 15
   code: pab
+  bank: Ping An Bank Co., Ltd. 
   currency: cny
   deposit: true
   withdraw: true
 - id: 16
   code: gdb
+  bank: Guangdong Development Bank
   currency: cny
   deposit: true
   withdraw: true
