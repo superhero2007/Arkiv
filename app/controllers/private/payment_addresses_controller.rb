@@ -6,7 +6,7 @@ module Private
       unless payment_address.transactions.empty?
         account.gen_payment_address
       end
-      redirect_to funds_path
+      redirect_to balances_path
     end
   end
 end
