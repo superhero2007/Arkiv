@@ -41,13 +41,15 @@ class ApplicationController < ActionController::Base
   end
 
   def auth_activated!
-    redirect_to settings_path, alert: t('private.settings.index.auth-activated') unless current_user.activated?
+    return true
+    #redirect_to settings_path, alert: t('private.settings.index.auth-activated') unless current_user.activated?
   end
 
   def auth_verified!
-    unless current_user and current_user.id_document and current_user.id_document_verified?
-      redirect_to settings_path, alert: t('private.settings.index.auth-verified')
-    end
+    return true
+    #unless current_user and current_user.id_document and current_user.id_document_verified?
+    #  redirect_to settings_path, alert: t('private.settings.index.auth-verified')
+    #end
   end
 
   def auth_no_initial!
@@ -66,26 +68,28 @@ class ApplicationController < ActionController::Base
   end
 
   def two_factor_activated!
-    if not current_user.two_factors.activated?
-      redirect_to settings_path, alert: t('two_factors.auth.please_active_two_factor')
-    end
+    return true
+    #if not current_user.two_factors.activated?
+    #  redirect_to settings_path, alert: t('two_factors.auth.please_active_two_factor')
+    #end
   end
 
   def two_factor_auth_verified?
-    return false if not current_user.two_factors.activated?
-    return false if two_factor_failed_locked? && !simple_captcha_valid?
+    return true
+    # return false if not current_user.two_factors.activated?
+    # return false if two_factor_failed_locked? && !simple_captcha_valid?
 
-    two_factor = current_user.two_factors.by_type(params[:two_factor][:type])
-    return false if not two_factor
+    # two_factor = current_user.two_factors.by_type(params[:two_factor][:type])
+    # return false if not two_factor
 
-    two_factor.assign_attributes params.require(:two_factor).permit(:otp)
-    if two_factor.verify?
-      clear_two_factor_auth_failed
-      true
-    else
-      increase_two_factor_auth_failed
-      false
-    end
+    # two_factor.assign_attributes params.require(:two_factor).permit(:otp)
+    # if two_factor.verify?
+    #   clear_two_factor_auth_failed
+    #   true
+    # else
+    #   increase_two_factor_auth_failed
+    #   false
+    # end
   end
 
   def two_factor_failed_locked?
