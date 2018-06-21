@@ -17,6 +17,7 @@ module Admin
       end
 
       def show
+        Rails.logger.debug "Interesting #{@banks}"
         flash.now[:notice] = t('.notice') if @bank.aasm_state.accepted?
       end
 
