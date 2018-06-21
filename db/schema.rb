@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150405053726) do
+ActiveRecord::Schema.define(version: 20180621035340) do
 
   create_table "account_versions", force: true do |t|
     t.integer  "member_id"
@@ -161,10 +161,11 @@ ActiveRecord::Schema.define(version: 20150405053726) do
     t.integer  "currency"
     t.string   "extra"
     t.string   "uid"
-    t.boolean  "is_locked",  default: false
+    t.boolean  "is_locked",      default: false
     t.datetime "created_at"
     t.datetime "updated_at"
     t.datetime "deleted_at"
+    t.string   "routing_number"
   end
 
   create_table "id_documents", force: true do |t|

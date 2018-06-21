@@ -7,13 +7,13 @@ class FundSource < ActiveRecord::Base
 
   belongs_to :member
 
-  validates_presence_of :uid, :extra, :member
+  validates_presence_of :uid, :extra, :member, :routing_number
 
   def label
     if currency_obj.try :coin?
       "#{uid} (#{extra})"
     else
-      [I18n.t("banks.#{extra}"), "****#{uid[-4..-1]}"].join('#')
+      ["#{extra}", "****#{uid[-4..-1]}"].join('#')
     end
   end
 

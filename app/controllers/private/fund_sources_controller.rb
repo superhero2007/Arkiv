@@ -4,6 +4,8 @@ module Private
     def create
       new_fund_source = current_user.fund_sources.new fund_source_params
 
+      Rails.logger.info "My fund source #{new_fund_source.to_json}"
+
       if new_fund_source.save
         render nothing: true
         #render json: new_fund_source, status: :ok
@@ -36,7 +38,7 @@ current_user.accounts.with_currency(fund_source.currency).first
     end
 
     def fund_source_params
-      params.require(:fund_source).permit(:currency, :uid, :extra)
+      params.require(:fund_source).permit(:currency, :uid, :extra, :routing_number)
     end
   end
 end

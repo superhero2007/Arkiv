@@ -50,7 +50,7 @@
                   =f.number_field :amount , placeholder: 'Amount', class: 'form-control', step: 0.0001
                   br 
                     a.btn.btn-info.btn-xs data-toggle="modal" data-target=".bd-example-modal-lg" Manage Deposit Address
-                  =select_tag 'fund_source' , options_from_collection_for_select(@fund_sources, "id", "uid"), options = {'class'=>'form-control'}
+                  =select_tag 'fund_source' , options_from_collection_for_select(@fund_sources, "id", "label"), options = {'class'=>'form-control'}
                   br =submit_tag 'Deposit', class:'btn btn-success', id: 'deposit_usd_submit'
     .row
         .col-md-12
@@ -83,7 +83,7 @@
                   =f.number_field :sum, placeholder: 'Amount', class: 'form-control', step: 0.0001
                   br
                     a.btn.btn-info.btn-xs data-toggle="modal" data-target=".bd-example-modal-lg" Manage withdraw Address
-                  =select_tag 'fund_source', options_from_collection_for_select(@fund_sources, "id", "uid"), options = {'class'=>'form-control'}
+                  =select_tag 'fund_source', options_from_collection_for_select(@fund_sources, "id", "label"), options = {'class'=>'form-control'}
                   =f.hidden_field :currency, value: Currency.where(code: 'usd')
                   /! br =text_field_tag '2fa_code', nil, placeholder: '2 Factor code', class: 'form-control'
                   br =submit_tag 'Withdraw', class:'btn btn-danger'
@@ -109,10 +109,12 @@
       .modal-body
         = form_for @fund_source, remote: true do |f|
           .row
-            .col-md-5
+            .col-md-3
               =f.hidden_field :currency, value: Currency.where(code: 'usd').first.id
-              =f.select :extra , options_from_collection_for_select(@banks, "id", "bank"), {}, { :class => 'form-control' }
-            .col-md-5
-              =f.text_field :uid, placeholder: 'Bank Account', class: 'form-control'
-            .col-md-2
+              =f.text_field :extra, placeholder: 'Bank Name', class: 'form-control', required: true
+            .col-md-3
+              =f.text_field :routing_number, placeholder: 'Routing Number', class: 'form-control', required: true
+            .col-md-3
+              =f.text_field :uid, placeholder: 'Bank Account', class: 'form-control', required: true
+            .col-md-3
               =f.submit 'Add', class: 'btn btn-primary'
