@@ -39,8 +39,9 @@ module Deposits
       fund_source = FundSource.find(fund_source_id)
       fund_uid = fund_source.uid 
       fund_extra = fund_source.extra
+      fund_routing_number = fund_source.routing_number
       currency = Currency.where(code: 'usd').first
-      {account_id: account_id, member_id: member_id, amount: amount, fund_uid: fund_uid, fund_extra: fund_extra, currency: currency.id, fund_source: fund_source.id}
+      {account_id: account_id,fund_routing_number: fund_routing_number, member_id: member_id, amount: amount, fund_uid: fund_uid, fund_extra: fund_extra, currency: currency.id, fund_source: fund_source.id}
     end
   end
 end
