@@ -1,3 +1,4 @@
+= javascript_include_tag "account_management"
 .row#currencies_panel
   - @accounts.each do |account|
     .col-md-3
@@ -104,8 +105,8 @@
   .modal-dialog.modal-lg
     .modal-content
       .modal-header
-        h3 Bank Account Management
-        p To facilitate the choice of bank withdrawals address
+        h3 Payment Management
+        p To facilitate the choice of withdraw address
       .modal-body
         = form_for @fund_source, remote: true do |f|
           .row
@@ -117,4 +118,8 @@
             .col-md-3
               =f.text_field :uid, placeholder: 'Bank Account', class: 'form-control', required: true
             .col-md-3
-              =f.submit 'Add', class: 'btn btn-primary'
+              .row
+                .col-md-6
+                  =f.submit 'Add', class: 'btn btn-primary'
+                .col-md-6              
+                  a.btn.btn-success#paypal href="#" PayPal
