@@ -59,7 +59,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: afx, fixed: 0}
 - id: ambusd
-  code: 10
+  code: 11
   name: AMB/USD 
   size: 13
   picture: https://dl.airtable.com/jdmOPx8aRF2FEbRLf3xW_beaches%20of%20rio.png
@@ -70,7 +70,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: amb, fixed: 0}
 - id: amgusd
-  code: 10
+  code: 12
   name: AMG/USD 
   size:
   picture:
@@ -82,7 +82,7 @@
   ask: {fee: 0, currency: amg, fixed: 0}
   visible: false 
 - id: ampusd
-  code: 10
+  code: 13
   name: AFP/USD 
   size:
   picture:
@@ -94,7 +94,7 @@
   ask: {fee: 0, currency: amp, fixed: 0}
   visible: false
 - id: amsusd
-  code: 10
+  code: 14
   name: AMS/USD 
   size: 13
   picture: https://dl.airtable.com/AHvfCsimT8i75UCCgdBz_AMax%2090%20sunset%20.jpg
@@ -105,7 +105,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: ams, fixed: 0}
 - id: apuusd
-  code: 10
+  code: 15
   name: APU/USD 
   size: XXL
   picture: https://dl.airtable.com/93Xr5laGSKGMjFt41F5w_unholy%20cumulus.png
@@ -116,7 +116,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: apu, fixed: 0}
 - id: apwusd
-  code: 10
+  code: 16
   name: APW/USD 
   size: 11
   picture: https://dl.airtable.com/nZKyDYTumzpntGDA3e9w_presto%20off%20white.jpg
@@ -127,7 +127,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: apw, fixed: 0}
 - id: avbusd
-  code: 10
+  code: 17
   name: AVB/USD 
   size: 12
   picture: https://dl.airtable.com/dGn4apLlQfChTkCHBwcM_off%20white%20blk.jpg
@@ -138,7 +138,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: avb, fixed: 0}
 - id: bgmusd
-  code: 10
+  code: 18
   name: BGM/USD 
   size:
   picture: 
@@ -150,7 +150,7 @@
   ask: {fee: 0, currency: bgm, fixed: 0}
   visible: false
 - id: fddusd
-  code: 10
+  code: 19
   name: FDD/USD 
   size: 13
   picture: https://dl.airtable.com/7EtkT4jrT9Kgc0Gfq0do_dr%20doom.jpg
@@ -161,7 +161,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: fdd, fixed: 0}
 - id: jalusd
-  code: 10
+  code: 20
   name: JAL/USD 
   size: 13
   picture: https://dl.airtable.com/ZLUbhCDsSumm1lXYFDUN_J13%20Altitude.jpg
@@ -172,7 +172,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jal, fixed: 0}
 - id: janusd
-  code: 10
+  code: 21
   name: JAN/USD #
   size: 13
   picture: https://dl.airtable.com/VyKbL5ySh6YWGJ4fnNn0_laser%2030th.jpg
@@ -183,7 +183,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jan, fixed: 0}
 - id: jaqusd
-  code: 10
+  code: 22
   name: JAQ/USD 
   size: 13.5
   picture: https://dl.airtable.com/jSKNf8xURECc8sv7mq5Y_aqua%208.jpg
@@ -194,7 +194,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jaq, fixed: 0}
 - id: jbbusd
-  code: 10
+  code: 23
   name: JBB/USD 
   size: 13
   picture: https://dl.airtable.com/R99bQrtXTIqJ90NJixJw_bugs%20bunny.png
@@ -205,7 +205,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jbb, fixed: 0}
 - id: jbcusd
-  code: 10
+  code: 24
   name: JBC/USD 
   size: 13
   picture: https://dl.airtable.com/3HxdctY0QxGdIqCo7FUv_jordan%2015%20bred%20cdp.jpg
@@ -216,7 +216,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jbc, fixed: 0}
 - id: jbgusd
-  code: 10
+  code: 25
   name: JBG/USD 
   size: 13
   picture: https://dl.airtable.com/bIWr1KOcTyKFgXBPKxsm_Blk%20Grape.jpg
@@ -227,7 +227,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jbg, fixed: 0}
 - id: jbrusd
-  code: 10
+  code: 26
   name: JBR/USD 
   size: 13
   picture: https://dl.airtable.com/bIWr1KOcTyKFgXBPKxsm_Blk%20Grape.jpg
@@ -238,7 +238,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jbr, fixed: 0}
 - id: jbuusd
-  code: 10
+  code: 27
   name: JBU/USD 
   size: 13
   picture: https://dl.airtable.com/uqvOjiQkKecztVo7fPcw_J5%20blk%20university%20blue.png
@@ -249,7 +249,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jbu, fixed: 0}
 - id: jcbusd
-  code: 10
+  code: 28
   name: JCB/USD 
   size: 14
   picture: https://dl.airtable.com/t3u9O367QahzmtS6aPO1_bailey.jpg
@@ -260,7 +260,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jcb, fixed: 0}
 - id: jccusd
-  code: 10
+  code: 29
   name: JCC/USD 
   size: 13
   picture: https://dl.airtable.com/0JLENk7lSFCLbXHemOhk_candycane.jpg
@@ -271,7 +271,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jcc, fixed: 0}
 - id: jchusd
-  code: 10
+  code: 30
   name: JCH/USD 
   size: 13
   picture: https://dl.airtable.com/X9R7zFNbRTudQxB1rghv_chrome.jpg
@@ -282,7 +282,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jch, fixed: 0}
 - id: jcousd
-  code: 10
+  code: 31
   name: JCO/USD 
   size: 14
   picture: https://dl.airtable.com/hfJbj5QpQ5K6AdUTVBUB_copper%20j17.jpg
@@ -293,7 +293,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jco, fixed: 0}
 - id: jcrusd
-  code: 10
+  code: 32
   name: JCR/USD 
   size: 13
   picture: https://dl.airtable.com/8jwmAp5LTNWsFEK5qejw_cherry%2013.png
@@ -304,7 +304,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jcr, fixed: 0}
 - id: jdmusd
-  code: 10
+  code: 33
   name: JDM/USD 
   size: 13
   picture: https://dl.airtable.com/yVmVDRTSAmdy3sci5POQ_magic%20J7.png
@@ -315,7 +315,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jdm, fixed: 0}
 - id: jfeusd
-  code: 10
+  code: 34
   name: JFE/USD 
   size: 13
   picture: https://dl.airtable.com/EGt4q210Q0CKADdqLgIi_J3%20fiure%20red.png
@@ -326,7 +326,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jfe, fixed: 0}
 - id: jfgusd
-  code: 10
+  code: 35
   name: JFG/USD 
   size: 13
   picture: https://dl.airtable.com/zHLJuMWLSYudrEr7Sxr3_jordan%209%20flu%20game.jpg
@@ -337,7 +337,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jfg, fixed: 0}
 - id: jfiusd
-  code: 10
+  code: 36
   name: JFI/USD 
   size: 13
   picture: https://dl.airtable.com/ZbS4ScpcSCykGWvjJBIL_J4%20Fire%20Red.png
@@ -348,7 +348,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jfi, fixed: 0}
 - id: jfmusd
-  code: 10
+  code: 37
   name: JFM/USD 
   size: 13
   picture: https://dl.airtable.com/dMyhAKQIiBaR7oKxDQnX_fontay.jpg
@@ -359,7 +359,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jfm, fixed: 0}
 - id: jfpusd
-  code: 10
+  code: 38
   name: JFP/USD 
   size: 13
   picture: https://dl.airtable.com/vw6ZEcxORdici6eMmem3_J3%20Fear.jpg
@@ -370,7 +370,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jfp, fixed: 0}
 - id: jgqusd
-  code: 10
+  code: 39
   name: JGQ/USD 
   size: 13
   picture: https://dl.airtable.com/hXgi6RqTne22fO7DmmvR_qs%20glow.jpg
@@ -381,7 +381,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jgq, fixed: 0}
 - id: jfrusd
-  code: 10
+  code: 40
   name: JFR/USD 
   size: 13
   picture: https://dl.airtable.com/8oVl1y2OSI29I8r2N2Wa_fire%20red%205.png
@@ -392,7 +392,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jfr, fixed: 0}
 - id: jgbusd
-  code: 10
+  code: 41
   name: JGB/USD 
   size: 13
   picture: https://dl.airtable.com/V0jFLevsRDqB5xYENR3g_green%20bean.jpg
@@ -403,7 +403,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jgb, fixed: 0}
 - id: jgmusd
-  code: 10
+  code: 42
   name: JGM/USD 
   size: 13
   picture: https://dl.airtable.com/uiT1sRfyFyvbv3A4DgXH_GMP.jpg
@@ -414,7 +414,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jgm, fixed: 0}
 - id: jgpusd
-  code: 10
+  code: 43
   name: JGP/USD 
   size: 13
   picture: https://dl.airtable.com/m66FABUURPGf6DHKHgi0_graphite.jpg
@@ -425,7 +425,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jgp, fixed: 0}
 - id: jgrusd
-  code: 10
+  code: 44
   name: JGR/USD 
   size: 13
   picture: https://dl.airtable.com/Nnonq1HQYaH9X52jZtqg_grape.jpg
@@ -436,7 +436,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jgr, fixed: 0}
 - id: jhpusd
-  code: 10
+  code: 45
   name: JHP/USD 
   size: 13
   picture: https://dl.airtable.com/hh1HC7vRHm7oBIa9Csyd_gold%20toe.jpg
@@ -447,7 +447,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jhp, fixed: 0}
 - id: jibusd
-  code: 10
+  code: 46
   name: JIB/USD 
   size: 13
   picture: https://dl.airtable.com/9FkIirCPTYinzRCZwZLV_infrared.jpg
@@ -458,7 +458,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jib, fixed: 0}
 - id: jffusd
-  code: 10
+  code: 47
   name: JFF/USD 
   size: 13
   picture: https://dl.airtable.com/BOodZblSNuyPCkCY1UoQ_J2K%20Filbert.jpg
@@ -469,7 +469,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jff, fixed: 0}
 - id: jlsusd
-  code: 10
+  code: 48
   name: JLS/USD 
   size: 12
   picture: https://dl.airtable.com/aNKUexjToyyKnIKfbXAV_JTH.jpg
@@ -480,7 +480,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jls, fixed: 0}
 - id: jlausd #jlausd
-  code: 10
+  code: 49
   name: JLA/USD 
   size: 13
   picture: img src='https://dl.airtable.com/HfcwvbXKRtqVoxEXWtTS_laney.jpg
@@ -491,7 +491,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jla, fixed: 0}
 - id: jlyusd
-  code: 10
+  code: 50
   name: JLY/USD 
   size: 13
   picture: https://dl.airtable.com/SXBxjdhiS3iZZLBjxzie_laney%2014.jpg
@@ -502,7 +502,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jly, fixed: 0}
 - id: jmjusd
-  code: 10
+  code: 51
   name: JMJ/USD 
   size: 13
   picture: https://dl.airtable.com/yR3wJauSSn6bujfCWRgl_motorboat%20jones.jpg
@@ -513,7 +513,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jmj, fixed: 0}
 - id: jngusd
-  code: 10
+  code: 52
   name: JNG/USD 
   size: 13
   picture: https://dl.airtable.com/oOT8zCPTS2E2HDEp5DMA_J13%20Neutral%20Grey.jpg
@@ -524,7 +524,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jng, fixed: 0}
 - id: jogusd
-  code: 10
+  code: 53
   name: JOG/USD 
   size: 13
   picture: https://dl.airtable.com/ptPm7h3RImVidC9SNCn5_quickstrike.jpg
@@ -535,7 +535,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jog, fixed: 0}
 - id: jolusd
-  code: 10
+  code: 54
   name: JOL/USD 
   size: 13
   picture: https://dl.airtable.com/zBJieWJAQT2pdzHFh8pC_j6%20olympic.jpg
@@ -546,7 +546,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jol, fixed: 0}
 - id: jpbusd
-  code: 10
+  code: 55
   name: JPB/USD 
   size: 13
   picture: https://dl.airtable.com/wn0efLthRrCZD8gGin1X_photo%20blue.jpg
@@ -557,7 +557,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jpb, fixed: 0}
 - id: jplusd
-  code: 10
+  code: 56
   name: JPL/USD 
   size: 13
   picture: https://dl.airtable.com/dXw4VxntSyOwiZ4fpAaX_jordan%2012%20playoffs.jpg
@@ -568,7 +568,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jpl, fixed: 0}
 - id: jpousd
-  code: 10
+  code: 57
   name: JPO/USD 
   size: 13
   picture: https://dl.airtable.com/y9F6DhsNTI6BdO0SFNLb_jordan%209%20powder.png
@@ -579,7 +579,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jpo, fixed: 0}
 - id: jpsusd
-  code: 10
+  code: 58
   name: JPS/USD 
   size: 13
   picture: https://dl.airtable.com/HRcuAPVuSuhXk1fRxiut_playoff%208.jpg
@@ -590,7 +590,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jps, fixed: 0}
 - id: jrausd
-  code: 10
+  code: 59
   name: JRA/USD 
   size: 13
   picture: https://dl.airtable.com/1wohoF7Q9OCWqHU00T0I_raptor.jpg
@@ -601,7 +601,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jra, fixed: 0}
 - id: jrbusd
-  code: 10
+  code: 60
   name: JRB/USD 
   size: 12
   picture: https://dl.airtable.com/2q3NJJqwSpOeRKh5gcXv_blk%20cement%202018.jpg
@@ -612,7 +612,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jrb, fixed: 0}
 - id: jrcusd
-  code: 10
+  code: 61
   name: JRC/USD 
   size: 13
   picture:
@@ -624,7 +624,7 @@
   ask: {fee: 0, currency: jrc, fixed: 0}
   visible: false 
 - id: jrhusd
-  code: 10
+  code: 62
   name: JRH/USD 
   size: 12
   picture: https://dl.airtable.com/RunnvtbR3WXvDo8BoE0V_tinker.jpg
@@ -635,7 +635,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jrh, fixed: 0}
 - id: jrousd
-  code: 10
+  code: 63
   name: JRO/USD 
   size: 13
   picture: https://dl.airtable.com/vqQUi7pmQzq046MmXbC0_off%20white%201s.jpg
@@ -646,7 +646,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jro, fixed: 0}
 - id: jrrusd
-  code: 10
+  code: 64
   name: JRR/USD 
   size: 12
   picture: https://dl.airtable.com/t8iNchPQRNWdOluGgHbI_J1%20Royal.jpg
@@ -657,7 +657,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jrr, fixed: 0}
 - id: jrtusd
-  code: 10
+  code: 65
   name: JRT/USD 
   size: 13
   picture: https://dl.airtable.com/QzghXHv7QQKZJjFGtgLx_blk%20tongue.png
@@ -668,7 +668,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jrt, fixed: 0}
 - id: jryusd
-  code: 10
+  code: 66
   name: JRY/USD 
   size: 13
   picture: https://dl.airtable.com/DrePKJaGRnS8Ecd7ftiG_tokyo%205s.jpg
@@ -679,7 +679,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jry, fixed: 0}
 - id: jsausd
-  code: 10
+  code: 67
   name: JSA/USD 
   size: 13
   picture: https://dl.airtable.com/5efy766lTw2kCIjrzqqx_silver%20anny.png
@@ -690,7 +690,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jsa, fixed: 0}
 - id: jseusd
-  code: 10
+  code: 68
   name: JSE/USD 
   size: 13
   picture: https://dl.airtable.com/JVt7jPQITx6iknTqDT7x_jordan%205%20stealth.jpg
@@ -701,7 +701,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jse, fixed: 0}
 - id: jsjusd
-  code: 10
+  code: 69
   name: JSJ/USD 
   size: 13
   picture: https://dl.airtable.com/NfhNR5biSUaiEUDYYSUi_slim%20j.jpg
@@ -712,7 +712,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jsj, fixed: 0}
 - id: jslusd
-  code: 10
+  code: 70
   name: JSL/USD 
   size: 13
   picture: https://dl.airtable.com/x2PYezXUSgiQaAH3zRyJ_stealth.jp
@@ -723,7 +723,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jsl, fixed: 0}
 - id: jsrusd
-  code: 10
+  code: 71
   name: JSR/USD 
   size: 13
   picture: https://dl.airtable.com/4XuqguQuKk6RSwjr7c3g_white.jpg
@@ -734,7 +734,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jsr, fixed: 0}
 - id: jstusd
-  code: 10
+  code: 72
   name: JST/USD 
   size: 13
   picture: https://dl.airtable.com/f7uvmt8Sn6zfuheTNjsg_stealth%20J3.jp
@@ -745,7 +745,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jst, fixed: 0}
 - id: jtbusd
-  code: 10
+  code: 73
   name: JTB/USD 
   size: 13
   picture: https://dl.airtable.com/zgm73h2uSGWgdBmIEve3_toro.jpg
@@ -756,7 +756,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jtb, fixed: 0}
 - id: jthusd
-  code: 10
+  code: 74
   name: JTH/USD 
   size: 13
   picture: https://dl.airtable.com/UJ2YpzJITBGNFEGrSNtU_thunder.jpg
@@ -767,7 +767,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jth, fixed: 0}
 - id: jtyusd
-  code: 10
+  code: 75
   name: JTY/USD 
   size: 13
   picture: https://dl.airtable.com/MbtBSvNMTVWGPdkTppjt_J4%20Rare%20Air.png
@@ -778,7 +778,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jty, fixed: 0}
 - id: jwcusd
-  code: 10
+  code: 76
   name: JWC/USD 
   size: 13
   picture: https://dl.airtable.com/RsoSjRRWqqGYn8vuw14A_white%20cement.jpg
@@ -789,7 +789,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: jwc, fixed: 0}
 - id: kapusd
-  code: 10
+  code: 77
   name: KAP/USD 
   size: 13
   picture: https://dl.airtable.com/iFcKJJE2TYG5ksAXCEhN_aunt%20pearl.jpg
@@ -800,7 +800,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: kap, fixed: 0}
 - id: kbhusd
-  code: 10
+  code: 78
   name: KBH/USD 
   size: 13
   picture: https://dl.airtable.com/7TNrsWzZQ0SBvbFCipyh_bhm.jpg
@@ -811,7 +811,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: kbh, fixed: 0}
 - id: kdeusd
-  code: 10
+  code: 79
   name: KDE/USD 
   size: 13
   picture: https://dl.airtable.com/GvyYiPPR42ItEqVi8mGg_KD%20Easter.jpg
@@ -822,7 +822,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: kde, fixed: 0}
 - id: keausd
-  code: 10
+  code: 80
   name: KEA/USD 
   size: 13
   picture: https://dl.airtable.com/i82YE9DBSGbfOzlvT4FH_allstar%20elite.jpg
@@ -833,7 +833,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: kea, fixed: 0}
 - id: kebusd
-  code: 10
+  code: 81
   name: KEB/USD 
   size: 13
   picture: https://dl.airtable.com/7LBsfk5QgFlp4TUqyodw_kobe%209%20bhm.jpg
@@ -844,7 +844,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: keb, fixed: 0}
 - id: keeusd
-  code: 10
+  code: 82
   name: KEE/USD 
   size: 13
   picture: https://dl.airtable.com/XEJUYtz9SxiVT10gWjLV_Eybl.png
@@ -855,7 +855,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: kee, fixed: 0}
 - id: kelusd
-  code: 10
+  code: 83
   name: KEL/USD 
   size: 13
   picture: https://dl.airtable.com/0T96YGzlSQmTpdNpPuOW_kobe%2011%204kb.jpg
@@ -866,7 +866,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: kel, fixed: 0}
 - id: kefusd
-  code: 10
+  code: 84
   name: KEF/USD 
   size: 13
   picture: https://dl.airtable.com/UH0LnxSitm4Z0LhQuAV1_floral.jpg
@@ -877,7 +877,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: kef, fixed: 0}
 - id: kfgusd
-  code: 10
+  code: 85
   name: KFG/USD 
   size: 13
   picture: https://dl.airtable.com/XO69AdWOQyLWnNvl51qp_gold%20funda.jpg
@@ -888,7 +888,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: kfg, fixed: 0}
 - id: kinusd
-  code: 10
+  code: 86
   name: KIN/USD 
   size: 13
   picture: https://dl.airtable.com/RXraxhCR1eBtEtZTYEwC_inferno.jpg
@@ -899,7 +899,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: kin, fixed: 0}
 - id: kngusd
-  code: 10
+  code: 87
   name: KNG/USD 
   size: 13
   picture: https://dl.airtable.com/o6nc7JSwT2KuPoTPDm3f_gumbo.png
@@ -910,7 +910,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: kng, fixed: 0}
 - id: krgusd
-  code: 10
+  code: 88
   name: KRG/USD 
   size: 13
   picture: https://dl.airtable.com/jW2iOjjMS6mEXrEl9g2c_rogue%20green.jpg
@@ -921,7 +921,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: krg, fixed: 0}
 - id: ksgusd
-  code: 10
+  code: 89
   name: KSG/USD 
   size: 13
   picture: https://dl.airtable.com/DMMQo8IQoKpRAYRumHPQ_extraterestrial.png
@@ -932,7 +932,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: ksg, fixed: 0}
 - id: kspusd
-  code: 10
+  code: 90
   name: KSP/USD 
   size: 13
   picture: https://dl.airtable.com/DMMQo8IQoKpRAYRumHPQ_extraterestrial.png
@@ -943,7 +943,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: ksp, fixed: 0}
 - id: kstusd
-  code: 10
+  code: 91
   name: KST/USD 
   size: 13
   picture: https://dl.airtable.com/IGyt9ZL4QySM2TRn8oYG_scoring%20title.jpg
@@ -954,7 +954,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: kst, fixed: 0}
 - id: kvbusd
-  code: 10
+  code: 92
   name: KVB/USD 
   size: 13
   picture: https://dl.airtable.com/vylyMs7AT6iNRxyZEkdt_venice%20beach.png
@@ -965,7 +965,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: kvb, fixed: 0}
 - id: laausd
-  code: 10
+  code: 93
   name: LAA/USD 
   size: 13
   picture: https://dl.airtable.com/znRlJ8qhRgqSI6Js6PoG_lebron%20x%20allstar%20area%2072.jp
@@ -976,7 +976,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: laa, fixed: 0}
 - id: lbbusd
-  code: 10
+  code: 94
   name: LBB/USD 
   size: 13
   picture: https://dl.airtable.com/r9msY8fRpWqorH0516ls_BigBang.jpg
@@ -987,7 +987,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: lbb, fixed: 0}
 - id: lbhxusd
-  code: 10
+  code: 95
   name: LBHX/USD 
   size: 13
   picture: https://dl.airtable.com/PTapdnsAQvGHGPhP8fWN_lebron%2010%20bhm.png
@@ -998,7 +998,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: lbhx, fixed: 0}
 - id: lbnusd
-  code: 10
+  code: 96
   name: LBN/USD 
   size: 13
   picture: https://dl.airtable.com/ao9P02VRxqvZm08M0YOP_lebron%2011%20bhm.png
@@ -1009,7 +1009,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: lbn, fixed: 0}
 - id: lbsusd
-  code: 10
+  code: 97
   name: LBS/USD 
   size: 13
   picture: https://dl.airtable.com/1PtbEKzkQSeYTSjnGVed_suede.jpg
@@ -1020,7 +1020,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: lbs, fixed: 0}
 - id: lcgusd
-  code: 10
+  code: 98
   name: LCG/USD 
   size: 13
   picture: https://dl.airtable.com/N7X9K2bORhO4esI01eDa_cool%20grey.jpg
@@ -1031,7 +1031,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: lcg, fixed: 0}
 - id: lchusd
-  code: 10
+  code: 99
   name: LCH/USD 
   size: 13
   picture: https://dl.airtable.com/QB1KeaOBQrKOP7ML9gyt_christmas.jpg
@@ -1042,7 +1042,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: lch, fixed: 0}
 - id: ledusd
-  code: 10
+  code: 100
   name: LED/USD 
   size: 13
   picture: https://dl.airtable.com/wGR3NxjRaKYjW39Ycbk8_denim%20lebro.png
@@ -1053,7 +1053,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: led, fixed: 0}
 - id: lehusd
-  code: 10
+  code: 101
   name: LEH/USD 
   size: 13
   picture: https://dl.airtable.com/2OLvj2QeKneYNrksAofA_hazelnut.png
@@ -1064,7 +1064,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: leh, fixed: 0}
 - id: lesusd
-  code: 10
+  code: 102
   name: LES/USD 
   size: 13
   picture: https://dl.airtable.com/S70zxtaXR5SUiYmcYzxC_snakeskin.jpg
@@ -1075,7 +1075,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: les, fixed: 0}
 - id: lfcusd
-  code: 10
+  code: 103
   name: LFC/USD 
   size: 13
   picture:
@@ -1087,7 +1087,7 @@
   ask: {fee: 0, currency: lfc, fixed: 0}
   visible: false
 - id: lfgusd
-  code: 10
+  code: 104
   name: LFG/USD 
   size: 13
   picture:
@@ -1099,7 +1099,7 @@
   ask: {fee: 0, currency: lfg, fixed: 0}
   visible: false 
 - id: lfiusd
-  code: 10
+  code: 105
   name: LFI/USD 
   size: 13
   picture: https://dl.airtable.com/Vfh3orkAROiyUmrxZXPV_forging.jpg
@@ -1110,7 +1110,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: lfi, fixed: 0}
 - id: lmausd
-  code: 10
+  code: 106
   name: LMA/USD 
   size: 13
   picture: https://dl.airtable.com/trNHO4a7Q4CvzE1v96hl_mango.jpg
@@ -1121,7 +1121,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: lma, fixed: 0}
 - id: lmhusd
-  code: 10
+  code: 107
   name: LMH/USD 
   size: 13
   picture: https://dl.airtable.com/2GLIOMa3QTu3qC85P9zO_lebron%209%20hurricanes.jpg
@@ -1132,7 +1132,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: lmh, fixed: 0}
 - id: lmhhusd
-  code: 10
+  code: 108
   name: LMHH/USD 
   size: 13
   picture: https://dl.airtable.com/dp9p6wxURtuV5Gi2Zb6h_miami%20heat%20home.jpg
@@ -1143,7 +1143,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: lmhh, fixed: 0}
 - id: lmhbusd
-  code: 10
+  code: 109
   name: LMHB/USD 
   size: 12
   picture: https://dl.airtable.com/r7I5oqbgSmmyWtn5uPFk_lebron%208%20SoBeach.jpg
@@ -1154,7 +1154,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: lmhb, fixed: 0}
 - id: lslusd
-  code: 10
+  code: 110
   name: LSL/USD 
   size: 13
   picture: https://dl.airtable.com/c1YOlzFyQQCKym9wZdIu_summit%20lake.jpg
@@ -1165,7 +1165,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: lsl, fixed: 0}
 - id: lxcusd
-  code: 10
+  code: 111
   name: LXC/USD 
   size: 13
   picture: https://dl.airtable.com/iyKAI0yzTxmy7bUwMu8l_lebr%2010%20christmas.jpg
@@ -1176,7 +1176,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: lxc, fixed: 0}
 - id: mudusd
-  code: 10
+  code: 112
   name: MUD/USD 
   size: 13
   picture: https://dl.airtable.com/J6WYMItT8iufAbRLz4aj_dusk%20to%20dawn.jpeg
@@ -1187,7 +1187,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: mud, fixed: 0}
 - id: muousd
-  code: 10
+  code: 113
   name: MUO/USD 
   size: 13
   picture: https://dl.airtable.com/lb6Ko5YcSjelpCWaJCS6_uptempo.jpg
@@ -1198,7 +1198,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: muo, fixed: 0}
 - id: napusd
-  code: 10
+  code: 114
   name: NAP/USD 
   size: 13
   picture: 
@@ -1210,7 +1210,7 @@
   ask: {fee: 0, currency: nap, fixed: 0}
   visible: false
 - id: ndcusd
-  code: 10
+  code: 115
   name: NDC/USD 
   size: 13
   picture: https://dl.airtable.com/Gk6PPlEHSoydERtM9Hpv_money%20cat.jpg
@@ -1221,7 +1221,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: ndc, fixed: 0}
 - id: ndhusd
-  code: 10
+  code: 116
   name: NDH/USD 
   size: 13
   picture: https://dl.airtable.com/YZCfuAsDRvyP9YpnWg9Y_quagmire.jpg
@@ -1232,7 +1232,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: ndh, fixed: 0}
 - id: ndgusd
-  code: 10
+  code: 117
   name: NDG/USD 
   size: 13
   picture: https://dl.airtable.com/I7W4jJBnTByzk31QQTQw_melvins.jpg
@@ -1243,7 +1243,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: ndg, fixed: 0}
 - id: ndlusd
-  code: 10
+  code: 118
   name: NDL/USD 
   size: 13
   picture: https://dl.airtable.com/0KK5zXlQWqdxjuJjcfWH_raygun.jpg
@@ -1254,7 +1254,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: ndl, fixed: 0}
 - id: rrgusd
-  code: 10
+  code: 119
   name: RRG/USD 
   size: 13
   picture: 
@@ -1266,7 +1266,7 @@
   ask: {fee: 0, currency: rrg, fixed: 0}
   visible: false 
 - id: yybusd
-  code: 10
+  code: 120
   name: YYB/USD #Yeezy Boost 350 V2 Beluga 2.0 # default name
   base_unit: yyb
   quote_unit: usd
@@ -1274,7 +1274,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: yyb, fixed: 0}
 - id: ybcusd
-  code: 10
+  code: 121
   name: YBC/USD 
   size: 12
   picture: https://dl.airtable.com/AyzdoEbMSCO8F21GLWCq_cream%20white.jpg
@@ -1285,7 +1285,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: ybc, fixed: 0}
 - id: ybtusd
-  code: 10
+  code: 122
   name: YBT/USD 
   size: 13
   picture: https://dl.airtable.com/ct8285BjTKCEHrMifKEF_blue%20tint.jpg
@@ -1296,7 +1296,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: ybt, fixed: 0}
 - id: ybxusd
-  code: 10
+  code: 123
   name: YBX/USD 
   size: 13
   picture: https://dl.airtable.com/339j9E7ZQE6OYjPFuYr5_zebra.jpg
@@ -1307,7 +1307,7 @@
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0, currency: ybx, fixed: 0}
 - id: zrgusd
-  code: 10
+  code: 124
   name: ZRG/USD 
   size: 13
   picture: https://dl.airtable.com/RjB4r1RxSA50wNf2roRw_Glow%20in%20Dark.jpg
