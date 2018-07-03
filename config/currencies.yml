@@ -860,3 +860,10 @@
   coin: true
   symbol: "YBZ"
   family: SHOE
+- id: 122
+  key: arkiv119
+  name: 'Zoom Rookie Glow in the Dark'
+  code: zrg
+  coin: true
+  symbol: "ZRG"
+  family: SHOE
