@@ -861,9 +861,44 @@
   symbol: "YBZ"
   family: SHOE
 - id: 122
-  key: arkiv119
+  key: arkiv120
   name: 'Zoom Rookie Glow in the Dark'
   code: zrg
   coin: true
   symbol: "ZRG"
+  family: SHOE
+- id: 123
+  key: arkiv121
+  name: 'Zoom Rookie Glow in the Dark'
+  code: lbn
+  coin: true
+  symbol: "LBN"
+  family: SHOE
+- id: 124
+  key: arkiv122
+  name: 'Zoom Rookie Glow in the Dark'
+  code: ksg
+  coin: true
+  symbol: "KSG"
+  family: SHOE
+- id: 125
+  key: arkiv123
+  name: 'Zoom Rookie Glow in the Dark'
+  code: KFG
+  coin: true
+  symbol: "KFG"
+  family: SHOE
+- id: 126
+  key: arkiv124
+  name: 'Zoom Rookie Glow in the Dark'
+  code: jls
+  coin: true
+  symbol: "JLS"
+  family: SHOE
+- id: 127
+  key: arkiv125
+  name: 'Zoom Rookie Glow in the Dark'
+  code: jff
+  coin: true
+  symbol: "JFF"
   family: SHOE
