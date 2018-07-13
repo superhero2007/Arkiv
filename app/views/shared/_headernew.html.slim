@@ -32,6 +32,10 @@ header.main-header
                 li
                   a href="#{balances_path}"
                     | Portfolio
+                - if is_admin?
+                  li
+                    a href="#{admin_dashboard_path}"
+                      | Admin Pannel
 
               - unless current_user
                 li
