@@ -6,7 +6,6 @@ module Admin
       @search_field = params[:search_field]
       @search_term = params[:search_term]
       @members = Member.search(field: @search_field, term: @search_term).page params[:page]
-      @cancellation = Cancelation.which_cancelation
     end
 
     def show
