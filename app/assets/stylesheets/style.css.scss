@@ -9173,3 +9173,11 @@ img{
   table-layout: fixed;
 }
 
+input#captcha{
+  border: 1px solid #ddd !important;
+  padding: 5px !important;
+}
+
+input#captcha:focus{
+  border: 1px solid blue !important;
+}
