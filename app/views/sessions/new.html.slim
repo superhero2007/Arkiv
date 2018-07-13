@@ -6,6 +6,7 @@
         = simple_form_for @identity, :url => '/auth/identity/callback', :method => :post do |f|
           = f.input :email, :input_html => {:name => 'auth_key', :autofocus => 'true'}, label: t('simple_form.labels.session.email'), placeholder: t('simple_form.placeholders.session.email')
           = f.input :password, :as => 'password', :input_html => {:name => 'password'}, label: t('simple_form.labels.session.password'), placeholder: t('simple_form.placeholders.session.password')
+          = link_to 'Reset Password', new_reset_password_path
           - if require_captcha?
             = f.input :captcha, required: true, label: t('simple_form.labels.session.captcha') do
               = show_simple_captcha
