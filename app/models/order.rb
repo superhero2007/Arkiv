@@ -61,7 +61,7 @@ class Order < ActiveRecord::Base
     raise "Cannot strike on cancelled or done order. id: #{id}, state: #{state}" unless state == Order::WAIT
 
     real_sub, add = get_account_changes trade
-    real_fee      = fee
+    real_fee      = add * fee
     real_add      = add - real_fee
 
     hold_account.unlock_and_sub_funds \
