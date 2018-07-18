@@ -31,9 +31,17 @@ class Ordering
   private
 
   def do_submit(order)
+    
     order.fix_number_precision # number must be fixed before computing locked
-    order.locked = order.origin_locked = order.compute_locked
+    locked_funds = order.compute_locked
+    if order.type == "OrderBid"
+      locked_funds = locked_funds + locked_funds*0.035
+    end
+    order.locked = order.origin_locked = locked_funds
     order.save!
+
+    Rails.logger.debug "Order type: #{order.type}"
+    Rails.logger.debug "My order being submited: #{order.to_json}"
 
     account = order.hold_account
     account.lock_funds(order.locked, reason: Account::ORDER_SUBMIT, ref: order)
