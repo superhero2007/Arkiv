@@ -31,8 +31,18 @@ class Ordering
   private
 
   def do_submit(order)
+    
     order.fix_number_precision # number must be fixed before computing locked
-    order.locked = order.origin_locked = order.compute_locked
+    locked_funds = order.compute_locked
+    if order.type == "OrderBid"
+      order_fees = locked_funds *0.035
+    else
+      order_fees = locked_funds*0
+    end
+    
+    locked_funds = locked_funds + order_fees
+    order.locked = order.origin_locked = locked_funds
+    order.order_fee = order_fees
     order.save!
 
     account = order.hold_account

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180621050540) do
+ActiveRecord::Schema.define(version: 20180718063935) do
 
   create_table "account_versions", force: true do |t|
     t.integer  "member_id"
@@ -273,6 +273,7 @@ ActiveRecord::Schema.define(version: 20180621050540) do
     t.decimal  "origin_locked",             precision: 32, scale: 16
     t.decimal  "funds_received",            precision: 32, scale: 16, default: 0.0
     t.integer  "trades_count",                                        default: 0
+    t.decimal  "order_fee",                 precision: 32, scale: 16
   end
 
   add_index "orders", ["currency", "state"], name: "index_orders_on_currency_and_state", using: :btree
