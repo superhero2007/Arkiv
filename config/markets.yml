@@ -7,8 +7,8 @@
   base_unit: abw 
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: abw, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: abw, fixed: 0}
   sort_order: 1
   visible: false     # default to true
 - id: affusd
@@ -20,8 +20,8 @@
   base_unit: aff
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: aff, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: aff, fixed: 0}
   visible: false
 - id: aflusd
   code: 7
@@ -32,8 +32,8 @@
   base_unit: afl
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: afl, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: afl, fixed: 0}
   visible: false
 - id: afousd
   code: 8
@@ -44,8 +44,8 @@
   base_unit: afo
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: afo, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: afo, fixed: 0}
   visible: false
 - id: afxusd
   code: 9
@@ -56,8 +56,8 @@
   base_unit: afx
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: afx, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035.035, currency: afx, fixed: 0}
 - id: ambusd
   code: 11
   name: AMB/USD 
@@ -67,8 +67,8 @@
   base_unit: amb 
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: amb, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: amb, fixed: 0}
 - id: amgusd
   code: 12
   name: AMG/USD 
@@ -78,8 +78,8 @@
   base_unit: amg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: amg, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: amg, fixed: 0}
   visible: false 
 - id: ampusd
   code: 13
@@ -90,8 +90,8 @@
   base_unit: amp
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: amp, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: amp, fixed: 0}
   visible: false
 - id: amsusd
   code: 14
@@ -102,8 +102,8 @@
   base_unit: ams
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: ams, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: ams, fixed: 0}
 - id: apuusd
   code: 15
   name: APU/USD 
@@ -113,8 +113,8 @@
   base_unit: apu
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: apu, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: apu, fixed: 0}
 - id: apwusd
   code: 16
   name: APW/USD 
@@ -124,8 +124,8 @@
   base_unit: apw
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: apw, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: apw, fixed: 0}
 - id: avbusd
   code: 17
   name: AVB/USD 
@@ -135,8 +135,8 @@
   base_unit: avb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: avb, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: avb, fixed: 0}
 - id: bgmusd
   code: 18
   name: BGM/USD 
@@ -146,8 +146,8 @@
   base_unit: bgm
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: bgm, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: bgm, fixed: 0}
   visible: false
 - id: fddusd
   code: 19
@@ -158,8 +158,8 @@
   base_unit: fdd
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: fdd, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: fdd, fixed: 0}
 - id: jalusd
   code: 20
   name: JAL/USD 
@@ -169,8 +169,8 @@
   base_unit: jal
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jal, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jal, fixed: 0}
 - id: janusd
   code: 21
   name: JAN/USD #
@@ -180,8 +180,8 @@
   base_unit: jan
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jan, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jan, fixed: 0}
 - id: jaqusd
   code: 22
   name: JAQ/USD 
@@ -191,8 +191,8 @@
   base_unit: jaq
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jaq, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jaq, fixed: 0}
 - id: jbbusd
   code: 23
   name: JBB/USD 
@@ -202,8 +202,8 @@
   base_unit: jbb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jbb, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jbb, fixed: 0}
 - id: jbcusd
   code: 24
   name: JBC/USD 
@@ -213,8 +213,8 @@
   base_unit: jbc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jbc, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jbc, fixed: 0}
 - id: jbgusd
   code: 25
   name: JBG/USD 
@@ -224,8 +224,8 @@
   base_unit: jbg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jbg, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jbg, fixed: 0}
 - id: jbrusd
   code: 26
   name: JBR/USD 
@@ -235,8 +235,8 @@
   base_unit: jbr
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jbr, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jbr, fixed: 0}
 - id: jbuusd
   code: 27
   name: JBU/USD 
@@ -246,8 +246,8 @@
   base_unit: jbu
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jbu, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jbu, fixed: 0}
 - id: jcbusd
   code: 28
   name: JCB/USD 
@@ -257,8 +257,8 @@
   base_unit: jcb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jcb, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jcb, fixed: 0}
 - id: jccusd
   code: 29
   name: JCC/USD 
@@ -268,8 +268,8 @@
   base_unit: jcc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jcc, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jcc, fixed: 0}
 - id: jchusd
   code: 30
   name: JCH/USD 
@@ -279,8 +279,8 @@
   base_unit: jch
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jch, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jch, fixed: 0}
 - id: jcousd
   code: 31
   name: JCO/USD 
@@ -290,8 +290,8 @@
   base_unit: jco
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jco, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jco, fixed: 0}
 - id: jcrusd
   code: 32
   name: JCR/USD 
@@ -301,8 +301,8 @@
   base_unit: jcr
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jcr, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jcr, fixed: 0}
 - id: jdmusd
   code: 33
   name: JDM/USD 
@@ -312,8 +312,8 @@
   base_unit: jdm
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jdm, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jdm, fixed: 0}
 - id: jfeusd
   code: 34
   name: JFE/USD 
@@ -323,8 +323,8 @@
   base_unit: jfe
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jfe, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jfe, fixed: 0}
 - id: jfgusd
   code: 35
   name: JFG/USD 
@@ -334,8 +334,8 @@
   base_unit: jfg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jfg, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jfg, fixed: 0}
 - id: jfiusd
   code: 36
   name: JFI/USD 
@@ -345,8 +345,8 @@
   base_unit: jfi
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jfi, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jfi, fixed: 0}
 - id: jfmusd
   code: 37
   name: JFM/USD 
@@ -356,8 +356,8 @@
   base_unit: jfm
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jfm, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jfm, fixed: 0}
 - id: jfpusd
   code: 38
   name: JFP/USD 
@@ -367,8 +367,8 @@
   base_unit: jfp
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jfp, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jfp, fixed: 0}
 - id: jgqusd
   code: 39
   name: JGQ/USD 
@@ -378,8 +378,8 @@
   base_unit: jgq
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jgq, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jgq, fixed: 0}
 - id: jfrusd
   code: 40
   name: JFR/USD 
@@ -389,8 +389,8 @@
   base_unit: jfr
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jfr, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jfr, fixed: 0}
 - id: jgbusd
   code: 41
   name: JGB/USD 
@@ -400,8 +400,8 @@
   base_unit: jgb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jgb, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jgb, fixed: 0}
 - id: jgmusd
   code: 42
   name: JGM/USD 
@@ -411,8 +411,8 @@
   base_unit: jgm
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jgm, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jgm, fixed: 0}
 - id: jgpusd
   code: 43
   name: JGP/USD 
@@ -422,8 +422,8 @@
   base_unit: jgp
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jgp, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jgp, fixed: 0}
 - id: jgrusd
   code: 44
   name: JGR/USD 
@@ -433,8 +433,8 @@
   base_unit: jgr
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jgr, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jgr, fixed: 0}
 - id: jhpusd
   code: 45
   name: JHP/USD 
@@ -444,8 +444,8 @@
   base_unit: jhp
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jhp, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jhp, fixed: 0}
 - id: jibusd
   code: 46
   name: JIB/USD 
@@ -455,8 +455,8 @@
   base_unit: jib
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jib, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jib, fixed: 0}
 - id: jffusd
   code: 47
   name: JFF/USD 
@@ -466,8 +466,8 @@
   base_unit: jff
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jff, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jff, fixed: 0}
 - id: jlsusd
   code: 48
   name: JLS/USD 
@@ -477,8 +477,8 @@
   base_unit: jls
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jls, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jls, fixed: 0}
 - id: jlausd #jlausd
   code: 49
   name: JLA/USD 
@@ -488,8 +488,8 @@
   base_unit: jla
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jla, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jla, fixed: 0}
 - id: jlyusd
   code: 50
   name: JLY/USD 
@@ -499,8 +499,8 @@
   base_unit: jly
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jly, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jly, fixed: 0}
 - id: jmjusd
   code: 51
   name: JMJ/USD 
@@ -510,8 +510,8 @@
   base_unit: jmj
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jmj, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jmj, fixed: 0}
 - id: jngusd
   code: 52
   name: JNG/USD 
@@ -521,8 +521,8 @@
   base_unit: jng
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jng, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jng, fixed: 0}
 - id: jogusd
   code: 53
   name: JOG/USD 
@@ -532,8 +532,8 @@
   base_unit: jog
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jog, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jog, fixed: 0}
 - id: jolusd
   code: 54
   name: JOL/USD 
@@ -543,8 +543,8 @@
   base_unit: jol
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jol, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jol, fixed: 0}
 - id: jpbusd
   code: 55
   name: JPB/USD 
@@ -554,8 +554,8 @@
   base_unit: jpb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jpb, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jpb, fixed: 0}
 - id: jplusd
   code: 56
   name: JPL/USD 
@@ -565,8 +565,8 @@
   base_unit: jpl
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jpl, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jpl, fixed: 0}
 - id: jpousd
   code: 57
   name: JPO/USD 
@@ -576,8 +576,8 @@
   base_unit: jpo
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jpo, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jpo, fixed: 0}
 - id: jpsusd
   code: 58
   name: JPS/USD 
@@ -587,8 +587,8 @@
   base_unit: jps
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jps, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jps, fixed: 0}
 - id: jrausd
   code: 59
   name: JRA/USD 
@@ -598,8 +598,8 @@
   base_unit: jra
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jra, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jra, fixed: 0}
 - id: jrbusd
   code: 60
   name: JRB/USD 
@@ -609,8 +609,8 @@
   base_unit: jrb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jrb, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jrb, fixed: 0}
 - id: jrcusd
   code: 61
   name: JRC/USD 
@@ -620,8 +620,8 @@
   base_unit: jrc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jrc, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jrc, fixed: 0}
   visible: false 
 - id: jrhusd
   code: 62
@@ -632,8 +632,8 @@
   base_unit: jrh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jrh, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jrh, fixed: 0}
 - id: jrousd
   code: 63
   name: JRO/USD 
@@ -643,8 +643,8 @@
   base_unit: jro
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jro, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jro, fixed: 0}
 - id: jrrusd
   code: 64
   name: JRR/USD 
@@ -654,8 +654,8 @@
   base_unit: jrr
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jrr, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jrr, fixed: 0}
 - id: jrtusd
   code: 65
   name: JRT/USD 
@@ -665,8 +665,8 @@
   base_unit: jrt
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jrt, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jrt, fixed: 0}
 - id: jryusd
   code: 66
   name: JRY/USD 
@@ -676,8 +676,8 @@
   base_unit: jry
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jry, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jry, fixed: 0}
 - id: jsausd
   code: 67
   name: JSA/USD 
@@ -687,8 +687,8 @@
   base_unit: jsa
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jsa, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jsa, fixed: 0}
 - id: jseusd
   code: 68
   name: JSE/USD 
@@ -698,8 +698,8 @@
   base_unit: jse
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jse, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jse, fixed: 0}
 - id: jsjusd
   code: 69
   name: JSJ/USD 
@@ -709,8 +709,8 @@
   base_unit: jsj
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jsj, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jsj, fixed: 0}
 - id: jslusd
   code: 70
   name: JSL/USD 
@@ -720,8 +720,8 @@
   base_unit: jsl
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jsl, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jsl, fixed: 0}
 - id: jsrusd
   code: 71
   name: JSR/USD 
@@ -731,8 +731,8 @@
   base_unit: jsr
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jsr, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jsr, fixed: 0}
 - id: jstusd
   code: 72
   name: JST/USD 
@@ -742,8 +742,8 @@
   base_unit: jst
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jst, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jst, fixed: 0}
 - id: jtbusd
   code: 73
   name: JTB/USD 
@@ -753,8 +753,8 @@
   base_unit: jtb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jtb, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jtb, fixed: 0}
 - id: jthusd
   code: 74
   name: JTH/USD 
@@ -764,8 +764,8 @@
   base_unit: jth
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jth, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jth, fixed: 0}
 - id: jtyusd
   code: 75
   name: JTY/USD 
@@ -775,8 +775,8 @@
   base_unit: jty
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jty, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jty, fixed: 0}
 - id: jwcusd
   code: 76
   name: JWC/USD 
@@ -786,8 +786,8 @@
   base_unit: jwc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: jwc, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: jwc, fixed: 0}
 - id: kapusd
   code: 77
   name: KAP/USD 
@@ -797,8 +797,8 @@
   base_unit: kap
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: kap, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: kap, fixed: 0}
 - id: kbhusd
   code: 78
   name: KBH/USD 
@@ -808,8 +808,8 @@
   base_unit: kbh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: kbh, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: kbh, fixed: 0}
 - id: kdeusd
   code: 79
   name: KDE/USD 
@@ -819,8 +819,8 @@
   base_unit: kde
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: kde, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: kde, fixed: 0}
 - id: keausd
   code: 80
   name: KEA/USD 
@@ -830,8 +830,8 @@
   base_unit: kea
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: kea, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: kea, fixed: 0}
 - id: kebusd
   code: 81
   name: KEB/USD 
@@ -841,8 +841,8 @@
   base_unit: keb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: keb, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: keb, fixed: 0}
 - id: keeusd
   code: 82
   name: KEE/USD 
@@ -852,8 +852,8 @@
   base_unit: kee
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: kee, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: kee, fixed: 0}
 - id: kelusd
   code: 83
   name: KEL/USD 
@@ -863,8 +863,8 @@
   base_unit: kel
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: kel, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: kel, fixed: 0}
 - id: kefusd
   code: 84
   name: KEF/USD 
@@ -874,8 +874,8 @@
   base_unit: kef
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: kef, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: kef, fixed: 0}
 - id: kfgusd
   code: 85
   name: KFG/USD 
@@ -885,8 +885,8 @@
   base_unit: kfg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: kfg, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: kfg, fixed: 0}
 - id: kinusd
   code: 86
   name: KIN/USD 
@@ -896,8 +896,8 @@
   base_unit: kin
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: kin, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: kin, fixed: 0}
 - id: kngusd
   code: 87
   name: KNG/USD 
@@ -907,8 +907,8 @@
   base_unit: kng
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: kng, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: kng, fixed: 0}
 - id: krgusd
   code: 88
   name: KRG/USD 
@@ -918,8 +918,8 @@
   base_unit: krg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: krg, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: krg, fixed: 0}
 - id: ksgusd
   code: 89
   name: KSG/USD 
@@ -929,8 +929,8 @@
   base_unit: ksg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: ksg, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: ksg, fixed: 0}
 - id: kspusd
   code: 90
   name: KSP/USD 
@@ -940,8 +940,8 @@
   base_unit: ksp
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: ksp, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: ksp, fixed: 0}
 - id: kstusd
   code: 91
   name: KST/USD 
@@ -951,8 +951,8 @@
   base_unit: kst
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: kst, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: kst, fixed: 0}
 - id: kvbusd
   code: 92
   name: KVB/USD 
@@ -962,8 +962,8 @@
   base_unit: kvb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: kvb, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: kvb, fixed: 0}
 - id: laausd
   code: 93
   name: LAA/USD 
@@ -973,8 +973,8 @@
   base_unit: laa
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: laa, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: laa, fixed: 0}
 - id: lbbusd
   code: 94
   name: LBB/USD 
@@ -984,8 +984,8 @@
   base_unit: lbb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: lbb, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: lbb, fixed: 0}
 - id: lbhxusd
   code: 95
   name: LBHX/USD 
@@ -995,8 +995,8 @@
   base_unit: lbhx
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: lbhx, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: lbhx, fixed: 0}
 - id: lbnusd
   code: 96
   name: LBN/USD 
@@ -1006,8 +1006,8 @@
   base_unit: lbn
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: lbn, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: lbn, fixed: 0}
 - id: lbsusd
   code: 97
   name: LBS/USD 
@@ -1017,8 +1017,8 @@
   base_unit: lbs
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: lbs, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: lbs, fixed: 0}
 - id: lcgusd
   code: 98
   name: LCG/USD 
@@ -1028,8 +1028,8 @@
   base_unit: lcg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: lcg, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: lcg, fixed: 0}
 - id: lchusd
   code: 99
   name: LCH/USD 
@@ -1039,8 +1039,8 @@
   base_unit: lch
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: lch, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: lch, fixed: 0}
 - id: ledusd
   code: 100
   name: LED/USD 
@@ -1050,8 +1050,8 @@
   base_unit: led
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: led, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: led, fixed: 0}
 - id: lehusd
   code: 101
   name: LEH/USD 
@@ -1061,8 +1061,8 @@
   base_unit: leh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: leh, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: leh, fixed: 0}
 - id: lesusd
   code: 102
   name: LES/USD 
@@ -1072,8 +1072,8 @@
   base_unit: les
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: les, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: les, fixed: 0}
 - id: lfcusd
   code: 103
   name: LFC/USD 
@@ -1083,8 +1083,8 @@
   base_unit: lfc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: lfc, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: lfc, fixed: 0}
   visible: false
 - id: lfgusd
   code: 104
@@ -1095,8 +1095,8 @@
   base_unit: lfg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: lfg, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: lfg, fixed: 0}
   visible: false 
 - id: lfiusd
   code: 105
@@ -1107,8 +1107,8 @@
   base_unit: lfi
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: lfi, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: lfi, fixed: 0}
 - id: lmausd
   code: 106
   name: LMA/USD 
@@ -1118,8 +1118,8 @@
   base_unit: lma
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: lma, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: lma, fixed: 0}
 - id: lmhusd
   code: 107
   name: LMH/USD 
@@ -1129,8 +1129,8 @@
   base_unit: lmh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: lmh, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: lmh, fixed: 0}
 - id: lmhhusd
   code: 108
   name: LMHH/USD 
@@ -1140,8 +1140,8 @@
   base_unit: lmhh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: lmhh, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: lmhh, fixed: 0}
 - id: lmhbusd
   code: 109
   name: LMHB/USD 
@@ -1151,8 +1151,8 @@
   base_unit: lmhb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: lmhb, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: lmhb, fixed: 0}
 - id: lslusd
   code: 110
   name: LSL/USD 
@@ -1162,8 +1162,8 @@
   base_unit: lsl
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: lsl, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: lsl, fixed: 0}
 - id: lxcusd
   code: 111
   name: LXC/USD 
@@ -1173,8 +1173,8 @@
   base_unit: lxc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: lxc, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: lxc, fixed: 0}
 - id: mudusd
   code: 112
   name: MUD/USD 
@@ -1184,8 +1184,8 @@
   base_unit: mud
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: mud, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: mud, fixed: 0}
 - id: muousd
   code: 113
   name: MUO/USD 
@@ -1195,8 +1195,8 @@
   base_unit: muo
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: muo, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: muo, fixed: 0}
 - id: napusd
   code: 114
   name: NAP/USD 
@@ -1206,8 +1206,8 @@
   base_unit: nap
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: nap, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: nap, fixed: 0}
   visible: false
 - id: ndcusd
   code: 115
@@ -1218,8 +1218,8 @@
   base_unit: ndc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: ndc, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: ndc, fixed: 0}
 - id: ndhusd
   code: 116
   name: NDH/USD 
@@ -1229,8 +1229,8 @@
   base_unit: ndh
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: ndh, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: ndh, fixed: 0}
 - id: ndgusd
   code: 117
   name: NDG/USD 
@@ -1240,8 +1240,8 @@
   base_unit: ndg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: ndg, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: ndg, fixed: 0}
 - id: ndlusd
   code: 118
   name: NDL/USD 
@@ -1251,8 +1251,8 @@
   base_unit: ndl
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: ndl, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: ndl, fixed: 0}
 - id: rrgusd
   code: 119
   name: RRG/USD 
@@ -1262,8 +1262,8 @@
   base_unit: rrg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: rrg, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: rrg, fixed: 0}
   visible: false 
 - id: yybusd
   code: 120
@@ -1271,8 +1271,8 @@
   base_unit: yyb
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: yyb, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: yyb, fixed: 0}
 - id: ybcusd
   code: 121
   name: YBC/USD 
@@ -1282,8 +1282,8 @@
   base_unit: ybc
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: ybc, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: ybc, fixed: 0}
 - id: ybtusd
   code: 122
   name: YBT/USD 
@@ -1293,8 +1293,8 @@
   base_unit: ybt
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: ybt, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: ybt, fixed: 0}
 - id: ybxusd
   code: 123
   name: YBX/USD 
@@ -1304,8 +1304,8 @@
   base_unit: ybx
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: ybx, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: ybx, fixed: 0}
 - id: zrgusd
   code: 124
   name: ZRG/USD 
@@ -1315,5 +1315,5 @@
   base_unit: zrg
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
-  bid: {fee: 0.035, currency: usd, fixed: 2}
-  ask: {fee: 0, currency: zrg, fixed: 0}
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: zrg, fixed: 0}
