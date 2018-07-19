@@ -43,7 +43,7 @@ defaults: &defaults
   #
   PUSHER_APP: theid
   PUSHER_KEY: 122312389
-  PUSHER_SECRET: 75d6e6685209cc60cc4d
+  PUSHER_SECRET: 36922eaadaiugdob3d7bedc17ab
   PUSHER_HOST: pusher.arkivofficial.com
   PUSHER_PORT: 80
   PUSHER_WS_PORT: 80
