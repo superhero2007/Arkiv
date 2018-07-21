@@ -5,7 +5,8 @@ class OrderBid < Order
   scope :matching_rule, -> { order('price DESC, created_at ASC') }
 
   def get_account_changes(trade)
-    [trade.funds, trade.volume]
+    trade_funds = trade.funds+trade.funds*0.035
+    [trade_funds, trade.volume]
   end
 
   def hold_account
