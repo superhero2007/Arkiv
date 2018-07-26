@@ -166,6 +166,7 @@ GEM
       json
       multi_json
       request_store (>= 1.0.5)
+    google-analytics-rails (1.1.0)
     grape (0.7.0)
       activesupport
       builder
@@ -446,6 +447,7 @@ DEPENDENCIES
   font-awesome-sass
   globalize (~> 4.0.0)
   gon (~> 5.2.0)
+  google-analytics-rails (= 1.1.0)
   grape (~> 0.7.0)
   grape-entity (~> 0.4.2)
   grape-swagger (~> 0.7.2)
