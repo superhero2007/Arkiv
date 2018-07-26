@@ -95,4 +95,7 @@ Peatio::Application.configure do
   config.active_record.default_timezone = :local
 
   config.middleware.insert_before Rack::Runtime, Middleware::Security
+
+  #Google analytics tracking code
+  GA.tracker = "UA-104242001-1"
 end

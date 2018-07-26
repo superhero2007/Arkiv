@@ -13,6 +13,7 @@ html lang="en"
     = render 'shared/html5'
     = render 'shared/meta'
     = csrf_meta_tags
+    = analytics_init if GoogleAnalytics.valid_tracker?
 
   body id='#{body_id}' data-lang="#{locale_name}"
     = render 'shared/alert'
