@@ -465,8 +465,8 @@ en:
       format: '0,0.0000'
     arkiv5:
       key: AMB 
-      code: Air Max 95 Beaches or Rio 
-      name: Air Max 95 Beaches or Rio
+      code: Air Max 95 Beaches of Rio 
+      name: Air Max 95 Beaches of Rio
       format: '0,0.0000'
     arkiv6:
       key: AMG
@@ -580,8 +580,8 @@ en:
       format: '0,0.0000'
     arkiv28:
       key: JFE   
-      code: Jordan 3 Fire Red Jordan 12 Flu Game 
-      name: Jordan 3 Fire Red Jordan 12 Flu Game
+      code: Jordan 3 Fire Red 
+      name: Jordan 3 Fire Red
       format: '0,0.0000'
     arkiv29:
       key: JFG   
@@ -1032,11 +1032,30 @@ en:
       name: Yeezy Boost 350 V2 Zebra
       code: Yeezy Boost 350 V2 Zebra
       format: '0,0.0000'
-    arkiv119:
-      key: YBZ            
-      name: Zoom Rookie Glow in the Dark
-      code: Zoom Rookie Glow in the Dark
-      format: '0,0.0000'
+    arkiv120:
+      key: ZRG 
+      name: Nike Zoom Rookie Glow in the Dark
+      code: Nike Zoom Rookie Glow in the Dark
+    arkiv123:
+      key: KFG
+      name: Kobe 9 Gold Fundamentals
+      code: Kobe 9 Gold Fundamentals
+    arkiv122:
+      key: KSG 
+      name: KD 5 All Star Area 72
+      code: KD 5 All Star Area 72
+    arkiv121:
+      key: LBN 
+      name: Lebron 11 BHM
+      code: Lebron 11 BHM
+    arkiv124:
+      key: JLS 
+      name: Jordan 3 JTH Superbowl
+      code: Jordan 3 JTH Superbowl
+    arkiv125:
+      key: JFF 
+      name: Jordan 7 J2K Filbert
+      code: Jordan 7 J2K Filbert
     renminbi:
       key: USD
       code: USD 
