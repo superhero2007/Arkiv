@@ -838,13 +838,6 @@
   coin: true
   symbol: "YBX"
   family: SHOE
-- id: 121
-  key: arkiv119
-  name: 'Zoom Rookie Glow in the Dark'
-  code: ybz
-  coin: true
-  symbol: "YBZ"
-  family: SHOE
 - id: 122
   key: arkiv120
   name: 'Zoom Rookie Glow in the Dark'
@@ -882,7 +875,7 @@
   family: SHOE
 - id: 127
   key: arkiv125
-  name: 'Zoom Rookie Glow in the Dark'
+  name: 'Jordan 7 J2K Filbert'
   code: jff
   coin: true
   symbol: "JFF"

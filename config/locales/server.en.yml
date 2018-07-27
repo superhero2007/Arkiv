@@ -1032,16 +1032,11 @@ en:
       name: Yeezy Boost 350 V2 Zebra
       code: Yeezy Boost 350 V2 Zebra
       format: '0,0.0000'
-    arkiv119:
-      key: YBZ            
-      name: Zoom Rookie Glow in the Dark
-      code: Zoom Rookie Glow in the Dark
-      format: '0,0.0000'
     arkiv120:
-      key: JLS 
-      name: Jordan 3 JTH Superbowl
-      code: Jordan 3 JTH Superbowl
-    arkiv121:
+      key: ZRG 
+      name: Nike Zoom Rookie Glow in the Dark
+      code: Nike Zoom Rookie Glow in the Dark
+    arkiv123:
       key: KFG
       name: Kobe 9 Gold Fundamentals
       code: Kobe 9 Gold Fundamentals
@@ -1049,14 +1044,18 @@ en:
       key: KSG 
       name: KD 5 All Star Area 72
       code: KD 5 All Star Area 72
-    arkiv123:
+    arkiv121:
       key: LBN 
       name: Lebron 11 BHM
       code: Lebron 11 BHM
     arkiv124:
-      key: ZRG 
-      name: Nike Zoom Rookie Glow in the Dark
-      code: Nike Zoom Rookie Glow in the Dark
+      key: JLS 
+      name: Jordan 3 JTH Superbowl
+      code: Jordan 3 JTH Superbowl
+    arkiv125:
+      key: JFF 
+      name: Jordan 7 J2K Filbert
+      code: Jordan 7 J2K Filbert
     renminbi:
       key: USD
       code: USD 
