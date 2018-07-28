@@ -862,9 +862,9 @@
 - id: 125
   key: arkiv123
   name: 'Zoom Rookie Glow in the Dark'
-  code: KFG
+  code: KGF
   coin: true
-  symbol: "KFG"
+  symbol: "KGF"
   family: SHOE
 - id: 126
   key: arkiv124
