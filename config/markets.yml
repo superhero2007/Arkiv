@@ -876,17 +876,17 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0.035, currency: kef, fixed: 0}
-- id: kfgusd
+- id: kgfusd
   code: 85
-  name: KFG/USD 
+  name: KGF/USD 
   size: 13
   picture: https://dl.airtable.com/XO69AdWOQyLWnNvl51qp_gold%20funda.jpg
   shoe: Kobe 9 Gold Fundamentals # default name
-  base_unit: kfg
+  base_unit: kgf
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
-  ask: {fee: 0.035, currency: kfg, fixed: 0}
+  ask: {fee: 0.035, currency: kgf, fixed: 0}
 - id: kinusd
   code: 86
   name: KIN/USD 

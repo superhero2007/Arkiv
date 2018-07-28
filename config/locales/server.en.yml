@@ -420,7 +420,7 @@ en:
       lfi: LFI
       lbn: LBN
       ksg: KSG 
-      kfg: KFG
+      kgf: KGF
 
   currency:
     satoshi:
