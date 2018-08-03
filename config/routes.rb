@@ -130,6 +130,8 @@ Peatio::Application.routes.draw do
   end
   post '/webhooks/tx' => 'webhooks#tx'
   post '/webhooks/eth' => 'webhooks#eth'
+  get '/admin/fees' => 'admin/reports#daily_fees'
+
 
   draw :admin
   mount APIv2::Mount => APIv2::Mount::PREFIX

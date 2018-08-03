@@ -1,0 +1,47 @@
+.row
+  .col-xs-24
+    .panel.panel-primary
+      p
+        | Sort By: 
+        select[id="sort"]
+          option value="select"
+            | Select
+          option value="date"
+            | Date
+          option value="reason"
+            | Reason
+          option value="user"
+            | User
+          option value="ticker"
+            | Ticker
+      .panel-heading Accounts Log
+      .panel-body
+        table.table.table-condensed
+          thead: tr
+            th Date & Time
+            th Reason
+            th User
+            th Ticker
+            th No. of Shares
+            th Price
+            th Total
+            th Fees
+        tbody
+        - @data.each do |c|
+            tr
+            td = c['date']
+            td = c['reason']
+            td = c['user']
+            td = c['ticker']
+            td = c['shares']
+            td = c['price']
+            td = c['total']
+            td = c['fees']
+            
+javascript:
+  $("#sort").change(function(){
+    if($("#sort").find(":selected").val() == "select")
+      return;
+    url = "/admin/fees?sort=" + $("#sort").find(":selected").val();
+    window.open(url, "_self")
+  });

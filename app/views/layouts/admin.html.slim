@@ -12,6 +12,9 @@ html lang="en"
           li class = check_active('dashboard')
             = link_to t('header.dashboard'), main_app.admin_dashboard_path
 
+          li class = check_active('fees_report')
+            = link_to "Fees Report", "/admin/fees"
+
           - if can? :manage, Document
             li class = check_active(Document)
               = link_to t(".menus.items.operating.documents"), admin_documents_path
