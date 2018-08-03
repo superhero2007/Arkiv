@@ -8,11 +8,11 @@ module Admin
             withdrawals = Withdraw.where(aasm_state: [:accepted, :done])
             @data = []
             buy_orders.each do |x|
-                tmp = {'date' => x.done_at, 'reason' => 'Buy', 'user' => Member.find_by_id(x.member_id).email, 'ticker' => x.currency.upcase, 'shares' => x.volume, 'price' => x.price, 'total' => x.price * x.volume, 'fees' => x.order_fee}
+                tmp = {'date' => x.done_at, 'reason' => 'Buy', 'user' => Member.find_by_id(x.member_id).email, 'ticker' => x.ask.upcase, 'shares' => x.volume, 'price' => x.price, 'total' => x.price * x.volume, 'fees' => x.order_fee}
                 @data.push(tmp)
             end
             sell_orders.each do |x|
-                tmp = {'date' => x.done_at, 'reason' => 'Sell', 'user' => Member.find_by_id(x.member_id).email, 'ticker' => x.currency.upcase, 'shares' => x.volume, 'price' => x.price, 'total' => x.price * x.volume, 'fees' => x.order_fee}
+                tmp = {'date' => x.done_at, 'reason' => 'Sell', 'user' => Member.find_by_id(x.member_id).email, 'ticker' => x.bid.upcase, 'shares' => x.volume, 'price' => x.price, 'total' => x.price * x.volume, 'fees' => x.order_fee}
                 @data.push(tmp)
             end
             deposits.each do |x|

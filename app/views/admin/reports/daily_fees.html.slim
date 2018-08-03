@@ -26,17 +26,17 @@
             th Price
             th Total
             th Fees
-        tbody
-        - @data.each do |c|
-            tr
-            td = c['date']
-            td = c['reason']
-            td = c['user']
-            td = c['ticker']
-            td = c['shares']
-            td = c['price']
-            td = c['total']
-            td = c['fees']
+          tbody
+          - @data.each do |c|
+              tr
+              td = c['date']
+              td = c['reason']
+              td = c['user']
+              td = c['ticker']
+              td = c['shares']
+              td = c['price']
+              td = c['total']
+              td = c['fees']
             
 javascript:
   $("#sort").change(function(){
