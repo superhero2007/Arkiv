@@ -23,8 +23,8 @@ module Admin
                 tmp = {'date' => x.updated_at, 'reason' => 'Withdraw', 'user' => Member.find_by_id(x.member_id).email, 'ticker' => "", 'shares' => "", 'price' => "", 'total' => x.amount, 'fees' => x.fee}
                 @data.push(tmp)
             end
-            sort_param = params[:sort] || 'date'
-            @data = @data.sort{|a, b| a[sort_param] <=> b[sort_param]}.reverse
+            # sort_param = params[:sort] || 'date'
+            # @data = @data.sort{|a, b| a[sort_param] <=> b[sort_param]}.reverse
         end
 
     end
