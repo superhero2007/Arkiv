@@ -97,5 +97,5 @@ Peatio::Application.configure do
   config.middleware.insert_before Rack::Runtime, Middleware::Security
 
   #Google analytics tracking code
-  GA.tracker = "UA-93356410-1"
+  GA.tracker = "UA-93308135-1"
 end
