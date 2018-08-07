@@ -1,6 +1,16 @@
 .panel.panel-primary
-  .panel-heading = t('.oneday')
-  = render partial: 'table', locals: {banks: @oneday_banks}
-.panel.panel-success
-  .panel-heading = t('.available')
-  = render partial: 'table', locals: {banks: @available_banks}
+  .panel-heading Deposits
+  .panel-body
+    table.table.table-compressed
+      thead
+        tr
+          th Account
+          th Paypal Email
+          th Amount
+      tbody
+        - @deposits.each do |deposit|
+          tr
+            td = deposit.member.email
+            td = deposit.paypal_email
+            td = deposit.amount
+            td = link_to 'View', admin_deposits_bank_path(deposit.id)

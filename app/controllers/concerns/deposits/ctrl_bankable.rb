@@ -7,7 +7,8 @@ module Deposits
     end
 
     def create
-      @deposit = model_kls.new(deposit_params)
+      Rails.logger.debug "Deposit parameters #{deposit_params}"
+      @deposit = Deposit.new(deposit_params)
 
       if @deposit.save
         render nothing: true
@@ -35,13 +36,9 @@ module Deposits
       amount = params[:deposit][:amount]
       member_id = current_user.id
       account_id = params[:deposit][:account_id]
-      fund_source_id = params[:fund_source]
-      fund_source = FundSource.find(fund_source_id)
-      fund_uid = fund_source.uid 
-      fund_extra = fund_source.extra
-      fund_routing_number = fund_source.routing_number
-      currency = Currency.where(code: 'usd').first
-      {account_id: account_id,fund_routing_number: fund_routing_number, member_id: member_id, amount: amount, fund_uid: fund_uid, fund_extra: fund_extra, currency: currency.id, fund_source: fund_source.id}
+      currency = Currency.where(code: 'usd').first.id
+      paypal_email = params[:deposit][:paypal_email]
+      {account_id: account_id, member_id: member_id, currency: currency, amount: amount, paypal_email: paypal_email}
     end
   end
 end

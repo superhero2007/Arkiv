@@ -53,6 +53,7 @@ class Deposit < ActiveRecord::Base
     end
 
     event :accept do
+      Rails.logger.debug "Accepting"
       transitions from: :submitted, to: :accepted
     end
 

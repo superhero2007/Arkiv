@@ -1,24 +1,14 @@
 module Admin
   module Deposits
     class BanksController < ::Admin::Deposits::BaseController
-      load_and_authorize_resource :class => '::Deposits::Bank'
+      #load_and_authorize_resource :class => '::Deposits::Bank'
 
       def index
-        start_at = DateTime.now.ago(60 * 60 * 24)
-        @oneday_banks = @banks.includes(:member).
-          where('created_at > ?', start_at).
-          order('id DESC')
-
-        @available_banks = @banks.includes(:member).
-          with_aasm_state(:submitting, :warning, :submitted).
-          order('id DESC')
-
-        @available_banks -= @oneday_banks
+        @deposits = Deposit.all.with_aasm_state(:submitting)
       end
 
       def show
-        Rails.logger.debug "Interesting #{@banks}"
-        flash.now[:notice] = t('.notice') if @bank.aasm_state.accepted?
+        @deposit = Deposit.find(params[:id])
       end
 
       def update
@@ -30,6 +20,21 @@ module Admin
         @bank.charge!(target_params[:txid])
 
         redirect_to :back
+      end
+
+      def accept
+        deposit = Deposit.find(params[:id])
+        deposit.aasm_state = "accepted"
+        deposit.account.lock!.plus_funds deposit.amount, reason: Account::DEPOSIT, ref: deposit 
+        deposit.save
+        redirect_to admin_deposits_bank_path(params[:id])
+      end
+
+      def reject
+        deposit = Depsoit.find(params[:id])
+        deposit.aasm_state = "rejected"
+        deposit.save
+        redirect_to admin_deposits_bank_path(params[:id])
       end
 
       private

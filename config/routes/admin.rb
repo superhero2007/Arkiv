@@ -25,6 +25,8 @@ namespace :admin do
     Deposit.descendants.each do |d|
       resources d.resource_name
     end
+    get '/accept/:id' => 'banks#accept', :as => :accept
+    get '/reject/:id' => 'banks#reject', :as => :reject
   end
 
   namespace :withdraws do
