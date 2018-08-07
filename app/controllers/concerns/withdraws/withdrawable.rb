@@ -7,8 +7,7 @@ module Withdraws
     end
 
     def create
-      Rails.logger.info "Withdraw PArams: #{withdraw_params}"
-      @withdraw = model_kls.new(withdraw_params)
+      @withdraw = Withdraw.new(withdraw_params)
 
       #if two_factor_auth_verified?
         if @withdraw.save
@@ -43,10 +42,10 @@ module Withdraws
     def withdraw_params
       sum = params[:withdraw][:sum]
       account_id = params[:withdraw][:account_id]
-      fund_source_id = params[:fund_source]
-      fund_source = FundSource.find(fund_source_id)
-      currency = Currency.where(code: 'usd').first
-      {sum: sum, member_id: current_user.id, account_id: account_id, currency: currency.id, fund_uid: fund_source.uid, fund_extra: fund_source.extra, fund_source: fund_source.id}
+      currency = Currency.where(code: 'usd').first.id 
+      paypal_email = params[:withdraw][:paypal_email]
+
+      {sum: sum, member_id: current_user.id, account_id: account_id, currency: currency, paypal_email: paypal_email}
     end
 
   end
