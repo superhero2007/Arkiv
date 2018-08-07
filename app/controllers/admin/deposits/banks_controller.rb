@@ -1,15 +1,14 @@
 module Admin
   module Deposits
     class BanksController < ::Admin::Deposits::BaseController
-      load_and_authorize_resource :class => '::Deposits::Bank'
+      #load_and_authorize_resource :class => '::Deposits::Bank'
 
       def index
         @deposits = Deposit.all.with_aasm_state(:submitting)
       end
 
       def show
-        Rails.logger.debug "Interesting #{@banks}"
-        flash.now[:notice] = t('.notice') if @bank.aasm_state.accepted?
+        @deposit = Deposit.find(params[:id])
       end
 
       def update
