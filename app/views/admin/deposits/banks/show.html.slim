@@ -17,3 +17,15 @@
               =@deposit.paypal_email
             br
               =@deposit.amount
+        hr
+        - if @deposit.aasm_state == "submitting"
+          .row
+            .col-xs-12
+              = link_to 'Reject',admin_deposits_reject_path(@deposit.id), class: 'btn btn-danger btn-xs'
+            .col-xs-12
+              = link_to 'Accept', admin_deposits_accept_path(@deposit.id) , class: 'btn btn-success btn-xs'
+        - else
+          .row
+            .col-xs-24
+              = @deposit.aasm_state.upcase
+

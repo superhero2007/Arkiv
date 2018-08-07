@@ -22,6 +22,21 @@ module Admin
         redirect_to :back
       end
 
+      def accept
+        deposit = Deposit.find(params[:id])
+        deposit.aasm_state = "accepted"
+        deposit.account.lock!.plus_funds deposit.amount, reason: Account::DEPOSIT, ref: deposit 
+        deposit.save
+        redirect_to admin_deposits_bank_path(params[:id])
+      end
+
+      def reject
+        deposit = Depsoit.find(params[:id])
+        deposit.aasm_state = "rejected"
+        deposit.save
+        redirect_to admin_deposits_bank_path(params[:id])
+      end
+
       private
       def target_params
         params.require(:deposits_bank).permit(:sn, :holder, :amount, :created_at, :txid)
