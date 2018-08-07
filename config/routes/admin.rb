@@ -33,6 +33,8 @@ namespace :admin do
     Withdraw.descendants.each do |w|
       resources w.resource_name
     end
+    get '/accept/:id' => 'banks#accept', :as => :accept
+    get '/reject/:id' => 'banks#reject', :as => :reject
   end
 
   namespace :statistic do
