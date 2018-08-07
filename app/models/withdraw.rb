@@ -32,9 +32,9 @@ class Withdraw < ActiveRecord::Base
   after_create :sync_create
   after_destroy :sync_destroy
 
-  validates_with WithdrawBlacklistValidator
+  #validates_with WithdrawBlacklistValidator
 
-  validates :fund_uid, :amount, :fee, :account, :currency, :member, presence: true
+  validates :amount,:account, :currency, :member, presence: true
 
   validates :fee, numericality: {greater_than_or_equal_to: 0}
   validates :amount, numericality: {greater_than: 0}
