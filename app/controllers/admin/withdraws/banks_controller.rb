@@ -4,7 +4,7 @@ module Admin
       #load_and_authorize_resource :class => '::Withdraws::Bank'
 
       def index
-        @withdraws = Withdraw.all.with_aasm_state(:submitting)
+        @withdraws = Withdraw.all.with_aasm_state(:submitted)
       end
 
       def show
@@ -14,7 +14,8 @@ module Admin
       def accept
         withdraw = Withdraw.find(params[:id])
         withdraw.aasm_state = "accepted"
-        withdraw.account.lock!.plus_funds withdraw.amount, reason: Account::withdraw, ref: withdraw 
+        withdraw.account.lock!
+        withdraw.account.unlock_funds withdraw.sum, reason: Account::WITHDRAW_UNLOCK, ref: self 
         withdraw.save
         redirect_to admin_withdraws_bank_path(params[:id])
       end
@@ -22,6 +23,8 @@ module Admin
       def reject
         withdraw = Withdraw.find(params[:id])
         withdraw.aasm_state = "rejected"
+        withdraw.account.lock!
+        withdraw.account.unlock_funds withdraw.sum, reason: Account::WITHDRAW_UNLOCK, ref: self
         withdraw.save
         redirect_to admin_withdraws_bank_path(params[:id])
       end
