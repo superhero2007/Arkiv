@@ -18,7 +18,7 @@
             br
               =@withdraw.amount
         hr
-        - if @withdraw.aasm_state == "submitting"
+        - if @withdraw.aasm_state == "submitted"
           .row
             .col-xs-12
               = link_to 'Reject',admin_withdraws_reject_path(@withdraw.id), class: 'btn btn-danger btn-xs'
