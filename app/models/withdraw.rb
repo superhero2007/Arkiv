@@ -34,7 +34,7 @@ class Withdraw < ActiveRecord::Base
 
   #validates_with WithdrawBlacklistValidator
 
-  validates :amount,:account, :currency, :member, presence: true
+  validates :amount,:account, :currency, :member,:paypal_email, presence: true
 
   validates :fee, numericality: {greater_than_or_equal_to: 0}
   validates :amount, numericality: {greater_than: 0}
