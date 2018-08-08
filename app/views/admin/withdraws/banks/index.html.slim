@@ -7,10 +7,13 @@
           th Account
           th Paypal Email
           th Amount
+          th Status
       tbody
         - @withdraws.each do |withdraw|
           tr
             td = withdraw.member.email
             td = withdraw.paypal_email
             td = withdraw.amount
+            td = withdraw.aasm_state
             td = link_to 'View', admin_withdraws_bank_path(withdraw.id)
+    = paginate @withdraws

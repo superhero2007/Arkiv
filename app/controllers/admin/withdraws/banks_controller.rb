@@ -4,7 +4,7 @@ module Admin
       #load_and_authorize_resource :class => '::Withdraws::Bank'
 
       def index
-        @withdraws = Withdraw.all.with_aasm_state(:submitted)
+        @withdraws = Withdraw.all.page params[:page]
       end
 
       def show
