@@ -57,7 +57,7 @@
   quote_unit: usd
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
-  ask: {fee: 0.035.035, currency: afx, fixed: 0}
+  ask: {fee: 0.035, currency: afx, fixed: 0}
 - id: ambusd
   code: 11
   name: AMB/USD 
