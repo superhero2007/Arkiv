@@ -33,7 +33,7 @@
                   li
                     a href="#{balances_path}"
                       | Portfolio
-                      
+
                   - if is_admin?
                     li
                       a href="#{admin_dashboard_path}"
@@ -67,7 +67,7 @@
                   span.icon-bar
               .navbar-collapse.collapse.clearfix
                 ul.navigation.clearfix
-                  li.current
+                  li
                     a[href="/"]
                       | Home
 
@@ -78,9 +78,7 @@
                     a[href="/#about"]
                       | About us
 
-
-
-                  li.dropdown
+                  li.dropdown.current
                     a[href="/shop"]
                       | Sneakers
 
