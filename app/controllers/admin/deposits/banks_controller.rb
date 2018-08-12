@@ -31,7 +31,7 @@ module Admin
       end
 
       def reject
-        deposit = Depsoit.find(params[:id])
+        deposit = Deposit.find(params[:id])
         deposit.aasm_state = "rejected"
         deposit.save
         redirect_to admin_deposits_bank_path(params[:id])
