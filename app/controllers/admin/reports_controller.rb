@@ -24,7 +24,7 @@ module Admin
                 @data.push(tmp)
             end
             sort_param = params[:sort] || 'date'
-            @data = @data.sort{|a, b| a[sort_param] <=> b[sort_param]}.reverse
+            @data = @data.sort_by{|a, b| a[sort_param] <=> b[sort_param]}.reverse
         end
 
     end
