@@ -4,7 +4,7 @@ module Admin
       #load_and_authorize_resource :class => '::Deposits::Bank'
 
       def index
-        @deposits = Deposit.all.with_aasm_state(:submitting)
+        @deposits = Deposit.all.with_aasm_state(:submitting).order('created_at DESC')
       end
 
       def show

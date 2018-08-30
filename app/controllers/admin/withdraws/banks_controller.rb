@@ -4,7 +4,7 @@ module Admin
       #load_and_authorize_resource :class => '::Withdraws::Bank'
 
       def index
-        @withdraws = Withdraw.all.page params[:page]
+        @withdraws = Withdraw.all.order('created_at DESC').page params[:page]
       end
 
       def show
