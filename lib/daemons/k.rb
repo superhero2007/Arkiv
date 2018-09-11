@@ -118,13 +118,17 @@ def fill(market, period = 1)
 end
 
 while($running) do
-  Market.all.each do |market|
-    ts = next_ts(market.id, 1)
-    next unless ts
-
-    [1, 5, 15, 30, 60, 120, 240, 360, 720, 1440, 4320, 10080].each do |period|
-      fill(market.id, period)
+  begin
+    Market.all.each do |market|
+      ts = next_ts(market.id, 1)
+      next unless ts
+  
+      [1, 5, 15, 30, 60, 120, 240, 360, 720, 1440, 4320, 10080].each do |period|
+        fill(market.id, period)
+      end
     end
+  rescue Exception => e
+    puts "K error: #{e}"
   end
 
   sleep 15
