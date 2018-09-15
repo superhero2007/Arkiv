@@ -421,7 +421,7 @@ en:
       lbn: LBN
       ksg: KSG 
       kgf: KGF
-
+      sbb: SBB
   currency:
     satoshi:
       key: BTC

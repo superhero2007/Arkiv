@@ -1317,3 +1317,14 @@
   #price_group_fixed: 1 # aggregate price levels in orderbook
   bid: {fee: 0, currency: usd, fixed: 2}
   ask: {fee: 0.035, currency: zrg, fixed: 0}
+- id: sbbusd
+  code: 128
+  name: SBB/USD 
+  size: 13
+  picture: 
+  shoe: Supreme Brooklyn Box Logo Tee White # default name
+  base_unit: sbb
+  quote_unit: usd
+  #price_group_fixed: 1 # aggregate price levels in orderbook
+  bid: {fee: 0, currency: usd, fixed: 2}
+  ask: {fee: 0.035, currency: sbb, fixed: 0}

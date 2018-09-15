@@ -2798,6 +2798,28 @@
                 - else
                   a.theme-btn.btn-style-two[href="/markets/zrgusd"]
                     | Trade Now
+        .shop-item.col-lg-3.col-md-3.col-sm-6.col-xs-12
+          .inner-box
+            .image
+              =image_tag ('shop/sbbshirt.jpg')
+              a.overlay-box[href="#"]
+                span.icon.fa.fa-link
+            .lower-content
+              .upper-box
+                h3
+                  a[href="#"]
+                    | Supreme Brooklyn Box Logo Tee White
+                .symbol
+                  | SBB
+                .size
+                  | Size: Medium
+              .lower-box.clearfix
+                - unless current_user
+                  a.theme-btn.btn-style-two[href="#{signin_path}"]
+                    | Trade Now
+                - else
+                  a.theme-btn.btn-style-two[href="/markets/sbbusd"]
+                    | Trade Now
 
 
 
