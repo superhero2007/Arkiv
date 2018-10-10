@@ -25,7 +25,7 @@ class ApplicationController < ActionController::Base
       redirect_to cookies[:redirect_to]
       cookies[:redirect_to] = nil
     else
-      redirect_to settings_path
+      redirect_to shop_path
     end
   end
 
