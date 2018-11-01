@@ -1,7 +1,7 @@
 /***
 
 ====================================================================
-	Reset
+  Reset
 ====================================================================
 
  ***/
@@ -16,7 +16,7 @@
 /***
 
 ====================================================================
-	Global Settings
+  Global Settings
 ====================================================================
 
  ***/
@@ -31,7 +31,7 @@ body {
   background-repeat:no-repeat;
   background-position:center top;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif; ;
 }
 
 a{
@@ -55,11 +55,11 @@ h1,h2,h3,h4,h5,h6 {
   margin:0px;
   background:none;
   line-height:1.6em;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 input,button,select{
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 textarea{
@@ -69,7 +69,7 @@ textarea{
 p,.text{
   position:relative;
   line-height:1.8em;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .strike-through{
@@ -180,7 +180,7 @@ ul,li{
   border-radius:50px;
   background-color: black;
   border:2px solid  white;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
   margin: 5px;
 }
 
@@ -202,7 +202,7 @@ ul,li{
   border-radius:50px;
   background-color: white;
   border:2px solid black;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .btn-style-two:hover{
@@ -224,7 +224,7 @@ ul,li{
   border-radius:50px;
   background-color:#ffffff;
   border:2px solid #ffffff;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .btn-style-three:hover{
@@ -246,7 +246,7 @@ img{
 /***
 
 ====================================================================
-	Scroll To Top style
+  Scroll To Top style
 ====================================================================
 
 ***/
@@ -282,7 +282,7 @@ img{
 /***
 
 ====================================================================
-	Main Header style
+  Main Header style
 ====================================================================
 
 ***/
@@ -456,7 +456,7 @@ img{
   -webkit-transition:all 500ms ease;
   -ms-transition:all 500ms ease;
   -o-transition:all 500ms ease;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .main-menu .navigation > li > a:after{
@@ -595,7 +595,7 @@ img{
   -webkit-transition:all 500ms ease;
   -ms-transition:all 500ms ease;
   -o-transition:all 500ms ease;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .main-menu .navigation > li > ul > li > a:before{
@@ -683,7 +683,7 @@ img{
   -webkit-transition:all 500ms ease;
   -ms-transition:all 500ms ease;
   -o-transition:all 500ms ease;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .main-menu .navigation > li > ul > li  > ul > li > a:before{
@@ -818,7 +818,7 @@ img{
 
 .header-top .top-left ul li span{
   font-weight:700;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .header-top .top-left ul li a{
@@ -1274,7 +1274,7 @@ img{
   float:left;
   border-radius:0px;
   border:1px solid #f2f2f2;
-  font-family:'Roboto', sans-serif;
+  font-family:Arial,Helvetica Neue,Helvetica,sans-serif;
   background:#ffffff;
 }
 
@@ -1306,7 +1306,7 @@ img{
 
 .ui-widget.ui-widget-content{
   border:1px solid #e0e0e0;
-  font-family:'Roboto', sans-serif;
+  font-family:Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .ui-menu .ui-menu-item{
@@ -1337,7 +1337,7 @@ img{
 /***
 
 ====================================================================
-	Section Title
+  Section Title
 ====================================================================
 
 ***/
@@ -1354,7 +1354,7 @@ img{
   line-height:1.1em;
   padding-bottom:20px;
   text-transform:uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .sec-title .separator{
@@ -1397,7 +1397,7 @@ img{
 /***
 
 ====================================================================
-	Main Slider style
+  Main Slider style
 ====================================================================
 
 ***/
@@ -1439,7 +1439,7 @@ img{
   font-weight:500;
   line-height:1.1em;
   display:inline-block;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .main-slider .text{
@@ -1469,7 +1469,7 @@ img{
 /***
 
 ====================================================================
-	Fancy Box
+  Fancy Box
 ====================================================================
 
 ***/
@@ -1538,7 +1538,7 @@ img{
 /***
 
 ====================================================================
-	Services Section
+  Services Section
 ====================================================================
 
 ***/
@@ -1619,7 +1619,7 @@ img{
 /***
 
 ====================================================================
-	Banner Section
+  Banner Section
 ====================================================================
 
 ***/
@@ -1679,7 +1679,7 @@ img{
 /***
 
 ====================================================================
-	Services Section Two
+  Services Section Two
 ====================================================================
 
 ***/
@@ -1860,7 +1860,7 @@ img{
 /***
 
 ====================================================================
-	Buy Section
+  Buy Section
 ====================================================================
 
 ***/
@@ -1980,13 +1980,13 @@ img{
   border-radius:50%;
   text-transform:uppercase;
   background-color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 /***
 
 ====================================================================
-	Calculater Section
+  Calculater Section
 ====================================================================
 
 ***/
@@ -2154,7 +2154,7 @@ img{
 /***
 
 ====================================================================
-	Blog Section
+  Blog Section
 ====================================================================
 
 ***/
@@ -2292,7 +2292,7 @@ img{
   padding-left:70px;
   line-height:1.5em;
   text-transform:uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .news-block .inner-box .lower-content .upper-box .post-date span{
@@ -2388,7 +2388,7 @@ img{
 /***
 
 ====================================================================
-	Testimonial Section
+  Testimonial Section
 ====================================================================
 
 ***/
@@ -2518,7 +2518,7 @@ img{
 /***
 
 ====================================================================
-	Register Section
+  Register Section
 ====================================================================
 
 ***/
@@ -2623,7 +2623,7 @@ img{
 /***
 
 ====================================================================
-	Clients Section
+  Clients Section
 ====================================================================
 
 ***/
@@ -2673,7 +2673,7 @@ img{
 /***
 
 ====================================================================
-	Main Footer
+  Main Footer
 ====================================================================
 
 ***/
@@ -3129,7 +3129,7 @@ img{
 /***
 
 ====================================================================
-	Page Title Style
+  Page Title Style
 ====================================================================
 
 ***/
@@ -3151,7 +3151,7 @@ img{
   z-index:99;
   margin-bottom:10px;
   text-transform:capitalize;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .page-title .title{
@@ -3239,7 +3239,7 @@ img{
 /***
 
 ====================================================================
-	Company Section
+  Company Section
 ====================================================================
 
 ***/
@@ -3355,7 +3355,7 @@ img{
 /***
 
 ====================================================================
-	Features Section
+  Features Section
 ====================================================================
 
 ***/
@@ -3435,7 +3435,7 @@ img{
 /***
 
 ====================================================================
-	History Section
+  History Section
 ====================================================================
 
 ***/
@@ -3826,7 +3826,7 @@ img{
 /***
 
 ====================================================================
-	Team Section
+  Team Section
 ====================================================================
 
 ***/
@@ -4008,7 +4008,7 @@ img{
 /***
 
 ====================================================================
-	Case Section
+  Case Section
 ====================================================================
 
 ***/
@@ -4110,7 +4110,7 @@ img{
   font-size:20px;
   font-weight:500;
   line-height:1.4em;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .case-block .inner-box .lower-box h3 a{
@@ -4132,7 +4132,7 @@ img{
 /***
 
 ====================================================================
-	Styled Pagination
+  Styled Pagination
 ====================================================================
 
 ***/
@@ -4183,7 +4183,7 @@ img{
 /***
 
 ====================================================================
-	Cases Single Section
+  Cases Single Section
 ====================================================================
 
 ***/
@@ -4303,7 +4303,7 @@ img{
 /***
 
 ====================================================================
-	Project Section
+  Project Section
 ====================================================================
 
 ***/
@@ -4404,7 +4404,7 @@ img{
 /***
 
 ====================================================================
-	Blog Page Section
+  Blog Page Section
 ====================================================================
 
 ***/
@@ -4418,7 +4418,7 @@ img{
 /***
 
 ====================================================================
-	Sidebar Page Container
+  Sidebar Page Container
 ====================================================================
 
 ***/
@@ -4546,7 +4546,7 @@ img{
   font-weight:500;
   margin-bottom:8px;
   text-transform:uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .news-block-two .inner-box .lower-content .post-meta{
@@ -5175,7 +5175,7 @@ img{
 /***
 
 ====================================================================
-	Comments Area
+  Comments Area
 ====================================================================
 
  ***/
@@ -5493,7 +5493,7 @@ img{
 /***
 
 ====================================================================
-	Map Section Style
+  Map Section Style
 ====================================================================
 
 ***/
@@ -5520,7 +5520,7 @@ img{
 /***
 
 ====================================================================
-	Contact Form Section
+  Contact Form Section
 ====================================================================
 
 ***/
@@ -5736,7 +5736,7 @@ img{
 /***
 
 ====================================================================
-	Call To Action Section
+  Call To Action Section
 ====================================================================
 
 ***/
@@ -6405,7 +6405,7 @@ img{
 /***
 
 ====================================================================
-	Shop Style
+  Shop Style
 ====================================================================
 
 ***/
@@ -6815,7 +6815,7 @@ img{
 /***
 
 ====================================================================
-	Product Tabs Style
+  Product Tabs Style
 ====================================================================
 
 ***/
@@ -6908,7 +6908,7 @@ img{
   line-height:1.1em;
   padding-bottom:20px;
   text-transform:capitalize;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .shop-comment-form .title-boxed .separator{
@@ -7055,7 +7055,7 @@ img{
 /***
 
 ====================================================================
-	Login / Register Section
+  Login / Register Section
 ====================================================================
 
 ***/
@@ -7217,7 +7217,7 @@ img{
 /***
 
 ====================================================================
-	Cart Section style
+  Cart Section style
 ====================================================================
 
 ***/
@@ -7234,7 +7234,7 @@ img{
 .cart-section .table-outer{
   position:relative;
   width:100%;
-  overflow-x:	auto;
+  overflow-x: auto;
 }
 
 .cart-section .cart-table{
@@ -7324,7 +7324,7 @@ img{
 }
 
 /*.cart-table tbody tr{
-	border-bottom:1px solid #f7f7f7;
+  border-bottom:1px solid #f7f7f7;
 }*/
 
 .cart-table tbody tr .remove-btn{
@@ -7642,7 +7642,7 @@ img{
 /***
 
 ====================================================================
-	CheckOut Sectioon
+  CheckOut Sectioon
 ====================================================================
 
 ***/
@@ -7763,9 +7763,9 @@ img{
 }
 
 /*.cart-outer .table-outer{
-	position:relative;
-	width:100%;
-	overflow-x:	auto;
+  position:relative;
+  width:100%;
+  overflow-x: auto;
 }*/
 
 .checkout-page .lower-content .order-column .cart-outer{
@@ -7968,7 +7968,7 @@ img{
 /***
 
 ====================================================================
-	Currency Sectioon
+  Currency Sectioon
 ====================================================================
 
 ***/
@@ -8114,7 +8114,7 @@ img{
   font-weight:500;
   background: #1b334d;
   color: #febe28;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .price-table .table-outer tbody tr td,
@@ -8142,19 +8142,19 @@ img{
   color:#262626;
   font-size:16px;
   text-transform:uppercase;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .price-table .table-outer tbody tr td.currency-name{
   color:#262626;
   font-size:16px;
   text-transform:capitalize;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .price-table .table-outer tbody tr td{
   color:#848484;
-  font-family: 'Roboto', sans-serif;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .currency-graph{
@@ -8311,7 +8311,7 @@ img{
   }
 
   .price-table .table-outer{
-    overflow-x:	auto;
+    overflow-x: auto;
   }
 
 }
