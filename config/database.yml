@@ -10,9 +10,9 @@ development: &defaults
 production:
   adapter: mysql2
   encoding: utf8
-  database: <%= ENV["MYSQL_DATABASE"] %>
-  username: <%= ENV["MYSQL_USER"] %>
-  password: <%= ENV["MYSQL_PASSWORD"] %>
+  database: arkivrobert
+  username: ArkivRobert
+  password: 6c1df874c4a895f73d62
   pool: 10
   reconnect: true
-  host: <%= ENV["MYSQL_HOST"] %>
+  host: arkivrobert.cg9fktyrkxhs.us-east-2.rds.amazonaws.com
