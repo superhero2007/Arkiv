@@ -9,7 +9,7 @@ defaults: &defaults
   ADMIN: 'robert@arkivofficial.com'
   TIMEZONE: 'Cairo'
 
-  REDIS_URL: 0.0.0.0:6379
+  REDIS_URL: redis://redis:6379
 
   # below settings only in production env
   # system notify mail settings
