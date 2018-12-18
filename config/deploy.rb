@@ -1,122 +1,84 @@
-require 'mina/bundler'
-require 'mina/rails'
-require 'mina/git'
-require 'mina/rbenv'
-require 'mina/slack/tasks'
+# Change these
+server '13.58.77.203', port: 80, roles: [:web, :app, :db], primary: true
 
-set :repository, 'https://github.com/peatio/peatio.git'
-set :user, 'deploy'
-set :deploy_to, '/home/deploy/peatio'
-set :branch, 'master'
-set :domain, 'demo.peatio.com'
+set :repo_url,        'https://github.com/InfraexDev/Arkiv.git'
+set :application,     'arkiv'
+set :user,            'ubuntu'
+set :puma_threads,    [4, 16]
+set :puma_workers,    0
 
-set :shared_paths, [
-  'config/database.yml',
-  'config/application.yml',
-  'config/currencies.yml',
-  'config/markets.yml',
-  'config/amqp.yml',
-  'config/banks.yml',
-  'config/deposit_channels.yml',
-  'config/withdraw_channels.yml',
-  'public/uploads',
-  'tmp',
-  'log'
-]
+# Don't change these unless you know what you're doing
+set :pty,             true
+set :use_sudo,        false
+set :stage,           :production
+set :deploy_via,      :remote_cache
+set :deploy_to,       "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
+set :puma_bind,       "unix://#{shared_path}/tmp/sockets/#{fetch(:application)}-puma.sock"
+set :puma_state,      "#{shared_path}/tmp/pids/puma.state"
+set :puma_pid,        "#{shared_path}/tmp/pids/puma.pid"
+set :puma_access_log, "#{release_path}/log/puma.error.log"
+set :puma_error_log,  "#{release_path}/log/puma.access.log"
+set :ssh_options,     { forward_agent: true, user: fetch(:user), keys: %w(~/.ssh/id_rsa.pub) }
+set :puma_preload_app, true
+set :puma_worker_timeout, nil
+set :puma_init_active_record, true  # Change to false when not using ActiveRecord
 
-task :environment do
-  invoke :'rbenv:load'
-end
+## Defaults:
+# set :scm,           :git
+# set :branch,        :master
+# set :format,        :pretty
+# set :log_level,     :debug
+# set :keep_releases, 5
 
-task :setup => :environment do
-  queue! %[mkdir -p "#{deploy_to}/shared/log"]
-  queue! %[chmod g+rx,u+rwx "#{deploy_to}/shared/log"]
+## Linked Files & Directories (Default None):
+# set :linked_files, %w{config/database.yml}
+# set :linked_dirs,  %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public/system}
 
-  queue! %[mkdir -p "#{deploy_to}/shared/config"]
-  queue! %[chmod g+rx,u+rwx "#{deploy_to}/shared/config"]
-
-  queue! %[mkdir -p "#{deploy_to}/shared/tmp"]
-  queue! %[chmod g+rx,u+rwx "#{deploy_to}/shared/tmp"]
-
-  queue! %[mkdir -p "#{deploy_to}/shared/public/uploads"]
-  queue! %[chmod g+rx,u+rwx "#{deploy_to}/shared/public/uploads"]
-
-  queue! %[touch "#{deploy_to}/shared/config/database.yml"]
-  queue! %[touch "#{deploy_to}/shared/config/currencies.yml"]
-  queue! %[touch "#{deploy_to}/shared/config/application.yml"]
-  queue! %[touch "#{deploy_to}/shared/config/markets.yml"]
-  queue! %[touch "#{deploy_to}/shared/config/amqp.yml"]
-  queue! %[touch "#{deploy_to}/shared/config/banks.yml"]
-  queue! %[touch "#{deploy_to}/shared/config/deposit_channels.yml"]
-  queue! %[touch "#{deploy_to}/shared/config/withdraw_channels.yml"]
-end
-
-desc "Deploys the current version to the server."
-task deploy: :environment do
-  deploy do
-    invoke :'git:clone'
-    invoke :'deploy:link_shared_paths'
-    invoke :'bundle:install'
-    invoke :'rails:db_migrate'
-    invoke :'rails:touch_client_i18n_assets'
-    invoke :'rails:assets_precompile'
-
-    to :launch do
-      invoke :'passenger:restart'
+namespace :puma do
+  desc 'Create Directories for Puma Pids and Socket'
+  task :make_dirs do
+    on roles(:app) do
+      execute "mkdir #{shared_path}/tmp/sockets -p"
+      execute "mkdir #{shared_path}/tmp/pids -p"
     end
   end
+
+  before :start, :make_dirs
 end
 
-namespace :passenger do
-  desc "Restart Passenger"
+namespace :deploy do
+  desc "Make sure local git is in sync with remote."
+  task :check_revision do
+    on roles(:app) do
+      unless `git rev-parse HEAD` == `git rev-parse origin/master`
+        puts "WARNING: HEAD is not the same as origin/master"
+        puts "Run `git push` to sync changes."
+        exit
+      end
+    end
+  end
+
+  desc 'Initial Deploy'
+  task :initial do
+    on roles(:app) do
+      before 'deploy:restart', 'puma:start'
+      invoke 'deploy'
+    end
+  end
+
+  desc 'Restart application'
   task :restart do
-    queue %{
-      echo "-----> Restarting passenger"
-      cd #{deploy_to}/current
-      #{echo_cmd %[mkdir -p tmp]}
-      #{echo_cmd %[touch tmp/restart.txt]}
-    }
+    on roles(:app), in: :sequence, wait: 5 do
+      invoke 'puma:restart'
+    end
   end
+
+  before :starting,     :check_revision
+  after  :finishing,    :compile_assets
+  after  :finishing,    :cleanup
+  after  :finishing,    :restart
 end
 
-namespace :rails do
-  task :touch_client_i18n_assets do
-    queue %[
-      echo "-----> Touching clint i18n assets"
-      #{echo_cmd %[RAILS_ENV=production bundle exec rake deploy:touch_client_i18n_assets]}
-    ]
-  end
-end
-
-namespace :daemons do
-  desc "Start Daemons"
-  task start: :environment do
-    queue %{
-      cd #{deploy_to}/current
-      RAILS_ENV=production bundle exec ./bin/rake daemons:start
-      echo Daemons START DONE!!!
-    }
-  end
-
-  desc "Stop Daemons"
-  task stop: :environment do
-    queue %{
-      cd #{deploy_to}/current
-      RAILS_ENV=production bundle exec ./bin/rake daemons:stop
-      echo Daemons STOP DONE!!!
-    }
-  end
-
-  desc "Query Daemons"
-  task status: :environment do
-    queue %{
-      cd #{deploy_to}/current
-      RAILS_ENV=production bundle exec ./bin/rake daemons:status
-    }
-  end
-end
-
-desc "Generate liability proof"
-task 'solvency:liability_proof' do
-  queue "cd #{deploy_to}/current && RAILS_ENV=production bundle exec rake solvency:liability_proof"
-end
+# ps aux | grep puma    # Get puma pid
+# kill -s SIGUSR2 pid   # Restart puma
+# kill -s SIGTERM pid   # Stop puma

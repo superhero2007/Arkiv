@@ -71,6 +71,11 @@ gem 'rest-client', '~> 1.6.8'
 gem 'google-analytics-rails', '1.1.1'
 
 group :development, :test do
+  gem 'capistrano',         require: false
+  gem 'capistrano-rvm',     require: false
+  gem 'capistrano-rails',   require: false
+  gem 'capistrano-bundler', require: false
+  gem 'capistrano3-puma',   require: false
   gem 'factory_girl_rails'
   gem 'faker', '~> 1.4.3'
   gem 'mina'
