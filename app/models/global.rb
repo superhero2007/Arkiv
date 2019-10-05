@@ -56,10 +56,10 @@ class Global
   end
 
   def ticker
-    ticker           = Rails.cache.read("peatio:#{currency}:ticker") || default_ticker
-    open = Rails.cache.read("peatio:#{currency}:ticker:open") || ticker[:last]
-    best_buy_price   = bids.first && bids.first[0] || ZERO
-    best_sell_price  = asks.first && asks.first[0] || ZERO
+    ticker           = default_ticker
+    open =  ticker[:last]
+    best_buy_price   = ZERO
+    best_sell_price  =  ZERO
 
     ticker.merge({
       open: open,
@@ -71,9 +71,7 @@ class Global
   end
 
   def h24_volume
-    Rails.cache.fetch key('h24_volume', 5), expires_in: 24.hours do
-      Trade.with_currency(currency).h24.sum(:volume) || ZERO
-    end
+      ZERO
   end
 
   def trades

@@ -1,0 +1,234 @@
+header#header.header_area
+  .main_menu
+    nav.navbar.navbar-expand-lg.navbar-light.main_box
+      .container
+        .main-outer
+          a href="mailto:help@arkivoffcial.com"
+            i.material-icons mail
+            span help@arkivofficial.com
+          a href="#"
+            i.material-icons shopping_basket
+            span Search
+          a href="#"
+            i.material-icons search
+            span Search
+        .header-bottom
+          a.navbar-brand.logo_h href="/new"
+            img alt="" src="/assets/img/logo.png" /
+          ul.sign-registr-btn
+            li
+              a href="#"
+                i.material-icons> exit_to_app
+                | Sign in
+            li
+              a href="#"
+                i.material-icons> insert_drive_file
+                | Sign up
+          .menu
+            button.navbar-toggler aria-controls="navbarSupportedContent" aria-expanded="false" aria-label=("Toggle navigation") data-target="#navbarSupportedContent" data-toggle="collapse" type="button"
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            /! Collect the nav links, forms, and other content for toggling
+            #navbarSupportedContent.collapse.navbar-collapse.offset
+              ul.nav.navbar-nav.menu_nav.ml-auto
+                li.nav-item
+                  a.nav-link href="/new"  Home
+                li.nav-item
+                  a.nav-link href="/new/how_it_works"  How it works
+                li.nav-item
+                  a.nav-link href="/new/#aboutus"  About us
+                li.nav-item.active
+                  a.nav-link href="/sneakers"  Sneakers
+                li.nav-item
+                  a.nav-link href="/privacy"  Privacy + terms
+                li.nav-item
+                  a.nav-link href="contact.html"  Contact us
+/! End Header Area
+/! Start Banner Area
+section.organic-breadcrumb
+  .container
+    .breadcrumb-banner.d-flex.flex-wrap.align-items-center.justify-content-center
+      .col-first
+        h1 Sneakers
+/! End Banner Area
+.sneaker-show
+  .container
+    .row
+      .col-xl-3.col-lg-4.col-md-5
+        .sidebar-categories
+          .head
+            | Browse Brands
+            i#category-show.fa.fa-angle-down onclick="showme()"
+          ul#mylist.main-categories
+            li.main-nav-list
+              a href="#"
+                i.brand-icon
+                  img alt="" src="/assets/img/nike-icon.png" /
+                | Nike
+                span.number (53)
+            li.main-nav-list
+              a href="#"
+                i.brand-icon
+                  img alt="" src="/assets/img/jordan-icon.png" /
+                | Jordan
+                span.number (53)
+            li.main-nav-list
+              a href="#"
+                i.brand-icon
+                  img alt="" src="/assets/img/adidas-icon.png" /
+                | Adidas
+                span.number (53)
+            li.main-nav-list
+              a href="#"
+                i.brand-icon
+                  img alt="" src="/assets/img/yeezy-icon.png" /
+                | Yeezy
+                span.number (24)
+            li.main-nav-list
+              a href="#"
+                | Other
+                span.number (53)
+      .col-xl-9.col-lg-8.col-md-7
+        /! Start Filter Bar
+        div
+        section.lattest-product-area.pb-40.category-list
+          .row
+            /! single product
+            .col-lg-4.col-md-6.col-sm-6.col-6
+              .single-product
+                .main-image style="background-image:url('/assets/img/product/TravisScottJordan1.jpg')"
+                .product-details
+                  h6 Jordan 1 Retro High Travis Scott
+                  .price
+                    h6.l-through $8.50/Share
+                    h6.liter
+                      |
+                        ($850.00)
+                  .prd-bottom
+                    a.social-info href="#"
+                      span.ti-bag
+                      p.hover-text Buy Now
+            .col-lg-4.col-md-6.col-sm-6.col-6
+              .single-product
+                .main-image style="background-image:url('/assets/img/product/Jordan4Bred.jpg')"
+                .product-details
+                  h6 Jordan 4 Retro Bred
+                  .price
+                    h6.l-through $8.00/Share
+                    h6.liter
+                      |
+                        ($800.00)
+                  .prd-bottom
+                    a.social-info href="#"
+                      span.ti-bag
+                      p.hover-text Buy Now
+            .col-lg-4.col-md-6.col-sm-6.col-6
+              .single-product
+                .main-image style="background-image:url('/assets/img/product/YeezyClay.jpg')"
+                .product-details
+                  h6 adidas Yeezy Boost 350 V2 Clay
+                  .price
+                    h6.l-through $6.30/Share
+                    h6.liter
+                      |
+                        ($630.00)
+                  .prd-bottom
+                    a.social-info href="#"
+                      span.ti-bag
+                      p.hover-text Buy Now
+            .col-lg-4.col-md-6.col-sm-6.col-6
+              .single-product
+                .main-image style=("background-image:url('/assets/img/product/FoG Bone.jpg')")
+                .product-details
+                  h6 Air Fear of God 1 Light Bone
+                  .price
+                    h6.l-through $6.00/Share
+                    h6.liter
+                      |
+                        ($800.00)
+                  .prd-bottom
+                    a.social-info href="#"
+                      span.ti-bag
+                      p.hover-text Buy Now
+            .col-lg-4.col-md-6.col-sm-6.col-6
+              .single-product
+                .main-image style="background-image:url('/assets/img/product/Jordan4TravisScott.jpg')"
+                .product-details
+                  h6 Jordan 4 Retro Travis Scott Cactus Jack
+                  .price
+                    h6.l-through $3.80/Share
+                    h6.liter
+                      |
+                        ($379.50)
+                  .prd-bottom
+                    a.social-info href="#"
+                      span.ti-bag
+                      p.hover-text Buy Now
+            .col-lg-4.col-md-6.col-sm-6.col-6
+              .single-product
+                .main-image style="background-image:url('/assets/img/product/Yeezy350V2Static.jpg')"
+                .product-details
+                  h6 adidas Yeezy Boost350 V2 Static Reflective
+                  .price
+                    h6.l-through $5.50/Share
+                    h6.liter
+                      |
+                        ($541.50)
+                  .prd-bottom
+                    a.social-info href="#"
+                      span.ti-bag
+                      p.hover-text Buy Now
+            .col-lg-4.col-md-6.col-sm-6.col-6
+              .single-product
+                .main-image style="background-image:url('/assets/img/product/Yeezy700WaveRunner.jpg')"
+                .product-details
+                  h6 adidas Yeezy Boost 700 Wave Runner
+                  .price
+                    h6.l-through $3.45/Share
+                    h6.liter
+                      |
+                        ($345.00)
+                  .prd-bottom
+                    a.social-info href="#"
+                      span.ti-bag
+                      p.hover-text Buy Now
+            .col-lg-4.col-md-6.col-sm-6.col-6
+              .single-product
+                .main-image style="background-image:url('/assets/img/product/OffWhitePrestoWhite.jpg')"
+                .product-details
+                  h6 Air Presto Off-White White
+                  .price
+                    h6.l-through $5.03/Share
+                    h6.liter
+                      |
+                        ($502.50)
+                  .prd-bottom
+                    a.social-info href="#"
+                      span.ti-bag
+                      p.hover-text Buy Now
+            .col-lg-4.col-md-6.col-sm-6.col-6
+              .single-product
+                .main-image style="background-image:url('/assets/img/product/OffWhitePrestoWhite.jpg')"
+                .product-details
+                  h6 Air Presto Off-White White
+                  .price
+                    h6.l-through $5.03/Share
+                    h6.liter
+                      |
+                        ($502.50)
+                  .prd-bottom
+                    a.social-info href="#"
+                      span.ti-bag
+                      p.hover-text Buy Now
+        /! End Best Seller
+        /! Start Filter Bar
+        .filter-bar.align-items-center
+          .pagination
+            a.prev-arrow href="#"  Prev
+            a.active href="#"  1
+            a href="#"  2
+            a href="#"  3
+            a href="#"  4
+            a.next-arrow href="#"  Next
+/! End Filter Bar

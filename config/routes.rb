@@ -132,6 +132,14 @@ Peatio::Application.routes.draw do
   post '/webhooks/eth' => 'webhooks#eth'
   get '/admin/fees' => 'admin/reports#daily_fees'
 
+  get '/new' => 'new#index'
+  get '/new/how_it_works' => 'new#how_it_works'
+  get '/new/portfolio' => 'new#portfolio'
+  get '/new/setting' => 'new#setting'
+  get '/new/product_detail' => 'new#product_detail'
+  get '/new/sneakers' => 'new#sneakers'
+  get '/new/account' => 'new#account'
+  get '/new/cart' => 'new#cart'
 
   draw :admin
   mount APIv2::Mount => APIv2::Mount::PREFIX

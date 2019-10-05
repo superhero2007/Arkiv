@@ -1,0 +1,420 @@
+header#header.header_area
+  .main_menu
+    nav.navbar.navbar-expand-lg.navbar-light.main_box
+      .container
+        .main-outer
+          a href="mailto:help@arkivoffcial.com"
+            i.material-icons mail
+            span help@arkivofficial.com
+          a href="#"
+            i.material-icons shopping_basket
+            span Search
+          a href="#"
+            i.material-icons search
+            span Search
+        .header-bottom
+          a.navbar-brand.logo_h href="/new"
+            img alt="" src="/assets/img/logo.png" /
+          .dropdown.login-user
+            a.dropdown-toggle data-toggle="dropdown" href="#"
+              span
+                img alt="" src="/assets/img/user-img.png" /
+              label.hidden-xs John Marsh
+              i.fa.fa-angle-down
+            ul.dropdown-menu.logpfdtl role="menu"
+              li
+                a href="#"
+                  | My Profile
+              li
+                a href="#"
+                  | Logout
+          .menu
+            button.navbar-toggler aria-controls="navbarSupportedContent" aria-expanded="false" aria-label=("Toggle navigation") data-target="#navbarSupportedContent" data-toggle="collapse" type="button"
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            /! Collect the nav links, forms, and other content for toggling
+            #navbarSupportedContent.collapse.navbar-collapse.offset
+              ul.nav.navbar-nav.menu_nav.ml-auto
+                li.nav-item
+                  a.nav-link href="/new"  Home
+                li.nav-item
+                  a.nav-link href="/new/how_it_works"  How it works
+                li.nav-item
+                  a.nav-link href="/new/#aboutus"  About us
+                li.nav-item
+                  a.nav-link href="/sneakers"  Sneakers
+                li.nav-item
+                  a.nav-link href="/privacy"  Privacy + terms
+                li.nav-item
+                  a.nav-link href="contact.html"  Contact us
+/! End Header Area
+/! Start Banner Area
+section.organic-breadcrumb
+  .container
+    .breadcrumb-banner.d-flex.flex-wrap.align-items-center.justify-content-center
+      .col-first
+        h1 My Account
+/! setting start here
+section#account-main.account-main
+  .container
+    .account-tabs
+      ul.nav.nav-tabs
+        li
+          a.active.show data-toggle="tab" href="#oder-tab"  Your Order Book
+        li
+          a data-toggle="tab" href="#account-tab"  Account Settings
+        li
+          a data-toggle="tab" href="#payment-tab"  Payment
+      .tab-content
+        #oder-tab.tab-pane.fade.in.show.active
+          #destop-order-table.order-in
+            table role="table"
+              thead role="rowgroup"
+                tr role="row"
+                  th Products
+                  th
+                    table.multi-heading
+                      thead
+                        tr
+                          th Size
+                          th Bid
+                          th Shares
+                          th
+                  th
+                    table.multi-heading
+                      thead
+                        tr
+                          th Ask
+                          th Shares
+                          th
+              tbody role="rowgroup"
+                tr
+                  td
+                    .cart-product-descriptn
+                      .product-image
+                        img.img-fluid alt="" src="/assets/img/product/TravisScottJordan1.jpg" /
+                      p Jordan 1 Retro High Travis Scott
+                  td
+                    table.multi-data
+                      tbody
+                        tr
+                          td 10
+                          td $8.50
+                          td 75
+                          td
+                            a.odr-cancel data-target="#ordercacel" data-toggle="modal" href="#null"  Cancel
+                  td
+                    table.multi-data
+                      tbody
+                        tr
+                          td $11.50
+                          td 35
+                          td
+                            a.odr-cancel data-target="#ordercacel" data-toggle="modal" href="#null"  Cancel
+                tr
+                  td
+                    .cart-product-descriptn
+                      .product-image
+                        img.img-fluid alt="" src="/assets/img/product/Jordan4Bred.jpg" /
+                      p
+                        | Jordan 4 Retro
+                        br
+                        | Bred
+                  td
+                    table.multi-data
+                      tbody
+                        tr
+                          td 9
+                          td $8.50
+                          td 75
+                          td
+                            a.odr-cancel data-target="#ordercacel" data-toggle="modal" href="#null"  Cancel
+                  td
+                    table.multi-data
+                      tbody
+                        tr
+                          td $11.50
+                          td 35
+                          td
+                            a.odr-cancel data-target="#ordercacel" data-toggle="modal" href="#null"  Cancel
+                tr
+                  td
+                    .cart-product-descriptn
+                      .product-image
+                        img.img-fluid alt="" src="/assets/img/product/YeezyClay.jpg" /
+                      p adidas Yeezy Boost 350 V2 Clay
+                  td
+                    table.multi-data
+                      tbody
+                        tr
+                          td 9
+                          td $8.50
+                          td 75
+                          td
+                            a.odr-cancel data-target="#ordercacel" data-toggle="modal" href="#null"  Cancel
+                  td
+                    table.multi-data
+                      tbody
+                        tr
+                          td $11.50
+                          td 35
+                          td
+                            a.odr-cancel data-target="#ordercacel" data-toggle="modal" href="#null"  Cancel
+          #mobile-order-table.order-table-mobile
+            .odr-detl-mob
+              .oder-sec-main
+                .odr-inview.product-title
+                  label Products
+                  .odr-product-image
+                    .cart-product-descriptn
+                      .product-image
+                        img.img-fluid alt="" src="/assets/img/product/TravisScottJordan1.jpg" /
+                      p Jordan 1 Retro High Travis Scott
+                .border-sec
+                  .odr-inview.size-sec
+                    label Size
+                    h5 10
+                  .odr-inview.size-sec
+                    label Bid
+                    h5 $8.50
+                  .odr-inview.size-sec
+                    label Shares
+                    h5 75
+                  .odr-inview.size-sec
+                    label
+                    a.odr-cancel data-target="#ordercacel" data-toggle="modal" href="#null"  Cancel
+                .border-sec
+                  .odr-inview.size-sec
+                    label Bid
+                    h5 $11.50
+                  .odr-inview.size-sec
+                    label Shares
+                    h5 35
+                  .odr-inview.size-sec
+                    label
+                    a.odr-cancel data-target="#ordercacel" data-toggle="modal" href="#null"  Cancel
+              .oder-sec-main
+                .odr-inview.product-title
+                  label Products
+                  .odr-product-image
+                    .cart-product-descriptn
+                      .product-image
+                        img.img-fluid alt="" src="/assets/img/product/TravisScottJordan1.jpg" /
+                      p Jordan 1 Retro High Travis Scott
+                .border-sec
+                  .odr-inview.size-sec
+                    label Size
+                    h5 10
+                  .odr-inview.size-sec
+                    label Bid
+                    h5 $8.50
+                  .odr-inview.size-sec
+                    label Shares
+                    h5 75
+                  .odr-inview.size-sec
+                    label
+                    a.odr-cancel data-target="#ordercacel" data-toggle="modal" href="#null"  Cancel
+                .border-sec
+                  .odr-inview.size-sec
+                    label Bid
+                    h5 $11.50
+                  .odr-inview.size-sec
+                    label Shares
+                    h5 35
+                  .odr-inview.size-sec
+                    label
+                    a.odr-cancel data-target="#ordercacel" data-toggle="modal" href="#null"  Cancel
+              .oder-sec-main
+                .odr-inview.product-title
+                  label Products
+                  .odr-product-image
+                    .cart-product-descriptn
+                      .product-image
+                        img.img-fluid alt="" src="/assets/img/product/TravisScottJordan1.jpg" /
+                      p Jordan 1 Retro High Travis Scott
+                .border-sec
+                  .odr-inview.size-sec
+                    label Size
+                    h5 10
+                  .odr-inview.size-sec
+                    label Bid
+                    h5 $8.50
+                  .odr-inview.size-sec
+                    label Shares
+                    h5 75
+                  .odr-inview.size-sec
+                    label
+                    a.odr-cancel data-target="#ordercacel" data-toggle="modal" href="#null"  Cancel
+                .border-sec
+                  .odr-inview.size-sec
+                    label Bid
+                    h5 $11.50
+                  .odr-inview.size-sec
+                    label Shares
+                    h5 35
+                  .odr-inview.size-sec
+                    label
+                    a.odr-cancel data-target="#ordercacel" data-toggle="modal" href="#null"  Cancel
+        #account-tab.tab-pane.fade
+          .account-inner-sec
+            .col-md-8.left-info
+              .linfo-label
+                label Personal Information
+                a href="#"
+                  i.material-icons check
+                  | &nbsp;Edit
+              .detail-from
+                .image-upload
+                  span
+                    img alt="" src="/assets/img/user-image.png" /
+                  .uplaod-icon
+                    input type="file" /
+                    i.material-icons get_app
+                .info-input
+                  .col-md-6
+                    input placeholder="John" type="text" value="" /
+                  .col-md-6
+                    input placeholder="Marsh" type="text" value="" /
+                  .check-box
+                    h5 Your Gender:
+                    .form-check.form-check-inline
+                      label.form-check-label for="materialInline1"
+                        input#materialInline1.form-check-input name="inlineMaterialRadiosExample" type="radio"
+                        | Male
+                    .form-check.form-check-inline
+                      label.form-check-label for="materialInline2"
+                        input#materialInline2.form-check-input name="inlineMaterialRadiosExample" type="radio"
+                        | Female
+            .col-md-4.right-info
+              .linfo-label
+                label Email Address
+                a href="#"
+                  i.material-icons check
+                  | &nbsp;Edit
+              .email-from
+                .email-input
+                  input placeholder="johnmarsh@gmail.com" type="text" value="" /
+                  a.change-pasword href="#"  Change Password
+              .linfo-label
+                label Mobile Number
+                a href="#"
+                  i.material-icons check
+                  | &nbsp;Edit
+              .email-from
+                .email-input
+                  input placeholder=("+78 12345 56784") type="text" value="" /
+        #payment-tab.tab-pane.fade
+          .payment-inner-sec
+            .paymnt-detail-top
+              h4
+                | Unrestricted Cash Balance:
+                span
+                  | &nbsp;$60.00
+              h4
+                | Shares Owned:
+                span
+                  | &nbsp;$450.00
+              h4
+                | Portfolio Value:
+                span
+                  | &nbsp;$786.00
+              .cash-btns
+                .inputtext
+                  span $
+                  input type="text" value="" /
+                a.cash-out-btn href="#"  Cash Out
+            .paypal-info
+              label
+                img alt="" src="/assets/img/paypal-icon.png" /
+                | &nbsp;ID:
+              input placeholder="johnmarsh@gmail.com" type="text" value="" /
+              a href="#"
+                | &nbsp;Change ID
+            .paymnet-table
+              h4 Cash out History:
+              .history-in
+                table role="table"
+                  thead role="rowgroup"
+                    tr role="row"
+                      th Date
+                      th Description
+                      th Amount
+                  tbody role="rowgroup"
+                    tr
+                      td
+                        | June 21, 2019
+                        span 8:52 PM
+                      td
+                        | Earnings cashout request #1010443
+                        br
+                        | Paypal ID:
+                        span.color-light
+                          | &nbsp;johnmarsh@gmail.com
+                      td -$334.00
+                    tr
+                      td
+                        | June 21, 2019
+                        span 8:52 PM
+                      td
+                        | Earnings cashout request #1010443
+                        br
+                        | Paypal ID:
+                        span.color-light
+                          | &nbsp;johnmarsh@gmail.com
+                      td -$334.00
+                    tr
+                      td
+                        | June 21, 2019
+                        span 8:52 PM
+                      td
+                        | Earnings cashout request #1010443
+                        br
+                        | Paypal ID:
+                        span.color-light
+                          | &nbsp;johnmarsh@gmail.com
+                      td -$334.00
+/! setting ends here
+.clearfix
+/! Modal
+#ordercacel.modal.fade.ordercacel role="dialog"
+  .modal-dialog
+    /! Modal content
+    .modal-content
+      button.close data-dismiss="modal" type="button"  ×
+      .order-cacel-inner
+        h4 Cancel This Order?
+        a.cancel-btn.cancel-yes href="#"  Yes
+        a.cancel-btn.cancel-no href="#"  No
+javascript:
+  jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up"><i class="fa fa-angle-up"></i></div><div class="quantity-button quantity-down"><i class="fa fa-angle-down"></i></div></div>').insertAfter('.quantity input');
+  jQuery('.quantity').each(function() {
+    spinner = jQuery(this);
+    input = spinner.find('input[type="number"]');
+    btnUp = spinner.find('.quantity-up');
+    btnDown = spinner.find('.quantity-down');
+    min = input.attr('min');
+    max = input.attr('max');
+
+    btnUp.click(function() {
+      oldValue = parseFloat(input.val());
+      if (oldValue >= max) {
+        newVal = oldValue;
+      } else {
+        newVal = oldValue + 1;
+      }
+      spinner.find("input").val(newVal);
+      spinner.find("input").trigger("change");
+    });
+
+    btnDown.click(function() {
+      oldValue = parseFloat(input.val());
+      if (oldValue <= min) {
+        newVal = oldValue;
+      } else {
+        newVal = oldValue - 1;
+      }
+      spinner.find("input").val(newVal);
+      spinner.find("input").trigger("change");
+    });
+  });

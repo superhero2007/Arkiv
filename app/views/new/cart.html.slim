@@ -1,0 +1,149 @@
+header#header.header_area
+  .main_menu
+    nav.navbar.navbar-expand-lg.navbar-light.main_box
+      .container
+        .main-outer
+          a href="mailto:help@arkivoffcial.com"
+            i.material-icons mail
+            span help@arkivofficial.com
+          a href="#"
+            i.material-icons shopping_basket
+            span Search
+          a href="#"
+            i.material-icons search
+            span Search
+        .header-bottom
+          a.navbar-brand.logo_h href="/new"
+            img alt="" src="/assets/img/logo.png" /
+          ul.sign-registr-btn
+            li
+              a href="#"
+                i.material-icons> exit_to_app
+                | Sign in
+            li
+              a href="#"
+                i.material-icons> insert_drive_file
+                | Sign up
+          .menu
+            button.navbar-toggler aria-controls="navbarSupportedContent" aria-expanded="false" aria-label=("Toggle navigation") data-target="#navbarSupportedContent" data-toggle="collapse" type="button"
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            /! Collect the nav links, forms, and other content for toggling
+            #navbarSupportedContent.collapse.navbar-collapse.offset
+              ul.nav.navbar-nav.menu_nav.ml-auto
+                li.nav-item
+                  a.nav-link href="/new"  Home
+                li.nav-item
+                  a.nav-link href="/new/how_it_works"  How it works
+                li.nav-item
+                  a.nav-link href="/new/#aboutus"  About us
+                li.nav-item
+                  a.nav-link href="/new/sneakers"  Sneakers
+                li.nav-item
+                  a.nav-link href="/privacy"  Privacy + terms
+                li.nav-item
+                  a.nav-link href="contact.html"  Contact us
+/! End Header Area
+/! Start Banner Area
+section.organic-breadcrumb
+  .container
+    .breadcrumb-banner.d-flex.flex-wrap.align-items-center.justify-content-center
+      .col-first
+        h1 Cart
+section#cart-main.cart-main
+  .container
+    .cart-in
+      table role="table"
+        thead role="rowgroup"
+          tr role="row"
+            th Products
+            th Share Price
+            th Quantity
+            th Total Price
+            th
+        tbody role="rowgroup"
+          tr role="row"
+            td
+              .cart-product-descriptn
+                .product-image
+                  img.img-fluid alt="" src="/assets/img/product/TravisScottJordan1.jpg" /
+                p Jordan 1 Retro High Travis Scott
+            td $8.50/Share
+            td
+              .quantity
+                input max="1000" min="1" step="1" type="number" value="1" /
+            td $425.00
+            td
+              a.delete-cart href="#"  X
+          tr role="row"
+            td
+              .cart-product-descriptn
+                .product-image
+                  img.img-fluid alt="" src="/assets/img/product/Jordan4Bred.jpg" /
+                p Jordan 4 RetroBred
+            td $8.00/Share
+            td
+              .quantity
+                input max="1000" min="1" step="1" type="number" value="1" /
+            td $184.00
+            td
+              a.delete-cart href="#"  X
+          tr role="row"
+            td
+              .cart-product-descriptn
+                .product-image
+                  img.img-fluid alt="" src="/assets/img/product/Jordan4Bred.jpg" /
+                p adidas Yeezy Boost 350 V2 Clay
+            td $6.30/Share
+            td
+              .quantity
+                input max="1000" min="1" step="1" type="number" value="1" /
+            td $285.50
+            td
+              a.delete-cart href="#"  X
+    .coupon-total
+      .coupon-code
+        input.enter-code placeholder=("Coupon Code") type="text" value="" /
+        a.code-button href="#"  Apply
+      .grnd-total
+        h3 Grand Total:
+        h2 $892.50
+    .continu-paymnt-btn
+      a.continue-btn href="#"  Continue Shopping
+      a.payment-btn href="#"
+        img.img-fluid alt="" src="/assets/img/pay-btn.png" /
+/! setting ends here
+.clearfix
+javascript:
+ jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up"><i class="fa fa-angle-up"></i></div><div class="quantity-button quantity-down"><i class="fa fa-angle-down"></i></div></div>').insertAfter('.quantity input');
+ jQuery('.quantity').each(function () {
+   spinner = jQuery(this);
+   input = spinner.find('input[type="number"]');
+   btnUp = spinner.find('.quantity-up');
+   btnDown = spinner.find('.quantity-down');
+   min = input.attr('min');
+   max = input.attr('max');
+
+   btnUp.click(function () {
+     oldValue = parseFloat(input.val());
+     if (oldValue >= max) {
+       newVal = oldValue;
+     } else {
+       newVal = oldValue + 1;
+     }
+     spinner.find("input").val(newVal);
+     spinner.find("input").trigger("change");
+   });
+
+   btnDown.click(function () {
+     oldValue = parseFloat(input.val());
+     if (oldValue <= min) {
+       newVal = oldValue;
+     } else {
+       newVal = oldValue - 1;
+     }
+     spinner.find("input").val(newVal);
+     spinner.find("input").trigger("change");
+   });
+ });

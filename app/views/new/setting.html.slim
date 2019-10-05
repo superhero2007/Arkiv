@@ -1,0 +1,82 @@
+header#header.header_area
+  .main_menu
+    nav.navbar.navbar-expand-lg.navbar-light.main_box
+      .container
+        .main-outer
+          a href="mailto:help@arkivoffcial.com"
+            i.material-icons mail
+            span help@arkivofficial.com
+          a href="#"
+            i.material-icons shopping_basket
+            span Search
+          a href="#"
+            i.material-icons search
+            span Search
+        .header-bottom
+          a.navbar-brand.logo_h href="/new"
+            img alt="" src="/assets/img/logo.png" /
+          ul.sign-registr-btn
+            li
+              a href="#"
+                i.material-icons> exit_to_app
+                | Sign in
+            li
+              a href="#"
+                i.material-icons> insert_drive_file
+                | Sign up
+          .menu
+            button.navbar-toggler aria-controls="navbarSupportedContent" aria-expanded="false" aria-label=("Toggle navigation") data-target="#navbarSupportedContent" data-toggle="collapse" type="button"
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+            /! Collect the nav links, forms, and other content for toggling
+            #navbarSupportedContent.collapse.navbar-collapse.offset
+              ul.nav.navbar-nav.menu_nav.ml-auto
+                li.nav-item.active
+                  a.nav-link href="/new"  Home
+                li.nav-item
+                  a.nav-link href="/new/how_it_works"  How it works
+                li.nav-item
+                  a.nav-link href="/new/#aboutus"  About us
+                li.nav-item
+                  a.nav-link href="/new/sneakers"  Sneakers
+                li.nav-item
+                  a.nav-link href="/privacy"  Privacy + terms
+                li.nav-item
+                  a.nav-link href="contact.html"  Contact us
+/! End Header Area
+/! Start Banner Area
+section.organic-breadcrumb
+  .container
+    .breadcrumb-banner.d-flex.flex-wrap.align-items-center.justify-content-center
+      .col-first
+        h1 Settings
+section#services.services.pt-100.pb-50
+  .container
+    .row
+      .col-xl-6.mx-auto.text-center
+    .row
+      .col-lg-6.col-md-6
+        .single-service
+          i.fa.fa-laptop
+          h4 E-mail verification
+          p Your e-mail has not been verified, click the button below to complete verification.
+          a.primary-btn href="#"  Send it again
+      .col-lg-6.col-md-6
+        .single-service
+          i.fa.fa-mobile
+          h4 Phone Number
+          p Providing a phone number will make your account more secure.
+          a.primary-btn href="#"  Set phone number
+      .col-lg-6.col-md-6
+        .single-service
+          i.fa.fa-gears
+          h4 Password
+          p This password is required for login, please remember it.
+          a.primary-btn href="#"  Set password
+      .col-lg-6.col-md-6
+        .single-service
+          i.fa.fa-pencil
+          h4 Logout
+          p Logout of this account.
+          a.primary-btn href="#"  Logout

@@ -1,0 +1,84 @@
+doctype html
+html.no-js lang="zxx"
+  head
+    meta content="text/html;charset=UTF-8" http-equiv="content-type" /
+    meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" /
+    /! Favicon
+    link href="img/favicon.ico" rel=("shortcut icon") /
+    meta content="CodePixar" name="author" /
+    meta content="" name="description" /
+    /! Meta Keyword
+    meta content="" name="keywords" /
+    /! meta character set
+    meta charset="UTF-8" /
+    /! Site Title
+    title Arkiv
+    /! CSS =============================================
+
+    = stylesheet_link_tag "linearicons"
+    link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" /
+    link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" /
+    = stylesheet_link_tag "themify-icons"
+    link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" rel="stylesheet" /
+    = stylesheet_link_tag "main"
+    script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    script crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    script crossorigin="anonymous" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    = javascript_include_tag "custom"
+    = javascript_include_tag "main"
+  body
+    = yield
+    /! start footer Area
+    footer.footer-area.section_gap
+      .container
+        .row
+          .col-lg-4.col-md-6.col-sm-6.newslater-form
+            .single-footer-widget
+              h6 Newsletter
+              p Stay updated with our latest news
+              #mc_embed_signup
+                form.form-inline action="" method="get" novalidate="true"
+                  .d-flex.flex-row
+                    input.form-control name="EMAIL" placeholder=("Enter Email") required="" type="email" /
+                    button.click-btn.btn.btn-default
+                      i.fa.fa-long-arrow-right aria-hidden="true"
+                  .info
+          .col-lg-4.col-md-6.col-sm-6.insta-feeds
+            .single-footer-widget.mail-chimp
+              h6.mb-20 Instagram Feed
+              ul.instafeed.d-flex.flex-wrap
+                li
+                  img alt="" src="/assets/img/i1.jpg" /
+                li
+                  img alt="" src="/assets/img/i2.jpg" /
+                li
+                  img alt="" src="/assets/img/i3.jpg" /
+                li
+                  img alt="" src="/assets/img/i4.jpg" /
+                li
+                  img alt="" src="/assets/img/i5.jpg" /
+                li
+                  img alt="" src="/assets/img/i6.jpg" /
+                li
+                  img alt="" src="/assets/img/i7.jpg" /
+                li
+                  img alt="" src="/assets/img/i8.jpg" /
+          .col-lg-4.col-md-6.col-sm-6.social-links
+            .single-footer-widget
+              h6 Follow Us
+              .footer-social.d-flex.align-items-center
+                a href="https://www.facebook.com/arkivofficial/"
+                  i.fa.fa-facebook
+                a href="https://twitter.com/arkivofficial"
+                  i.fa.fa-twitter
+                a href="https://www.instagram.com/arkivofficial/?hl=en"
+                  i.fa.fa-instagram
+              p.footer-text.m-0
+                | Copyright ©
+                javascript:
+                    document.write(new Date().getFullYear());
+                br /
+                | All rights reserved by
+                a href="http://Arkivofficial.com" target="_blank"  Arkivofficial
+/! End footer Area
+= javascript_include_tag "countdown"
